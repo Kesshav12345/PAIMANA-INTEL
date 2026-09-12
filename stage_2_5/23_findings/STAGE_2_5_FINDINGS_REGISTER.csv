@@ -1,0 +1,4 @@
+Finding ID,Category,Severity,Location,Evidence,Expected,Impact
+F-001,ML Leakage,CRITICAL,stage_2/09_ml/generate_ml_dataset.py,Target 'Target_Is_Delayed' is calculated from 'Schedule_Delay_Months' of the current observation.,"Target should predict future states (e.g. delay at T+6 months), not current states.","Model will perfectly memorize the formula, achieving 100% accuracy but 0% predictive utility."
+F-002,Database Constraints,HIGH,stage_2/05_canonical/load_sqlite.py,"Fact_Project_Observation lacks explicit UNIQUE constraint on (Project_SK, Report_SK).",Database must enforce that one project has only one observation per report.,Pipeline reruns could duplicate observations.
+F-003,API Readiness,MEDIUM,Database Schema,No 'Current_Project_Status' view or denormalized table.,API needs O(1) or indexed access to the latest project status.,"Queries for current status must scan the entire history and group by MAX(Report_Date), which is slow."

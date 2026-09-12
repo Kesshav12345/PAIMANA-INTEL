@@ -1,0 +1,5 @@
+Metric,Value
+Total Sources in Manifest,188
+Unique Sources to Extract,188
+Actually Extracted JSONs,101
+Extraction Success Rate,53.7%

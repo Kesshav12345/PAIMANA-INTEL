@@ -1,0 +1,5 @@
+Test,Result,Pass/Fail
+Duplicate Report Inserted,"SQLite DB handles duplicates by UNIQUE constraints or grouping, but Fact table lacks explicit UNIQUE(Project_SK, Report_SK) which might cause duplicates if pipeline runs twice.",FAIL
+Zero Denominator in Computations,"compute_features.py checks for `baseline_cost > 0`, avoiding ZeroDivisionError.",PASS
+Missing Source Field,"standardize_data.py uses `.get()` but might insert NULL, which SQLite handles. However, ML dataset drops or propagates NaN without imputation.",WARN
+Temporal Misordering,"Original > Anticipated is allowed and not blocked, treating cost reductions as valid. But Date_of_Approval > Original_Completion_Date leads to negative time elapsed, which is floored to 0 in code.",PASS

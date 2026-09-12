@@ -1,0 +1,8 @@
+filename,table_name,row_count,column_count,columns,path
+paimana_analytical.db,Dim_Report,25,5,"Report_SK, Report_Type, Report_Date, Source_File_Name, Source_File_Hash",stage_2\05_canonical\paimana_analytical.db
+paimana_analytical.db,Dim_Project,72,5,"Project_SK, PAIMANA_ID, Project_Code, Project_Name, Date_of_Approval",stage_2\05_canonical\paimana_analytical.db
+paimana_analytical.db,Fact_Project_Observation,650,11,"Observation_SK, Project_SK, Report_SK, Original_Cost, Revised_Cost, Anticipated_Cost, Cumulative_Expenditure, Physical_Progress_Pct, Original_Completion_Date, Revised_Completion_Date, Anticipated_Completion_Date",stage_2\05_canonical\paimana_analytical.db
+paimana_analytical.db,sqlite_sequence,2,2,"name, seq",stage_2\05_canonical\paimana_analytical.db
+paimana_analytical.db,Fact_Sector_Performance,1,8,"Observation_SK, Report_SK, Metric_Name, Metric_Unit, Achievement_Value, Target_Value, Previous_Year_Value, Growth_Pct_YoY",stage_2\05_canonical\paimana_analytical.db
+paimana_analytical.db,Fact_Project_Derived,450,5,"Observation_SK, Cost_Overrun_Pct, Financial_Progress_Pct, Schedule_Delay_Months, Time_Elapsed_Pct",stage_2\05_canonical\paimana_analytical.db
+paimana_analytical.db,Dim_WPI,1137,44,"Level, Commodity_Name, Commodity_Code, Commodity_Weight, Apr-23, May-23, Jun-23, Jul-23, Aug-23, Sep-23, Oct-23, Nov-23, Dec-23, Jan-24, Feb-24, Mar-24, Apr-24, May-24, Jun-24, Jul-24, Aug-24, Sep-24, Oct-24, Nov-24, Dec-24, Jan-25, Feb-25, Mar-25, Apr-25, May-25, Jun-25, Jul-25, Aug-25, Sep-25, Oct-25, Nov-25, Dec-25, Jan-26, Feb-26, Mar-26, Apr-26, May-26, Jun-26, Jul-26",stage_2\05_canonical\paimana_analytical.db

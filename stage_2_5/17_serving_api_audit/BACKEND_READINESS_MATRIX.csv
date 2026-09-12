@@ -1,0 +1,3 @@
+Endpoint,Readiness,Details
+Project History,READY,59 projects have history.
+Current Status,NEEDS VIEW,No 'Current_Project_Status' view exists. API must dynamically find MAX(Report_Date).

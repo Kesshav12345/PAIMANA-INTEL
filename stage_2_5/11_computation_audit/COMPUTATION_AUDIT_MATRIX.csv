@@ -1,0 +1,5 @@
+Computation,Status,Valid Formula
+Cost_Overrun_Pct,IMPLEMENTED,YES ( (Anticipated - Original) / Original )
+Financial_Progress_Pct,IMPLEMENTED,WARN (Denominator fallback logic may obscure true baseline)
+Schedule_Delay_Months,IMPLEMENTED,YES ( (Anticipated_Yr - Original_Yr)*12 + (Ant_Mo - Orig_Mo) )
+Time_Elapsed_Pct,IMPLEMENTED,WARN (Uses Report_Date which may differ from Observation_Date)

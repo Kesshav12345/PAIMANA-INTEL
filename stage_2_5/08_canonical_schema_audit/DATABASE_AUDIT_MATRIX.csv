@@ -1,0 +1,9 @@
+Check,Status,Details
+Row Count Dim_Project,PASS,72 rows
+Row Count Dim_Report,PASS,25 rows
+Row Count Fact_Project_Observation,PASS,650 rows
+Row Count Fact_Project_Derived,PASS,450 rows
+Duplicate Observations,FAIL,"134 duplicate (Project_SK, Report_SK) pairs found."
+Orphan Fact Records (Project),PASS,0 orphans
+Completely Missing Costs,PASS,0 rows with no original or anticipated cost
+Cost Temporal Ordering,INFO,0 rows where Original > Anticipated (may be legit cost reduction)

@@ -1,0 +1,6 @@
+filename,path,row_count,column_count,columns
+SOURCE_MANIFEST.csv,stage_2\01_raw\SOURCE_MANIFEST.csv,188,24,"source_id, filename, relative_path, file_type, file_size, content_hash, source_family, report_type, report_date, reporting_period, publication_date, revision_information, historical_current_classification, duplicate_group, official_match, extraction_status, pages, tables_detected, figures_detected, extraction_method, processing_version, processing_timestamp, source_confidence, notes"
+EXTRACTION_QUALITY_REPORT.csv,stage_2\02_extraction\EXTRACTION_QUALITY_REPORT.csv,188,7,"source_id, status, tables_extracted, pages_processed, pages_failed, canonical_source_id, notes"
+IDENTITY_RESOLUTION.csv,stage_2\04_identity\IDENTITY_RESOLUTION.csv,108,5,"Project_SK, Normalized_Name, Original_Name_Sample, PAIMANA_ID, Project_Code"
+RAW_VALIDATION_REPORT.csv,stage_2\06_validation\RAW_VALIDATION_REPORT.csv,101,8,"source_id, report_type, tables_extracted, valid_tables, unknown_tables, total_valid_rows, status, notes"
+ML_DATASET.csv,stage_2\09_ml\ML_DATASET.csv,647,12,"Observation_SK, Project_Code, Project_Name, Report_Date, Original_Cost, Revised_Cost, Anticipated_Cost, Cumulative_Expenditure, Financial_Progress_Pct, Time_Elapsed_Pct, Schedule_Delay_Months, Target_Is_Delayed"

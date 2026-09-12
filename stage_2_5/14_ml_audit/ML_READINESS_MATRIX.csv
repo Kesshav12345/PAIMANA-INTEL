@@ -1,0 +1,5 @@
+Metric,Value
+Total Rows,450
+Total Columns,12
+Target Leakage Risk,"CRITICAL: Target is calculated from current row's Anticipated Completion Date, not a future horizon."
+Missing Target,0

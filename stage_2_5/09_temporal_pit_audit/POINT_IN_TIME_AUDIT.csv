@@ -1,0 +1,3 @@
+Check,Finding
+Event Time vs Report Time,Implementation equates Report_Date with observation point. Safe but may be inaccurate if report covers previous month.
+Future Information in Features,"Anticipated_Cost/Date represent estimates made at report time. Not technically leakage if models predict outcomes beyond report date, but they must NOT be used to predict the CURRENT delay."
