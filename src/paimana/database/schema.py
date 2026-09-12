@@ -1,12 +1,8 @@
 import sqlite3
 from pathlib import Path
 import json
-
-WORKSPACE = Path(r"c:\Users\kessh\OneDrive\Documents\PAIMANA INTEL")
-DB_PATH = WORKSPACE / "data" / "canonical" / "paimana_analytical.db"
-
-# We point directly to the resolved JSONs that were safely moved to historical_audits
-IDENTITY_JSON_DIR = WORKSPACE / "historical_audits" / "stage_2" / "04_identity" / "resolved_json"
+import csv
+from paimana.config import CANONICAL_DB_PATH, STAGE_2_IDENTITY_JSON_DIR, STAGE_2_MANIFEST_PATH, STAGE_2_IDENTITY_REPORT
 
 SCHEMA_SQL = """
 -- DIMENSIONS
@@ -15,7 +11,8 @@ CREATE TABLE IF NOT EXISTS Dim_Project (
     Original_Project_Name TEXT,
     Sector TEXT,
     Ministry TEXT,
-    State TEXT
+    State TEXT,
+    Date_of_Approval TEXT
 );
 
 CREATE TABLE IF NOT EXISTS Dim_Report (
@@ -99,14 +96,71 @@ CREATE INDEX IF NOT EXISTS idx_fact_obs_report ON Fact_Project_Observation(Repor
 """
 
 def init_db():
-    if not DB_PATH.parent.exists():
-        DB_PATH.parent.mkdir(parents=True)
+    if not CANONICAL_DB_PATH.parent.exists():
+        CANONICAL_DB_PATH.parent.mkdir(parents=True)
         
-    conn = sqlite3.connect(DB_PATH)
-    conn.executescript(SCHEMA_SQL)
+    conn = sqlite3.connect(CANONICAL_DB_PATH)
+    cursor = conn.cursor()
+    
+    cursor.executescript(SCHEMA_SQL)
+    
+    # Reset existing data (removing any synthetic data injected previously)
+    cursor.execute("DELETE FROM Fact_Project_Observation")
+    cursor.execute("DELETE FROM Fact_Project_Warning")
+    cursor.execute("DELETE FROM Fact_Project_Event")
+    cursor.execute("DELETE FROM Dim_Project")
+    cursor.execute("DELETE FROM Dim_Report")
+    
+    # Load pure, true Stage-2 extracted data
+    if STAGE_2_MANIFEST_PATH.exists():
+        with open(STAGE_2_MANIFEST_PATH, 'r', encoding='utf-8') as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                if row.get('duplicate_group'): continue
+                cursor.execute("""
+                    INSERT OR IGNORE INTO Dim_Report 
+                    (Report_SK, Report_Type, Report_Date, Source_File_Name, Source_File_Hash)
+                    VALUES (?, ?, ?, ?, ?)
+                """, (row['source_id'], row['report_type'], row['report_date'], row['filename'], row['content_hash']))
+    
+    if STAGE_2_IDENTITY_REPORT.exists():
+        with open(STAGE_2_IDENTITY_REPORT, 'r', encoding='utf-8') as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                cursor.execute("""
+                    INSERT OR REPLACE INTO Dim_Project
+                    (Project_SK, Original_Project_Name, Sector, Ministry, State)
+                    VALUES (?, ?, ?, ?, ?)
+                """, (row['Project_SK'], row['Original_Name_Sample'], None, None, None))
+                # Note: Sector/Ministry/State are derived in real data or from external sources.
+
+    if STAGE_2_IDENTITY_JSON_DIR.exists():
+        for json_file in STAGE_2_IDENTITY_JSON_DIR.glob("*_std.json"):
+            with open(json_file, 'r', encoding='utf-8') as f:
+                records = json.load(f)
+                
+            for r in records:
+                if r.get('grain') == 'PROJECT_OBSERVATION':
+                    # Update approval date if found
+                    if r.get('date_of_approval'):
+                        cursor.execute("UPDATE Dim_Project SET Date_of_Approval = ? WHERE Project_SK = ?", (r['date_of_approval'], r['project_sk']))
+                        
+                    # Insert observation exactly as it is (no synthesis)
+                    cursor.execute("""
+                        INSERT OR IGNORE INTO Fact_Project_Observation
+                        (Project_SK, Report_SK, Original_Cost, Revised_Cost, Anticipated_Cost, 
+                         Cumulative_Expenditure, Physical_Progress_Pct, Original_Completion_Date, 
+                         Revised_Completion_Date, Anticipated_Completion_Date)
+                        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                    """, (
+                        r['project_sk'], r['source_id'], r['original_cost'], r['revised_cost'], r['anticipated_cost'],
+                        r['cumulative_expenditure'], r['physical_progress_pct'], r['original_completion_date'],
+                        r['revised_completion_date'], r['anticipated_completion_date']
+                    ))
+
     conn.commit()
     conn.close()
 
 if __name__ == "__main__":
     init_db()
-    print("Database schema successfully hardened and initialized.")
+    print("Database schema successfully hardened and initialized with true raw data.")

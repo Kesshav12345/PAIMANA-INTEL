@@ -8,12 +8,11 @@ from paimana.formulas.registry import (
     compute_schedule_delay_months
 )
 
-WORKSPACE = Path(r"c:\Users\kessh\OneDrive\Documents\PAIMANA INTEL")
-DB_PATH = WORKSPACE / "data" / "canonical" / "paimana_analytical.db"
+from paimana.config import CANONICAL_DB_PATH
 
 def derive_analytics():
     """Reads Fact_Project_Observation, applies deterministic formulas, and returns a DataFrame."""
-    conn = sqlite3.connect(DB_PATH)
+    conn = sqlite3.connect(CANONICAL_DB_PATH)
     
     query = """
     SELECT 

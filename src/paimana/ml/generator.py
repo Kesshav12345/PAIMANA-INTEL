@@ -3,26 +3,32 @@ import numpy as np
 from pathlib import Path
 from paimana.analytics.derive import derive_analytics
 
-WORKSPACE = Path(r"c:\Users\kessh\OneDrive\Documents\PAIMANA INTEL")
-DATA_PATH = WORKSPACE / "data" / "ml" / "ML_DATASET.csv"
+from paimana.config import ML_DATASET_PATH
 
 def build_schedule_delay_label(group, current_date):
     """
-    Constructs a future label: 1 if ANY observation strictly after current_date
-    has a Schedule_Delay_Months > 0, else 0.
-    Returns np.nan if there are no future observations (censored).
+    Constructs a future label strictly bounded to [T, T + 6 Months].
+    Censoring: If there are NO observations within this horizon, we CANNOT assume 0. Returns np.nan.
     """
-    future_obs = group[group['Report_Date'] > current_date]
+    import datetime
+    from dateutil.relativedelta import relativedelta
+    
+    current_dt = pd.to_datetime(current_date)
+    horizon_dt = current_dt + relativedelta(months=6)
+    
+    # Strictly bounded window
+    future_obs = group[(group['Report_Date'] > current_dt) & (group['Report_Date'] <= horizon_dt)]
+    
     if future_obs.empty:
-        return np.nan
+        return np.nan # Censored: We do not know what happened in the next 6 months
         
     any_delay = (future_obs['Schedule_Delay_Months'] > 0).any()
     return 1.0 if any_delay else 0.0
 
 def generate_ml_dataset():
     """Generates Point-in-Time safe ML features and labels."""
-    if not DATA_PATH.parent.exists():
-        DATA_PATH.parent.mkdir(parents=True)
+    if not ML_DATASET_PATH.parent.exists():
+        ML_DATASET_PATH.parent.mkdir(parents=True)
         
     # Get all derived features for all time
     df = derive_analytics()
@@ -71,7 +77,7 @@ def generate_ml_dataset():
     # Drop rows where target is NaN (censored)
     valid_ml_df = ml_df.dropna(subset=['Target_Delayed_Future'])
     
-    valid_ml_df.to_csv(DATA_PATH, index=False)
+    valid_ml_df.to_csv(ML_DATASET_PATH, index=False)
     print(f"ML dataset generated successfully. {len(valid_ml_df)} valid training rows.")
 
 if __name__ == "__main__":

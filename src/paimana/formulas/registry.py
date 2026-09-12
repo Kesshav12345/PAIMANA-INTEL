@@ -10,14 +10,19 @@ Denominator-Zero Behavior: Returns None or handles appropriately without raising
 
 from typing import Optional
 import datetime
+import pandas as pd
+import numpy as np
 from dateutil.relativedelta import relativedelta
+
+def _is_missing(val):
+    return val is None or pd.isna(val) or val == ""
 
 def compute_financial_progress(cumulative_expenditure: Optional[float], anticipated_cost: Optional[float]) -> Optional[float]:
     """
     Definition: (Cumulative Expenditure / Anticipated Cost) * 100
     Null Behavior: Returns None if either input is None, or if anticipated_cost is 0.
     """
-    if cumulative_expenditure is None or anticipated_cost is None or anticipated_cost == 0:
+    if _is_missing(cumulative_expenditure) or _is_missing(anticipated_cost) or anticipated_cost == 0:
         return None
     return round((cumulative_expenditure / anticipated_cost) * 100, 2)
 
@@ -26,7 +31,7 @@ def compute_cost_overrun_amount(anticipated_cost: Optional[float], original_cost
     Definition: Anticipated Cost - Original Cost
     Null Behavior: Returns None if either is None.
     """
-    if anticipated_cost is None or original_cost is None:
+    if _is_missing(anticipated_cost) or _is_missing(original_cost):
         return None
     return round(anticipated_cost - original_cost, 2)
 
@@ -35,24 +40,26 @@ def compute_cost_overrun_pct(anticipated_cost: Optional[float], original_cost: O
     Definition: ((Anticipated Cost - Original Cost) / Original Cost) * 100
     Null Behavior: Returns None if either is None, or if original_cost is 0.
     """
-    if anticipated_cost is None or original_cost is None or original_cost == 0:
+    if _is_missing(anticipated_cost) or _is_missing(original_cost) or original_cost == 0:
         return None
     return round(((anticipated_cost - original_cost) / original_cost) * 100, 2)
 
-def compute_schedule_delay_months(anticipated_date_str: Optional[str], original_date_str: Optional[str]) -> Optional[int]:
+def compute_schedule_delay_months(anticipated_completion_date: str, original_completion_date: str) -> Optional[float]:
     """
-    Definition: Calendar months between Original Completion Date and Anticipated Completion Date
-    Null Behavior: Returns None if either date is missing or invalid.
+    Definition: Anticipated Completion Date - Original Completion Date in months.
+    Null Behavior: Returns None if either is None or invalid date.
+    Returns 0.0 if completed early or on time.
     """
-    if not anticipated_date_str or not original_date_str:
+    if _is_missing(anticipated_completion_date) or _is_missing(original_completion_date):
         return None
+        
     try:
-        acd = datetime.datetime.strptime(anticipated_date_str, "%Y-%m-%d")
-        ocd = datetime.datetime.strptime(original_date_str, "%Y-%m-%d")
-        delta = relativedelta(acd, ocd)
-        months = delta.years * 12 + delta.months
-        # Include days to round up if > 15 days? For strict deterministic, just years*12 + months
-        return months
+        a_date = pd.to_datetime(anticipated_completion_date)
+        o_date = pd.to_datetime(original_completion_date)
+        
+        diff = relativedelta(a_date, o_date)
+        delay = diff.years * 12 + diff.months + (1 if diff.days > 15 else 0)
+        return float(max(0, delay))
     except Exception:
         return None
 

@@ -4,15 +4,14 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report, roc_auc_score
 
-WORKSPACE = Path(r"c:\Users\kessh\OneDrive\Documents\PAIMANA INTEL")
-DATA_PATH = WORKSPACE / "data" / "ml" / "ML_DATASET.csv"
+from paimana.config import ML_DATASET_PATH
 
 def train_baseline():
-    if not DATA_PATH.exists():
+    if not ML_DATASET_PATH.exists():
         print("ML Dataset not found. Run generator first.")
         return
         
-    df = pd.read_csv(DATA_PATH)
+    df = pd.read_csv(ML_DATASET_PATH)
     
     features = [
         'Original_Cost', 'Revised_Cost', 'Cumulative_Expenditure',
@@ -27,7 +26,18 @@ def train_baseline():
         print(f"Cannot evaluate: Target only has one class ({y.unique()[0]}).")
         return
         
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
+    # Rule 25: Temporal ML Evaluation (No Random Splits!)
+    df = df.sort_values(by='Report_Date')
+    
+    # Simple Temporal Split (first 70% of time is train, last 30% is test)
+    split_idx = int(len(df) * 0.7)
+    train_df = df.iloc[:split_idx]
+    test_df = df.iloc[split_idx:]
+    
+    X_train = train_df[features].fillna(0)
+    y_train = train_df[target]
+    X_test = test_df[features].fillna(0)
+    y_test = test_df[target]
     
     rf = RandomForestClassifier(n_estimators=100, random_state=42)
     rf.fit(X_train, y_train)
