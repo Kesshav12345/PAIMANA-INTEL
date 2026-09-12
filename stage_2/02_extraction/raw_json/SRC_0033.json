@@ -1,0 +1,4880 @@
+{
+  "source_metadata": {
+    "source_id": "SRC_0033",
+    "filename": "CompleteReviewReportApril2016.pdf",
+    "relative_path": "Secondary dataset\\paimana secondary dataset performance monitoring archival data\\CompleteReviewReportApril2016.pdf",
+    "file_type": "pdf",
+    "file_size": "578078",
+    "content_hash": "acd52436ef938be7b9961487dcc390f88ca04b890ce54ded1d3aa33297b70650",
+    "source_family": "SECTOR_PERFORMANCE",
+    "report_type": "SECTOR_PERFORMANCE_REVIEW",
+    "report_date": "April 2016",
+    "reporting_period": "",
+    "publication_date": "",
+    "revision_information": "",
+    "historical_current_classification": "HISTORICAL",
+    "duplicate_group": "DUP_012",
+    "official_match": "",
+    "extraction_status": "PENDING",
+    "pages": "25",
+    "tables_detected": "0",
+    "figures_detected": "0",
+    "extraction_method": "",
+    "processing_version": "0.1.0",
+    "processing_timestamp": "2026-09-12T12:21:27.902910+00:00",
+    "source_confidence": "HIGH",
+    "notes": ""
+  },
+  "extraction_metadata": {
+    "status": "SUCCESS",
+    "pages_processed": 25,
+    "pages_failed": 0,
+    "tables_extracted": 36
+  },
+  "tables": [
+    {
+      "page": 7,
+      "table_index": 0,
+      "headers": [
+        "Sl.\nNo.\n1",
+        "Sector\n2",
+        "Achievement",
+        "",
+        "",
+        "",
+        "",
+        "Growth percent",
+        "",
+        "",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "",
+          "April 2012",
+          "April 2013",
+          "April 2014",
+          "April 2015",
+          "April 2016",
+          "April\n2013",
+          "April\n2014",
+          "April\n2015",
+          "April\n2016"
+        ],
+        [
+          "",
+          "",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        [
+          "1",
+          "Power (BU)",
+          "75.261",
+          "77.870",
+          "90.863",
+          "91.247",
+          "104.496",
+          "3.47",
+          "16.69",
+          "0.42",
+          "14.52"
+        ],
+        [
+          "2",
+          "Coal (MT)",
+          "42.200",
+          "42.720",
+          "45.380",
+          "49.067",
+          "48.618",
+          "1.23",
+          "6.23",
+          "8.12",
+          "-0.92"
+        ],
+        [
+          "3",
+          "Steel (Finished Steel) (MT)",
+          "6.933",
+          "7.484",
+          "7.916",
+          "8.001",
+          "8.479",
+          "7.95",
+          "5.77",
+          "1.07",
+          "5.97"
+        ],
+        [
+          "4",
+          "Cement (MT)",
+          "21.25",
+          "22.47",
+          "24.28",
+          "23.66",
+          "24.69",
+          "5.74",
+          "8.06",
+          "-2.57",
+          "4.38"
+        ],
+        [
+          "5",
+          "Fertilizers (MT)",
+          "0.987",
+          "0.999",
+          "1.131",
+          "1.154",
+          "1.199",
+          "1.28",
+          "13.17",
+          "2.07",
+          "3.91"
+        ],
+        [
+          "6",
+          "Petroleum :-",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "i) Crude Oil (MT)",
+          "3.143",
+          "3.106",
+          "3.104",
+          "3.025",
+          "2.957",
+          "-1.18",
+          "-0.06",
+          "-2.53",
+          "-2.27"
+        ],
+        [
+          "",
+          "ii) Refinery (MT)",
+          "16.901",
+          "17.952",
+          "17.603",
+          "17.089",
+          "20.156",
+          "6.22",
+          "-1.94",
+          "-2.92",
+          "17.95"
+        ],
+        [
+          "",
+          "iii) Natural Gas (MCM)",
+          "3635",
+          "3002",
+          "2769",
+          "2671",
+          "2488",
+          "-17.41",
+          "-7.76",
+          "-3.54",
+          "-6.83"
+        ],
+        [
+          "7",
+          "Roads *",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Widening & Strengthening\nof Highways",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "i) NHAI (KM)",
+          "195.56",
+          "185.00",
+          "119.00",
+          "305.00",
+          "220.00",
+          "-5.40",
+          "-35.68",
+          "156.30",
+          "-27.87"
+        ],
+        [
+          "",
+          "ii) State PWD & BRO (KM)",
+          "62.76",
+          "38.60",
+          "94.93",
+          "91.13",
+          "121.74",
+          "-38.50",
+          "145.93",
+          "-4.00",
+          "33.59"
+        ],
+        [
+          "8",
+          "Railway Revenue Earning",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Freight Traffic (MT)",
+          "80.25",
+          "83.68",
+          "88.80",
+          "89.79",
+          "86.48",
+          "4.27",
+          "6.12",
+          "1.11",
+          "-3.69"
+        ],
+        [
+          "9",
+          "Shipping & Ports :-",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "i) Cargo Handled at Major\nPorts (MT)",
+          "46.380",
+          "43.501",
+          "47.375",
+          "47.773",
+          "52.419",
+          "-6.21",
+          "8.91",
+          "0.84",
+          "9.73"
+        ],
+        [
+          "",
+          "ii) Coal handled at Major\nPorts (MT)",
+          "6.925",
+          "8.640",
+          "8.578",
+          "13.727",
+          "11.989",
+          "24.77",
+          "-0.72",
+          "60.03",
+          "-12.66"
+        ],
+        [
+          "10",
+          "Civil Aviation :-",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "i) Export Cargo handled\n(Tonnes)",
+          "67351",
+          "70829",
+          "75638",
+          "81778",
+          "88168",
+          "5.16",
+          "6.79",
+          "8.12",
+          "7.81"
+        ],
+        [
+          "",
+          "ii) Import Cargo handled\n(Tonnes)",
+          "52461",
+          "50522",
+          "47308",
+          "53638",
+          "56294",
+          "-3.70",
+          "-6.36",
+          "13.38",
+          "4.95"
+        ],
+        [
+          "",
+          "International Terminals\n(Lakh)",
+          "33.955",
+          "36.810",
+          "39.344",
+          "42.610",
+          "46.991",
+          "8.41",
+          "6.88",
+          "8.30",
+          "10.28"
+        ],
+        [
+          "",
+          "iv) Passengers handled at\nDomestic Terminal (Lakh)",
+          "101.279",
+          "101.081",
+          "107.126",
+          "126.079",
+          "156.861",
+          "-0.19",
+          "5.98",
+          "17.69",
+          "24.41"
+        ],
+        [
+          "11",
+          "Telecommunications :-",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "i) Addition in Switching\ncapacity (Fixed+WLL+GSM)\n('000 lines)",
+          "108.940",
+          "-232.687",
+          "56.843",
+          "189.176",
+          "361.296",
+          "-",
+          "-",
+          "232.80",
+          "90.98"
+        ],
+        [
+          "",
+          "ii) New net Fixed/wired\nTelephone connections\n('000 No.)",
+          "-278.786",
+          "-220.670",
+          "-137.422",
+          "-231.833",
+          "-190.630",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "",
+          "iii) New net Cell phone (WLL+\nGSM) connections ('000 No.)",
+          "1846.732",
+          "-781.630",
+          "2934.742",
+          "3575.245",
+          "599.386",
+          "-",
+          "-",
+          "21.82",
+          "-83.24"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Sl.\nNo.\n1",
+          "Sector\n2",
+          "Achievement",
+          "",
+          "",
+          "",
+          "",
+          "Growth percent",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "April 2012",
+          "April 2013",
+          "April 2014",
+          "April 2015",
+          "April 2016",
+          "April\n2013",
+          "April\n2014",
+          "April\n2015",
+          "April\n2016"
+        ],
+        [
+          "",
+          "",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        [
+          "1",
+          "Power (BU)",
+          "75.261",
+          "77.870",
+          "90.863",
+          "91.247",
+          "104.496",
+          "3.47",
+          "16.69",
+          "0.42",
+          "14.52"
+        ],
+        [
+          "2",
+          "Coal (MT)",
+          "42.200",
+          "42.720",
+          "45.380",
+          "49.067",
+          "48.618",
+          "1.23",
+          "6.23",
+          "8.12",
+          "-0.92"
+        ],
+        [
+          "3",
+          "Steel (Finished Steel) (MT)",
+          "6.933",
+          "7.484",
+          "7.916",
+          "8.001",
+          "8.479",
+          "7.95",
+          "5.77",
+          "1.07",
+          "5.97"
+        ],
+        [
+          "4",
+          "Cement (MT)",
+          "21.25",
+          "22.47",
+          "24.28",
+          "23.66",
+          "24.69",
+          "5.74",
+          "8.06",
+          "-2.57",
+          "4.38"
+        ],
+        [
+          "5",
+          "Fertilizers (MT)",
+          "0.987",
+          "0.999",
+          "1.131",
+          "1.154",
+          "1.199",
+          "1.28",
+          "13.17",
+          "2.07",
+          "3.91"
+        ],
+        [
+          "6",
+          "Petroleum :-",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "i) Crude Oil (MT)",
+          "3.143",
+          "3.106",
+          "3.104",
+          "3.025",
+          "2.957",
+          "-1.18",
+          "-0.06",
+          "-2.53",
+          "-2.27"
+        ],
+        [
+          "",
+          "ii) Refinery (MT)",
+          "16.901",
+          "17.952",
+          "17.603",
+          "17.089",
+          "20.156",
+          "6.22",
+          "-1.94",
+          "-2.92",
+          "17.95"
+        ],
+        [
+          "",
+          "iii) Natural Gas (MCM)",
+          "3635",
+          "3002",
+          "2769",
+          "2671",
+          "2488",
+          "-17.41",
+          "-7.76",
+          "-3.54",
+          "-6.83"
+        ],
+        [
+          "7",
+          "Roads *",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Widening & Strengthening\nof Highways",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "i) NHAI (KM)",
+          "195.56",
+          "185.00",
+          "119.00",
+          "305.00",
+          "220.00",
+          "-5.40",
+          "-35.68",
+          "156.30",
+          "-27.87"
+        ],
+        [
+          "",
+          "ii) State PWD & BRO (KM)",
+          "62.76",
+          "38.60",
+          "94.93",
+          "91.13",
+          "121.74",
+          "-38.50",
+          "145.93",
+          "-4.00",
+          "33.59"
+        ],
+        [
+          "8",
+          "Railway Revenue Earning",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Freight Traffic (MT)",
+          "80.25",
+          "83.68",
+          "88.80",
+          "89.79",
+          "86.48",
+          "4.27",
+          "6.12",
+          "1.11",
+          "-3.69"
+        ],
+        [
+          "9",
+          "Shipping & Ports :-",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "i) Cargo Handled at Major\nPorts (MT)",
+          "46.380",
+          "43.501",
+          "47.375",
+          "47.773",
+          "52.419",
+          "-6.21",
+          "8.91",
+          "0.84",
+          "9.73"
+        ],
+        [
+          "",
+          "ii) Coal handled at Major\nPorts (MT)",
+          "6.925",
+          "8.640",
+          "8.578",
+          "13.727",
+          "11.989",
+          "24.77",
+          "-0.72",
+          "60.03",
+          "-12.66"
+        ],
+        [
+          "10",
+          "Civil Aviation :-",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "i) Export Cargo handled\n(Tonnes)",
+          "67351",
+          "70829",
+          "75638",
+          "81778",
+          "88168",
+          "5.16",
+          "6.79",
+          "8.12",
+          "7.81"
+        ],
+        [
+          "",
+          "ii) Import Cargo handled\n(Tonnes)",
+          "52461",
+          "50522",
+          "47308",
+          "53638",
+          "56294",
+          "-3.70",
+          "-6.36",
+          "13.38",
+          "4.95"
+        ],
+        [
+          "",
+          "International Terminals\n(Lakh)",
+          "33.955",
+          "36.810",
+          "39.344",
+          "42.610",
+          "46.991",
+          "8.41",
+          "6.88",
+          "8.30",
+          "10.28"
+        ],
+        [
+          "",
+          "iv) Passengers handled at\nDomestic Terminal (Lakh)",
+          "101.279",
+          "101.081",
+          "107.126",
+          "126.079",
+          "156.861",
+          "-0.19",
+          "5.98",
+          "17.69",
+          "24.41"
+        ],
+        [
+          "11",
+          "Telecommunications :-",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "i) Addition in Switching\ncapacity (Fixed+WLL+GSM)\n('000 lines)",
+          "108.940",
+          "-232.687",
+          "56.843",
+          "189.176",
+          "361.296",
+          "-",
+          "-",
+          "232.80",
+          "90.98"
+        ],
+        [
+          "",
+          "ii) New net Fixed/wired\nTelephone connections\n('000 No.)",
+          "-278.786",
+          "-220.670",
+          "-137.422",
+          "-231.833",
+          "-190.630",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "",
+          "iii) New net Cell phone (WLL+\nGSM) connections ('000 No.)",
+          "1846.732",
+          "-781.630",
+          "2934.742",
+          "3575.245",
+          "599.386",
+          "-",
+          "-",
+          "21.82",
+          "-83.24"
+        ]
+      ]
+    },
+    {
+      "page": 8,
+      "table_index": 0,
+      "headers": [
+        "",
+        "Sector",
+        "Target\n(April 2016)",
+        "More\nachievement\nthan the\ntarget for the\nperiod\n(Actual)",
+        "%age\nIncrease\nover the\ntarget",
+        "Achievement\n(April 2015)",
+        "More\nachievement\nthan the\ncorresponding\nperiod (April\n2015) last year\n(Actual)",
+        "%age\nIncrease\nover last\nyear\u2019s\nachieve-\nment"
+      ],
+      "rows": [
+        [
+          "1.",
+          "Power Generation\n(BU)",
+          "92.30",
+          "12.19",
+          "13.2",
+          "91.25",
+          "13.25",
+          "14.52"
+        ],
+        [
+          "2.",
+          "Steel Production\n(\u2018000 tonnes)",
+          "-",
+          "-",
+          "-",
+          "8001.00",
+          "478.00",
+          "5.97"
+        ],
+        [
+          "3.",
+          "Cement Production\n(MT)",
+          "-",
+          "-",
+          "-",
+          "23.66",
+          "1.03",
+          "4.38"
+        ],
+        [
+          "4.",
+          "Fertilizer Production\n(\u2018000\u2019 tonnes)",
+          "-",
+          "-",
+          "-",
+          "1154.30",
+          "45.10",
+          "3.91"
+        ],
+        [
+          "5.",
+          "Petroleum:\nii) Refinery Production\n(MT)",
+          "19.17",
+          "0.99",
+          "5.16",
+          "17.089",
+          "3.067",
+          "17.95"
+        ],
+        [
+          "6.",
+          "Roads *:\ni) NHAI (Km)\nii)State PWD & BRO\n#(Km)",
+          "166.00\n90.00",
+          "54.00\n31.74",
+          "32.53\n35.27",
+          "-\n91.13",
+          "-\n30.61",
+          "-\n33.59"
+        ],
+        [
+          "7.",
+          "Shipping and Ports:\ni) Cargo handled\nat major ports (MT)",
+          "-",
+          "-",
+          "-",
+          "47.77",
+          "4.65",
+          "9.73"
+        ],
+        [
+          "8.",
+          "Civil Aviation:\ni) Export cargo handled\nat Airports (Tonne)\nii) Import cargo handled\nat Airports (Tonne)\niii) Passenger Traffic\nhandled at\nInternational\nTerminal (Lakh)\niv) Passenger Traffic\nhandled at Domestic\nTerminal (Lakh)",
+          "85606\n-\n46.63\n136.42",
+          "2562\n-\n0.357\n20.44",
+          "2.99\n-\n0.77\n14.98",
+          "81778\n53638\n42.61\n126.08",
+          "6390\n2656\n4.38\n30.781",
+          "7.81\n4.95\n10.28\n24.41"
+        ],
+        [
+          "9.",
+          "Telecommunications\ni) Net addition in\nswitching capacity\n(\u2018000\u2019 Lines)",
+          "-",
+          "-",
+          "-",
+          "189.176",
+          "172.12",
+          "90.98"
+        ]
+      ],
+      "raw_content": [
+        [
+          "",
+          "Sector",
+          "Target\n(April 2016)",
+          "More\nachievement\nthan the\ntarget for the\nperiod\n(Actual)",
+          "%age\nIncrease\nover the\ntarget",
+          "Achievement\n(April 2015)",
+          "More\nachievement\nthan the\ncorresponding\nperiod (April\n2015) last year\n(Actual)",
+          "%age\nIncrease\nover last\nyear\u2019s\nachieve-\nment"
+        ],
+        [
+          "1.",
+          "Power Generation\n(BU)",
+          "92.30",
+          "12.19",
+          "13.2",
+          "91.25",
+          "13.25",
+          "14.52"
+        ],
+        [
+          "2.",
+          "Steel Production\n(\u2018000 tonnes)",
+          "-",
+          "-",
+          "-",
+          "8001.00",
+          "478.00",
+          "5.97"
+        ],
+        [
+          "3.",
+          "Cement Production\n(MT)",
+          "-",
+          "-",
+          "-",
+          "23.66",
+          "1.03",
+          "4.38"
+        ],
+        [
+          "4.",
+          "Fertilizer Production\n(\u2018000\u2019 tonnes)",
+          "-",
+          "-",
+          "-",
+          "1154.30",
+          "45.10",
+          "3.91"
+        ],
+        [
+          "5.",
+          "Petroleum:\nii) Refinery Production\n(MT)",
+          "19.17",
+          "0.99",
+          "5.16",
+          "17.089",
+          "3.067",
+          "17.95"
+        ],
+        [
+          "6.",
+          "Roads *:\ni) NHAI (Km)\nii)State PWD & BRO\n#(Km)",
+          "166.00\n90.00",
+          "54.00\n31.74",
+          "32.53\n35.27",
+          "-\n91.13",
+          "-\n30.61",
+          "-\n33.59"
+        ],
+        [
+          "7.",
+          "Shipping and Ports:\ni) Cargo handled\nat major ports (MT)",
+          "-",
+          "-",
+          "-",
+          "47.77",
+          "4.65",
+          "9.73"
+        ],
+        [
+          "8.",
+          "Civil Aviation:\ni) Export cargo handled\nat Airports (Tonne)\nii) Import cargo handled\nat Airports (Tonne)\niii) Passenger Traffic\nhandled at\nInternational\nTerminal (Lakh)\niv) Passenger Traffic\nhandled at Domestic\nTerminal (Lakh)",
+          "85606\n-\n46.63\n136.42",
+          "2562\n-\n0.357\n20.44",
+          "2.99\n-\n0.77\n14.98",
+          "81778\n53638\n42.61\n126.08",
+          "6390\n2656\n4.38\n30.781",
+          "7.81\n4.95\n10.28\n24.41"
+        ],
+        [
+          "9.",
+          "Telecommunications\ni) Net addition in\nswitching capacity\n(\u2018000\u2019 Lines)",
+          "-",
+          "-",
+          "-",
+          "189.176",
+          "172.12",
+          "90.98"
+        ]
+      ]
+    },
+    {
+      "page": 9,
+      "table_index": 0,
+      "headers": [
+        "",
+        "Sector",
+        "Target\n(April 2016)",
+        "Actual\nshortfall\n(April 2016)",
+        "Short fall\nin %age",
+        "Achievement\n(April 2015)",
+        "Less\nachievement\nthan the\ncorresponding\nperiod (April\n2015) last year\n(Actual)",
+        "%age\nDecrease\nover last\nyear\u2019s\nachievement"
+      ],
+      "rows": [
+        [
+          "1.",
+          "Coal Production (MT)",
+          "49.42",
+          "0.80",
+          "1.62",
+          "49.07",
+          "0.45",
+          "0.92"
+        ],
+        [
+          "2.",
+          "Fertilizer Production\n(MT)",
+          "1.34",
+          "0.14",
+          "10.43",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "3.",
+          "Petroleum:\ni) Crude Oil Production\n(MT)\nii) Natural Gas\nProduction (MCM)",
+          "2.96\n2522",
+          "0.004\n34",
+          "0.14\n1.34",
+          "3.03\n2671",
+          "0.068\n183",
+          "2.27\n6.83"
+        ],
+        [
+          "4.",
+          "Roads *:\ni) NHAI (Km)",
+          "-",
+          "-",
+          "-",
+          "305.00",
+          "85.00",
+          "27.87"
+        ],
+        [
+          "5.",
+          "Railways (MT)",
+          "97.17",
+          "10.69",
+          "11.00",
+          "89.79",
+          "3.31",
+          "3.69"
+        ],
+        [
+          "6.",
+          "Shipping\nii ) Coal handled at major\nports (MT)",
+          "-",
+          "-",
+          "-",
+          "13.73",
+          "1.738",
+          "12.66"
+        ],
+        [
+          "7.",
+          "Civil Aviation\nii ) Import Cargo handled\nat International Terminal\n(\u2018000\u2019 Tonnes))",
+          "56.65",
+          "0.36",
+          "0.63",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "8.",
+          "Telecommunication:\niii ) Net (new) wireless\n(Cell) connections\nprovided",
+          "-",
+          "-",
+          "-",
+          "3575245",
+          "2975859",
+          "83.24"
+        ]
+      ],
+      "raw_content": [
+        [
+          "",
+          "Sector",
+          "Target\n(April 2016)",
+          "Actual\nshortfall\n(April 2016)",
+          "Short fall\nin %age",
+          "Achievement\n(April 2015)",
+          "Less\nachievement\nthan the\ncorresponding\nperiod (April\n2015) last year\n(Actual)",
+          "%age\nDecrease\nover last\nyear\u2019s\nachievement"
+        ],
+        [
+          "1.",
+          "Coal Production (MT)",
+          "49.42",
+          "0.80",
+          "1.62",
+          "49.07",
+          "0.45",
+          "0.92"
+        ],
+        [
+          "2.",
+          "Fertilizer Production\n(MT)",
+          "1.34",
+          "0.14",
+          "10.43",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "3.",
+          "Petroleum:\ni) Crude Oil Production\n(MT)\nii) Natural Gas\nProduction (MCM)",
+          "2.96\n2522",
+          "0.004\n34",
+          "0.14\n1.34",
+          "3.03\n2671",
+          "0.068\n183",
+          "2.27\n6.83"
+        ],
+        [
+          "4.",
+          "Roads *:\ni) NHAI (Km)",
+          "-",
+          "-",
+          "-",
+          "305.00",
+          "85.00",
+          "27.87"
+        ],
+        [
+          "5.",
+          "Railways (MT)",
+          "97.17",
+          "10.69",
+          "11.00",
+          "89.79",
+          "3.31",
+          "3.69"
+        ],
+        [
+          "6.",
+          "Shipping\nii ) Coal handled at major\nports (MT)",
+          "-",
+          "-",
+          "-",
+          "13.73",
+          "1.738",
+          "12.66"
+        ],
+        [
+          "7.",
+          "Civil Aviation\nii ) Import Cargo handled\nat International Terminal\n(\u2018000\u2019 Tonnes))",
+          "56.65",
+          "0.36",
+          "0.63",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "8.",
+          "Telecommunication:\niii ) Net (new) wireless\n(Cell) connections\nprovided",
+          "-",
+          "-",
+          "-",
+          "3575245",
+          "2975859",
+          "83.24"
+        ]
+      ]
+    },
+    {
+      "page": 10,
+      "table_index": 0,
+      "headers": [
+        "",
+        "April 2016",
+        "",
+        "April 2015\nActual",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "Target",
+          "Actual",
+          "",
+          "April 2016\nTarget",
+          "April 2015\nActual"
+        ],
+        [
+          "(1) (2) (3) (4) (5) (6)",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "1. Power generation (BU)\nThermal Generation 80.518 88.106 73.540 9.42 19.81\nNuclear Generation 3.463 3.285 3.506 -5.14 -6.30\nHydro Generation 8.129 7.813 9.421 -3.89 -17.07\nImport from Bhutan 0.193 0.141 0.227 -26.94 -37.89\nRenewable Energy NA 5.151 4.553 - 13.13",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Total",
+          "92.303",
+          "104.496",
+          "91.247",
+          "13.21",
+          "14.52"
+        ],
+        [
+          "2. Coal Production (MT)\nCoal India Ltd. 44.480 40.091 41.510 -9.87 -3.42\nSingareni 4.941 4.445 4.324 -10.04 2.80\nOthers NA 4.082 3.233 - 26.26",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Total",
+          "49.421",
+          "48.618",
+          "49.067",
+          "-1.62",
+          "-0.92"
+        ],
+        [
+          "3. Production of Finished Steel ('000 Tonnes)\nI. Main Producer\ni) SAIL 842.0 838.0 844.0 -0.48 -0.71\nii) ESSAR NA 633.0 554.0 - 14.26\niii) Tata Steet (TSL) 713.0 757.0 703.0 6.17 7.68\niv) JSWL NA 1627.0 1406.0 - 15.72\nv) JSPL NA 204.0 191.0 - 6.81\nvi) RINL (VSP) NA 194.0 213.0 - -8.92",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Total",
+          "1555.0",
+          "4253.0",
+          "3911.0",
+          "-",
+          "8.74"
+        ],
+        [
+          "II. Major (Secondary) Producer",
+          "NA",
+          "4226.0",
+          "4090.0",
+          "-",
+          "3.33"
+        ],
+        [
+          "Total (I + II)",
+          "1555.0",
+          "8479.0",
+          "8001.0",
+          "-",
+          "5.97"
+        ],
+        [
+          "4. Cement Production (MT)\nCement Production(MT) NA 24.69 23.66 - 4.38",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "5. Fertilisers Production ('000 Tonnes)\ni) Nitrogen 957.6 929.5 936.1 -2.93 -0.71\nii) Phosphate 381.4 269.9 218.2 -29.23 23.69",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Total",
+          "1339.0",
+          "1199.4",
+          "1154.3",
+          "-10.43",
+          "3.91"
+        ],
+        [
+          "6. Petroleum\ni) Crude Oil Prod. (MT) 2.961 2.957 3.025 -0.14 -2.27\nii) Refinery Prod. (MT) 19.166 20.156 17.089 5.16 17.95\niii) Natural Gas Prod. (MCM) 2522 2488 2671 -1.33 -6.83",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "7. Roads (Kms.) **\n(a) NHAI\nWidening/ Strengthening/ existing weak\npavement to four/six/eight lanes (Kms.) 166.00 220.00 305.00 32.53 -27.87\n(b) State PWD and Border Road Organisation (BRO)\nWidening to four/six/eight lanes (Kms.) 12.00 11.97 5.13 -0.25 133.33\nWidening to two lanes (Kms.) 37.00 72.99 45.38 97.27 60.84\nStrengthening of existing weak pavement\n(Kms.) 41.00 36.78 40.62 -10.29 -9.45",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Total of (b)",
+          "90.00",
+          "121.74",
+          "91.13",
+          "35.27",
+          "33.59"
+        ],
+        [
+          "8. Railways\nRevenue earning goods Traffic (MT) 97.17 86.48 89.79 -11.00 -3.69",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "9. Shipping\ni) Cargo handled at major ports (MT) NA 52.419 47.773 - 9.73\nii) Coal handled at major ports (MT) NA 11.989 13.727 - -12.66",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "10. Civil Aviation\nI. Cargo handled at Airports (In Metric Tonnes)\ni) Export Cargo 85606 88168 81778 2.99 7.81\nii) Import Cargo 56650 56294 53638 -0.63 4.95\nII. Passenger Traffic Handled at (In Numbers)\ni) International Terminals 4663332 4699082 4261026 0.77 10.28\nii) Domestic Terminals 13641857 15686053 12607923 14.98 24.41",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "11. Telecommunications\ni) Net Addition in Switching Capacity\n(Fixed+WLL+GSM) ('000 Lines) * 361.296 189.176 - 90.98\nii) Net new wireline (Fixed) telephone\nconnections provided ('000 Numbers) * -190.630 -231.833 - -\niii) Net (New) Wireless (WLL+GSM)\nconnections provided ('000 Numbers) * 599.386 3575.245 - -83.24",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Total connections (ii+iii)\n(in '000 Numbers)",
+          "*",
+          "408.756",
+          "3343.412",
+          "-",
+          "-87.77"
+        ]
+      ],
+      "raw_content": [
+        [
+          "",
+          "April 2016",
+          "",
+          "April 2015\nActual",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "Target",
+          "Actual",
+          "",
+          "April 2016\nTarget",
+          "April 2015\nActual"
+        ],
+        [
+          "(1) (2) (3) (4) (5) (6)",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "1. Power generation (BU)\nThermal Generation 80.518 88.106 73.540 9.42 19.81\nNuclear Generation 3.463 3.285 3.506 -5.14 -6.30\nHydro Generation 8.129 7.813 9.421 -3.89 -17.07\nImport from Bhutan 0.193 0.141 0.227 -26.94 -37.89\nRenewable Energy NA 5.151 4.553 - 13.13",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Total",
+          "92.303",
+          "104.496",
+          "91.247",
+          "13.21",
+          "14.52"
+        ],
+        [
+          "2. Coal Production (MT)\nCoal India Ltd. 44.480 40.091 41.510 -9.87 -3.42\nSingareni 4.941 4.445 4.324 -10.04 2.80\nOthers NA 4.082 3.233 - 26.26",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Total",
+          "49.421",
+          "48.618",
+          "49.067",
+          "-1.62",
+          "-0.92"
+        ],
+        [
+          "3. Production of Finished Steel ('000 Tonnes)\nI. Main Producer\ni) SAIL 842.0 838.0 844.0 -0.48 -0.71\nii) ESSAR NA 633.0 554.0 - 14.26\niii) Tata Steet (TSL) 713.0 757.0 703.0 6.17 7.68\niv) JSWL NA 1627.0 1406.0 - 15.72\nv) JSPL NA 204.0 191.0 - 6.81\nvi) RINL (VSP) NA 194.0 213.0 - -8.92",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Total",
+          "1555.0",
+          "4253.0",
+          "3911.0",
+          "-",
+          "8.74"
+        ],
+        [
+          "II. Major (Secondary) Producer",
+          "NA",
+          "4226.0",
+          "4090.0",
+          "-",
+          "3.33"
+        ],
+        [
+          "Total (I + II)",
+          "1555.0",
+          "8479.0",
+          "8001.0",
+          "-",
+          "5.97"
+        ],
+        [
+          "4. Cement Production (MT)\nCement Production(MT) NA 24.69 23.66 - 4.38",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "5. Fertilisers Production ('000 Tonnes)\ni) Nitrogen 957.6 929.5 936.1 -2.93 -0.71\nii) Phosphate 381.4 269.9 218.2 -29.23 23.69",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Total",
+          "1339.0",
+          "1199.4",
+          "1154.3",
+          "-10.43",
+          "3.91"
+        ],
+        [
+          "6. Petroleum\ni) Crude Oil Prod. (MT) 2.961 2.957 3.025 -0.14 -2.27\nii) Refinery Prod. (MT) 19.166 20.156 17.089 5.16 17.95\niii) Natural Gas Prod. (MCM) 2522 2488 2671 -1.33 -6.83",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "7. Roads (Kms.) **\n(a) NHAI\nWidening/ Strengthening/ existing weak\npavement to four/six/eight lanes (Kms.) 166.00 220.00 305.00 32.53 -27.87\n(b) State PWD and Border Road Organisation (BRO)\nWidening to four/six/eight lanes (Kms.) 12.00 11.97 5.13 -0.25 133.33\nWidening to two lanes (Kms.) 37.00 72.99 45.38 97.27 60.84\nStrengthening of existing weak pavement\n(Kms.) 41.00 36.78 40.62 -10.29 -9.45",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Total of (b)",
+          "90.00",
+          "121.74",
+          "91.13",
+          "35.27",
+          "33.59"
+        ],
+        [
+          "8. Railways\nRevenue earning goods Traffic (MT) 97.17 86.48 89.79 -11.00 -3.69",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "9. Shipping\ni) Cargo handled at major ports (MT) NA 52.419 47.773 - 9.73\nii) Coal handled at major ports (MT) NA 11.989 13.727 - -12.66",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "10. Civil Aviation\nI. Cargo handled at Airports (In Metric Tonnes)\ni) Export Cargo 85606 88168 81778 2.99 7.81\nii) Import Cargo 56650 56294 53638 -0.63 4.95\nII. Passenger Traffic Handled at (In Numbers)\ni) International Terminals 4663332 4699082 4261026 0.77 10.28\nii) Domestic Terminals 13641857 15686053 12607923 14.98 24.41",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "11. Telecommunications\ni) Net Addition in Switching Capacity\n(Fixed+WLL+GSM) ('000 Lines) * 361.296 189.176 - 90.98\nii) Net new wireline (Fixed) telephone\nconnections provided ('000 Numbers) * -190.630 -231.833 - -\niii) Net (New) Wireless (WLL+GSM)\nconnections provided ('000 Numbers) * 599.386 3575.245 - -83.24",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Total connections (ii+iii)\n(in '000 Numbers)",
+          "*",
+          "408.756",
+          "3343.412",
+          "-",
+          "-87.77"
+        ]
+      ]
+    },
+    {
+      "page": 11,
+      "table_index": 0,
+      "headers": [
+        "Generation",
+        "Annual\nTarget\n2016-2017",
+        "April 2016",
+        "",
+        "April 2015\nActual",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2016",
+          "Actual\nApril 2015"
+        ],
+        [
+          "Thermal Generation\nNuclear Generation\nHydro Generation\nImport from Bhutan\nRenewable Energy",
+          "999.000\n40.000\n134.000\n5.000\nNR",
+          "80.518\n3.463\n8.129\n0.193\nNR",
+          "88.106\n3.285\n7.813\n0.141\n5.151",
+          "73.540\n3.506\n9.421\n0.227\n4.553",
+          "9.42\n-5.14\n-3.89\n-26.94\n-",
+          "19.81\n-6.30\n-17.07\n-37.89\n13.13"
+        ],
+        [
+          "Total",
+          "1178.000",
+          "92.303",
+          "104.496",
+          "91.247",
+          "13.21",
+          "14.52"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Generation",
+          "Annual\nTarget\n2016-2017",
+          "April 2016",
+          "",
+          "April 2015\nActual",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2016",
+          "Actual\nApril 2015"
+        ],
+        [
+          "Thermal Generation\nNuclear Generation\nHydro Generation\nImport from Bhutan\nRenewable Energy",
+          "999.000\n40.000\n134.000\n5.000\nNR",
+          "80.518\n3.463\n8.129\n0.193\nNR",
+          "88.106\n3.285\n7.813\n0.141\n5.151",
+          "73.540\n3.506\n9.421\n0.227\n4.553",
+          "9.42\n-5.14\n-3.89\n-26.94\n-",
+          "19.81\n-6.30\n-17.07\n-37.89\n13.13"
+        ],
+        [
+          "Total",
+          "1178.000",
+          "92.303",
+          "104.496",
+          "91.247",
+          "13.21",
+          "14.52"
+        ]
+      ]
+    },
+    {
+      "page": 11,
+      "table_index": 1,
+      "headers": [
+        "Region",
+        "Annual\nTarget\n2016-2017",
+        "April 2016",
+        "",
+        "April 2015\nActual",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2016",
+          "Actual\nApril 2015"
+        ],
+        [
+          "Northern Region\nWestern Region\nSouthern Region\nEastern Region\nNorth Eastern Region",
+          "217.270\n396.701\n207.627\n167.231\n10.171",
+          "15.742\n32.910\n17.263\n13.793\n0.810",
+          "17.399\n35.491\n19.157\n15.296\n0.764",
+          "14.459\n29.643\n15.968\n12.863\n0.608",
+          "10.53\n7.84\n10.97\n10.90\n-5.68",
+          "20.33\n19.73\n19.97\n18.91\n25.66"
+        ],
+        [
+          "Total",
+          "999.000",
+          "80.518",
+          "88.106",
+          "73.540",
+          "9.42",
+          "19.81"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Region",
+          "Annual\nTarget\n2016-2017",
+          "April 2016",
+          "",
+          "April 2015\nActual",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2016",
+          "Actual\nApril 2015"
+        ],
+        [
+          "Northern Region\nWestern Region\nSouthern Region\nEastern Region\nNorth Eastern Region",
+          "217.270\n396.701\n207.627\n167.231\n10.171",
+          "15.742\n32.910\n17.263\n13.793\n0.810",
+          "17.399\n35.491\n19.157\n15.296\n0.764",
+          "14.459\n29.643\n15.968\n12.863\n0.608",
+          "10.53\n7.84\n10.97\n10.90\n-5.68",
+          "20.33\n19.73\n19.97\n18.91\n25.66"
+        ],
+        [
+          "Total",
+          "999.000",
+          "80.518",
+          "88.106",
+          "73.540",
+          "9.42",
+          "19.81"
+        ]
+      ]
+    },
+    {
+      "page": 11,
+      "table_index": 2,
+      "headers": [
+        "Sector",
+        "Annual\nTarget\n2016-2017",
+        "April 2016",
+        "",
+        "April 2015\nActual",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2016",
+          "Actual\nApril 2015"
+        ],
+        [
+          "Central\nState\nPrivate",
+          "329.932\n317.397\n351.671",
+          "26.825\n24.902\n28.791",
+          "28.977\n27.802\n31.326",
+          "25.287\n23.354\n24.900",
+          "8.02\n11.65\n8.80",
+          "14.59\n19.05\n25.81"
+        ],
+        [
+          "Total",
+          "999.000",
+          "80.518",
+          "88.106",
+          "73.540",
+          "9.42",
+          "19.81"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Sector",
+          "Annual\nTarget\n2016-2017",
+          "April 2016",
+          "",
+          "April 2015\nActual",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2016",
+          "Actual\nApril 2015"
+        ],
+        [
+          "Central\nState\nPrivate",
+          "329.932\n317.397\n351.671",
+          "26.825\n24.902\n28.791",
+          "28.977\n27.802\n31.326",
+          "25.287\n23.354\n24.900",
+          "8.02\n11.65\n8.80",
+          "14.59\n19.05\n25.81"
+        ],
+        [
+          "Total",
+          "999.000",
+          "80.518",
+          "88.106",
+          "73.540",
+          "9.42",
+          "19.81"
+        ]
+      ]
+    },
+    {
+      "page": 11,
+      "table_index": 3,
+      "headers": [
+        "Fuel",
+        "Annual\nTarget\n2016-2017",
+        "April 2016",
+        "",
+        "April 2015\nActual",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2016",
+          "Actual\nApril 2015"
+        ],
+        [
+          "Gas Fired\nOil Fired\nMulti Fuel Fired\nLignite Based\nCoal Based",
+          "40177\n242\n0\n37712\n920869",
+          "3260\n23\n0\n3214\n74021",
+          "4173\n60\n0\n3158\n80715",
+          "3246\n42\n0\n3276\n66976",
+          "28.01\n160.87\n-\n-1.74\n9.04",
+          "28.56\n42.86\n-\n-3.60\n20.51"
+        ],
+        [
+          "Total",
+          "999000",
+          "80518",
+          "88106",
+          "73540",
+          "9.42",
+          "19.81"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Fuel",
+          "Annual\nTarget\n2016-2017",
+          "April 2016",
+          "",
+          "April 2015\nActual",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2016",
+          "Actual\nApril 2015"
+        ],
+        [
+          "Gas Fired\nOil Fired\nMulti Fuel Fired\nLignite Based\nCoal Based",
+          "40177\n242\n0\n37712\n920869",
+          "3260\n23\n0\n3214\n74021",
+          "4173\n60\n0\n3158\n80715",
+          "3246\n42\n0\n3276\n66976",
+          "28.01\n160.87\n-\n-1.74\n9.04",
+          "28.56\n42.86\n-\n-3.60\n20.51"
+        ],
+        [
+          "Total",
+          "999000",
+          "80518",
+          "88106",
+          "73540",
+          "9.42",
+          "19.81"
+        ]
+      ]
+    },
+    {
+      "page": 12,
+      "table_index": 0,
+      "headers": [
+        "Sector",
+        "April 2016",
+        "",
+        "April 2015\nActual"
+      ],
+      "rows": [
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          ""
+        ],
+        [
+          "Central\nState\nPrivate",
+          "70.95\n54.86\n62.22",
+          "76.13\n62.51\n64.31",
+          "72.48\n55.35\n59.07"
+        ],
+        [
+          "All India",
+          "62.15",
+          "67.11",
+          "61.67"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Sector",
+          "April 2016",
+          "",
+          "April 2015\nActual"
+        ],
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          ""
+        ],
+        [
+          "Central\nState\nPrivate",
+          "70.95\n54.86\n62.22",
+          "76.13\n62.51\n64.31",
+          "72.48\n55.35\n59.07"
+        ],
+        [
+          "All India",
+          "62.15",
+          "67.11",
+          "61.67"
+        ]
+      ]
+    },
+    {
+      "page": 12,
+      "table_index": 1,
+      "headers": [
+        "Station",
+        "Annual\nTarget\n2016-2017",
+        "April 2016",
+        "",
+        "April 2015\nActual",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2016",
+          "Actual\nApril 2015"
+        ],
+        [
+          "RAPS\nNAPS\nKAPS\nTAPS\nKGPAS\nMAPS",
+          "7660\n3151\n3286\n9502\n6294\n10107",
+          "662\n270\n270\n869\n540\n852",
+          "618\n312\n0\n869\n565\n921",
+          "643\n288\n168\n795\n630\n982",
+          "-6.65\n15.56\n-\n0.00\n4.63\n8.10",
+          "-3.89\n8.33\n-\n9.31\n-10.32\n-6.21"
+        ],
+        [
+          "Total",
+          "40000",
+          "3463",
+          "3285",
+          "3506",
+          "-5.14",
+          "-6.30"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Station",
+          "Annual\nTarget\n2016-2017",
+          "April 2016",
+          "",
+          "April 2015\nActual",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2016",
+          "Actual\nApril 2015"
+        ],
+        [
+          "RAPS\nNAPS\nKAPS\nTAPS\nKGPAS\nMAPS",
+          "7660\n3151\n3286\n9502\n6294\n10107",
+          "662\n270\n270\n869\n540\n852",
+          "618\n312\n0\n869\n565\n921",
+          "643\n288\n168\n795\n630\n982",
+          "-6.65\n15.56\n-\n0.00\n4.63\n8.10",
+          "-3.89\n8.33\n-\n9.31\n-10.32\n-6.21"
+        ],
+        [
+          "Total",
+          "40000",
+          "3463",
+          "3285",
+          "3506",
+          "-5.14",
+          "-6.30"
+        ]
+      ]
+    },
+    {
+      "page": 12,
+      "table_index": 2,
+      "headers": [
+        "Station",
+        "April 2016",
+        "",
+        "April 2015\nActual"
+      ],
+      "rows": [
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          ""
+        ],
+        [
+          "All India\nRAPS\nNAPS\nKAPS\nTAPS\nKGPAS\nMAPS",
+          "84.68\n85.13\n85.23\n85.23\n86.21\n85.23\n82.18",
+          "78.94\n72.69\n98.63\n-\n86.25\n89.21\n88.81",
+          "84.25\n75.70\n90.87\n53.16\n78.86\n99.45\n94.68"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Station",
+          "April 2016",
+          "",
+          "April 2015\nActual"
+        ],
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          ""
+        ],
+        [
+          "All India\nRAPS\nNAPS\nKAPS\nTAPS\nKGPAS\nMAPS",
+          "84.68\n85.13\n85.23\n85.23\n86.21\n85.23\n82.18",
+          "78.94\n72.69\n98.63\n-\n86.25\n89.21\n88.81",
+          "84.25\n75.70\n90.87\n53.16\n78.86\n99.45\n94.68"
+        ]
+      ]
+    },
+    {
+      "page": 13,
+      "table_index": 0,
+      "headers": [
+        "Region",
+        "Annual\nTarget\n2016-2017",
+        "April 2016",
+        "",
+        "April 2015\nActual",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2016",
+          "Actual\nApril 2015"
+        ],
+        [
+          "Northern Region\nWestern Region\nSouthern Region\nEastern Region\nNorth Eastern Region",
+          "70932\n15719\n29419\n13521\n4409",
+          "4488\n1016\n1694\n813\n118",
+          "4313\n782\n1716\n767\n235",
+          "5058\n1428\n2095\n686\n154",
+          "-3.90\n-23.03\n1.30\n-5.66\n99.15",
+          "-14.73\n-45.24\n-18.09\n11.81\n52.60"
+        ],
+        [
+          "Total",
+          "134000",
+          "8129",
+          "7813",
+          "9421",
+          "-3.89",
+          "-17.07"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Region",
+          "Annual\nTarget\n2016-2017",
+          "April 2016",
+          "",
+          "April 2015\nActual",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2016",
+          "Actual\nApril 2015"
+        ],
+        [
+          "Northern Region\nWestern Region\nSouthern Region\nEastern Region\nNorth Eastern Region",
+          "70932\n15719\n29419\n13521\n4409",
+          "4488\n1016\n1694\n813\n118",
+          "4313\n782\n1716\n767\n235",
+          "5058\n1428\n2095\n686\n154",
+          "-3.90\n-23.03\n1.30\n-5.66\n99.15",
+          "-14.73\n-45.24\n-18.09\n11.81\n52.60"
+        ],
+        [
+          "Total",
+          "134000",
+          "8129",
+          "7813",
+          "9421",
+          "-3.89",
+          "-17.07"
+        ]
+      ]
+    },
+    {
+      "page": 13,
+      "table_index": 1,
+      "headers": [
+        "Region",
+        "Annual\nTarget\n2016-2017",
+        "April 2016",
+        "",
+        "April 2015\nActual",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2016",
+          "Actual\nApril 2015"
+        ],
+        [
+          "Northern Region\nWestern Region\nSouthern Region\nEastern Region\nNorth Eastern Region",
+          "NR\nNR\nNR\nNR\nNR",
+          "NR\nNR\nNR\nNR\nNR",
+          "1418\n2025\n1469\n177\n62",
+          "1255\n1809\n1294\n185\n10",
+          "-\n-\n-\n-\n-",
+          "12.99\n11.94\n13.52\n-4.32\n520.00"
+        ],
+        [
+          "Total",
+          "NR",
+          "NR",
+          "5151",
+          "4553",
+          "-",
+          "13.13"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Region",
+          "Annual\nTarget\n2016-2017",
+          "April 2016",
+          "",
+          "April 2015\nActual",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2016",
+          "Actual\nApril 2015"
+        ],
+        [
+          "Northern Region\nWestern Region\nSouthern Region\nEastern Region\nNorth Eastern Region",
+          "NR\nNR\nNR\nNR\nNR",
+          "NR\nNR\nNR\nNR\nNR",
+          "1418\n2025\n1469\n177\n62",
+          "1255\n1809\n1294\n185\n10",
+          "-\n-\n-\n-\n-",
+          "12.99\n11.94\n13.52\n-4.32\n520.00"
+        ],
+        [
+          "Total",
+          "NR",
+          "NR",
+          "5151",
+          "4553",
+          "-",
+          "13.13"
+        ]
+      ]
+    },
+    {
+      "page": 13,
+      "table_index": 2,
+      "headers": [
+        "Sources",
+        "Annual\nTarget\n2016-2017",
+        "April 2016",
+        "",
+        "April 2015\nActual",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2016",
+          "Actual\nApril 2015"
+        ],
+        [
+          "Bagasse\nBiomass\nSmall Hydel\nSolar\nWind\nOthers",
+          "NR\nNR\nNR\nNR\nNR\nNR",
+          "NR\nNR\nNR\nNR\nNR\nNR",
+          "854\n366\n527\n1041\n2231\n132",
+          "1371\n295\n519\n512\n1832\n22",
+          "-\n-\n-\n-\n-\n-",
+          "-37.71\n24.07\n1.54\n103.32\n21.78\n500.00"
+        ],
+        [
+          "Total",
+          "NR",
+          "NR",
+          "5151",
+          "4553",
+          "-",
+          "13.13"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Sources",
+          "Annual\nTarget\n2016-2017",
+          "April 2016",
+          "",
+          "April 2015\nActual",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2016",
+          "Actual\nApril 2015"
+        ],
+        [
+          "Bagasse\nBiomass\nSmall Hydel\nSolar\nWind\nOthers",
+          "NR\nNR\nNR\nNR\nNR\nNR",
+          "NR\nNR\nNR\nNR\nNR\nNR",
+          "854\n366\n527\n1041\n2231\n132",
+          "1371\n295\n519\n512\n1832\n22",
+          "-\n-\n-\n-\n-\n-",
+          "-37.71\n24.07\n1.54\n103.32\n21.78\n500.00"
+        ],
+        [
+          "Total",
+          "NR",
+          "NR",
+          "5151",
+          "4553",
+          "-",
+          "13.13"
+        ]
+      ]
+    },
+    {
+      "page": 14,
+      "table_index": 0,
+      "headers": [
+        "Company",
+        "Annual\nTarget\n2016-2017",
+        "April 2016",
+        "",
+        "April 2015\nActual",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2016",
+          "Actual\nApril 2015"
+        ],
+        [
+          "ECL\nBCCL\nCCL\nNCL\nWCL\nSECL\nMCL\nNEC",
+          "NR\nNR\nNR\nNR\nNR\nNR\nNR\nNR",
+          "3.648\n3.200\n4.800\n6.758\n3.315\n11.131\n11.558\n0.070",
+          "2.647\n2.977\n4.059\n6.621\n2.664\n10.272\n10.839\n0.012",
+          "3.307\n2.967\n4.779\n5.861\n3.406\n10.441\n10.724\n0.025",
+          "-27.44\n-6.97\n-15.44\n-2.03\n-19.64\n-7.72\n-6.22\n-82.86",
+          "-19.96\n0.34\n-15.07\n12.97\n-21.79\n-1.62\n1.07\n-52.00"
+        ],
+        [
+          "CIL - Total",
+          "NR",
+          "44.480",
+          "40.091",
+          "41.510",
+          "-9.87",
+          "-3.42"
+        ],
+        [
+          "SCCL",
+          "58.000",
+          "4.941",
+          "4.445",
+          "4.324",
+          "-10.04",
+          "2.80"
+        ],
+        [
+          "Others\n(TISCO,IISCO,DVC)",
+          "NR",
+          "NR",
+          "4.082",
+          "3.233",
+          "-",
+          "26.26"
+        ],
+        [
+          "All India - Total",
+          "58.000",
+          "49.421",
+          "48.618",
+          "49.067",
+          "-1.62",
+          "-0.92"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Company",
+          "Annual\nTarget\n2016-2017",
+          "April 2016",
+          "",
+          "April 2015\nActual",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2016",
+          "Actual\nApril 2015"
+        ],
+        [
+          "ECL\nBCCL\nCCL\nNCL\nWCL\nSECL\nMCL\nNEC",
+          "NR\nNR\nNR\nNR\nNR\nNR\nNR\nNR",
+          "3.648\n3.200\n4.800\n6.758\n3.315\n11.131\n11.558\n0.070",
+          "2.647\n2.977\n4.059\n6.621\n2.664\n10.272\n10.839\n0.012",
+          "3.307\n2.967\n4.779\n5.861\n3.406\n10.441\n10.724\n0.025",
+          "-27.44\n-6.97\n-15.44\n-2.03\n-19.64\n-7.72\n-6.22\n-82.86",
+          "-19.96\n0.34\n-15.07\n12.97\n-21.79\n-1.62\n1.07\n-52.00"
+        ],
+        [
+          "CIL - Total",
+          "NR",
+          "44.480",
+          "40.091",
+          "41.510",
+          "-9.87",
+          "-3.42"
+        ],
+        [
+          "SCCL",
+          "58.000",
+          "4.941",
+          "4.445",
+          "4.324",
+          "-10.04",
+          "2.80"
+        ],
+        [
+          "Others\n(TISCO,IISCO,DVC)",
+          "NR",
+          "NR",
+          "4.082",
+          "3.233",
+          "-",
+          "26.26"
+        ],
+        [
+          "All India - Total",
+          "58.000",
+          "49.421",
+          "48.618",
+          "49.067",
+          "-1.62",
+          "-0.92"
+        ]
+      ]
+    },
+    {
+      "page": 14,
+      "table_index": 1,
+      "headers": [
+        "Company",
+        "Annual\nTarget\n2016-2017",
+        "April 2016",
+        "",
+        "April 2015\nActual",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2016",
+          "Actual\nApril 2015"
+        ],
+        [
+          "ECL\nBCCL\nCCL\nWCL\nSECL",
+          "NR\nNR\nNR\nNR\nNR",
+          "NR\nNR\nNR\nNR\nNR",
+          "0.003\n2.529\n1.281\n0.013\n0.006",
+          "0.001\n2.600\n1.393\n0.023\n0.012",
+          "-\n-\n-\n-\n-",
+          "200.00\n-2.73\n-8.04\n-43.48\n-50.00"
+        ],
+        [
+          "CIL - Total",
+          "NR",
+          "NR",
+          "3.832",
+          "4.029",
+          "-",
+          "-4.89"
+        ],
+        [
+          "Others",
+          "NR",
+          "NR",
+          "0.549",
+          "0.535",
+          "-",
+          "2.62"
+        ],
+        [
+          "All India - Total",
+          "NR",
+          "NR",
+          "4.381",
+          "4.564",
+          "-",
+          "-4.01"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Company",
+          "Annual\nTarget\n2016-2017",
+          "April 2016",
+          "",
+          "April 2015\nActual",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2016",
+          "Actual\nApril 2015"
+        ],
+        [
+          "ECL\nBCCL\nCCL\nWCL\nSECL",
+          "NR\nNR\nNR\nNR\nNR",
+          "NR\nNR\nNR\nNR\nNR",
+          "0.003\n2.529\n1.281\n0.013\n0.006",
+          "0.001\n2.600\n1.393\n0.023\n0.012",
+          "-\n-\n-\n-\n-",
+          "200.00\n-2.73\n-8.04\n-43.48\n-50.00"
+        ],
+        [
+          "CIL - Total",
+          "NR",
+          "NR",
+          "3.832",
+          "4.029",
+          "-",
+          "-4.89"
+        ],
+        [
+          "Others",
+          "NR",
+          "NR",
+          "0.549",
+          "0.535",
+          "-",
+          "2.62"
+        ],
+        [
+          "All India - Total",
+          "NR",
+          "NR",
+          "4.381",
+          "4.564",
+          "-",
+          "-4.01"
+        ]
+      ]
+    },
+    {
+      "page": 14,
+      "table_index": 2,
+      "headers": [
+        "Company",
+        "Annual\nTarget\n2016-2017",
+        "April 2016",
+        "",
+        "April 2015\nActual",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2016",
+          "Actual\nApril 2015"
+        ],
+        [
+          "BCCL\nCCL\nWCL",
+          "NR\nNR\nNR",
+          "NR\nNR\nNR",
+          "0.086\n0.066\n0.006",
+          "0.025\n0.126\n0.000",
+          "-\n-\n-",
+          "244.00\n-47.62\n-"
+        ],
+        [
+          "CIL - Total",
+          "NR",
+          "NR",
+          "0.158",
+          "0.151",
+          "-",
+          "4.64"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Company",
+          "Annual\nTarget\n2016-2017",
+          "April 2016",
+          "",
+          "April 2015\nActual",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2016",
+          "Actual\nApril 2015"
+        ],
+        [
+          "BCCL\nCCL\nWCL",
+          "NR\nNR\nNR",
+          "NR\nNR\nNR",
+          "0.086\n0.066\n0.006",
+          "0.025\n0.126\n0.000",
+          "-\n-\n-",
+          "244.00\n-47.62\n-"
+        ],
+        [
+          "CIL - Total",
+          "NR",
+          "NR",
+          "0.158",
+          "0.151",
+          "-",
+          "4.64"
+        ]
+      ]
+    },
+    {
+      "page": 15,
+      "table_index": 0,
+      "headers": [
+        "Company",
+        "Annual\nTarget\n2016-2017",
+        "April 2016",
+        "",
+        "April 2015\nActual",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2016",
+          "Actual\nApril 2015"
+        ],
+        [
+          "ECL\nBCCL\nCCL\nWCL\nSECL",
+          "NR\nNR\nNR\nNR\nNR",
+          "0.000\n0.095\n0.107\n0.011\n0.000",
+          "0.000\n0.091\n0.087\n0.008\n0.000",
+          "0.000\n0.026\n0.118\n0.008\n0.011",
+          "-\n-4.21\n-18.69\n-27.27\n-",
+          "-\n250.00\n-26.27\n0.00\n-"
+        ],
+        [
+          "CIL - Total",
+          "NR",
+          "0.213",
+          "0.186",
+          "0.163",
+          "-12.68",
+          "14.11"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Company",
+          "Annual\nTarget\n2016-2017",
+          "April 2016",
+          "",
+          "April 2015\nActual",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2016",
+          "Actual\nApril 2015"
+        ],
+        [
+          "ECL\nBCCL\nCCL\nWCL\nSECL",
+          "NR\nNR\nNR\nNR\nNR",
+          "0.000\n0.095\n0.107\n0.011\n0.000",
+          "0.000\n0.091\n0.087\n0.008\n0.000",
+          "0.000\n0.026\n0.118\n0.008\n0.011",
+          "-\n-4.21\n-18.69\n-27.27\n-",
+          "-\n250.00\n-26.27\n0.00\n-"
+        ],
+        [
+          "CIL - Total",
+          "NR",
+          "0.213",
+          "0.186",
+          "0.163",
+          "-12.68",
+          "14.11"
+        ]
+      ]
+    },
+    {
+      "page": 15,
+      "table_index": 1,
+      "headers": [
+        "Company",
+        "Annual\nTarget\n2016-2017",
+        "April 2016",
+        "",
+        "April 2015\nActual",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2016",
+          "Actual\nApril 2015"
+        ],
+        [
+          "ECL\nBCCL\nCCL\nNCL\nWCL\nSECL\nMCL\nNEC",
+          "NR\nNR\nNR\nNR\nNR\nNR\nNR\nNR",
+          "3.940\n3.276\n5.560\n6.890\n4.239\n12.408\n15.030\n0.090",
+          "3.273\n3.006\n3.975\n6.419\n3.212\n10.652\n11.872\n0.015",
+          "3.672\n3.160\n4.966\n6.170\n3.674\n11.079\n10.744\n0.031",
+          "-16.93\n-8.24\n-28.51\n-6.84\n-24.23\n-14.15\n-21.01\n-83.33",
+          "-10.87\n-4.87\n-19.96\n4.04\n-12.57\n-3.85\n10.50\n-51.61"
+        ],
+        [
+          "CIL - Total",
+          "NR",
+          "51.433",
+          "42.424",
+          "43.496",
+          "-17.52",
+          "-2.46"
+        ],
+        [
+          "SCCL",
+          "NR",
+          "4.998",
+          "4.635",
+          "4.598",
+          "-7.26",
+          "0.80"
+        ],
+        [
+          "Others\n(TISCO,IISCO,DVC)",
+          "NR",
+          "0.000",
+          "4.339",
+          "3.112",
+          "-",
+          "39.43"
+        ],
+        [
+          "All India - Total",
+          "NR",
+          "56.431",
+          "51.398",
+          "51.206",
+          "-8.92",
+          "0.37"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Company",
+          "Annual\nTarget\n2016-2017",
+          "April 2016",
+          "",
+          "April 2015\nActual",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2016",
+          "Actual\nApril 2015"
+        ],
+        [
+          "ECL\nBCCL\nCCL\nNCL\nWCL\nSECL\nMCL\nNEC",
+          "NR\nNR\nNR\nNR\nNR\nNR\nNR\nNR",
+          "3.940\n3.276\n5.560\n6.890\n4.239\n12.408\n15.030\n0.090",
+          "3.273\n3.006\n3.975\n6.419\n3.212\n10.652\n11.872\n0.015",
+          "3.672\n3.160\n4.966\n6.170\n3.674\n11.079\n10.744\n0.031",
+          "-16.93\n-8.24\n-28.51\n-6.84\n-24.23\n-14.15\n-21.01\n-83.33",
+          "-10.87\n-4.87\n-19.96\n4.04\n-12.57\n-3.85\n10.50\n-51.61"
+        ],
+        [
+          "CIL - Total",
+          "NR",
+          "51.433",
+          "42.424",
+          "43.496",
+          "-17.52",
+          "-2.46"
+        ],
+        [
+          "SCCL",
+          "NR",
+          "4.998",
+          "4.635",
+          "4.598",
+          "-7.26",
+          "0.80"
+        ],
+        [
+          "Others\n(TISCO,IISCO,DVC)",
+          "NR",
+          "0.000",
+          "4.339",
+          "3.112",
+          "-",
+          "39.43"
+        ],
+        [
+          "All India - Total",
+          "NR",
+          "56.431",
+          "51.398",
+          "51.206",
+          "-8.92",
+          "0.37"
+        ]
+      ]
+    },
+    {
+      "page": 16,
+      "table_index": 0,
+      "headers": [
+        "Plant / Producer",
+        "Annual\nTarget\n2016-2017",
+        "April 2016",
+        "",
+        "April 2015\nActual",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2016",
+          "Actual\nApril 2015"
+        ],
+        [
+          "Bhilai Steel Plant (BSP)\nDurgapur Steel Plant (DSP)\nRourkela Steel Plant (RSP)\nBokaro Steel Plant (BSL)\nAlloy Steel Plant (ASP)\nSalem Steel Plant (SSP)\nIndian Iron & Steel Plant (ISP)\nVisvesvaraya Iron & Steel Plant (VISL)\nSAIL Conversion Agent",
+          "NR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR",
+          "236.00\n42.00\n214.00\n248.00\n5.00\n27.00\n69.00\n1.00\nNR",
+          "258.00\n34.00\n168.00\n237.00\n1.00\n32.00\n59.00\n1.00\n48.00",
+          "253.00\n35.00\n171.00\n279.00\n1.00\n28.00\n26.00\n3.00\n48.00",
+          "9.32\n-19.05\n-21.50\n-4.44\n-80.00\n18.52\n-14.49\n0.00\n-",
+          "1.98\n-2.86\n-1.75\n-15.05\n0.00\n14.29\n126.92\n-66.67\n0.00"
+        ],
+        [
+          "SAIL - Total",
+          "NR",
+          "842.00",
+          "838.00",
+          "844.00",
+          "-0.48",
+          "-0.71"
+        ],
+        [
+          "ESSAR",
+          "NR",
+          "NR",
+          "633.00",
+          "554.00",
+          "-",
+          "14.26"
+        ],
+        [
+          "Tata Steet (TSL)",
+          "NR",
+          "713.00",
+          "757.00",
+          "703.00",
+          "6.17",
+          "7.68"
+        ],
+        [
+          "JSWL",
+          "NR",
+          "NR",
+          "1627.00",
+          "1406.00",
+          "-",
+          "15.72"
+        ],
+        [
+          "JSPL",
+          "NR",
+          "NR",
+          "204.00",
+          "191.00",
+          "-",
+          "6.81"
+        ],
+        [
+          "RINL (VSP)",
+          "NR",
+          "NR",
+          "194.00",
+          "213.00",
+          "-",
+          "-8.92"
+        ],
+        [
+          "Main Producers",
+          "NR",
+          "1555.00",
+          "4253.00",
+          "3911.00",
+          "-",
+          "8.74"
+        ],
+        [
+          "Mini and other producers",
+          "NR",
+          "NR",
+          "4226.00",
+          "4090.00",
+          "-",
+          "3.33"
+        ],
+        [
+          "All India - Total",
+          "NR",
+          "1555.00",
+          "8479.00",
+          "8001.00",
+          "-",
+          "5.97"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Plant / Producer",
+          "Annual\nTarget\n2016-2017",
+          "April 2016",
+          "",
+          "April 2015\nActual",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2016",
+          "Actual\nApril 2015"
+        ],
+        [
+          "Bhilai Steel Plant (BSP)\nDurgapur Steel Plant (DSP)\nRourkela Steel Plant (RSP)\nBokaro Steel Plant (BSL)\nAlloy Steel Plant (ASP)\nSalem Steel Plant (SSP)\nIndian Iron & Steel Plant (ISP)\nVisvesvaraya Iron & Steel Plant (VISL)\nSAIL Conversion Agent",
+          "NR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR",
+          "236.00\n42.00\n214.00\n248.00\n5.00\n27.00\n69.00\n1.00\nNR",
+          "258.00\n34.00\n168.00\n237.00\n1.00\n32.00\n59.00\n1.00\n48.00",
+          "253.00\n35.00\n171.00\n279.00\n1.00\n28.00\n26.00\n3.00\n48.00",
+          "9.32\n-19.05\n-21.50\n-4.44\n-80.00\n18.52\n-14.49\n0.00\n-",
+          "1.98\n-2.86\n-1.75\n-15.05\n0.00\n14.29\n126.92\n-66.67\n0.00"
+        ],
+        [
+          "SAIL - Total",
+          "NR",
+          "842.00",
+          "838.00",
+          "844.00",
+          "-0.48",
+          "-0.71"
+        ],
+        [
+          "ESSAR",
+          "NR",
+          "NR",
+          "633.00",
+          "554.00",
+          "-",
+          "14.26"
+        ],
+        [
+          "Tata Steet (TSL)",
+          "NR",
+          "713.00",
+          "757.00",
+          "703.00",
+          "6.17",
+          "7.68"
+        ],
+        [
+          "JSWL",
+          "NR",
+          "NR",
+          "1627.00",
+          "1406.00",
+          "-",
+          "15.72"
+        ],
+        [
+          "JSPL",
+          "NR",
+          "NR",
+          "204.00",
+          "191.00",
+          "-",
+          "6.81"
+        ],
+        [
+          "RINL (VSP)",
+          "NR",
+          "NR",
+          "194.00",
+          "213.00",
+          "-",
+          "-8.92"
+        ],
+        [
+          "Main Producers",
+          "NR",
+          "1555.00",
+          "4253.00",
+          "3911.00",
+          "-",
+          "8.74"
+        ],
+        [
+          "Mini and other producers",
+          "NR",
+          "NR",
+          "4226.00",
+          "4090.00",
+          "-",
+          "3.33"
+        ],
+        [
+          "All India - Total",
+          "NR",
+          "1555.00",
+          "8479.00",
+          "8001.00",
+          "-",
+          "5.97"
+        ]
+      ]
+    },
+    {
+      "page": 16,
+      "table_index": 1,
+      "headers": [
+        "Plant/Producer",
+        "Capacity Utilisation",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "April 2016",
+          "April 2015"
+        ],
+        [
+          "Bhilai Steel Plant (BSP)\nDurgapur Steel Plant (DSP)\nRourkela Steel Plant (RSP)\nBokaro Steel Plant (BSL)\nAlloy Steel Plant (ASP)\nSalem Steel Plant (SSP)\nIndian Iron & Steel Plant (ISP)\nVisvesvaraya Iron & Steel Plant (VISL)\nSAIL Conversion Agent",
+          "85.40\n52.30\n94.40\n76.50\n320.00\n320.00\n10.00\n14.30\nNR",
+          "83.80\n53.80\n96.10\n90.00\n280.00\n280.00\n10.00\n42.90\nNR"
+        ],
+        [
+          "SAIL - Total",
+          "94.80",
+          "95.50"
+        ],
+        [
+          "ESSAR\nTata Steet (TSL)\nJSWL\nJSPL\nRINL (VSP)",
+          "NR\n153.50\nNR\nNR\n76.10",
+          "NR\n142.60\nNR\nNR\n83.50"
+        ],
+        [
+          "Main Producers",
+          "NR",
+          "NR"
+        ],
+        [
+          "Mini and other producers",
+          "NR",
+          "NR"
+        ],
+        [
+          "All India - Total",
+          "NR",
+          "NR"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Plant/Producer",
+          "Capacity Utilisation",
+          ""
+        ],
+        [
+          "",
+          "April 2016",
+          "April 2015"
+        ],
+        [
+          "Bhilai Steel Plant (BSP)\nDurgapur Steel Plant (DSP)\nRourkela Steel Plant (RSP)\nBokaro Steel Plant (BSL)\nAlloy Steel Plant (ASP)\nSalem Steel Plant (SSP)\nIndian Iron & Steel Plant (ISP)\nVisvesvaraya Iron & Steel Plant (VISL)\nSAIL Conversion Agent",
+          "85.40\n52.30\n94.40\n76.50\n320.00\n320.00\n10.00\n14.30\nNR",
+          "83.80\n53.80\n96.10\n90.00\n280.00\n280.00\n10.00\n42.90\nNR"
+        ],
+        [
+          "SAIL - Total",
+          "94.80",
+          "95.50"
+        ],
+        [
+          "ESSAR\nTata Steet (TSL)\nJSWL\nJSPL\nRINL (VSP)",
+          "NR\n153.50\nNR\nNR\n76.10",
+          "NR\n142.60\nNR\nNR\n83.50"
+        ],
+        [
+          "Main Producers",
+          "NR",
+          "NR"
+        ],
+        [
+          "Mini and other producers",
+          "NR",
+          "NR"
+        ],
+        [
+          "All India - Total",
+          "NR",
+          "NR"
+        ]
+      ]
+    },
+    {
+      "page": 17,
+      "table_index": 0,
+      "headers": [
+        "Product/Sector",
+        "April 2016",
+        "",
+        "April 2015\nActual",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2016",
+          "Actual\nApril 2015"
+        ],
+        [
+          "A. Public Sector\nCCI\nOthers",
+          "NR\nNR",
+          "*\n*",
+          "*\n*",
+          "-\n-",
+          "-\n-"
+        ],
+        [
+          "Total - A",
+          "NR",
+          "*",
+          "*",
+          "-",
+          "-"
+        ],
+        [
+          "B. Private Sector $",
+          "NR",
+          "238.92",
+          "228.56",
+          "-",
+          "4.53"
+        ],
+        [
+          "C. Mini & White",
+          "NR",
+          "8.00",
+          "8.00",
+          "-",
+          "0.00"
+        ],
+        [
+          "All India Total (A+B+C)",
+          "NR",
+          "246.92",
+          "236.56",
+          "-",
+          "4.38"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Product/Sector",
+          "April 2016",
+          "",
+          "April 2015\nActual",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2016",
+          "Actual\nApril 2015"
+        ],
+        [
+          "A. Public Sector\nCCI\nOthers",
+          "NR\nNR",
+          "*\n*",
+          "*\n*",
+          "-\n-",
+          "-\n-"
+        ],
+        [
+          "Total - A",
+          "NR",
+          "*",
+          "*",
+          "-",
+          "-"
+        ],
+        [
+          "B. Private Sector $",
+          "NR",
+          "238.92",
+          "228.56",
+          "-",
+          "4.53"
+        ],
+        [
+          "C. Mini & White",
+          "NR",
+          "8.00",
+          "8.00",
+          "-",
+          "0.00"
+        ],
+        [
+          "All India Total (A+B+C)",
+          "NR",
+          "246.92",
+          "236.56",
+          "-",
+          "4.38"
+        ]
+      ]
+    },
+    {
+      "page": 18,
+      "table_index": 0,
+      "headers": [
+        "Product/Sector",
+        "Annual\nTarget\n2016-2017",
+        "April 2016",
+        "",
+        "April 2015\nActual",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2016",
+          "Actual\nApril 2015"
+        ],
+        [
+          "A. NITROGEN\nPublic Sector\nCooperative Sector\nPrivate Sector",
+          "NR\nNR\nNR",
+          "242.90\n278.10\n436.60",
+          "269.00\n279.20\n381.30",
+          "240.00\n258.60\n437.50",
+          "10.75\n0.40\n-12.67",
+          "12.08\n7.97\n-12.85"
+        ],
+        [
+          "Total - A",
+          "NR",
+          "957.60",
+          "929.50",
+          "936.10",
+          "-2.93",
+          "-0.71"
+        ],
+        [
+          "B. PHOSPHATE\nPublic Sector\nCooperative Sector\nPrivate Sector",
+          "NR\nNR\nNR",
+          "12.80\n65.20\n303.40",
+          "8.90\n89.00\n172.00",
+          "12.00\n58.60\n147.60",
+          "-30.47\n36.50\n-43.31",
+          "-25.83\n51.88\n16.53"
+        ],
+        [
+          "Total - B",
+          "NR",
+          "381.40",
+          "269.90",
+          "218.20",
+          "-29.23",
+          "23.69"
+        ],
+        [
+          "All India Total(A+B)",
+          "NR",
+          "1339.00",
+          "1199.40",
+          "1154.30",
+          "-10.43",
+          "3.91"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Product/Sector",
+          "Annual\nTarget\n2016-2017",
+          "April 2016",
+          "",
+          "April 2015\nActual",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2016",
+          "Actual\nApril 2015"
+        ],
+        [
+          "A. NITROGEN\nPublic Sector\nCooperative Sector\nPrivate Sector",
+          "NR\nNR\nNR",
+          "242.90\n278.10\n436.60",
+          "269.00\n279.20\n381.30",
+          "240.00\n258.60\n437.50",
+          "10.75\n0.40\n-12.67",
+          "12.08\n7.97\n-12.85"
+        ],
+        [
+          "Total - A",
+          "NR",
+          "957.60",
+          "929.50",
+          "936.10",
+          "-2.93",
+          "-0.71"
+        ],
+        [
+          "B. PHOSPHATE\nPublic Sector\nCooperative Sector\nPrivate Sector",
+          "NR\nNR\nNR",
+          "12.80\n65.20\n303.40",
+          "8.90\n89.00\n172.00",
+          "12.00\n58.60\n147.60",
+          "-30.47\n36.50\n-43.31",
+          "-25.83\n51.88\n16.53"
+        ],
+        [
+          "Total - B",
+          "NR",
+          "381.40",
+          "269.90",
+          "218.20",
+          "-29.23",
+          "23.69"
+        ],
+        [
+          "All India Total(A+B)",
+          "NR",
+          "1339.00",
+          "1199.40",
+          "1154.30",
+          "-10.43",
+          "3.91"
+        ]
+      ]
+    },
+    {
+      "page": 18,
+      "table_index": 1,
+      "headers": [
+        "Product/Sector",
+        "Capacity Utilisation",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "April 2016",
+          "April 2015"
+        ],
+        [
+          "A. NITROGEN\nPublic Sector\nCooperative Sector\nPrivate Sector",
+          "96.80\n105.70\n80.30",
+          "86.30\n97.90\n92.20"
+        ],
+        [
+          "Total - A",
+          "91.40",
+          "92.10"
+        ],
+        [
+          "B. PHOSPHATE\nPublic Sector\nCooperative Sector\nPrivate Sector",
+          "27.60\n62.40\n50.60",
+          "37.30\n41.10\n43.40"
+        ],
+        [
+          "Total - B",
+          "52.40",
+          "42.40"
+        ],
+        [
+          "All India",
+          "78.30",
+          "75.40"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Product/Sector",
+          "Capacity Utilisation",
+          ""
+        ],
+        [
+          "",
+          "April 2016",
+          "April 2015"
+        ],
+        [
+          "A. NITROGEN\nPublic Sector\nCooperative Sector\nPrivate Sector",
+          "96.80\n105.70\n80.30",
+          "86.30\n97.90\n92.20"
+        ],
+        [
+          "Total - A",
+          "91.40",
+          "92.10"
+        ],
+        [
+          "B. PHOSPHATE\nPublic Sector\nCooperative Sector\nPrivate Sector",
+          "27.60\n62.40\n50.60",
+          "37.30\n41.10\n43.40"
+        ],
+        [
+          "Total - B",
+          "52.40",
+          "42.40"
+        ],
+        [
+          "All India",
+          "78.30",
+          "75.40"
+        ]
+      ]
+    },
+    {
+      "page": 19,
+      "table_index": 0,
+      "headers": [
+        "Name of the Unit",
+        "Annual\nTarget\n2016-2017",
+        "April 2016",
+        "",
+        "April 2015\nActual",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2016",
+          "Actual\nApril 2015"
+        ],
+        [
+          "A. Oil & Natural Gas corporation (ONGC)\nGujarat NR 356.62 360.32 359.57 1.04 0.21\nAssam NR 76.68 77.27 79.65 0.77 -2.99\nTamil Nadu NR 18.74 19.71 21.88 5.18 -9.92\nOffshore NR 1323.65 1323.32 1330.24 -0.02 -0.52\nAndhra Pradesh NR 21.36 20.88 24.00 -2.25 -13.00\nTripura NR 0.00 0.00 0.00 - -",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Total - A",
+          "NR",
+          "1797.05",
+          "1801.51",
+          "1815.34",
+          "0.25",
+          "-0.76"
+        ],
+        [
+          "B. Oil India Ltd. (OIL)\nAssam NR 259.70 260.76 280.30 0.41 -6.97\nArunachal Pradesh NR 0.60 0.64 0.41 6.67 56.10",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Total - B",
+          "NR",
+          "260.30",
+          "261.41",
+          "280.71",
+          "0.43",
+          "-6.88"
+        ],
+        [
+          "C. DGH (JVC/Private)",
+          "NR",
+          "903.59",
+          "893.90",
+          "929.34",
+          "-1.07",
+          "-3.81"
+        ],
+        [
+          "All India Total (A+B+C)",
+          "NR",
+          "2960.93",
+          "2956.81",
+          "3025.40",
+          "-0.14",
+          "-2.27"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Name of the Unit",
+          "Annual\nTarget\n2016-2017",
+          "April 2016",
+          "",
+          "April 2015\nActual",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2016",
+          "Actual\nApril 2015"
+        ],
+        [
+          "A. Oil & Natural Gas corporation (ONGC)\nGujarat NR 356.62 360.32 359.57 1.04 0.21\nAssam NR 76.68 77.27 79.65 0.77 -2.99\nTamil Nadu NR 18.74 19.71 21.88 5.18 -9.92\nOffshore NR 1323.65 1323.32 1330.24 -0.02 -0.52\nAndhra Pradesh NR 21.36 20.88 24.00 -2.25 -13.00\nTripura NR 0.00 0.00 0.00 - -",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Total - A",
+          "NR",
+          "1797.05",
+          "1801.51",
+          "1815.34",
+          "0.25",
+          "-0.76"
+        ],
+        [
+          "B. Oil India Ltd. (OIL)\nAssam NR 259.70 260.76 280.30 0.41 -6.97\nArunachal Pradesh NR 0.60 0.64 0.41 6.67 56.10",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Total - B",
+          "NR",
+          "260.30",
+          "261.41",
+          "280.71",
+          "0.43",
+          "-6.88"
+        ],
+        [
+          "C. DGH (JVC/Private)",
+          "NR",
+          "903.59",
+          "893.90",
+          "929.34",
+          "-1.07",
+          "-3.81"
+        ],
+        [
+          "All India Total (A+B+C)",
+          "NR",
+          "2960.93",
+          "2956.81",
+          "3025.40",
+          "-0.14",
+          "-2.27"
+        ]
+      ]
+    },
+    {
+      "page": 19,
+      "table_index": 1,
+      "headers": [
+        "Name of the Unit",
+        "Annual\nTarget\n2016-2017",
+        "April 2016",
+        "",
+        "April 2015\nActual",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2016",
+          "Actual\nApril 2015"
+        ],
+        [
+          "BORL(Bina)\nBPCL, Kochi\nBPCL, Mumbai\nCPCL, Manali\nCPCL, Narimanam (CBR)\nEOL, Vadinar\nHMEL, GGSR, Bhatinda\nHPCL, Mumbai\nHPCL, Vishakhapatnam\nIOC, Barauni\nIOC, Bongaigaon\nIOC, Digboi\nIOC, Gujarat(Koyali)\nIOC, Guwahati\nIOC, Haldia\nIOC, Mathura\nIOC, Panipat\nIOC, Paradip\nMRPL, Mangalore\nNRL, Numaligarh\nONGC, Tatipaka\nRIL, Jamnagar\nRIL, SEZ",
+          "NR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR",
+          "525.00\n899.99\n1165.30\n858.00\n49.30\n1690.99\n770.34\n633.90\n781.64\n533.15\n199.06\n55.00\n1175.00\n78.00\n675.00\n734.56\n1300.00\n600.00\n1170.00\n224.17\n3.87\n2023.86\n3020.16",
+          "533.58\n895.32\n1145.52\n820.05\n55.69\n1718.85\n920.19\n713.91\n803.78\n559.26\n211.58\n51.76\n1214.96\n75.42\n692.33\n797.48\n1316.01\n394.27\n1165.91\n216.53\n6.80\n2731.95\n3114.53",
+          "1.51\n893.88\n1136.51\n900.03\n39.08\n1718.43\n895.89\n551.15\n738.83\n474.42\n235.88\n29.17\n603.78\n93.52\n647.11\n675.39\n1293.08\n0.00\n1111.42\n1.46\n4.00\n2023.86\n3020.16",
+          "1.63\n-0.52\n-1.70\n-4.42\n12.96\n1.65\n19.45\n12.62\n2.83\n4.90\n6.29\n-5.89\n3.40\n-3.31\n2.57\n8.57\n1.23\n-34.29\n-0.35\n-3.41\n75.71\n34.99\n3.12",
+          "35236.42\n0.16\n0.79\n-8.89\n42.50\n0.02\n2.71\n29.53\n8.79\n17.88\n-10.30\n77.44\n101.23\n-19.35\n6.99\n18.08\n1.77\n-\n4.90\n14730.82\n70.00\n34.99\n3.12"
+        ],
+        [
+          "All India Total",
+          "NR",
+          "19166.28",
+          "20155.67",
+          "17088.58",
+          "5.16",
+          "17.95"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Name of the Unit",
+          "Annual\nTarget\n2016-2017",
+          "April 2016",
+          "",
+          "April 2015\nActual",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2016",
+          "Actual\nApril 2015"
+        ],
+        [
+          "BORL(Bina)\nBPCL, Kochi\nBPCL, Mumbai\nCPCL, Manali\nCPCL, Narimanam (CBR)\nEOL, Vadinar\nHMEL, GGSR, Bhatinda\nHPCL, Mumbai\nHPCL, Vishakhapatnam\nIOC, Barauni\nIOC, Bongaigaon\nIOC, Digboi\nIOC, Gujarat(Koyali)\nIOC, Guwahati\nIOC, Haldia\nIOC, Mathura\nIOC, Panipat\nIOC, Paradip\nMRPL, Mangalore\nNRL, Numaligarh\nONGC, Tatipaka\nRIL, Jamnagar\nRIL, SEZ",
+          "NR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR",
+          "525.00\n899.99\n1165.30\n858.00\n49.30\n1690.99\n770.34\n633.90\n781.64\n533.15\n199.06\n55.00\n1175.00\n78.00\n675.00\n734.56\n1300.00\n600.00\n1170.00\n224.17\n3.87\n2023.86\n3020.16",
+          "533.58\n895.32\n1145.52\n820.05\n55.69\n1718.85\n920.19\n713.91\n803.78\n559.26\n211.58\n51.76\n1214.96\n75.42\n692.33\n797.48\n1316.01\n394.27\n1165.91\n216.53\n6.80\n2731.95\n3114.53",
+          "1.51\n893.88\n1136.51\n900.03\n39.08\n1718.43\n895.89\n551.15\n738.83\n474.42\n235.88\n29.17\n603.78\n93.52\n647.11\n675.39\n1293.08\n0.00\n1111.42\n1.46\n4.00\n2023.86\n3020.16",
+          "1.63\n-0.52\n-1.70\n-4.42\n12.96\n1.65\n19.45\n12.62\n2.83\n4.90\n6.29\n-5.89\n3.40\n-3.31\n2.57\n8.57\n1.23\n-34.29\n-0.35\n-3.41\n75.71\n34.99\n3.12",
+          "35236.42\n0.16\n0.79\n-8.89\n42.50\n0.02\n2.71\n29.53\n8.79\n17.88\n-10.30\n77.44\n101.23\n-19.35\n6.99\n18.08\n1.77\n-\n4.90\n14730.82\n70.00\n34.99\n3.12"
+        ],
+        [
+          "All India Total",
+          "NR",
+          "19166.28",
+          "20155.67",
+          "17088.58",
+          "5.16",
+          "17.95"
+        ]
+      ]
+    },
+    {
+      "page": 20,
+      "table_index": 0,
+      "headers": [
+        "Name of the Unit",
+        "April 2016",
+        "",
+        "",
+        "April 2015",
+        "",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "Prorated\nInstalled\nCapacity",
+          "Actual\nCrude\nThroughput",
+          "% Utilisation\nof Installed\nCapacity",
+          "Prorated\nInstalled\nCapacity",
+          "Actual\nCrude\nThroughput",
+          "% Utilisation\nof Installed\nCapacity"
+        ],
+        [
+          "BORL(Bina)\nBPCL, Kochi\nBPCL, Mumbai\nCPCL, Manali\nCPCL, Narimanam (CBR)\nEOL, Vadinar\nHMEL, GGSR, Bhatinda\nHPCL, Mumbai\nHPCL, Vishakhapatnam\nIOC, Barauni\nIOC, Bongaigaon\nIOC, Digboi\nIOC, Gujarat(Koyali)\nIOC, Guwahati\nIOC, Haldia\nIOC, Mathura\nIOC, Panipat\nIOC, Paradip\nMRPL, Mangalore\nNRL, Numaligarh\nONGC, Tatipaka\nRIL, Jamnagar\nRIL, SEZ",
+          "493.00\n781.00\n986.00\n863.00\n82.00\n1644.00\n740.00\n534.00\n682.00\n493.00\n193.00\n53.00\n1126.00\n82.00\n616.00\n658.00\n1233.00\n1233.00\n1233.00\n247.00\n5.00\n2712.00\n2219.00",
+          "533.58\n895.32\n1145.52\n820.05\n55.69\n1718.85\n920.19\n713.91\n803.78\n559.26\n211.58\n51.76\n1214.96\n75.42\n692.33\n797.48\n1316.01\n394.27\n1165.91\n216.53\n6.80\n2731.95\n3114.53",
+          "108.2\n114.6\n116.2\n95.0\n67.9\n104.6\n124.4\n133.7\n117.9\n113.4\n109.6\n97.7\n107.9\n92.0\n112.4\n121.2\n106.7\n32.0\n94.6\n87.7\n136.0\n100.7\n140.4",
+          "492.00\n779.00\n984.00\n861.00\n82.00\n1639.00\n738.00\n533.00\n680.00\n492.00\n193.00\n53.00\n1123.00\n82.00\n615.00\n656.00\n1230.00\n0.00\n1230.00\n246.00\n5.00\n2705.00\n2213.00",
+          "1.51\n893.88\n1136.51\n900.03\n39.08\n1718.43\n895.89\n551.15\n738.83\n474.42\n235.88\n29.17\n603.78\n93.52\n647.11\n675.39\n1293.08\n0.00\n1111.42\n1.46\n4.00\n2023.86\n3020.16",
+          "0.3\n114.8\n115.5\n104.5\n47.7\n104.9\n121.4\n103.4\n108.7\n96.4\n122.2\n55.0\n53.8\n114.1\n105.2\n103.0\n105.1\n-\n90.4\n0.6\n80.0\n74.8\n136.5"
+        ],
+        [
+          "All India Total",
+          "18908.00",
+          "20155.67",
+          "106.6",
+          "17631.00",
+          "17088.58",
+          "96.9"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Name of the Unit",
+          "April 2016",
+          "",
+          "",
+          "April 2015",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Prorated\nInstalled\nCapacity",
+          "Actual\nCrude\nThroughput",
+          "% Utilisation\nof Installed\nCapacity",
+          "Prorated\nInstalled\nCapacity",
+          "Actual\nCrude\nThroughput",
+          "% Utilisation\nof Installed\nCapacity"
+        ],
+        [
+          "BORL(Bina)\nBPCL, Kochi\nBPCL, Mumbai\nCPCL, Manali\nCPCL, Narimanam (CBR)\nEOL, Vadinar\nHMEL, GGSR, Bhatinda\nHPCL, Mumbai\nHPCL, Vishakhapatnam\nIOC, Barauni\nIOC, Bongaigaon\nIOC, Digboi\nIOC, Gujarat(Koyali)\nIOC, Guwahati\nIOC, Haldia\nIOC, Mathura\nIOC, Panipat\nIOC, Paradip\nMRPL, Mangalore\nNRL, Numaligarh\nONGC, Tatipaka\nRIL, Jamnagar\nRIL, SEZ",
+          "493.00\n781.00\n986.00\n863.00\n82.00\n1644.00\n740.00\n534.00\n682.00\n493.00\n193.00\n53.00\n1126.00\n82.00\n616.00\n658.00\n1233.00\n1233.00\n1233.00\n247.00\n5.00\n2712.00\n2219.00",
+          "533.58\n895.32\n1145.52\n820.05\n55.69\n1718.85\n920.19\n713.91\n803.78\n559.26\n211.58\n51.76\n1214.96\n75.42\n692.33\n797.48\n1316.01\n394.27\n1165.91\n216.53\n6.80\n2731.95\n3114.53",
+          "108.2\n114.6\n116.2\n95.0\n67.9\n104.6\n124.4\n133.7\n117.9\n113.4\n109.6\n97.7\n107.9\n92.0\n112.4\n121.2\n106.7\n32.0\n94.6\n87.7\n136.0\n100.7\n140.4",
+          "492.00\n779.00\n984.00\n861.00\n82.00\n1639.00\n738.00\n533.00\n680.00\n492.00\n193.00\n53.00\n1123.00\n82.00\n615.00\n656.00\n1230.00\n0.00\n1230.00\n246.00\n5.00\n2705.00\n2213.00",
+          "1.51\n893.88\n1136.51\n900.03\n39.08\n1718.43\n895.89\n551.15\n738.83\n474.42\n235.88\n29.17\n603.78\n93.52\n647.11\n675.39\n1293.08\n0.00\n1111.42\n1.46\n4.00\n2023.86\n3020.16",
+          "0.3\n114.8\n115.5\n104.5\n47.7\n104.9\n121.4\n103.4\n108.7\n96.4\n122.2\n55.0\n53.8\n114.1\n105.2\n103.0\n105.1\n-\n90.4\n0.6\n80.0\n74.8\n136.5"
+        ],
+        [
+          "All India Total",
+          "18908.00",
+          "20155.67",
+          "106.6",
+          "17631.00",
+          "17088.58",
+          "96.9"
+        ]
+      ]
+    },
+    {
+      "page": 20,
+      "table_index": 1,
+      "headers": [
+        "Area/State",
+        "Annual\nTarget\n2016-2017",
+        "April 2016",
+        "",
+        "April 2015\nActual",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2016",
+          "Actual\nApril 2015"
+        ],
+        [
+          "A. Oil & Natural Gas corporation (ONGC)\nGujarat NR 122.82 117.94 118.99 -3.97 -0.88\nAssam NR 33.72 35.49 33.31 5.25 6.54\nTamil Nadu NR 95.33 84.21 88.51 -11.66 -4.86\nOffshore NR 1193.84 1238.22 1388.12 3.72 -10.80\nAndhra Pradesh NR 55.15 55.03 52.93 -0.22 3.97\nTripura NR 120.06 99.79 99.65 -16.88 0.14\nRajasthan NR 0.41 0.26 0.68 -36.59 -61.76",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Total - A",
+          "NR",
+          "1621.33",
+          "1630.95",
+          "1782.20",
+          "0.59",
+          "-8.49"
+        ],
+        [
+          "B. Oil India Ltd. (OIL)\nRajasthan NR 17.73 21.28 11.92 20.02 78.52\nAssam NR 218.00 228.11 181.88 4.64 25.42\nArunachal Pradesh NR 1.21 0.96 1.01 -20.66 -4.95",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Total - B",
+          "NR",
+          "236.94",
+          "250.35",
+          "194.81",
+          "5.66",
+          "28.51"
+        ],
+        [
+          "C. DGH (JVC/Private)",
+          "NR",
+          "663.34",
+          "606.77",
+          "693.52",
+          "-8.53",
+          "-12.51"
+        ],
+        [
+          "All India Total (A+B+C)",
+          "NR",
+          "2521.61",
+          "2488.07",
+          "2670.53",
+          "-1.33",
+          "-6.83"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Area/State",
+          "Annual\nTarget\n2016-2017",
+          "April 2016",
+          "",
+          "April 2015\nActual",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2016",
+          "Actual\nApril 2015"
+        ],
+        [
+          "A. Oil & Natural Gas corporation (ONGC)\nGujarat NR 122.82 117.94 118.99 -3.97 -0.88\nAssam NR 33.72 35.49 33.31 5.25 6.54\nTamil Nadu NR 95.33 84.21 88.51 -11.66 -4.86\nOffshore NR 1193.84 1238.22 1388.12 3.72 -10.80\nAndhra Pradesh NR 55.15 55.03 52.93 -0.22 3.97\nTripura NR 120.06 99.79 99.65 -16.88 0.14\nRajasthan NR 0.41 0.26 0.68 -36.59 -61.76",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Total - A",
+          "NR",
+          "1621.33",
+          "1630.95",
+          "1782.20",
+          "0.59",
+          "-8.49"
+        ],
+        [
+          "B. Oil India Ltd. (OIL)\nRajasthan NR 17.73 21.28 11.92 20.02 78.52\nAssam NR 218.00 228.11 181.88 4.64 25.42\nArunachal Pradesh NR 1.21 0.96 1.01 -20.66 -4.95",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Total - B",
+          "NR",
+          "236.94",
+          "250.35",
+          "194.81",
+          "5.66",
+          "28.51"
+        ],
+        [
+          "C. DGH (JVC/Private)",
+          "NR",
+          "663.34",
+          "606.77",
+          "693.52",
+          "-8.53",
+          "-12.51"
+        ],
+        [
+          "All India Total (A+B+C)",
+          "NR",
+          "2521.61",
+          "2488.07",
+          "2670.53",
+          "-1.33",
+          "-6.83"
+        ]
+      ]
+    },
+    {
+      "page": 21,
+      "table_index": 0,
+      "headers": [
+        "Financial\n(Rs. in Crore)",
+        "April 2016",
+        "",
+        "April 2015\nActual",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2016",
+          "Actual\nApril 2015"
+        ],
+        [
+          "Total Expenditure",
+          "5950.00",
+          "7477.00",
+          "NA",
+          "25.66",
+          "535.94"
+        ],
+        [
+          "Physical",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Widening/ Strengthening/ existing\nweak pavement to four/six/eight lanes\n(Kms.)",
+          "166.00",
+          "220.00",
+          "305.00",
+          "32.53",
+          "-27.87"
+        ],
+        [
+          "Construction of Bridges (Nos.)",
+          "0",
+          "0",
+          "0",
+          "-",
+          "-"
+        ],
+        [
+          "Construction of bypass (Nos.)",
+          "0",
+          "0",
+          "0",
+          "-",
+          "-"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Financial\n(Rs. in Crore)",
+          "April 2016",
+          "",
+          "April 2015\nActual",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2016",
+          "Actual\nApril 2015"
+        ],
+        [
+          "Total Expenditure",
+          "5950.00",
+          "7477.00",
+          "NA",
+          "25.66",
+          "535.94"
+        ],
+        [
+          "Physical",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Widening/ Strengthening/ existing\nweak pavement to four/six/eight lanes\n(Kms.)",
+          "166.00",
+          "220.00",
+          "305.00",
+          "32.53",
+          "-27.87"
+        ],
+        [
+          "Construction of Bridges (Nos.)",
+          "0",
+          "0",
+          "0",
+          "-",
+          "-"
+        ],
+        [
+          "Construction of bypass (Nos.)",
+          "0",
+          "0",
+          "0",
+          "-",
+          "-"
+        ]
+      ]
+    },
+    {
+      "page": 21,
+      "table_index": 1,
+      "headers": [
+        "Financial\n(Rs. in Crore)",
+        "April 2016",
+        "",
+        "April 2015\nActual",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2016",
+          "Actual\nApril 2015"
+        ],
+        [
+          "Total Expenditure",
+          "280.00",
+          "1798.86",
+          "91.52",
+          "542.45",
+          "71.19"
+        ],
+        [
+          "Physical",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Improvement of low grade section\n(Kms.)",
+          "4.00",
+          "0.00",
+          "0.13",
+          "-",
+          "-"
+        ],
+        [
+          "Widening to four/six/eight lanes (Kms.)",
+          "12.00",
+          "11.97",
+          "5.13",
+          "-0.25",
+          "133.33"
+        ],
+        [
+          "Widening to two lanes (Kms.)",
+          "37.00",
+          "72.99",
+          "45.38",
+          "97.27",
+          "60.84"
+        ],
+        [
+          "Strengthening of existing weak\npavement (Kms.)",
+          "41.00",
+          "36.78",
+          "40.62",
+          "-10.29",
+          "-9.45"
+        ],
+        [
+          "Improvement of riding quality\nprog.(IRQP) (Kms.)",
+          "100.00",
+          "121.41",
+          "41.40",
+          "21.41",
+          "193.26"
+        ],
+        [
+          "Rehabilitation/ Construction of Bridges\n(Nos.)",
+          "6",
+          "4",
+          "1",
+          "-33.33",
+          "300.00"
+        ],
+        [
+          "Construction of bypasses (Nos.)",
+          "0",
+          "3",
+          "0",
+          "-",
+          "-"
+        ],
+        [
+          "Construction of Missing Links (Kms.)",
+          "1.00",
+          "7.00",
+          "0.00",
+          "600.00",
+          "-"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Financial\n(Rs. in Crore)",
+          "April 2016",
+          "",
+          "April 2015\nActual",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2016",
+          "Actual\nApril 2015"
+        ],
+        [
+          "Total Expenditure",
+          "280.00",
+          "1798.86",
+          "91.52",
+          "542.45",
+          "71.19"
+        ],
+        [
+          "Physical",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Improvement of low grade section\n(Kms.)",
+          "4.00",
+          "0.00",
+          "0.13",
+          "-",
+          "-"
+        ],
+        [
+          "Widening to four/six/eight lanes (Kms.)",
+          "12.00",
+          "11.97",
+          "5.13",
+          "-0.25",
+          "133.33"
+        ],
+        [
+          "Widening to two lanes (Kms.)",
+          "37.00",
+          "72.99",
+          "45.38",
+          "97.27",
+          "60.84"
+        ],
+        [
+          "Strengthening of existing weak\npavement (Kms.)",
+          "41.00",
+          "36.78",
+          "40.62",
+          "-10.29",
+          "-9.45"
+        ],
+        [
+          "Improvement of riding quality\nprog.(IRQP) (Kms.)",
+          "100.00",
+          "121.41",
+          "41.40",
+          "21.41",
+          "193.26"
+        ],
+        [
+          "Rehabilitation/ Construction of Bridges\n(Nos.)",
+          "6",
+          "4",
+          "1",
+          "-33.33",
+          "300.00"
+        ],
+        [
+          "Construction of bypasses (Nos.)",
+          "0",
+          "3",
+          "0",
+          "-",
+          "-"
+        ],
+        [
+          "Construction of Missing Links (Kms.)",
+          "1.00",
+          "7.00",
+          "0.00",
+          "600.00",
+          "-"
+        ]
+      ]
+    },
+    {
+      "page": 22,
+      "table_index": 0,
+      "headers": [
+        "Commodity",
+        "Annual\nTarget\n2016-2017",
+        "April 2016",
+        "",
+        "April 2015\nActual",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2016",
+          "Actual\nApril 2015"
+        ],
+        [
+          "Coal\nRaw material for steel\nplants except Iron Ore\nPig iron and finished\nsteel\nIron ore\nCement\nFoodgrains\nFertilizers\nMineral Oil (POL)\nContainer Service\nBalance other goods",
+          "577.80\n22.20\n44.80\n125.70\n111.00\n46.00\n56.00\n44.34\n48.00\n84.16",
+          "48.41\n1.87\n3.75\n10.55\n9.29\n3.86\n4.69\n3.71\n4.00\n7.04",
+          "43.14\n1.55\n3.44\n10.34\n8.10\n3.36\n2.78\n3.78\n3.86\n6.13",
+          "46.06\n1.61\n3.39\n8.91\n9.40\n3.28\n3.43\n3.44\n3.71\n6.56",
+          "-10.89\n-17.11\n-8.27\n-1.99\n-12.81\n-12.95\n-40.72\n1.89\n-3.50\n-12.93",
+          "-6.34\n-3.73\n1.47\n16.05\n-13.83\n2.44\n-18.95\n9.88\n4.04\n-6.55"
+        ],
+        [
+          "Total",
+          "1160.00",
+          "97.17",
+          "86.48",
+          "89.79",
+          "-11.00",
+          "-3.69"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Commodity",
+          "Annual\nTarget\n2016-2017",
+          "April 2016",
+          "",
+          "April 2015\nActual",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2016",
+          "Actual\nApril 2015"
+        ],
+        [
+          "Coal\nRaw material for steel\nplants except Iron Ore\nPig iron and finished\nsteel\nIron ore\nCement\nFoodgrains\nFertilizers\nMineral Oil (POL)\nContainer Service\nBalance other goods",
+          "577.80\n22.20\n44.80\n125.70\n111.00\n46.00\n56.00\n44.34\n48.00\n84.16",
+          "48.41\n1.87\n3.75\n10.55\n9.29\n3.86\n4.69\n3.71\n4.00\n7.04",
+          "43.14\n1.55\n3.44\n10.34\n8.10\n3.36\n2.78\n3.78\n3.86\n6.13",
+          "46.06\n1.61\n3.39\n8.91\n9.40\n3.28\n3.43\n3.44\n3.71\n6.56",
+          "-10.89\n-17.11\n-8.27\n-1.99\n-12.81\n-12.95\n-40.72\n1.89\n-3.50\n-12.93",
+          "-6.34\n-3.73\n1.47\n16.05\n-13.83\n2.44\n-18.95\n9.88\n4.04\n-6.55"
+        ],
+        [
+          "Total",
+          "1160.00",
+          "97.17",
+          "86.48",
+          "89.79",
+          "-11.00",
+          "-3.69"
+        ]
+      ]
+    },
+    {
+      "page": 23,
+      "table_index": 0,
+      "headers": [
+        "Name of the port",
+        "Annual\nTarget\n2016-2017",
+        "April 2016",
+        "",
+        "April 2015\nActual",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2016",
+          "Actual\nApril 2015"
+        ],
+        [
+          "Kolkata\nHaldia\nParadip\nVishakhapatnam\nChennai\nV.O.Chidambaranar\n(Tuticorin)\nCochin\nNew Mangalore\nMormugao\nJN Port Trust (JNPT)\nMumbai\nKandla\nKamarajar (Ennore)",
+          "NR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR",
+          "NR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR",
+          "1286\n2719\n7234\n4728\n4242\n3341\n1988\n2578\n3327\n5284\n5149\n7907\n2636",
+          "1259\n2709\n6078\n4003\n4622\n3215\n1805\n2569\n1316\n5379\n5133\n6746\n2939",
+          "-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-",
+          "2.14\n0.37\n19.02\n18.11\n-8.22\n3.92\n10.14\n0.35\n152.81\n-1.77\n0.31\n17.21\n-10.31"
+        ],
+        [
+          "Total",
+          "NR",
+          "NR",
+          "52419",
+          "47773",
+          "-",
+          "9.73"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Name of the port",
+          "Annual\nTarget\n2016-2017",
+          "April 2016",
+          "",
+          "April 2015\nActual",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2016",
+          "Actual\nApril 2015"
+        ],
+        [
+          "Kolkata\nHaldia\nParadip\nVishakhapatnam\nChennai\nV.O.Chidambaranar\n(Tuticorin)\nCochin\nNew Mangalore\nMormugao\nJN Port Trust (JNPT)\nMumbai\nKandla\nKamarajar (Ennore)",
+          "NR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR",
+          "NR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR",
+          "1286\n2719\n7234\n4728\n4242\n3341\n1988\n2578\n3327\n5284\n5149\n7907\n2636",
+          "1259\n2709\n6078\n4003\n4622\n3215\n1805\n2569\n1316\n5379\n5133\n6746\n2939",
+          "-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-",
+          "2.14\n0.37\n19.02\n18.11\n-8.22\n3.92\n10.14\n0.35\n152.81\n-1.77\n0.31\n17.21\n-10.31"
+        ],
+        [
+          "Total",
+          "NR",
+          "NR",
+          "52419",
+          "47773",
+          "-",
+          "9.73"
+        ]
+      ]
+    },
+    {
+      "page": 23,
+      "table_index": 1,
+      "headers": [
+        "Name of the port",
+        "Annual\nTarget\n2016-2017",
+        "April 2016",
+        "",
+        "April 2015\nActual",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2016",
+          "Actual\nApril 2015"
+        ],
+        [
+          "Kolkata\nHaldia\nParadip\nVishakhapatnam\nChennai\nV.O.Chidambaranar\n(Tuticorin)\nCochin\nNew Mangalore\nMormugao\nJN Port Trust (JNPT)\nMumbai\nKandla\nKamarajar (Ennore)",
+          "NR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR",
+          "NR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR",
+          "10\n499\n3462\n1120\n0\n1486\n0\n702\n1082\n0\n562\n965\n2101",
+          "197\n1308\n3241\n1486\n0\n1731\n41\n662\n807\n0\n944\n883\n2427",
+          "-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-",
+          "-94.90\n-61.90\n6.80\n-24.60\n-\n-14.20\n-100.00\n6.00\n34.10\n-\n-40.50\n9.30\n-13.40"
+        ],
+        [
+          "Total",
+          "NR",
+          "NR",
+          "11989",
+          "13727",
+          "-",
+          "-12.66"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Name of the port",
+          "Annual\nTarget\n2016-2017",
+          "April 2016",
+          "",
+          "April 2015\nActual",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2016",
+          "Actual\nApril 2015"
+        ],
+        [
+          "Kolkata\nHaldia\nParadip\nVishakhapatnam\nChennai\nV.O.Chidambaranar\n(Tuticorin)\nCochin\nNew Mangalore\nMormugao\nJN Port Trust (JNPT)\nMumbai\nKandla\nKamarajar (Ennore)",
+          "NR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR",
+          "NR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR\nNR",
+          "10\n499\n3462\n1120\n0\n1486\n0\n702\n1082\n0\n562\n965\n2101",
+          "197\n1308\n3241\n1486\n0\n1731\n41\n662\n807\n0\n944\n883\n2427",
+          "-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-",
+          "-94.90\n-61.90\n6.80\n-24.60\n-\n-14.20\n-100.00\n6.00\n34.10\n-\n-40.50\n9.30\n-13.40"
+        ],
+        [
+          "Total",
+          "NR",
+          "NR",
+          "11989",
+          "13727",
+          "-",
+          "-12.66"
+        ]
+      ]
+    },
+    {
+      "page": 24,
+      "table_index": 0,
+      "headers": [
+        "Airports/ Type",
+        "",
+        "Annual\nTarget\n2016-2017",
+        "April 2016",
+        "",
+        "Cargo\nhandled\nduring\nApril 2015",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "",
+          "",
+          "Target",
+          "Cargo\nhandled",
+          "",
+          "Target\nApril 2016",
+          "Actual\nApril 2015"
+        ],
+        [
+          "Mumbai\nKolkata\nDelhi\nChennai\nTrivandrum\nOthers",
+          "Export\nImport\nExport\nImport\nExport\nImport\nExport\nImport\nExport\nImport\nExport\nImport",
+          "301106\n225136\n34176\n17523\n251027\n244262\n139887\n96134\n31408\n1173\n266955\n117783",
+          "24712\n19852\n2443\n1282\n23130\n18997\n11236\n7272\n1991\n40\n22094\n9207",
+          "25488\n16696\n2538\n1558\n23094\n20509\n13107\n8177\n1743\n113\n22198\n9241",
+          "23303\n18720\n2312\n1213\n22979\n18873\n10985\n7110\n2115\n42\n20084\n7680",
+          "3.14\n-15.90\n3.89\n21.53\n-0.16\n7.96\n16.65\n12.44\n-12.46\n182.50\n0.47\n0.37",
+          "9.38\n-10.81\n9.78\n28.44\n0.50\n8.67\n19.32\n15.01\n-17.59\n169.05\n10.53\n20.33"
+        ],
+        [
+          "Total",
+          "Export\nImport",
+          "1024559\n702011",
+          "85606\n56650",
+          "88168\n56294",
+          "81778\n53638",
+          "2.99\n-0.63",
+          "7.81\n4.95"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Airports/ Type",
+          "",
+          "Annual\nTarget\n2016-2017",
+          "April 2016",
+          "",
+          "Cargo\nhandled\nduring\nApril 2015",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "Target",
+          "Cargo\nhandled",
+          "",
+          "Target\nApril 2016",
+          "Actual\nApril 2015"
+        ],
+        [
+          "Mumbai\nKolkata\nDelhi\nChennai\nTrivandrum\nOthers",
+          "Export\nImport\nExport\nImport\nExport\nImport\nExport\nImport\nExport\nImport\nExport\nImport",
+          "301106\n225136\n34176\n17523\n251027\n244262\n139887\n96134\n31408\n1173\n266955\n117783",
+          "24712\n19852\n2443\n1282\n23130\n18997\n11236\n7272\n1991\n40\n22094\n9207",
+          "25488\n16696\n2538\n1558\n23094\n20509\n13107\n8177\n1743\n113\n22198\n9241",
+          "23303\n18720\n2312\n1213\n22979\n18873\n10985\n7110\n2115\n42\n20084\n7680",
+          "3.14\n-15.90\n3.89\n21.53\n-0.16\n7.96\n16.65\n12.44\n-12.46\n182.50\n0.47\n0.37",
+          "9.38\n-10.81\n9.78\n28.44\n0.50\n8.67\n19.32\n15.01\n-17.59\n169.05\n10.53\n20.33"
+        ],
+        [
+          "Total",
+          "Export\nImport",
+          "1024559\n702011",
+          "85606\n56650",
+          "88168\n56294",
+          "81778\n53638",
+          "2.99\n-0.63",
+          "7.81\n4.95"
+        ]
+      ]
+    },
+    {
+      "page": 24,
+      "table_index": 1,
+      "headers": [
+        "Airports/ Terminal",
+        "",
+        "Annual\nTarget\n2016-2017",
+        "April 2016",
+        "",
+        "PAX\nTraffic\nduring\nApril 2015",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "",
+          "",
+          "Target",
+          "PAX\nTraffic",
+          "",
+          "Target\nApril 2016",
+          "Actual\nApril 2015"
+        ],
+        [
+          "Mumbai\nKolkata\nDelhi\nChennai\nTrivandrum\nOthers",
+          "International\nDomestic\nInternational\nDomestic\nInternational\nDomestic\nInternational\nDomestic\nInternational\nDomestic\nInternational\nDomestic",
+          "12721098\n31304952\n2437101\n10387170\n15350744\n34725681\n5189157\n11135896\n2329537\n1272545\n21192363\n87533756",
+          "1010501\n2520323\n188375\n817487\n1178484\n2626492\n412545\n908408\n192822\n94476\n1680605\n6674671",
+          "974081\n2653397\n188540\n898519\n1171259\n3271591\n412670\n989577\n202132\n122266\n1750400\n7750703",
+          "923386\n2418961\n171399\n803053\n1086469\n2592177\n387734\n843560\n188270\n88811\n1503768\n5861361",
+          "-3.60\n5.28\n0.09\n9.91\n-0.61\n24.56\n0.03\n8.94\n4.83\n29.41\n4.15\n16.12",
+          "5.49\n9.69\n10.00\n11.89\n7.80\n26.21\n6.43\n17.31\n7.36\n37.67\n16.40\n32.23"
+        ],
+        [
+          "Total",
+          "International\nDomestic",
+          "59220000\n176360000",
+          "4663332\n13641857",
+          "4699082\n15686053",
+          "4261026\n12607923",
+          "0.77\n14.98",
+          "10.28\n24.41"
+        ],
+        [
+          "Total (International+Domestic)",
+          "",
+          "235580000",
+          "18305189",
+          "20385135",
+          "16868949",
+          "11.36",
+          "20.84"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Airports/ Terminal",
+          "",
+          "Annual\nTarget\n2016-2017",
+          "April 2016",
+          "",
+          "PAX\nTraffic\nduring\nApril 2015",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "Target",
+          "PAX\nTraffic",
+          "",
+          "Target\nApril 2016",
+          "Actual\nApril 2015"
+        ],
+        [
+          "Mumbai\nKolkata\nDelhi\nChennai\nTrivandrum\nOthers",
+          "International\nDomestic\nInternational\nDomestic\nInternational\nDomestic\nInternational\nDomestic\nInternational\nDomestic\nInternational\nDomestic",
+          "12721098\n31304952\n2437101\n10387170\n15350744\n34725681\n5189157\n11135896\n2329537\n1272545\n21192363\n87533756",
+          "1010501\n2520323\n188375\n817487\n1178484\n2626492\n412545\n908408\n192822\n94476\n1680605\n6674671",
+          "974081\n2653397\n188540\n898519\n1171259\n3271591\n412670\n989577\n202132\n122266\n1750400\n7750703",
+          "923386\n2418961\n171399\n803053\n1086469\n2592177\n387734\n843560\n188270\n88811\n1503768\n5861361",
+          "-3.60\n5.28\n0.09\n9.91\n-0.61\n24.56\n0.03\n8.94\n4.83\n29.41\n4.15\n16.12",
+          "5.49\n9.69\n10.00\n11.89\n7.80\n26.21\n6.43\n17.31\n7.36\n37.67\n16.40\n32.23"
+        ],
+        [
+          "Total",
+          "International\nDomestic",
+          "59220000\n176360000",
+          "4663332\n13641857",
+          "4699082\n15686053",
+          "4261026\n12607923",
+          "0.77\n14.98",
+          "10.28\n24.41"
+        ],
+        [
+          "Total (International+Domestic)",
+          "",
+          "235580000",
+          "18305189",
+          "20385135",
+          "16868949",
+          "11.36",
+          "20.84"
+        ]
+      ]
+    },
+    {
+      "page": 25,
+      "table_index": 0,
+      "headers": [
+        "Name of the\nProduct/Sector",
+        "Annual\nTarget\n2016-2017",
+        "April 2016",
+        "",
+        "April 2015\nActual",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2016",
+          "Actual\nApril 2015"
+        ],
+        [
+          "Net addition in switching capacity - wireline & wireless (WLL+GSM) (in Lines)\na) Public Sector * * 361296 189176 - 90.98\nb) Private Sector * * $ $ - -",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Total",
+          "*",
+          "*",
+          "361296",
+          "189176",
+          "-",
+          "90.98"
+        ],
+        [
+          "Provision of net new DELs Telephone connections wireline (Fixed) (in Numbers)\na) Public Sector * * -226565 -242532 - -\nb) Private Sector * * 35935 10699 - 235.87",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Total",
+          "*",
+          "*",
+          "-190630",
+          "-231833",
+          "-",
+          "-"
+        ],
+        [
+          "Provision of net new Wireless (Mobile) connections (WLL+GSM) (in Numbers)\na) Public Sector * * 1128022 679430 - 66.02\nb) Private Sector * * -528636 2895815 - -",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Total",
+          "*",
+          "*",
+          "599386",
+          "3575245",
+          "-",
+          "-83.24"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Name of the\nProduct/Sector",
+          "Annual\nTarget\n2016-2017",
+          "April 2016",
+          "",
+          "April 2015\nActual",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2016",
+          "Actual\nApril 2015"
+        ],
+        [
+          "Net addition in switching capacity - wireline & wireless (WLL+GSM) (in Lines)\na) Public Sector * * 361296 189176 - 90.98\nb) Private Sector * * $ $ - -",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Total",
+          "*",
+          "*",
+          "361296",
+          "189176",
+          "-",
+          "90.98"
+        ],
+        [
+          "Provision of net new DELs Telephone connections wireline (Fixed) (in Numbers)\na) Public Sector * * -226565 -242532 - -\nb) Private Sector * * 35935 10699 - 235.87",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Total",
+          "*",
+          "*",
+          "-190630",
+          "-231833",
+          "-",
+          "-"
+        ],
+        [
+          "Provision of net new Wireless (Mobile) connections (WLL+GSM) (in Numbers)\na) Public Sector * * 1128022 679430 - 66.02\nb) Private Sector * * -528636 2895815 - -",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Total",
+          "*",
+          "*",
+          "599386",
+          "3575245",
+          "-",
+          "-83.24"
+        ]
+      ]
+    }
+  ]
+}

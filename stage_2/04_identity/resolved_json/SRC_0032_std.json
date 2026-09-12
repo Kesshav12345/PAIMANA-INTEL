@@ -1,0 +1,14 @@
+[
+  {
+    "grain": "SECTOR_PERFORMANCE",
+    "source_id": "SRC_0032",
+    "report_type": "SECTOR_PERFORMANCE_REVIEW",
+    "metric_name": "1 Power Billion Unit 91.73 90.86 0.96 16.69\n2 Coal Million tonne 48.95 45.38 7.87 6.23\n3 Steel (Finished Steel) Million tonne 8.03 7.92 1.44 5.83\n4 Cement Million tonne 23.42 24.28 -3.56 8.07\n5 Fertilizers Million tonne 1.15 1.13 2.08 13.09\n6 Petroleum :-\ni) Crude Oil Million tonne 3.02 3.10 -2.71 -0.19\nii) Refinery Million tonne 17.09 17.60 -2.93 -1.93\niii) Natural Gas MCM 2669 2769 -3.61 -7.76\n7 Roads\nWidening & Strengthening of Highways ^^\ni) NHAI Km 305.00 119.00 156.30 -35.68\nii) State PWD & BRO Km 91.13 94.93 -4.00 149.82\n8 Railway Revenue Earning\nFreight Traffic Million tonne 89.81 88.80 1.14 6.12\n9 Cargo Handled at Major\nPorts Million tonne 47.88 47.38 1.06 8.91\n10 Civil Aviation :-\ni) Export Cargo handled Tonne 81,778 75,638 8.12 6.79\nii) Import Cargo handled Tonne 53,638 47,308 13.38 -6.36\niii) Passengers handled at Inter-\nnational Terminals Lakh 42.61 39.34 8.30 6.88\niv) Passengers handled at\nDomestic Terminals Lakh 126.08 107.13 17.69 5.98\n11 Telecommunications :-\ni) Addition in Switching capacity\n(Fixid+WLL+GSM) ' 000 ' Line 189.18 56.84 232.80 -\nii) New net Fixed/WirelineTelephone ' 000 ' -231.83 -137.42 - -\nconnections\niii) New net Cell phone (WLL+GSM)\nconnections ' 000 ' 3575.25 2934.74 21.82 -",
+    "metric_unit": "",
+    "achievement_value": null,
+    "previous_year_value": null,
+    "growth_pct_yoy": null,
+    "target_value": null,
+    "cumulative_growth_pct": null
+  }
+]

@@ -1,0 +1,476 @@
+{
+  "source_metadata": {
+    "source_id": "SRC_0187",
+    "filename": "trial_ippi_monthly_index_202608.xlsx",
+    "relative_path": "Secondary dataset\\WPI and PPIs\\trial_ippi_monthly_index_202608.xlsx",
+    "file_type": "xlsx",
+    "file_size": "11059",
+    "content_hash": "8dadd721d14fd00bdcd6410e72265c5b94e84f99be2794a36998401b79feb9f8",
+    "source_family": "EXTERNAL_DATA",
+    "report_type": "ECONOMIC_INDEX",
+    "report_date": "",
+    "reporting_period": "",
+    "publication_date": "",
+    "revision_information": "",
+    "historical_current_classification": "CURRENT",
+    "duplicate_group": "",
+    "official_match": "",
+    "extraction_status": "PENDING",
+    "pages": "0",
+    "tables_detected": "0",
+    "figures_detected": "0",
+    "extraction_method": "",
+    "processing_version": "0.1.0",
+    "processing_timestamp": "2026-09-12T12:21:36.823688+00:00",
+    "source_confidence": "HIGH",
+    "notes": ""
+  },
+  "extraction_metadata": {
+    "status": "SUCCESS",
+    "pages_processed": 1,
+    "pages_failed": 0,
+    "tables_extracted": 1
+  },
+  "tables": [
+    {
+      "page": "Sheet1",
+      "table_index": 0,
+      "headers": [
+        "Industry Group",
+        "Weight",
+        "2026-03-01 00:00:00",
+        "2026-04-01 00:00:00",
+        "2026-05-01 00:00:00",
+        "Jun-26 (P)",
+        "2026-07-01 00:00:00"
+      ],
+      "rows": [
+        [
+          "Manufacturing Sector",
+          100.0,
+          100.9,
+          104.2,
+          106.5,
+          107.1,
+          105.9
+        ],
+        [
+          "(A). Manufacture of Food Products",
+          14.84638,
+          107.1,
+          108.3,
+          110.5,
+          112.2,
+          113.8
+        ],
+        [
+          "(B). Manufacture of Beverages",
+          1.03035,
+          106.0,
+          104.5,
+          105.4,
+          105.5,
+          107.4
+        ],
+        [
+          "(C). Manufacture of Tobacco Products",
+          0.26443,
+          128.0,
+          124.7,
+          122.5,
+          123.4,
+          130.8
+        ],
+        [
+          "(D). Manufacture of Textiles",
+          5.88918,
+          95.5,
+          100.8,
+          103.4,
+          107.8,
+          103.9
+        ],
+        [
+          "(E). Manufacture of Wearing Apparel",
+          1.57012,
+          105.6,
+          106.6,
+          107.4,
+          109.6,
+          108.1
+        ],
+        [
+          "(F). Manufacture of Leather and Related Products",
+          0.77634,
+          96.3,
+          96.0,
+          97.9,
+          96.0,
+          98.5
+        ],
+        [
+          "(G). Manufacture of Wood and Products of Wood and Cork, Except Furniture; Manufacture of Articles of Straw and Plaiting Materials",
+          1.82194,
+          99.7,
+          110.8,
+          113.4,
+          112.3,
+          112.0
+        ],
+        [
+          "(H). Manufacture of Paper and Paper Products ",
+          0.87494,
+          95.1,
+          96.8,
+          97.2,
+          97.0,
+          98.0
+        ],
+        [
+          "(I). Printing and Reproduction of Recorded Media ",
+          0.46606,
+          96.4,
+          98.3,
+          98.9,
+          98.5,
+          98.4
+        ],
+        [
+          "(J). Manufacture of Coke and Refined Petroleum Products",
+          12.3291,
+          98.2,
+          105.2,
+          111.8,
+          113.5,
+          99.9
+        ],
+        [
+          "(K). Manufacture of Chemicals and Chemical Products ",
+          7.98919,
+          100.9,
+          107.9,
+          110.5,
+          112.5,
+          109.4
+        ],
+        [
+          "(L). Manufacture of Basic Pharmaceutical Products and Pharmaceutical Preparations  ",
+          2.40463,
+          98.2,
+          103.5,
+          105.3,
+          105.6,
+          104.3
+        ],
+        [
+          "(M). Manufacture of Rubber and Plastic Products ",
+          3.40235,
+          105.9,
+          109.8,
+          111.1,
+          112.1,
+          111.6
+        ],
+        [
+          "(N). Manufacture of Other Non-Metallic Mineral Products ",
+          3.28306,
+          92.3,
+          96.4,
+          98.4,
+          92.6,
+          93.3
+        ],
+        [
+          "(O). Manufacture of Basic Metals ",
+          11.25229,
+          98.3,
+          100.6,
+          102.2,
+          99.2,
+          101.5
+        ],
+        [
+          "(P). Manufacture of Fabricated Metal Products, except Machinery and Equipment",
+          5.59239,
+          99.7,
+          102.2,
+          104.7,
+          105.4,
+          105.8
+        ],
+        [
+          "(Q). Manufacture of Computer, Electronic and Optical Products ",
+          2.22964,
+          108.0,
+          108.2,
+          107.0,
+          111.5,
+          108.5
+        ],
+        [
+          "(R). Manufacture of Electrical Equipment ",
+          3.64437,
+          111.5,
+          113.4,
+          116.2,
+          117.7,
+          117.2
+        ],
+        [
+          "(S). Manufacture of Machinery and Equipment n.e.c.",
+          5.07784,
+          102.2,
+          105.0,
+          105.4,
+          105.3,
+          106.4
+        ],
+        [
+          "(T). Manufacture of Motor Vehicles, Trailers and Semi-Trailers, and Manufacture of Other Transport Equipment ",
+          10.49446,
+          101.5,
+          102.8,
+          103.7,
+          104.9,
+          105.1
+        ],
+        [
+          "(U). Manufacture of Furniture ",
+          0.98353,
+          97.6,
+          101.1,
+          100.7,
+          98.6,
+          101.5
+        ],
+        [
+          "(V). Other Manufacturing",
+          3.77741,
+          88.9,
+          88.4,
+          89.5,
+          88.0,
+          99.3
+        ]
+      ],
+      "raw_content": [
+        [
+          "Industry Group",
+          "Weight",
+          "2026-03-01 00:00:00",
+          "2026-04-01 00:00:00",
+          "2026-05-01 00:00:00",
+          "Jun-26 (P)",
+          "2026-07-01 00:00:00"
+        ],
+        [
+          "Manufacturing Sector",
+          100.0,
+          100.9,
+          104.2,
+          106.5,
+          107.1,
+          105.9
+        ],
+        [
+          "(A). Manufacture of Food Products",
+          14.84638,
+          107.1,
+          108.3,
+          110.5,
+          112.2,
+          113.8
+        ],
+        [
+          "(B). Manufacture of Beverages",
+          1.03035,
+          106.0,
+          104.5,
+          105.4,
+          105.5,
+          107.4
+        ],
+        [
+          "(C). Manufacture of Tobacco Products",
+          0.26443,
+          128.0,
+          124.7,
+          122.5,
+          123.4,
+          130.8
+        ],
+        [
+          "(D). Manufacture of Textiles",
+          5.88918,
+          95.5,
+          100.8,
+          103.4,
+          107.8,
+          103.9
+        ],
+        [
+          "(E). Manufacture of Wearing Apparel",
+          1.57012,
+          105.6,
+          106.6,
+          107.4,
+          109.6,
+          108.1
+        ],
+        [
+          "(F). Manufacture of Leather and Related Products",
+          0.77634,
+          96.3,
+          96.0,
+          97.9,
+          96.0,
+          98.5
+        ],
+        [
+          "(G). Manufacture of Wood and Products of Wood and Cork, Except Furniture; Manufacture of Articles of Straw and Plaiting Materials",
+          1.82194,
+          99.7,
+          110.8,
+          113.4,
+          112.3,
+          112.0
+        ],
+        [
+          "(H). Manufacture of Paper and Paper Products ",
+          0.87494,
+          95.1,
+          96.8,
+          97.2,
+          97.0,
+          98.0
+        ],
+        [
+          "(I). Printing and Reproduction of Recorded Media ",
+          0.46606,
+          96.4,
+          98.3,
+          98.9,
+          98.5,
+          98.4
+        ],
+        [
+          "(J). Manufacture of Coke and Refined Petroleum Products",
+          12.3291,
+          98.2,
+          105.2,
+          111.8,
+          113.5,
+          99.9
+        ],
+        [
+          "(K). Manufacture of Chemicals and Chemical Products ",
+          7.98919,
+          100.9,
+          107.9,
+          110.5,
+          112.5,
+          109.4
+        ],
+        [
+          "(L). Manufacture of Basic Pharmaceutical Products and Pharmaceutical Preparations  ",
+          2.40463,
+          98.2,
+          103.5,
+          105.3,
+          105.6,
+          104.3
+        ],
+        [
+          "(M). Manufacture of Rubber and Plastic Products ",
+          3.40235,
+          105.9,
+          109.8,
+          111.1,
+          112.1,
+          111.6
+        ],
+        [
+          "(N). Manufacture of Other Non-Metallic Mineral Products ",
+          3.28306,
+          92.3,
+          96.4,
+          98.4,
+          92.6,
+          93.3
+        ],
+        [
+          "(O). Manufacture of Basic Metals ",
+          11.25229,
+          98.3,
+          100.6,
+          102.2,
+          99.2,
+          101.5
+        ],
+        [
+          "(P). Manufacture of Fabricated Metal Products, except Machinery and Equipment",
+          5.59239,
+          99.7,
+          102.2,
+          104.7,
+          105.4,
+          105.8
+        ],
+        [
+          "(Q). Manufacture of Computer, Electronic and Optical Products ",
+          2.22964,
+          108.0,
+          108.2,
+          107.0,
+          111.5,
+          108.5
+        ],
+        [
+          "(R). Manufacture of Electrical Equipment ",
+          3.64437,
+          111.5,
+          113.4,
+          116.2,
+          117.7,
+          117.2
+        ],
+        [
+          "(S). Manufacture of Machinery and Equipment n.e.c.",
+          5.07784,
+          102.2,
+          105.0,
+          105.4,
+          105.3,
+          106.4
+        ],
+        [
+          "(T). Manufacture of Motor Vehicles, Trailers and Semi-Trailers, and Manufacture of Other Transport Equipment ",
+          10.49446,
+          101.5,
+          102.8,
+          103.7,
+          104.9,
+          105.1
+        ],
+        [
+          "(U). Manufacture of Furniture ",
+          0.98353,
+          97.6,
+          101.1,
+          100.7,
+          98.6,
+          101.5
+        ],
+        [
+          "(V). Other Manufacturing",
+          3.77741,
+          88.9,
+          88.4,
+          89.5,
+          88.0,
+          99.3
+        ]
+      ]
+    }
+  ]
+}

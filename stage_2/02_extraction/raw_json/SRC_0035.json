@@ -1,0 +1,5295 @@
+{
+  "source_metadata": {
+    "source_id": "SRC_0035",
+    "filename": "CompleteReviewReportApril2020.pdf",
+    "relative_path": "Secondary dataset\\paimana secondary dataset performance monitoring archival data\\CompleteReviewReportApril2020.pdf",
+    "file_type": "pdf",
+    "file_size": "1114771",
+    "content_hash": "db0775bf21e1c388356fb330cda8434f040d832cda8ac2c4170acf273ce2b680",
+    "source_family": "SECTOR_PERFORMANCE",
+    "report_type": "SECTOR_PERFORMANCE_REVIEW",
+    "report_date": "April 2020",
+    "reporting_period": "",
+    "publication_date": "",
+    "revision_information": "",
+    "historical_current_classification": "HISTORICAL",
+    "duplicate_group": "DUP_014",
+    "official_match": "",
+    "extraction_status": "PENDING",
+    "pages": "37",
+    "tables_detected": "0",
+    "figures_detected": "0",
+    "extraction_method": "",
+    "processing_version": "0.1.0",
+    "processing_timestamp": "2026-09-12T12:21:27.977360+00:00",
+    "source_confidence": "HIGH",
+    "notes": ""
+  },
+  "extraction_metadata": {
+    "status": "SUCCESS",
+    "pages_processed": 37,
+    "pages_failed": 0,
+    "tables_extracted": 40
+  },
+  "tables": [
+    {
+      "page": 6,
+      "table_index": 0,
+      "headers": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "raw_content": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 7,
+      "table_index": 0,
+      "headers": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "raw_content": [
+        [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 7,
+      "table_index": 1,
+      "headers": [
+        "",
+        "",
+        "2019-20 Achieve",
+        "",
+        "2020-21 Target",
+        "2020-21 Achieve."
+      ],
+      "rows": [],
+      "raw_content": [
+        [
+          "",
+          "",
+          "2019-20 Achieve",
+          "",
+          "2020-21 Target",
+          "2020-21 Achieve."
+        ]
+      ]
+    },
+    {
+      "page": 10,
+      "table_index": 0,
+      "headers": [
+        "Ministry of Statistics and Programme Implementation\nInfrastructure and Project Monitoring Division",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "INFRASTRUCTURE SECTOR PERFORMANCE",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "HIGHLIGHTS",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Monthly Trend of Growth Achieved during April 2020 and",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "during the corresponding month of last Three Years",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "Achievement",
+          "",
+          "",
+          "",
+          "",
+          "Growth percent",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Sl.\nNo.",
+          "Sector",
+          "April 2016",
+          "April 2017",
+          "April 2018",
+          "April 2019",
+          "April 2020",
+          "April\n2017",
+          "April\n2018",
+          "April\n2019",
+          "April 2020"
+        ],
+        [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        [
+          "1",
+          "Power (BU)",
+          "104.427",
+          "110.083",
+          "112.334",
+          "119.146",
+          "91.679",
+          "5.42",
+          "2.04",
+          "6.06",
+          "-23.05"
+        ],
+        [
+          "2",
+          "Coal (MT)",
+          "48.153",
+          "46.343",
+          "53.808",
+          "55.426",
+          "47.039",
+          "-3.76",
+          "16.11",
+          "3.01",
+          "-15.13"
+        ],
+        [
+          "3",
+          "Steel (Finished Steel) (MT)",
+          "8.538",
+          "9.376",
+          "10.482",
+          "8.674",
+          "1.583",
+          "9.81",
+          "11.80",
+          "-17.25",
+          "-81.75"
+        ],
+        [
+          "4",
+          "Cement (MT)",
+          "24.69",
+          "23.77",
+          "27.27",
+          "28.73",
+          "4.08",
+          "-3.72",
+          "14.69",
+          "5.36",
+          "-85.81"
+        ],
+        [
+          "5",
+          "Fertilizers (MT)",
+          "1.199",
+          "1.307",
+          "1.322",
+          "1.282",
+          "1.211",
+          "8.98",
+          "1.18",
+          "-3.06",
+          "-5.55"
+        ],
+        [
+          "6",
+          "Petroleum :-",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "i) Crude Oil (MT)",
+          "2.957",
+          "2.939",
+          "2.915",
+          "2.719",
+          "2.546",
+          "-0.61",
+          "-0.83",
+          "-6.74",
+          "-6.35"
+        ],
+        [
+          "",
+          "ii) Refinery (MT)",
+          "20.156",
+          "20.027",
+          "19.853",
+          "20.703",
+          "14.745",
+          "-0.64",
+          "-0.87",
+          "4.28",
+          "-28.78"
+        ],
+        [
+          "",
+          "iii) Natural Gas (MCM)",
+          "2488",
+          "2534",
+          "2663",
+          "2656",
+          "2161",
+          "1.83",
+          "5.10",
+          "-0.27",
+          "-18.62"
+        ],
+        [
+          "7",
+          "Roads",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Widening & Strengthening\nof Highways",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "i) NHAI (KM)",
+          "130.00",
+          "221.00",
+          "285.00",
+          "251.00",
+          "40.00",
+          "70.00",
+          "28.96",
+          "-11.93",
+          "-84.06"
+        ],
+        [
+          "",
+          "ii) State PWD & BRO (KM)",
+          "155.05",
+          "245.25",
+          "359.55",
+          "461.50",
+          "137.32",
+          "58.17",
+          "46.61",
+          "28.35",
+          "-70.24"
+        ],
+        [
+          "8",
+          "Railway Revenue Earning",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Freight Traffic (MT)",
+          "86.48",
+          "90.47",
+          "97.98",
+          "101.09",
+          "65.40",
+          "4.61",
+          "8.30",
+          "3.17",
+          "-35.31"
+        ],
+        [
+          "9",
+          "Shipping & Ports :-",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "i) Cargo Handled at Major\nPorts (MT)",
+          "52.465",
+          "55.819",
+          "56.860",
+          "60.086",
+          "47.422",
+          "6.39",
+          "1.86",
+          "5.67",
+          "-21.08"
+        ],
+        [
+          "",
+          "ii) Coal handled at Major\nPorts (MT)",
+          "12.776",
+          "12.344",
+          "13.914",
+          "16.434",
+          "12.118",
+          "-3.38",
+          "12.72",
+          "18.11",
+          "-26.26"
+        ],
+        [
+          "10",
+          "Civil Aviation :-",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "i) Export Cargo handled\n(Tonnes)",
+          "88059",
+          "100970",
+          "104610",
+          "105309",
+          "23544",
+          "14.66",
+          "3.61",
+          "0.67",
+          "-77.64"
+        ],
+        [
+          "",
+          "ii) Import Cargo handled\n(Tonnes)",
+          "56207",
+          "73931",
+          "78324",
+          "68336",
+          "16730",
+          "31.53",
+          "5.94",
+          "-12.75",
+          "-75.52"
+        ],
+        [
+          "",
+          "International Terminals\n(Lakh)",
+          "46.991",
+          "50.973",
+          "56.164",
+          "55.473",
+          "0.514",
+          "8.48",
+          "10.18",
+          "-1.23",
+          "-99.07"
+        ],
+        [
+          "",
+          "iv) Passengers handled at\nDomestic Terminal (Lakh)",
+          "156.861",
+          "178.075",
+          "225.989",
+          "211.523",
+          "0.107",
+          "13.52",
+          "26.91",
+          "-6.40",
+          "-99.95"
+        ],
+        [
+          "11",
+          "Telecommunications :-",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "i) Addition in Switching\ncapacity (Fixed+WLL+GSM)\n('000 lines)",
+          "361.296",
+          "-181.674",
+          "-16.913",
+          "2366.749",
+          "-424.287",
+          "-",
+          "-90.69",
+          "-",
+          "-"
+        ],
+        [
+          "",
+          "ii) New net Fixed/wired\nTelephone connections\n('000 No.)",
+          "-190.630",
+          "-103.895",
+          "-169.027",
+          "-223.931",
+          "-349.203",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "",
+          "iii) New net Cell phone (WLL+\nGSM) connections ('000 No.)",
+          "599.386",
+          "4369.629",
+          "15237.559",
+          "484.770",
+          "-8224.451",
+          "629.02",
+          "248.72",
+          "-96.82",
+          "-1796.57"
+        ],
+        [
+          "",
+          "BU: Billion Units",
+          "MCM: Million Cubic Meter",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "MT: Millions Tonnes",
+          "KM : Kilometre",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "# : Includes Widening to four/six/eight lanes & two lanes and Strengthening of existing weak pavement only.",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Infrastructure Performance Report, April-2020",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "raw_content": [
+        [
+          "Ministry of Statistics and Programme Implementation\nInfrastructure and Project Monitoring Division",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "INFRASTRUCTURE SECTOR PERFORMANCE",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "HIGHLIGHTS",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Monthly Trend of Growth Achieved during April 2020 and",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "during the corresponding month of last Three Years",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "Achievement",
+          "",
+          "",
+          "",
+          "",
+          "Growth percent",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Sl.\nNo.",
+          "Sector",
+          "April 2016",
+          "April 2017",
+          "April 2018",
+          "April 2019",
+          "April 2020",
+          "April\n2017",
+          "April\n2018",
+          "April\n2019",
+          "April 2020"
+        ],
+        [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        [
+          "1",
+          "Power (BU)",
+          "104.427",
+          "110.083",
+          "112.334",
+          "119.146",
+          "91.679",
+          "5.42",
+          "2.04",
+          "6.06",
+          "-23.05"
+        ],
+        [
+          "2",
+          "Coal (MT)",
+          "48.153",
+          "46.343",
+          "53.808",
+          "55.426",
+          "47.039",
+          "-3.76",
+          "16.11",
+          "3.01",
+          "-15.13"
+        ],
+        [
+          "3",
+          "Steel (Finished Steel) (MT)",
+          "8.538",
+          "9.376",
+          "10.482",
+          "8.674",
+          "1.583",
+          "9.81",
+          "11.80",
+          "-17.25",
+          "-81.75"
+        ],
+        [
+          "4",
+          "Cement (MT)",
+          "24.69",
+          "23.77",
+          "27.27",
+          "28.73",
+          "4.08",
+          "-3.72",
+          "14.69",
+          "5.36",
+          "-85.81"
+        ],
+        [
+          "5",
+          "Fertilizers (MT)",
+          "1.199",
+          "1.307",
+          "1.322",
+          "1.282",
+          "1.211",
+          "8.98",
+          "1.18",
+          "-3.06",
+          "-5.55"
+        ],
+        [
+          "6",
+          "Petroleum :-",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "i) Crude Oil (MT)",
+          "2.957",
+          "2.939",
+          "2.915",
+          "2.719",
+          "2.546",
+          "-0.61",
+          "-0.83",
+          "-6.74",
+          "-6.35"
+        ],
+        [
+          "",
+          "ii) Refinery (MT)",
+          "20.156",
+          "20.027",
+          "19.853",
+          "20.703",
+          "14.745",
+          "-0.64",
+          "-0.87",
+          "4.28",
+          "-28.78"
+        ],
+        [
+          "",
+          "iii) Natural Gas (MCM)",
+          "2488",
+          "2534",
+          "2663",
+          "2656",
+          "2161",
+          "1.83",
+          "5.10",
+          "-0.27",
+          "-18.62"
+        ],
+        [
+          "7",
+          "Roads",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Widening & Strengthening\nof Highways",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "i) NHAI (KM)",
+          "130.00",
+          "221.00",
+          "285.00",
+          "251.00",
+          "40.00",
+          "70.00",
+          "28.96",
+          "-11.93",
+          "-84.06"
+        ],
+        [
+          "",
+          "ii) State PWD & BRO (KM)",
+          "155.05",
+          "245.25",
+          "359.55",
+          "461.50",
+          "137.32",
+          "58.17",
+          "46.61",
+          "28.35",
+          "-70.24"
+        ],
+        [
+          "8",
+          "Railway Revenue Earning",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Freight Traffic (MT)",
+          "86.48",
+          "90.47",
+          "97.98",
+          "101.09",
+          "65.40",
+          "4.61",
+          "8.30",
+          "3.17",
+          "-35.31"
+        ],
+        [
+          "9",
+          "Shipping & Ports :-",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "i) Cargo Handled at Major\nPorts (MT)",
+          "52.465",
+          "55.819",
+          "56.860",
+          "60.086",
+          "47.422",
+          "6.39",
+          "1.86",
+          "5.67",
+          "-21.08"
+        ],
+        [
+          "",
+          "ii) Coal handled at Major\nPorts (MT)",
+          "12.776",
+          "12.344",
+          "13.914",
+          "16.434",
+          "12.118",
+          "-3.38",
+          "12.72",
+          "18.11",
+          "-26.26"
+        ],
+        [
+          "10",
+          "Civil Aviation :-",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "i) Export Cargo handled\n(Tonnes)",
+          "88059",
+          "100970",
+          "104610",
+          "105309",
+          "23544",
+          "14.66",
+          "3.61",
+          "0.67",
+          "-77.64"
+        ],
+        [
+          "",
+          "ii) Import Cargo handled\n(Tonnes)",
+          "56207",
+          "73931",
+          "78324",
+          "68336",
+          "16730",
+          "31.53",
+          "5.94",
+          "-12.75",
+          "-75.52"
+        ],
+        [
+          "",
+          "International Terminals\n(Lakh)",
+          "46.991",
+          "50.973",
+          "56.164",
+          "55.473",
+          "0.514",
+          "8.48",
+          "10.18",
+          "-1.23",
+          "-99.07"
+        ],
+        [
+          "",
+          "iv) Passengers handled at\nDomestic Terminal (Lakh)",
+          "156.861",
+          "178.075",
+          "225.989",
+          "211.523",
+          "0.107",
+          "13.52",
+          "26.91",
+          "-6.40",
+          "-99.95"
+        ],
+        [
+          "11",
+          "Telecommunications :-",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "i) Addition in Switching\ncapacity (Fixed+WLL+GSM)\n('000 lines)",
+          "361.296",
+          "-181.674",
+          "-16.913",
+          "2366.749",
+          "-424.287",
+          "-",
+          "-90.69",
+          "-",
+          "-"
+        ],
+        [
+          "",
+          "ii) New net Fixed/wired\nTelephone connections\n('000 No.)",
+          "-190.630",
+          "-103.895",
+          "-169.027",
+          "-223.931",
+          "-349.203",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "",
+          "iii) New net Cell phone (WLL+\nGSM) connections ('000 No.)",
+          "599.386",
+          "4369.629",
+          "15237.559",
+          "484.770",
+          "-8224.451",
+          "629.02",
+          "248.72",
+          "-96.82",
+          "-1796.57"
+        ],
+        [
+          "",
+          "BU: Billion Units",
+          "MCM: Million Cubic Meter",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "MT: Millions Tonnes",
+          "KM : Kilometre",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "# : Includes Widening to four/six/eight lanes & two lanes and Strengthening of existing weak pavement only.",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Infrastructure Performance Report, April-2020",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "page": 11,
+      "table_index": 0,
+      "headers": [
+        "",
+        "Sector",
+        "Target\n(April 2020)",
+        "Actual\nshortfall\n(April 2020)",
+        "Short fall\nin %age",
+        "Achievement\n(April 2019)",
+        "Less achievement\nthan the\ncorresponding\nperiod (April\n2019) last year\n(Actual)",
+        "%age\nDecre\nase\nover\nlast\nyear\u2019s\nachiev\ne-\nment"
+      ],
+      "rows": [
+        [
+          "1.",
+          "Power Generation (BU)",
+          "116.12",
+          "24.44",
+          "21.05",
+          "119.15",
+          "27.47",
+          "23.05"
+        ],
+        [
+          "2.",
+          "Coal Production (MT)",
+          "61.81",
+          "14.77",
+          "23.90",
+          "55.43",
+          "8.39",
+          "15.13"
+        ],
+        [
+          "3",
+          "Steel Production(MT)",
+          "-",
+          "-",
+          "-",
+          "8.67",
+          "7.09",
+          "81.75"
+        ],
+        [
+          "4.",
+          "Cement Production\n((MT)",
+          "-",
+          "-",
+          "-",
+          "28.73",
+          "24.65",
+          "85.81"
+        ],
+        [
+          "5.",
+          "Fertilizer Production\n(MT)",
+          "1.22",
+          "0.01",
+          "0.41",
+          "1.28",
+          "0.07",
+          "5.55"
+        ],
+        [
+          "6.",
+          "Petroleum:\ni) Crude Oil (MT)\nii) Refinery Prod (MT)\nii) Natural Gas(MCM)",
+          "2.58\n18.91\n2425",
+          ".03\n4.16\n264",
+          "1.44\n22.01\n10.88",
+          "2.72\n20.70\n2656",
+          "0.17\n5.95\n495",
+          "6.35\n28.78\n18.62"
+        ],
+        [
+          "7.",
+          "Roads :\ni) NHAI (Km)\nii) State PWD & BRO\n#(Km)",
+          "-\n-",
+          "-\n-",
+          "-\n-",
+          "251\n461.50",
+          "211\n324.18",
+          "84.06\n70.24"
+        ],
+        [
+          "8.",
+          "Railways (MT)",
+          "-",
+          "-",
+          "-",
+          "101.09",
+          "35.69",
+          "35.31"
+        ],
+        [
+          "9.",
+          "Shipping and Ports:\ni) Cargo handled at major\nports (MT)\nii ) Coal handled at major\nports (MT)",
+          "-\n-",
+          "-\n-",
+          "-\n-",
+          "60.09\n16.43",
+          "12.67\n4.31",
+          "21.08\n26.26"
+        ],
+        [
+          "10\n.",
+          "Civil Aviation\ni) Export cargo handled at\nAirports (Tonne)\nii) Import cargo handled at\nAirports (Tonne)\niii) Passenger Traffic\nhandled at International\nTerminal (Lakh)\niv) Passenger Traffic\nhandled at Domestic\nTerminal (Lakh)",
+          "28693\n19309\n0.86\n4.23",
+          "5149\n2579\n0.35\n4.12",
+          "17.95\n13.36\n39.88\n97.47",
+          "105309\n68336\n55.47\n211.52",
+          "81765\n51606\n54.96\n211.41",
+          "77.64\n75.52\n99.07\n99.95"
+        ]
+      ],
+      "raw_content": [
+        [
+          "",
+          "Sector",
+          "Target\n(April 2020)",
+          "Actual\nshortfall\n(April 2020)",
+          "Short fall\nin %age",
+          "Achievement\n(April 2019)",
+          "Less achievement\nthan the\ncorresponding\nperiod (April\n2019) last year\n(Actual)",
+          "%age\nDecre\nase\nover\nlast\nyear\u2019s\nachiev\ne-\nment"
+        ],
+        [
+          "1.",
+          "Power Generation (BU)",
+          "116.12",
+          "24.44",
+          "21.05",
+          "119.15",
+          "27.47",
+          "23.05"
+        ],
+        [
+          "2.",
+          "Coal Production (MT)",
+          "61.81",
+          "14.77",
+          "23.90",
+          "55.43",
+          "8.39",
+          "15.13"
+        ],
+        [
+          "3",
+          "Steel Production(MT)",
+          "-",
+          "-",
+          "-",
+          "8.67",
+          "7.09",
+          "81.75"
+        ],
+        [
+          "4.",
+          "Cement Production\n((MT)",
+          "-",
+          "-",
+          "-",
+          "28.73",
+          "24.65",
+          "85.81"
+        ],
+        [
+          "5.",
+          "Fertilizer Production\n(MT)",
+          "1.22",
+          "0.01",
+          "0.41",
+          "1.28",
+          "0.07",
+          "5.55"
+        ],
+        [
+          "6.",
+          "Petroleum:\ni) Crude Oil (MT)\nii) Refinery Prod (MT)\nii) Natural Gas(MCM)",
+          "2.58\n18.91\n2425",
+          ".03\n4.16\n264",
+          "1.44\n22.01\n10.88",
+          "2.72\n20.70\n2656",
+          "0.17\n5.95\n495",
+          "6.35\n28.78\n18.62"
+        ],
+        [
+          "7.",
+          "Roads :\ni) NHAI (Km)\nii) State PWD & BRO\n#(Km)",
+          "-\n-",
+          "-\n-",
+          "-\n-",
+          "251\n461.50",
+          "211\n324.18",
+          "84.06\n70.24"
+        ],
+        [
+          "8.",
+          "Railways (MT)",
+          "-",
+          "-",
+          "-",
+          "101.09",
+          "35.69",
+          "35.31"
+        ],
+        [
+          "9.",
+          "Shipping and Ports:\ni) Cargo handled at major\nports (MT)\nii ) Coal handled at major\nports (MT)",
+          "-\n-",
+          "-\n-",
+          "-\n-",
+          "60.09\n16.43",
+          "12.67\n4.31",
+          "21.08\n26.26"
+        ],
+        [
+          "10\n.",
+          "Civil Aviation\ni) Export cargo handled at\nAirports (Tonne)\nii) Import cargo handled at\nAirports (Tonne)\niii) Passenger Traffic\nhandled at International\nTerminal (Lakh)\niv) Passenger Traffic\nhandled at Domestic\nTerminal (Lakh)",
+          "28693\n19309\n0.86\n4.23",
+          "5149\n2579\n0.35\n4.12",
+          "17.95\n13.36\n39.88\n97.47",
+          "105309\n68336\n55.47\n211.52",
+          "81765\n51606\n54.96\n211.41",
+          "77.64\n75.52\n99.07\n99.95"
+        ]
+      ]
+    },
+    {
+      "page": 12,
+      "table_index": 0,
+      "headers": [
+        "",
+        "Sector",
+        "Target\n(April\n2020)",
+        "More\nachievement\nthan the\ntarget for the\nperiod\n(Actual)",
+        "%age\nIncrease\nover the\ntarget",
+        "Achievement\n(April 2019)",
+        "More\nachievement\nthan the\ncorresponding\nperiod (April\n2019) last year\n(Actual)",
+        "%age\nIncrease\nover last\nyear\u2019s\nachieve-\nment"
+      ],
+      "rows": [
+        [
+          "1.",
+          "Roads :\ni) NHAI (Km)\nii) State PWD & BRO\n#(Km)",
+          "16.20\n126",
+          "23.8\n11.32",
+          "146.91\n8.98",
+          "-\n-",
+          "-\n-",
+          "-\n-"
+        ]
+      ],
+      "raw_content": [
+        [
+          "",
+          "Sector",
+          "Target\n(April\n2020)",
+          "More\nachievement\nthan the\ntarget for the\nperiod\n(Actual)",
+          "%age\nIncrease\nover the\ntarget",
+          "Achievement\n(April 2019)",
+          "More\nachievement\nthan the\ncorresponding\nperiod (April\n2019) last year\n(Actual)",
+          "%age\nIncrease\nover last\nyear\u2019s\nachieve-\nment"
+        ],
+        [
+          "1.",
+          "Roads :\ni) NHAI (Km)\nii) State PWD & BRO\n#(Km)",
+          "16.20\n126",
+          "23.8\n11.32",
+          "146.91\n8.98",
+          "-\n-",
+          "-\n-",
+          "-\n-"
+        ]
+      ]
+    },
+    {
+      "page": 13,
+      "table_index": 0,
+      "headers": [
+        "",
+        "April 2020",
+        "",
+        "April 2019\nActual",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "Target",
+          "Actual",
+          "",
+          "April 2020\nTarget",
+          "April 2019\nActual"
+        ],
+        [
+          "(1) (2) (3) (4) (5) (6)",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "1. Power generation (BU)\nThermal Generation 103.100 66.806 94.664 -35.20 -29.43\nNuclear Generation 2.774 3.860 3.287 39.15 17.43\nHydro Generation 9.716 10.121 11.073 4.17 -8.60\nImport from Bhutan 0.526 0.258 0.240 -50.95 7.50\nRenewable Energy NA 10.634 9.882 - 7.61",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Total",
+          "116.116",
+          "91.679",
+          "119.146",
+          "-21.05",
+          "-23.05"
+        ],
+        [
+          "2. Coal Production (MT)\nCoal India Ltd. 47.860 40.380 45.300 -15.63 -10.86\nSingareni 5.516 3.001 5.504 -45.59 -45.48\nOthers 8.438 3.658 4.622 -56.65 -20.86",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Total",
+          "61.814",
+          "47.039",
+          "55.426",
+          "-23.90",
+          "-15.13"
+        ],
+        [
+          "3. Production of Finished Steel ('000 Tonnes)\nI. Main Producer\ni) SAIL NA 312.0 1011.0 - -69.14\nii) ESSAR NA 122.0 604.0 - -79.80\niii) Tata Steet (TSL) 987.0 453.0 1404.0 -54.10 -67.74\niv) JSWL NA 433.0 1288.0 - -66.38\nv) JSPL NA 57.0 375.0 - -84.80\nvi) RINL (VSP) 60.0 61.0 347.0 1.67 -82.42",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Total",
+          "NA",
+          "1438.0",
+          "5029.0",
+          "-",
+          "-71.41"
+        ],
+        [
+          "II. Major (Secondary) Producer",
+          "NA",
+          "145.0",
+          "3645.0",
+          "-",
+          "-96.02"
+        ],
+        [
+          "Total (I + II)",
+          "NA",
+          "1583.0",
+          "8674.0",
+          "-",
+          "-81.75"
+        ],
+        [
+          "4. Cement Production (MT)\nCement Production(MT) NA 4.08 28.73 - -85.81",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "5. Fertilisers Production ('000 Tonnes)\ni) Nitrogen 954.0 954.2 930.3 0.02 2.57\nii) Phosphate 261.8 256.6 351.6 -1.99 -27.02",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Total",
+          "1215.8",
+          "1210.8",
+          "1281.9",
+          "-0.41",
+          "-5.55"
+        ],
+        [
+          "6. Petroleum\ni) Crude Oil Prod. (MT) 2.583 2.546 2.719 -1.44 -6.35\nii) Refinery Prod. (MT) 18.907 14.745 20.703 -22.01 -28.78\niii) Natural Gas Prod. (MCM) 2425 2161 2656 -10.88 -18.62",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "7. Roads (Kms.)\n(a) NHAI\nWidening/ Strengthening/ existing weak\npavement to four/six/eight lanes (Kms.) 16.20 40.00 251.00 146.91 -84.06\n(b) State PWD and Border Road Organisation (BRO)\nWidening to four/six/eight lanes (Kms.) 3.00 2.46 41.46 -18.00 -94.07\nWidening to two lanes (Kms.) 75.00 87.14 364.75 16.19 -76.11\nStrengthening of existing weak pavement\n(Kms.) 48.00 47.72 55.29 -0.58 -13.69",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Total of (b)",
+          "126.00",
+          "137.32",
+          "461.50",
+          "8.98",
+          "-70.24"
+        ],
+        [
+          "8. Railways\nRevenue earning goods Traffic (MT) NA 65.40 101.09 - -35.31",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "9. Shipping\ni) Cargo handled at major ports (MT) NA 47.422 60.086 - -21.08\nii) Coal handled at major ports (MT) NA 12.118 16.434 - -26.26",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "10. Civil Aviation\nI. Cargo handled at Airports (In Metric Tonnes)\ni) Export Cargo 28693 23544 105309 -17.95 -77.64\nii) Import Cargo 19309 16730 68336 -13.36 -75.52\nII. Passenger Traffic Handled at (In Numbers)\ni) International Terminals 85500 51403 5547278 -39.88 -99.07\nii) Domestic Terminals 422500 10697 21152267 -97.47 -99.95",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "11. Telecommunications\ni) Net Addition in Switching Capacity\n(Fixed+WLL+GSM) ('000 Lines) * -424.287 2366.749 - -\nii) Net new wireline (Fixed) telephone\nconnections provided ('000 Numbers) * -349.203 -223.931 - -\niii) Net (New) Wireless (WLL+GSM)\nconnections provided ('000 Numbers) * -8224.451 484.770 - -",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Total connections (ii+iii)\n(in '000 Numbers)",
+          "*",
+          "-8573.654",
+          "260.839",
+          "-",
+          "-"
+        ]
+      ],
+      "raw_content": [
+        [
+          "",
+          "April 2020",
+          "",
+          "April 2019\nActual",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "Target",
+          "Actual",
+          "",
+          "April 2020\nTarget",
+          "April 2019\nActual"
+        ],
+        [
+          "(1) (2) (3) (4) (5) (6)",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "1. Power generation (BU)\nThermal Generation 103.100 66.806 94.664 -35.20 -29.43\nNuclear Generation 2.774 3.860 3.287 39.15 17.43\nHydro Generation 9.716 10.121 11.073 4.17 -8.60\nImport from Bhutan 0.526 0.258 0.240 -50.95 7.50\nRenewable Energy NA 10.634 9.882 - 7.61",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Total",
+          "116.116",
+          "91.679",
+          "119.146",
+          "-21.05",
+          "-23.05"
+        ],
+        [
+          "2. Coal Production (MT)\nCoal India Ltd. 47.860 40.380 45.300 -15.63 -10.86\nSingareni 5.516 3.001 5.504 -45.59 -45.48\nOthers 8.438 3.658 4.622 -56.65 -20.86",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Total",
+          "61.814",
+          "47.039",
+          "55.426",
+          "-23.90",
+          "-15.13"
+        ],
+        [
+          "3. Production of Finished Steel ('000 Tonnes)\nI. Main Producer\ni) SAIL NA 312.0 1011.0 - -69.14\nii) ESSAR NA 122.0 604.0 - -79.80\niii) Tata Steet (TSL) 987.0 453.0 1404.0 -54.10 -67.74\niv) JSWL NA 433.0 1288.0 - -66.38\nv) JSPL NA 57.0 375.0 - -84.80\nvi) RINL (VSP) 60.0 61.0 347.0 1.67 -82.42",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Total",
+          "NA",
+          "1438.0",
+          "5029.0",
+          "-",
+          "-71.41"
+        ],
+        [
+          "II. Major (Secondary) Producer",
+          "NA",
+          "145.0",
+          "3645.0",
+          "-",
+          "-96.02"
+        ],
+        [
+          "Total (I + II)",
+          "NA",
+          "1583.0",
+          "8674.0",
+          "-",
+          "-81.75"
+        ],
+        [
+          "4. Cement Production (MT)\nCement Production(MT) NA 4.08 28.73 - -85.81",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "5. Fertilisers Production ('000 Tonnes)\ni) Nitrogen 954.0 954.2 930.3 0.02 2.57\nii) Phosphate 261.8 256.6 351.6 -1.99 -27.02",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Total",
+          "1215.8",
+          "1210.8",
+          "1281.9",
+          "-0.41",
+          "-5.55"
+        ],
+        [
+          "6. Petroleum\ni) Crude Oil Prod. (MT) 2.583 2.546 2.719 -1.44 -6.35\nii) Refinery Prod. (MT) 18.907 14.745 20.703 -22.01 -28.78\niii) Natural Gas Prod. (MCM) 2425 2161 2656 -10.88 -18.62",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "7. Roads (Kms.)\n(a) NHAI\nWidening/ Strengthening/ existing weak\npavement to four/six/eight lanes (Kms.) 16.20 40.00 251.00 146.91 -84.06\n(b) State PWD and Border Road Organisation (BRO)\nWidening to four/six/eight lanes (Kms.) 3.00 2.46 41.46 -18.00 -94.07\nWidening to two lanes (Kms.) 75.00 87.14 364.75 16.19 -76.11\nStrengthening of existing weak pavement\n(Kms.) 48.00 47.72 55.29 -0.58 -13.69",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Total of (b)",
+          "126.00",
+          "137.32",
+          "461.50",
+          "8.98",
+          "-70.24"
+        ],
+        [
+          "8. Railways\nRevenue earning goods Traffic (MT) NA 65.40 101.09 - -35.31",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "9. Shipping\ni) Cargo handled at major ports (MT) NA 47.422 60.086 - -21.08\nii) Coal handled at major ports (MT) NA 12.118 16.434 - -26.26",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "10. Civil Aviation\nI. Cargo handled at Airports (In Metric Tonnes)\ni) Export Cargo 28693 23544 105309 -17.95 -77.64\nii) Import Cargo 19309 16730 68336 -13.36 -75.52\nII. Passenger Traffic Handled at (In Numbers)\ni) International Terminals 85500 51403 5547278 -39.88 -99.07\nii) Domestic Terminals 422500 10697 21152267 -97.47 -99.95",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "11. Telecommunications\ni) Net Addition in Switching Capacity\n(Fixed+WLL+GSM) ('000 Lines) * -424.287 2366.749 - -\nii) Net new wireline (Fixed) telephone\nconnections provided ('000 Numbers) * -349.203 -223.931 - -\niii) Net (New) Wireless (WLL+GSM)\nconnections provided ('000 Numbers) * -8224.451 484.770 - -",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Total connections (ii+iii)\n(in '000 Numbers)",
+          "*",
+          "-8573.654",
+          "260.839",
+          "-",
+          "-"
+        ]
+      ]
+    },
+    {
+      "page": 14,
+      "table_index": 0,
+      "headers": [
+        "Generation",
+        "April 2020",
+        "",
+        "April 2019\nActual",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril\n2020",
+          "Actual\nApril\n2019"
+        ],
+        [
+          "Thermal Generation\nNuclear Generation\nHydro Generation\nImport from Bhutan\nRenewable Energy",
+          "103.100\n2.774\n9.716\n0.526\nNA",
+          "66.806\n3.860\n10.121\n0.258\n10.634",
+          "94.664\n3.287\n11.073\n0.240\n9.882",
+          "-35.20\n39.15\n4.17\n-50.95\n-",
+          "-29.43\n17.43\n-8.60\n7.50\n7.61"
+        ],
+        [
+          "Total",
+          "116.116",
+          "91.679",
+          "119.146",
+          "-21.05",
+          "-23.05"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Generation",
+          "April 2020",
+          "",
+          "April 2019\nActual",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril\n2020",
+          "Actual\nApril\n2019"
+        ],
+        [
+          "Thermal Generation\nNuclear Generation\nHydro Generation\nImport from Bhutan\nRenewable Energy",
+          "103.100\n2.774\n9.716\n0.526\nNA",
+          "66.806\n3.860\n10.121\n0.258\n10.634",
+          "94.664\n3.287\n11.073\n0.240\n9.882",
+          "-35.20\n39.15\n4.17\n-50.95\n-",
+          "-29.43\n17.43\n-8.60\n7.50\n7.61"
+        ],
+        [
+          "Total",
+          "116.116",
+          "91.679",
+          "119.146",
+          "-21.05",
+          "-23.05"
+        ]
+      ]
+    },
+    {
+      "page": 14,
+      "table_index": 1,
+      "headers": [
+        "Region",
+        "April 2020",
+        "",
+        "April 2019\nActual",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril\n2020",
+          "Actual\nApril\n2019"
+        ],
+        [
+          "Northern Region\nWestern Region\nSouthern Region\nEastern Region\nNorth Eastern Region",
+          "21.116\n43.161\n21.148\n16.509\n1.166",
+          "11.068\n29.446\n12.527\n12.714\n1.049",
+          "17.445\n40.829\n19.564\n15.682\n1.143",
+          "-47.58\n-31.78\n-40.77\n-22.99\n-10.03",
+          "-36.55\n-27.88\n-35.97\n-18.93\n-8.22"
+        ],
+        [
+          "Total",
+          "103.100",
+          "66.806",
+          "94.664",
+          "-35.20",
+          "-29.43"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Region",
+          "April 2020",
+          "",
+          "April 2019\nActual",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril\n2020",
+          "Actual\nApril\n2019"
+        ],
+        [
+          "Northern Region\nWestern Region\nSouthern Region\nEastern Region\nNorth Eastern Region",
+          "21.116\n43.161\n21.148\n16.509\n1.166",
+          "11.068\n29.446\n12.527\n12.714\n1.049",
+          "17.445\n40.829\n19.564\n15.682\n1.143",
+          "-47.58\n-31.78\n-40.77\n-22.99\n-10.03",
+          "-36.55\n-27.88\n-35.97\n-18.93\n-8.22"
+        ],
+        [
+          "Total",
+          "103.100",
+          "66.806",
+          "94.664",
+          "-35.20",
+          "-29.43"
+        ]
+      ]
+    },
+    {
+      "page": 15,
+      "table_index": 0,
+      "headers": [
+        "Sector",
+        "April 2020",
+        "",
+        "April 2019\nActual",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril\n2020",
+          "Actual\nApril\n2019"
+        ],
+        [
+          "Central\nState\nPrivate",
+          "32.469\n34.675\n35.956",
+          "24.567\n17.978\n24.262",
+          "31.340\n29.743\n33.580",
+          "-24.34\n-48.15\n-32.52",
+          "-21.61\n-39.56\n-27.75"
+        ],
+        [
+          "Total",
+          "103.100",
+          "66.806",
+          "94.664",
+          "-35.20",
+          "-29.43"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Sector",
+          "April 2020",
+          "",
+          "April 2019\nActual",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril\n2020",
+          "Actual\nApril\n2019"
+        ],
+        [
+          "Central\nState\nPrivate",
+          "32.469\n34.675\n35.956",
+          "24.567\n17.978\n24.262",
+          "31.340\n29.743\n33.580",
+          "-24.34\n-48.15\n-32.52",
+          "-21.61\n-39.56\n-27.75"
+        ],
+        [
+          "Total",
+          "103.100",
+          "66.806",
+          "94.664",
+          "-35.20",
+          "-29.43"
+        ]
+      ]
+    },
+    {
+      "page": 15,
+      "table_index": 1,
+      "headers": [
+        "Fuel",
+        "April 2020",
+        "",
+        "April 2019\nActual",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril\n2020",
+          "Actual\nApril\n2019"
+        ],
+        [
+          "Gas Fired\nOil Fired\nMulti Fuel Fired\nLignite Based\nCoal Based",
+          "3923\n12\n0\n3420\n95745",
+          "4858\n11\n0\n2815\n59122",
+          "4207\n14\n0\n2875\n87568",
+          "23.83\n-8.33\n-\n-17.69\n-38.25",
+          "15.47\n-21.43\n-\n-2.09\n-32.48"
+        ],
+        [
+          "Total",
+          "103100",
+          "66806",
+          "94664",
+          "-35.20",
+          "-29.43"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Fuel",
+          "April 2020",
+          "",
+          "April 2019\nActual",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril\n2020",
+          "Actual\nApril\n2019"
+        ],
+        [
+          "Gas Fired\nOil Fired\nMulti Fuel Fired\nLignite Based\nCoal Based",
+          "3923\n12\n0\n3420\n95745",
+          "4858\n11\n0\n2815\n59122",
+          "4207\n14\n0\n2875\n87568",
+          "23.83\n-8.33\n-\n-17.69\n-38.25",
+          "15.47\n-21.43\n-\n-2.09\n-32.48"
+        ],
+        [
+          "Total",
+          "103100",
+          "66806",
+          "94664",
+          "-35.20",
+          "-29.43"
+        ]
+      ]
+    },
+    {
+      "page": 16,
+      "table_index": 0,
+      "headers": [
+        "Sector",
+        "April 2020",
+        "",
+        "April 2019\nActual"
+      ],
+      "rows": [
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          ""
+        ],
+        [
+          "Central\nState\nPrivate",
+          "67.76\n67.57\n63.68",
+          "52.04\n33.47\n41.95",
+          "72.57\n60.73\n58.15"
+        ],
+        [
+          "All India",
+          "66.21",
+          "42.17",
+          "63.12"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Sector",
+          "April 2020",
+          "",
+          "April 2019\nActual"
+        ],
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          ""
+        ],
+        [
+          "Central\nState\nPrivate",
+          "67.76\n67.57\n63.68",
+          "52.04\n33.47\n41.95",
+          "72.57\n60.73\n58.15"
+        ],
+        [
+          "All India",
+          "66.21",
+          "42.17",
+          "63.12"
+        ]
+      ]
+    },
+    {
+      "page": 16,
+      "table_index": 1,
+      "headers": [
+        "Station",
+        "April 2020",
+        "",
+        "April 2019\nActual",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril\n2020",
+          "Actual\nApril\n2019"
+        ],
+        [
+          "RAPS\nNAPS\nKAPS\nTAPS\nKGPAS\nMAPS",
+          "540\n135\n270\n514\n538\n777",
+          "710\n268\n310\n899\n455\n1219",
+          "658\n311\n161\n973\n638\n546",
+          "31.48\n98.52\n14.81\n74.90\n-15.43\n56.89",
+          "7.90\n-13.83\n92.55\n-7.61\n-28.68\n123.26"
+        ],
+        [
+          "Total",
+          "2774",
+          "3860",
+          "3287",
+          "39.15",
+          "17.43"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Station",
+          "April 2020",
+          "",
+          "April 2019\nActual",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril\n2020",
+          "Actual\nApril\n2019"
+        ],
+        [
+          "RAPS\nNAPS\nKAPS\nTAPS\nKGPAS\nMAPS",
+          "540\n135\n270\n514\n538\n777",
+          "710\n268\n310\n899\n455\n1219",
+          "658\n311\n161\n973\n638\n546",
+          "31.48\n98.52\n14.81\n74.90\n-15.43\n56.89",
+          "7.90\n-13.83\n92.55\n-7.61\n-28.68\n123.26"
+        ],
+        [
+          "Total",
+          "2774",
+          "3860",
+          "3287",
+          "39.15",
+          "17.43"
+        ]
+      ]
+    },
+    {
+      "page": 17,
+      "table_index": 0,
+      "headers": [
+        "Station",
+        "April 2020",
+        "",
+        "April 2019\nActual"
+      ],
+      "rows": [
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          ""
+        ],
+        [
+          "All India\nRAPS\nNAPS\nKAPS\nTAPS\nKGPAS\nMAPS",
+          "57.68\n69.44\n42.61\n85.23\n50.99\n84.91\n44.23",
+          "79.07\n83.55\n84.70\n97.83\n89.15\n71.78\n69.36",
+          "67.34\n77.44\n98.04\n50.94\n96.51\n100.71\n31.11"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Station",
+          "April 2020",
+          "",
+          "April 2019\nActual"
+        ],
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          ""
+        ],
+        [
+          "All India\nRAPS\nNAPS\nKAPS\nTAPS\nKGPAS\nMAPS",
+          "57.68\n69.44\n42.61\n85.23\n50.99\n84.91\n44.23",
+          "79.07\n83.55\n84.70\n97.83\n89.15\n71.78\n69.36",
+          "67.34\n77.44\n98.04\n50.94\n96.51\n100.71\n31.11"
+        ]
+      ]
+    },
+    {
+      "page": 17,
+      "table_index": 1,
+      "headers": [
+        "Region",
+        "April 2020",
+        "",
+        "April 2019\nActual",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril\n2020",
+          "Actual\nApril\n2019"
+        ],
+        [
+          "Northern Region\nWestern Region\nSouthern Region\nEastern Region\nNorth Eastern Region",
+          "4943\n993\n2246\n1245\n289",
+          "5037\n1365\n2195\n1365\n160",
+          "6369\n1053\n2083\n1436\n131",
+          "1.90\n37.46\n-2.27\n9.64\n-44.64",
+          "-20.91\n29.63\n5.38\n-4.94\n22.14"
+        ],
+        [
+          "Total",
+          "9716",
+          "10121",
+          "11073",
+          "4.17",
+          "-8.59"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Region",
+          "April 2020",
+          "",
+          "April 2019\nActual",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril\n2020",
+          "Actual\nApril\n2019"
+        ],
+        [
+          "Northern Region\nWestern Region\nSouthern Region\nEastern Region\nNorth Eastern Region",
+          "4943\n993\n2246\n1245\n289",
+          "5037\n1365\n2195\n1365\n160",
+          "6369\n1053\n2083\n1436\n131",
+          "1.90\n37.46\n-2.27\n9.64\n-44.64",
+          "-20.91\n29.63\n5.38\n-4.94\n22.14"
+        ],
+        [
+          "Total",
+          "9716",
+          "10121",
+          "11073",
+          "4.17",
+          "-8.59"
+        ]
+      ]
+    },
+    {
+      "page": 18,
+      "table_index": 0,
+      "headers": [
+        "Region",
+        "April 2020",
+        "",
+        "April 2019\nActual",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril\n2020",
+          "Actual\nApril\n2019"
+        ],
+        [
+          "Northern Region\nWestern Region\nSouthern Region\nEastern Region\nNorth Eastern Region",
+          "NA\nNA\nNA\nNA\nNA",
+          "2811\n3333\n4300\n174\n16",
+          "2301\n3363\n3955\n249\n14",
+          "-\n-\n-\n-\n-",
+          "22.16\n-0.89\n8.72\n-30.12\n14.29"
+        ],
+        [
+          "Total",
+          "NA",
+          "10634",
+          "9882",
+          "-",
+          "7.61"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Region",
+          "April 2020",
+          "",
+          "April 2019\nActual",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril\n2020",
+          "Actual\nApril\n2019"
+        ],
+        [
+          "Northern Region\nWestern Region\nSouthern Region\nEastern Region\nNorth Eastern Region",
+          "NA\nNA\nNA\nNA\nNA",
+          "2811\n3333\n4300\n174\n16",
+          "2301\n3363\n3955\n249\n14",
+          "-\n-\n-\n-\n-",
+          "22.16\n-0.89\n8.72\n-30.12\n14.29"
+        ],
+        [
+          "Total",
+          "NA",
+          "10634",
+          "9882",
+          "-",
+          "7.61"
+        ]
+      ]
+    },
+    {
+      "page": 18,
+      "table_index": 1,
+      "headers": [
+        "Sources",
+        "April 2020",
+        "",
+        "April 2019\nActual",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril\n2020",
+          "Actual\nApril\n2019"
+        ],
+        [
+          "Bagasse\nBiomass\nSmall Hydel\nSolar\nWind\nOthers",
+          "NA\nNA\nNA\nNA\nNA\nNA",
+          "918\n265\n630\n5339\n3449\n33",
+          "1201\n235\n518\n4181\n3707\n39",
+          "-\n-\n-\n-\n-\n-",
+          "-23.56\n12.77\n21.62\n27.70\n-6.96\n-15.38"
+        ],
+        [
+          "Total",
+          "NA",
+          "10634",
+          "9882",
+          "-",
+          "7.61"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Sources",
+          "April 2020",
+          "",
+          "April 2019\nActual",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril\n2020",
+          "Actual\nApril\n2019"
+        ],
+        [
+          "Bagasse\nBiomass\nSmall Hydel\nSolar\nWind\nOthers",
+          "NA\nNA\nNA\nNA\nNA\nNA",
+          "918\n265\n630\n5339\n3449\n33",
+          "1201\n235\n518\n4181\n3707\n39",
+          "-\n-\n-\n-\n-\n-",
+          "-23.56\n12.77\n21.62\n27.70\n-6.96\n-15.38"
+        ],
+        [
+          "Total",
+          "NA",
+          "10634",
+          "9882",
+          "-",
+          "7.61"
+        ]
+      ]
+    },
+    {
+      "page": 19,
+      "table_index": 0,
+      "headers": [
+        "Company",
+        "April 2020",
+        "",
+        "April 2019\nActual",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2020",
+          "Actual\nApril\n2019"
+        ],
+        [
+          "ECL\nBCCL\nCCL\nNCL\nWCL\nSECL\nMCL\nNEC",
+          "3.300\n3.060\n3.400\n9.060\n3.960\n13.190\n11.870\n0.020",
+          "3.390\n1.700\n2.260\n8.730\n3.450\n9.300\n11.530\n0.020",
+          "4.020\n2.270\n3.190\n8.720\n4.220\n11.110\n11.740\n0.030",
+          "2.73\n-44.44\n-33.53\n-3.64\n-12.88\n-29.49\n-2.86\n0.00",
+          "-15.67\n-25.11\n-29.15\n0.11\n-18.25\n-16.29\n-1.79\n-33.33"
+        ],
+        [
+          "CIL - Total",
+          "47.860",
+          "40.380",
+          "45.300",
+          "-15.63",
+          "-10.86"
+        ],
+        [
+          "SCCL",
+          "5.516",
+          "3.001",
+          "5.504",
+          "-45.59",
+          "-45.48"
+        ],
+        [
+          "Others\n(TISCO,IISCO,DVC)",
+          "8.438",
+          "3.658",
+          "4.622",
+          "-56.65",
+          "-20.86"
+        ],
+        [
+          "All India - Total",
+          "61.814",
+          "47.039",
+          "55.426",
+          "-23.90",
+          "-15.13"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Company",
+          "April 2020",
+          "",
+          "April 2019\nActual",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2020",
+          "Actual\nApril\n2019"
+        ],
+        [
+          "ECL\nBCCL\nCCL\nNCL\nWCL\nSECL\nMCL\nNEC",
+          "3.300\n3.060\n3.400\n9.060\n3.960\n13.190\n11.870\n0.020",
+          "3.390\n1.700\n2.260\n8.730\n3.450\n9.300\n11.530\n0.020",
+          "4.020\n2.270\n3.190\n8.720\n4.220\n11.110\n11.740\n0.030",
+          "2.73\n-44.44\n-33.53\n-3.64\n-12.88\n-29.49\n-2.86\n0.00",
+          "-15.67\n-25.11\n-29.15\n0.11\n-18.25\n-16.29\n-1.79\n-33.33"
+        ],
+        [
+          "CIL - Total",
+          "47.860",
+          "40.380",
+          "45.300",
+          "-15.63",
+          "-10.86"
+        ],
+        [
+          "SCCL",
+          "5.516",
+          "3.001",
+          "5.504",
+          "-45.59",
+          "-45.48"
+        ],
+        [
+          "Others\n(TISCO,IISCO,DVC)",
+          "8.438",
+          "3.658",
+          "4.622",
+          "-56.65",
+          "-20.86"
+        ],
+        [
+          "All India - Total",
+          "61.814",
+          "47.039",
+          "55.426",
+          "-23.90",
+          "-15.13"
+        ]
+      ]
+    },
+    {
+      "page": 19,
+      "table_index": 1,
+      "headers": [
+        "Company",
+        "April 2020",
+        "",
+        "April 2019\nActual",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2020",
+          "Actual\nApril\n2019"
+        ],
+        [
+          "ECL\nBCCL\nCCL\nWCL\nSECL",
+          "NA\nNA\nNA\nNA\nNA",
+          "0.001\n1.551\n0.841\n0.014\n0.016",
+          "0.003\n2.130\n0.983\n0.015\n0.020",
+          "-\n-\n-\n-\n-",
+          "-66.67\n-27.18\n-14.45\n-6.67\n-20.00"
+        ],
+        [
+          "CIL - Total",
+          "NA",
+          "2.423",
+          "3.151",
+          "-",
+          "-23.10"
+        ],
+        [
+          "Others",
+          "NA",
+          "0.515",
+          "0.575",
+          "-",
+          "-10.43"
+        ],
+        [
+          "All India - Total",
+          "NA",
+          "2.938",
+          "3.726",
+          "-",
+          "-21.15"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Company",
+          "April 2020",
+          "",
+          "April 2019\nActual",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2020",
+          "Actual\nApril\n2019"
+        ],
+        [
+          "ECL\nBCCL\nCCL\nWCL\nSECL",
+          "NA\nNA\nNA\nNA\nNA",
+          "0.001\n1.551\n0.841\n0.014\n0.016",
+          "0.003\n2.130\n0.983\n0.015\n0.020",
+          "-\n-\n-\n-\n-",
+          "-66.67\n-27.18\n-14.45\n-6.67\n-20.00"
+        ],
+        [
+          "CIL - Total",
+          "NA",
+          "2.423",
+          "3.151",
+          "-",
+          "-23.10"
+        ],
+        [
+          "Others",
+          "NA",
+          "0.515",
+          "0.575",
+          "-",
+          "-10.43"
+        ],
+        [
+          "All India - Total",
+          "NA",
+          "2.938",
+          "3.726",
+          "-",
+          "-21.15"
+        ]
+      ]
+    },
+    {
+      "page": 20,
+      "table_index": 0,
+      "headers": [
+        "Company",
+        "April 2020",
+        "",
+        "April 2019\nActual",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2020",
+          "Actual\nApril\n2019"
+        ],
+        [
+          "BCCL\nCCL\nWCL",
+          "NA\nNA\nNA",
+          "0.025\n0.042\n0.000",
+          "0.077\n0.093\n0.000",
+          "-\n-\n-",
+          "-67.53\n-54.84\n-"
+        ],
+        [
+          "CIL - Total",
+          "NA",
+          "0.067",
+          "0.170",
+          "-",
+          "-60.59"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Company",
+          "April 2020",
+          "",
+          "April 2019\nActual",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2020",
+          "Actual\nApril\n2019"
+        ],
+        [
+          "BCCL\nCCL\nWCL",
+          "NA\nNA\nNA",
+          "0.025\n0.042\n0.000",
+          "0.077\n0.093\n0.000",
+          "-\n-\n-",
+          "-67.53\n-54.84\n-"
+        ],
+        [
+          "CIL - Total",
+          "NA",
+          "0.067",
+          "0.170",
+          "-",
+          "-60.59"
+        ]
+      ]
+    },
+    {
+      "page": 20,
+      "table_index": 1,
+      "headers": [
+        "Company",
+        "April 2020",
+        "",
+        "April 2019\nActual",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2020",
+          "Actual\nApril\n2019"
+        ],
+        [
+          "ECL\nBCCL\nCCL\nWCL\nSECL",
+          "0.000\n0.068\n0.061\n0.000\n0.000",
+          "0.000\n0.025\n0.048\n0.000\n0.000",
+          "0.000\n0.075\n0.099\n0.000\n0.000",
+          "-\n-63.24\n-21.31\n-\n-",
+          "-\n-66.67\n-51.52\n-\n-"
+        ],
+        [
+          "CIL - Total",
+          "0.129",
+          "0.073",
+          "0.174",
+          "-43.41",
+          "-58.05"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Company",
+          "April 2020",
+          "",
+          "April 2019\nActual",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2020",
+          "Actual\nApril\n2019"
+        ],
+        [
+          "ECL\nBCCL\nCCL\nWCL\nSECL",
+          "0.000\n0.068\n0.061\n0.000\n0.000",
+          "0.000\n0.025\n0.048\n0.000\n0.000",
+          "0.000\n0.075\n0.099\n0.000\n0.000",
+          "-\n-63.24\n-21.31\n-\n-",
+          "-\n-66.67\n-51.52\n-\n-"
+        ],
+        [
+          "CIL - Total",
+          "0.129",
+          "0.073",
+          "0.174",
+          "-43.41",
+          "-58.05"
+        ]
+      ]
+    },
+    {
+      "page": 21,
+      "table_index": 0,
+      "headers": [
+        "Company",
+        "April 2020",
+        "",
+        "April 2019\nActual",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2020",
+          "Actual\nApril\n2019"
+        ],
+        [
+          "ECL\nBCCL\nCCL\nNCL\nWCL\nSECL\nMCL\nNEC",
+          "3.840\n2.850\n6.150\n9.640\n4.650\n14.650\n13.910\n0.020",
+          "3.690\n1.030\n2.890\n7.170\n2.820\n9.760\n11.650\n0.050",
+          "4.530\n2.840\n6.420\n8.200\n4.940\n12.880\n12.530\n0.070",
+          "-3.91\n-63.86\n-53.01\n-25.62\n-39.35\n-33.38\n-16.25\n150.00",
+          "-18.54\n-63.73\n-54.98\n-12.56\n-42.91\n-24.22\n-7.02\n-28.57"
+        ],
+        [
+          "CIL - Total",
+          "55.710",
+          "39.060",
+          "52.410",
+          "-29.89",
+          "-25.47"
+        ],
+        [
+          "SCCL",
+          "5.100",
+          "3.039",
+          "5.575",
+          "-40.41",
+          "-45.49"
+        ],
+        [
+          "Others\n(TISCO,IISCO,DVC)",
+          "8.438",
+          "3.882",
+          "4.580",
+          "-53.99",
+          "-15.24"
+        ],
+        [
+          "All India - Total",
+          "69.248",
+          "45.981",
+          "62.565",
+          "-33.60",
+          "-26.51"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Company",
+          "April 2020",
+          "",
+          "April 2019\nActual",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2020",
+          "Actual\nApril\n2019"
+        ],
+        [
+          "ECL\nBCCL\nCCL\nNCL\nWCL\nSECL\nMCL\nNEC",
+          "3.840\n2.850\n6.150\n9.640\n4.650\n14.650\n13.910\n0.020",
+          "3.690\n1.030\n2.890\n7.170\n2.820\n9.760\n11.650\n0.050",
+          "4.530\n2.840\n6.420\n8.200\n4.940\n12.880\n12.530\n0.070",
+          "-3.91\n-63.86\n-53.01\n-25.62\n-39.35\n-33.38\n-16.25\n150.00",
+          "-18.54\n-63.73\n-54.98\n-12.56\n-42.91\n-24.22\n-7.02\n-28.57"
+        ],
+        [
+          "CIL - Total",
+          "55.710",
+          "39.060",
+          "52.410",
+          "-29.89",
+          "-25.47"
+        ],
+        [
+          "SCCL",
+          "5.100",
+          "3.039",
+          "5.575",
+          "-40.41",
+          "-45.49"
+        ],
+        [
+          "Others\n(TISCO,IISCO,DVC)",
+          "8.438",
+          "3.882",
+          "4.580",
+          "-53.99",
+          "-15.24"
+        ],
+        [
+          "All India - Total",
+          "69.248",
+          "45.981",
+          "62.565",
+          "-33.60",
+          "-26.51"
+        ]
+      ]
+    },
+    {
+      "page": 22,
+      "table_index": 0,
+      "headers": [
+        "Plant/Producer",
+        "April 2020",
+        "",
+        "April 2019\nActual",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril\n2020",
+          "Actual\nApril\n2019"
+        ],
+        [
+          "Bhilai Steel Plant (BSP)\nDurgapur Steel Plant (DSP)\nRourkela Steel Plant (RSP)\nBokaro Steel Plant (BSL)\nAlloy Steel Plant (ASP)\nSalem Steel Plant (SSP)\nIndian Iron & Steel Plant (ISP)\nVisvesvaraya Iron & Steel Plant\n(VISL)\nSAIL Conversion Agent",
+          "0.00\n0.00\n0.00\n0.00\n0.00\n0.00\n0.00\n0.00\n0.00",
+          "0.00\n0.00\n0.00\n0.00\n0.00\n0.00\n0.00\n0.00\n0.00",
+          "0.00\n0.00\n0.00\n0.00\n0.00\n0.00\n0.00\n0.00\n0.00",
+          "-\n-\n-\n-\n-\n-\n-\n-\n-",
+          "-\n-\n-\n-\n-\n-\n-\n-\n-"
+        ],
+        [
+          "SAIL - Total",
+          "NA",
+          "312.00",
+          "1011.00",
+          "-",
+          "-69.14"
+        ],
+        [
+          "ESSAR",
+          "NA",
+          "122.00",
+          "604.00",
+          "-",
+          "-79.80"
+        ],
+        [
+          "Tata Steet (TSL)",
+          "987.00",
+          "453.00",
+          "1404.00",
+          "-54.10",
+          "-67.74"
+        ],
+        [
+          "JSWL",
+          "NA",
+          "433.00",
+          "1288.00",
+          "-",
+          "-66.38"
+        ],
+        [
+          "JSPL",
+          "NA",
+          "57.00",
+          "375.00",
+          "-",
+          "-84.80"
+        ],
+        [
+          "RINL (VSP)",
+          "60.00",
+          "61.00",
+          "347.00",
+          "1.67",
+          "-82.42"
+        ],
+        [
+          "Main Producers",
+          "NA",
+          "1438.00",
+          "5029.00",
+          "-",
+          "-71.41"
+        ],
+        [
+          "Mini and other producers",
+          "NA",
+          "145.00",
+          "3645.00",
+          "-",
+          "-96.02"
+        ],
+        [
+          "All India - Total",
+          "NA",
+          "1583.00",
+          "8674.00",
+          "-",
+          "-81.75"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Plant/Producer",
+          "April 2020",
+          "",
+          "April 2019\nActual",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril\n2020",
+          "Actual\nApril\n2019"
+        ],
+        [
+          "Bhilai Steel Plant (BSP)\nDurgapur Steel Plant (DSP)\nRourkela Steel Plant (RSP)\nBokaro Steel Plant (BSL)\nAlloy Steel Plant (ASP)\nSalem Steel Plant (SSP)\nIndian Iron & Steel Plant (ISP)\nVisvesvaraya Iron & Steel Plant\n(VISL)\nSAIL Conversion Agent",
+          "0.00\n0.00\n0.00\n0.00\n0.00\n0.00\n0.00\n0.00\n0.00",
+          "0.00\n0.00\n0.00\n0.00\n0.00\n0.00\n0.00\n0.00\n0.00",
+          "0.00\n0.00\n0.00\n0.00\n0.00\n0.00\n0.00\n0.00\n0.00",
+          "-\n-\n-\n-\n-\n-\n-\n-\n-",
+          "-\n-\n-\n-\n-\n-\n-\n-\n-"
+        ],
+        [
+          "SAIL - Total",
+          "NA",
+          "312.00",
+          "1011.00",
+          "-",
+          "-69.14"
+        ],
+        [
+          "ESSAR",
+          "NA",
+          "122.00",
+          "604.00",
+          "-",
+          "-79.80"
+        ],
+        [
+          "Tata Steet (TSL)",
+          "987.00",
+          "453.00",
+          "1404.00",
+          "-54.10",
+          "-67.74"
+        ],
+        [
+          "JSWL",
+          "NA",
+          "433.00",
+          "1288.00",
+          "-",
+          "-66.38"
+        ],
+        [
+          "JSPL",
+          "NA",
+          "57.00",
+          "375.00",
+          "-",
+          "-84.80"
+        ],
+        [
+          "RINL (VSP)",
+          "60.00",
+          "61.00",
+          "347.00",
+          "1.67",
+          "-82.42"
+        ],
+        [
+          "Main Producers",
+          "NA",
+          "1438.00",
+          "5029.00",
+          "-",
+          "-71.41"
+        ],
+        [
+          "Mini and other producers",
+          "NA",
+          "145.00",
+          "3645.00",
+          "-",
+          "-96.02"
+        ],
+        [
+          "All India - Total",
+          "NA",
+          "1583.00",
+          "8674.00",
+          "-",
+          "-81.75"
+        ]
+      ]
+    },
+    {
+      "page": 23,
+      "table_index": 0,
+      "headers": [
+        "Plant/Producer",
+        "Capacity\nUtilisation",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "April 2020",
+          "April 2019"
+        ],
+        [
+          "Bhilai Steel Plant (BSP)\nDurgapur Steel Plant (DSP)\nRourkela Steel Plant (RSP)\nBokaro Steel Plant (BSL)\nAlloy Steel Plant (ASP)\nSalem Steel Plant (SSP)\nIndian Iron & Steel Plant (ISP)\nVisvesvaraya Iron & Steel Plant\n(VISL)\nSAIL Conversion Agent",
+          "-\n-\n-\n-\n-\n-\n-\n-\n-",
+          "-\n-\n-\n-\n-\n-\n-\n-\n-"
+        ],
+        [
+          "SAIL - Total",
+          "NA",
+          "NA"
+        ],
+        [
+          "ESSAR\nTata Steet (TSL)\nJSWL\nJSPL\nRINL (VSP)",
+          "-\nNA\n-\n-\nNA",
+          "-\nNA\n-\n-\nNA"
+        ],
+        [
+          "Main Producers",
+          "-",
+          "-"
+        ],
+        [
+          "Mini and other producers",
+          "-",
+          "-"
+        ],
+        [
+          "All India - Total",
+          "-",
+          "-"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Plant/Producer",
+          "Capacity\nUtilisation",
+          ""
+        ],
+        [
+          "",
+          "April 2020",
+          "April 2019"
+        ],
+        [
+          "Bhilai Steel Plant (BSP)\nDurgapur Steel Plant (DSP)\nRourkela Steel Plant (RSP)\nBokaro Steel Plant (BSL)\nAlloy Steel Plant (ASP)\nSalem Steel Plant (SSP)\nIndian Iron & Steel Plant (ISP)\nVisvesvaraya Iron & Steel Plant\n(VISL)\nSAIL Conversion Agent",
+          "-\n-\n-\n-\n-\n-\n-\n-\n-",
+          "-\n-\n-\n-\n-\n-\n-\n-\n-"
+        ],
+        [
+          "SAIL - Total",
+          "NA",
+          "NA"
+        ],
+        [
+          "ESSAR\nTata Steet (TSL)\nJSWL\nJSPL\nRINL (VSP)",
+          "-\nNA\n-\n-\nNA",
+          "-\nNA\n-\n-\nNA"
+        ],
+        [
+          "Main Producers",
+          "-",
+          "-"
+        ],
+        [
+          "Mini and other producers",
+          "-",
+          "-"
+        ],
+        [
+          "All India - Total",
+          "-",
+          "-"
+        ]
+      ]
+    },
+    {
+      "page": 24,
+      "table_index": 0,
+      "headers": [
+        "Product/Sector",
+        "April 2020",
+        "",
+        "April\n2019\nActual",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2020",
+          "Actual\nApril\n2019"
+        ],
+        [
+          "A. Public Sector\nCCI\nOthers",
+          "NA\nNA",
+          "*\n*",
+          "*\n*",
+          "-\n-",
+          "-\n-"
+        ],
+        [
+          "Total - A",
+          "NA",
+          "*",
+          "*",
+          "-",
+          "-"
+        ],
+        [
+          "B. Private Sector $",
+          "NA",
+          "32.77",
+          "279.27",
+          "-",
+          "-88.27"
+        ],
+        [
+          "C. Mini & White",
+          "NA",
+          "8.00",
+          "8.00",
+          "-",
+          "0.00"
+        ],
+        [
+          "All India Total (A+B+C)",
+          "NA",
+          "40.77",
+          "287.27",
+          "-",
+          "-85.81"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Product/Sector",
+          "April 2020",
+          "",
+          "April\n2019\nActual",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2020",
+          "Actual\nApril\n2019"
+        ],
+        [
+          "A. Public Sector\nCCI\nOthers",
+          "NA\nNA",
+          "*\n*",
+          "*\n*",
+          "-\n-",
+          "-\n-"
+        ],
+        [
+          "Total - A",
+          "NA",
+          "*",
+          "*",
+          "-",
+          "-"
+        ],
+        [
+          "B. Private Sector $",
+          "NA",
+          "32.77",
+          "279.27",
+          "-",
+          "-88.27"
+        ],
+        [
+          "C. Mini & White",
+          "NA",
+          "8.00",
+          "8.00",
+          "-",
+          "0.00"
+        ],
+        [
+          "All India Total (A+B+C)",
+          "NA",
+          "40.77",
+          "287.27",
+          "-",
+          "-85.81"
+        ]
+      ]
+    },
+    {
+      "page": 25,
+      "table_index": 0,
+      "headers": [
+        "Product/Sector",
+        "April 2020",
+        "",
+        "April 2019\nActual",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2020",
+          "Actual\nApril 2019"
+        ],
+        [
+          "A. NITROGEN\nPublic Sector\nCooperative Sector\nPrivate Sector",
+          "244.70\n271.80\n437.50",
+          "240.10\n309.30\n404.80",
+          "211.60\n256.10\n462.60",
+          "-1.88\n13.80\n-7.47",
+          "13.47\n20.77\n-12.49"
+        ],
+        [
+          "Total - A",
+          "954.00",
+          "954.20",
+          "930.30",
+          "0.02",
+          "2.57"
+        ],
+        [
+          "B. PHOSPHATE\nPublic Sector\nCooperative Sector\nPrivate Sector",
+          "14.50\n89.60\n157.70",
+          "5.40\n86.90\n164.30",
+          "16.70\n120.60\n214.30",
+          "-62.76\n-3.01\n4.19",
+          "-67.66\n-27.94\n-23.33"
+        ],
+        [
+          "Total - B",
+          "261.80",
+          "256.60",
+          "351.60",
+          "-1.99",
+          "-27.02"
+        ],
+        [
+          "All India Total(A+B)",
+          "1215.80",
+          "1210.80",
+          "1281.90",
+          "-0.41",
+          "-5.55"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Product/Sector",
+          "April 2020",
+          "",
+          "April 2019\nActual",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2020",
+          "Actual\nApril 2019"
+        ],
+        [
+          "A. NITROGEN\nPublic Sector\nCooperative Sector\nPrivate Sector",
+          "244.70\n271.80\n437.50",
+          "240.10\n309.30\n404.80",
+          "211.60\n256.10\n462.60",
+          "-1.88\n13.80\n-7.47",
+          "13.47\n20.77\n-12.49"
+        ],
+        [
+          "Total - A",
+          "954.00",
+          "954.20",
+          "930.30",
+          "0.02",
+          "2.57"
+        ],
+        [
+          "B. PHOSPHATE\nPublic Sector\nCooperative Sector\nPrivate Sector",
+          "14.50\n89.60\n157.70",
+          "5.40\n86.90\n164.30",
+          "16.70\n120.60\n214.30",
+          "-62.76\n-3.01\n4.19",
+          "-67.66\n-27.94\n-23.33"
+        ],
+        [
+          "Total - B",
+          "261.80",
+          "256.60",
+          "351.60",
+          "-1.99",
+          "-27.02"
+        ],
+        [
+          "All India Total(A+B)",
+          "1215.80",
+          "1210.80",
+          "1281.90",
+          "-0.41",
+          "-5.55"
+        ]
+      ]
+    },
+    {
+      "page": 25,
+      "table_index": 1,
+      "headers": [
+        "Product/Sector",
+        "April 2020",
+        "",
+        "April 2019\nActual",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2020",
+          "Actual\nApril 2019"
+        ],
+        [
+          "Public Sector\nCooperative Sector\nPrivate Sector",
+          "500.50\n508.30\n758.42",
+          "507.40\n592.90\n725.00",
+          "424.00\n444.00\n783.00",
+          "1.38\n16.64\n-4.41",
+          "19.67\n33.54\n-7.41"
+        ],
+        [
+          "Total",
+          "1767.22",
+          "1825.30",
+          "1651.00",
+          "3.29",
+          "10.56"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Product/Sector",
+          "April 2020",
+          "",
+          "April 2019\nActual",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2020",
+          "Actual\nApril 2019"
+        ],
+        [
+          "Public Sector\nCooperative Sector\nPrivate Sector",
+          "500.50\n508.30\n758.42",
+          "507.40\n592.90\n725.00",
+          "424.00\n444.00\n783.00",
+          "1.38\n16.64\n-4.41",
+          "19.67\n33.54\n-7.41"
+        ],
+        [
+          "Total",
+          "1767.22",
+          "1825.30",
+          "1651.00",
+          "3.29",
+          "10.56"
+        ]
+      ]
+    },
+    {
+      "page": 26,
+      "table_index": 0,
+      "headers": [
+        "Product/Sector",
+        "Capacity Utilisation",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "April 2020",
+          "April 2019"
+        ],
+        [
+          "A. NITROGEN\nPublic Sector\nCooperative Sector\nPrivate Sector",
+          "73.50\n117.10\n69.50",
+          "64.80\n97.00\n79.40"
+        ],
+        [
+          "Total - A",
+          "81.30",
+          "79.30"
+        ],
+        [
+          "B. PHOSPHATE\nPublic Sector\nCooperative Sector\nPrivate Sector",
+          "16.80\n60.90\n38.90",
+          "51.80\n84.50\n50.70"
+        ],
+        [
+          "Total - B",
+          "42.90",
+          "58.80"
+        ],
+        [
+          "All India",
+          "68.40",
+          "72.40"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Product/Sector",
+          "Capacity Utilisation",
+          ""
+        ],
+        [
+          "",
+          "April 2020",
+          "April 2019"
+        ],
+        [
+          "A. NITROGEN\nPublic Sector\nCooperative Sector\nPrivate Sector",
+          "73.50\n117.10\n69.50",
+          "64.80\n97.00\n79.40"
+        ],
+        [
+          "Total - A",
+          "81.30",
+          "79.30"
+        ],
+        [
+          "B. PHOSPHATE\nPublic Sector\nCooperative Sector\nPrivate Sector",
+          "16.80\n60.90\n38.90",
+          "51.80\n84.50\n50.70"
+        ],
+        [
+          "Total - B",
+          "42.90",
+          "58.80"
+        ],
+        [
+          "All India",
+          "68.40",
+          "72.40"
+        ]
+      ]
+    },
+    {
+      "page": 27,
+      "table_index": 0,
+      "headers": [
+        "Name of the Unit",
+        "April 2020",
+        "",
+        "April 2019\nActual",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2020",
+          "Actual\nApril 2019"
+        ],
+        [
+          "A. Oil & Natural Gas corporation (ONGC)\nGujarat 365.59 362.15 377.94 -0.94 -4.18\nAssam 77.93 79.62 79.26 2.17 0.45\nTamil Nadu 23.46 25.72 26.85 9.63 -4.21\nOffshore 1208.98 1199.74 1187.09 -0.76 1.07\nAndhra Pradesh 16.87 14.53 19.65 -13.87 -26.06\nTripura 0.00 0.00 0.00 - -",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Total - A",
+          "1692.83",
+          "1681.76",
+          "1690.79",
+          "-0.65",
+          "-0.53"
+        ],
+        [
+          "B. Oil India Ltd. (OIL)\nAssam 247.76 245.22 262.91 -1.03 -6.73\nArunachal Pradesh 2.18 2.24 1.78 2.75 25.84\nRajasthan(Heavy Oil) 0.58 0.80 0.52 37.93 53.85",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Total - B",
+          "250.52",
+          "248.26",
+          "265.21",
+          "-0.90",
+          "-6.39"
+        ],
+        [
+          "C. DGH (JVC/Private)",
+          "639.68",
+          "615.80",
+          "762.55",
+          "-3.73",
+          "-19.24"
+        ],
+        [
+          "All India Total (A+B)",
+          "2583.03",
+          "2545.82",
+          "2718.55",
+          "-1.44",
+          "-6.35"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Name of the Unit",
+          "April 2020",
+          "",
+          "April 2019\nActual",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2020",
+          "Actual\nApril 2019"
+        ],
+        [
+          "A. Oil & Natural Gas corporation (ONGC)\nGujarat 365.59 362.15 377.94 -0.94 -4.18\nAssam 77.93 79.62 79.26 2.17 0.45\nTamil Nadu 23.46 25.72 26.85 9.63 -4.21\nOffshore 1208.98 1199.74 1187.09 -0.76 1.07\nAndhra Pradesh 16.87 14.53 19.65 -13.87 -26.06\nTripura 0.00 0.00 0.00 - -",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Total - A",
+          "1692.83",
+          "1681.76",
+          "1690.79",
+          "-0.65",
+          "-0.53"
+        ],
+        [
+          "B. Oil India Ltd. (OIL)\nAssam 247.76 245.22 262.91 -1.03 -6.73\nArunachal Pradesh 2.18 2.24 1.78 2.75 25.84\nRajasthan(Heavy Oil) 0.58 0.80 0.52 37.93 53.85",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Total - B",
+          "250.52",
+          "248.26",
+          "265.21",
+          "-0.90",
+          "-6.39"
+        ],
+        [
+          "C. DGH (JVC/Private)",
+          "639.68",
+          "615.80",
+          "762.55",
+          "-3.73",
+          "-19.24"
+        ],
+        [
+          "All India Total (A+B)",
+          "2583.03",
+          "2545.82",
+          "2718.55",
+          "-1.44",
+          "-6.35"
+        ]
+      ]
+    },
+    {
+      "page": 28,
+      "table_index": 0,
+      "headers": [
+        "Name of the Unit",
+        "April 2020",
+        "",
+        "April 2019\nActual",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2020",
+          "Actual\nApril 2019"
+        ],
+        [
+          "BORL(Bina)\nBPCL, Kochi\nBPCL, Mumbai\nCPCL, Manali\nCPCL, Narimanam (CBR)\nEOL, Vadinar\nHMEL, GGSR, Bhatinda\nHPCL, Mumbai\nHPCL, Vishakhapatnam\nIOC, Barauni\nIOC, Bongaigaon\nIOC, Digboi\nIOC, Gujarat(Koyali)\nIOC, Guwahati\nIOC, Haldia\nIOC, Mathura\nIOC, Panipat\nIOC, Paradip\nMRPL, Mangalore\nNRL, Numaligarh\nONGC, Tatipaka\nRIL, Jamnagar\nRIL, SEZ",
+          "640.00\n1384.92\n1199.50\n300.00\n0.00\n1712.08\n557.00\n702.00\n804.38\n540.00\n213.74\n49.00\n654.99\n51.08\n705.34\n592.00\n1189.99\n678.00\n700.00\n222.00\n5.42\n2825.31\n3180.69",
+          "332.28\n815.33\n768.43\n307.60\n0.00\n1401.79\n592.85\n549.48\n774.49\n246.53\n174.22\n53.56\n578.31\n0.00\n305.30\n505.72\n457.24\n725.26\n670.65\n169.73\n1.92\n2791.97\n2522.52",
+          "671.06\n1450.90\n1122.34\n839.91\n0.00\n1712.08\n1050.60\n306.99\n782.88\n568.62\n198.33\n52.16\n637.66\n74.71\n684.22\n847.24\n1154.68\n1316.82\n978.99\n240.70\n6.19\n2825.31\n3180.69",
+          "-48.08\n-41.13\n-35.94\n2.53\n-\n-18.12\n6.44\n-21.73\n-3.72\n-54.35\n-18.49\n9.31\n-11.71\n-100.00\n-56.72\n-14.57\n-61.58\n6.97\n-4.19\n-23.55\n-64.58\n-1.18\n-20.69",
+          "-50.48\n-43.81\n-31.53\n-63.38\n-\n-18.12\n-43.57\n78.99\n-1.07\n-56.64\n-12.16\n2.68\n-9.31\n-100.00\n-55.38\n-40.31\n-60.40\n-44.92\n-31.50\n-29.48\n-68.98\n-1.18\n-20.69"
+        ],
+        [
+          "All India Total",
+          "18907.44",
+          "14745.18",
+          "20703.08",
+          "-22.01",
+          "-28.78"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Name of the Unit",
+          "April 2020",
+          "",
+          "April 2019\nActual",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2020",
+          "Actual\nApril 2019"
+        ],
+        [
+          "BORL(Bina)\nBPCL, Kochi\nBPCL, Mumbai\nCPCL, Manali\nCPCL, Narimanam (CBR)\nEOL, Vadinar\nHMEL, GGSR, Bhatinda\nHPCL, Mumbai\nHPCL, Vishakhapatnam\nIOC, Barauni\nIOC, Bongaigaon\nIOC, Digboi\nIOC, Gujarat(Koyali)\nIOC, Guwahati\nIOC, Haldia\nIOC, Mathura\nIOC, Panipat\nIOC, Paradip\nMRPL, Mangalore\nNRL, Numaligarh\nONGC, Tatipaka\nRIL, Jamnagar\nRIL, SEZ",
+          "640.00\n1384.92\n1199.50\n300.00\n0.00\n1712.08\n557.00\n702.00\n804.38\n540.00\n213.74\n49.00\n654.99\n51.08\n705.34\n592.00\n1189.99\n678.00\n700.00\n222.00\n5.42\n2825.31\n3180.69",
+          "332.28\n815.33\n768.43\n307.60\n0.00\n1401.79\n592.85\n549.48\n774.49\n246.53\n174.22\n53.56\n578.31\n0.00\n305.30\n505.72\n457.24\n725.26\n670.65\n169.73\n1.92\n2791.97\n2522.52",
+          "671.06\n1450.90\n1122.34\n839.91\n0.00\n1712.08\n1050.60\n306.99\n782.88\n568.62\n198.33\n52.16\n637.66\n74.71\n684.22\n847.24\n1154.68\n1316.82\n978.99\n240.70\n6.19\n2825.31\n3180.69",
+          "-48.08\n-41.13\n-35.94\n2.53\n-\n-18.12\n6.44\n-21.73\n-3.72\n-54.35\n-18.49\n9.31\n-11.71\n-100.00\n-56.72\n-14.57\n-61.58\n6.97\n-4.19\n-23.55\n-64.58\n-1.18\n-20.69",
+          "-50.48\n-43.81\n-31.53\n-63.38\n-\n-18.12\n-43.57\n78.99\n-1.07\n-56.64\n-12.16\n2.68\n-9.31\n-100.00\n-55.38\n-40.31\n-60.40\n-44.92\n-31.50\n-29.48\n-68.98\n-1.18\n-20.69"
+        ],
+        [
+          "All India Total",
+          "18907.44",
+          "14745.18",
+          "20703.08",
+          "-22.01",
+          "-28.78"
+        ]
+      ]
+    },
+    {
+      "page": 29,
+      "table_index": 0,
+      "headers": [
+        "Name of the Unit",
+        "April 2020",
+        "",
+        "",
+        "April 2019",
+        "",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "Prorated\nInstalled\nCapacity",
+          "Actual\nCrude\nThroughput",
+          "%\nUtilisation\nof Installed\nCapacity",
+          "Prorated\nInstalled\nCapacity",
+          "Actual\nCrude\nThroughput",
+          "%\nUtilisati\non\nof\nInstalle\nd\nCapacit\ny"
+        ],
+        [
+          "BORL(Bina)\nBPCL, Kochi\nBPCL, Mumbai\nCPCL, Manali\nCPCL, Narimanam (CBR)\nEOL, Vadinar\nHMEL, GGSR, Bhatinda\nHPCL, Mumbai\nHPCL, Vishakhapatnam\nIOC, Barauni\nIOC, Bongaigaon\nIOC, Digboi\nIOC, Gujarat(Koyali)\nIOC, Guwahati\nIOC, Haldia\nIOC, Mathura\nIOC, Panipat\nIOC, Paradip\nMRPL, Mangalore\nNRL, Numaligarh\nONGC, Tatipaka\nRIL, Jamnagar\nRIL, SEZ",
+          "641.00\n1274.00\n986.00\n863.00\n82.00\n1644.00\n929.00\n616.00\n682.00\n493.00\n193.00\n53.00\n1126.00\n82.00\n658.00\n658.00\n1233.00\n1233.00\n1233.00\n247.00\n5.00\n2712.00\n2893.00",
+          "332.28\n815.33\n768.43\n307.60\n0.00\n1401.79\n592.85\n549.48\n774.49\n246.53\n174.22\n53.56\n578.31\n0.00\n305.30\n505.72\n457.24\n725.26\n670.65\n169.73\n1.92\n2791.97\n2522.52",
+          "51.8\n64.0\n77.9\n35.6\n0.0\n85.3\n63.8\n89.2\n113.6\n50.0\n90.3\n101.1\n51.4\n0.0\n46.4\n76.9\n37.1\n58.8\n54.4\n68.7\n38.4\n103.0\n87.2",
+          "639.00\n1270.00\n984.00\n861.00\n82.00\n1639.00\n926.00\n615.00\n680.00\n492.00\n193.00\n53.00\n1123.00\n82.00\n615.00\n656.00\n1230.00\n1230.00\n1230.00\n246.00\n5.00\n2705.00\n2885.00",
+          "671.06\n1450.90\n1122.34\n839.91\n0.00\n1712.08\n1050.60\n306.99\n782.88\n568.62\n198.33\n52.16\n637.66\n74.71\n684.22\n847.24\n1154.68\n1316.82\n978.99\n240.70\n6.19\n2825.31\n3180.69",
+          "105.0\n114.2\n114.1\n97.6\n0.0\n104.5\n113.5\n49.9\n115.1\n115.6\n102.8\n98.4\n56.8\n91.1\n111.3\n129.2\n93.9\n107.1\n79.6\n97.9\n123.8\n104.5\n110.3"
+        ],
+        [
+          "All India Total",
+          "20536.00",
+          "14745.18",
+          "71.8",
+          "20441.00",
+          "20703.08",
+          "101.3"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Name of the Unit",
+          "April 2020",
+          "",
+          "",
+          "April 2019",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Prorated\nInstalled\nCapacity",
+          "Actual\nCrude\nThroughput",
+          "%\nUtilisation\nof Installed\nCapacity",
+          "Prorated\nInstalled\nCapacity",
+          "Actual\nCrude\nThroughput",
+          "%\nUtilisati\non\nof\nInstalle\nd\nCapacit\ny"
+        ],
+        [
+          "BORL(Bina)\nBPCL, Kochi\nBPCL, Mumbai\nCPCL, Manali\nCPCL, Narimanam (CBR)\nEOL, Vadinar\nHMEL, GGSR, Bhatinda\nHPCL, Mumbai\nHPCL, Vishakhapatnam\nIOC, Barauni\nIOC, Bongaigaon\nIOC, Digboi\nIOC, Gujarat(Koyali)\nIOC, Guwahati\nIOC, Haldia\nIOC, Mathura\nIOC, Panipat\nIOC, Paradip\nMRPL, Mangalore\nNRL, Numaligarh\nONGC, Tatipaka\nRIL, Jamnagar\nRIL, SEZ",
+          "641.00\n1274.00\n986.00\n863.00\n82.00\n1644.00\n929.00\n616.00\n682.00\n493.00\n193.00\n53.00\n1126.00\n82.00\n658.00\n658.00\n1233.00\n1233.00\n1233.00\n247.00\n5.00\n2712.00\n2893.00",
+          "332.28\n815.33\n768.43\n307.60\n0.00\n1401.79\n592.85\n549.48\n774.49\n246.53\n174.22\n53.56\n578.31\n0.00\n305.30\n505.72\n457.24\n725.26\n670.65\n169.73\n1.92\n2791.97\n2522.52",
+          "51.8\n64.0\n77.9\n35.6\n0.0\n85.3\n63.8\n89.2\n113.6\n50.0\n90.3\n101.1\n51.4\n0.0\n46.4\n76.9\n37.1\n58.8\n54.4\n68.7\n38.4\n103.0\n87.2",
+          "639.00\n1270.00\n984.00\n861.00\n82.00\n1639.00\n926.00\n615.00\n680.00\n492.00\n193.00\n53.00\n1123.00\n82.00\n615.00\n656.00\n1230.00\n1230.00\n1230.00\n246.00\n5.00\n2705.00\n2885.00",
+          "671.06\n1450.90\n1122.34\n839.91\n0.00\n1712.08\n1050.60\n306.99\n782.88\n568.62\n198.33\n52.16\n637.66\n74.71\n684.22\n847.24\n1154.68\n1316.82\n978.99\n240.70\n6.19\n2825.31\n3180.69",
+          "105.0\n114.2\n114.1\n97.6\n0.0\n104.5\n113.5\n49.9\n115.1\n115.6\n102.8\n98.4\n56.8\n91.1\n111.3\n129.2\n93.9\n107.1\n79.6\n97.9\n123.8\n104.5\n110.3"
+        ],
+        [
+          "All India Total",
+          "20536.00",
+          "14745.18",
+          "71.8",
+          "20441.00",
+          "20703.08",
+          "101.3"
+        ]
+      ]
+    },
+    {
+      "page": 30,
+      "table_index": 0,
+      "headers": [
+        "Area/State",
+        "April 2020",
+        "",
+        "April 2019\nActual",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "April 2020\nTarget",
+          "April 2019\nActual"
+        ],
+        [
+          "A. Oil & Natural Gas corporation (ONGC)\nGujarat 88.84 85.73 108.55 -3.50 -21.02\nAssam 34.84 33.87 37.76 -2.78 -10.30\nTamil Nadu 84.55 64.96 98.50 -23.17 -34.05\nOffshore 1568.89 1338.17 1581.95 -14.71 -15.41\nAndhra Pradesh 73.90 66.82 78.86 -9.58 -15.27\nTripura 125.82 136.15 132.10 8.21 3.07\nRajasthan 0.58 0.00 0.00 -100.00 -",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Total - A",
+          "1977.42",
+          "1725.70",
+          "2037.72",
+          "-12.73",
+          "-15.31"
+        ],
+        [
+          "B. Oil India Ltd. (OIL)\nRajasthan 19.73 19.97 20.16 1.22 -0.94\nAssam 188.86 177.65 203.00 -5.94 -12.49\nArunachal Pradesh 3.30 4.43 1.33 34.24 233.08",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Total - B",
+          "211.89",
+          "202.05",
+          "224.49",
+          "-4.64",
+          "-10.00"
+        ],
+        [
+          "C. DGH (JVC/Private)",
+          "236.02",
+          "233.59",
+          "393.70",
+          "-1.03",
+          "-40.67"
+        ],
+        [
+          "All India Total (A+B+C)",
+          "2425.33",
+          "2161.34",
+          "2655.91",
+          "-10.88",
+          "-18.62"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Area/State",
+          "April 2020",
+          "",
+          "April 2019\nActual",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "April 2020\nTarget",
+          "April 2019\nActual"
+        ],
+        [
+          "A. Oil & Natural Gas corporation (ONGC)\nGujarat 88.84 85.73 108.55 -3.50 -21.02\nAssam 34.84 33.87 37.76 -2.78 -10.30\nTamil Nadu 84.55 64.96 98.50 -23.17 -34.05\nOffshore 1568.89 1338.17 1581.95 -14.71 -15.41\nAndhra Pradesh 73.90 66.82 78.86 -9.58 -15.27\nTripura 125.82 136.15 132.10 8.21 3.07\nRajasthan 0.58 0.00 0.00 -100.00 -",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Total - A",
+          "1977.42",
+          "1725.70",
+          "2037.72",
+          "-12.73",
+          "-15.31"
+        ],
+        [
+          "B. Oil India Ltd. (OIL)\nRajasthan 19.73 19.97 20.16 1.22 -0.94\nAssam 188.86 177.65 203.00 -5.94 -12.49\nArunachal Pradesh 3.30 4.43 1.33 34.24 233.08",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Total - B",
+          "211.89",
+          "202.05",
+          "224.49",
+          "-4.64",
+          "-10.00"
+        ],
+        [
+          "C. DGH (JVC/Private)",
+          "236.02",
+          "233.59",
+          "393.70",
+          "-1.03",
+          "-40.67"
+        ],
+        [
+          "All India Total (A+B+C)",
+          "2425.33",
+          "2161.34",
+          "2655.91",
+          "-10.88",
+          "-18.62"
+        ]
+      ]
+    },
+    {
+      "page": 31,
+      "table_index": 0,
+      "headers": [
+        "Financial\n(Rs. in Crore)",
+        "April 2020",
+        "",
+        "April 2019\nActual",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2020",
+          "Actual\nApril 2019"
+        ],
+        [
+          "Total Expenditure",
+          "0.00",
+          "0.00",
+          "0.00",
+          "-",
+          "-"
+        ],
+        [
+          "Physical",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Widening/ Strengthening/ existing\nweak pavement to four/six/eight\nlanes (Kms.)",
+          "16.20",
+          "40.00",
+          "251.00",
+          "146.91",
+          "-84.06"
+        ],
+        [
+          "Construction of Bridges (Nos.)",
+          "0",
+          "0",
+          "0",
+          "-",
+          "-"
+        ],
+        [
+          "Construction of bypass (Nos.)",
+          "0",
+          "0",
+          "0",
+          "-",
+          "-"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Financial\n(Rs. in Crore)",
+          "April 2020",
+          "",
+          "April 2019\nActual",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2020",
+          "Actual\nApril 2019"
+        ],
+        [
+          "Total Expenditure",
+          "0.00",
+          "0.00",
+          "0.00",
+          "-",
+          "-"
+        ],
+        [
+          "Physical",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Widening/ Strengthening/ existing\nweak pavement to four/six/eight\nlanes (Kms.)",
+          "16.20",
+          "40.00",
+          "251.00",
+          "146.91",
+          "-84.06"
+        ],
+        [
+          "Construction of Bridges (Nos.)",
+          "0",
+          "0",
+          "0",
+          "-",
+          "-"
+        ],
+        [
+          "Construction of bypass (Nos.)",
+          "0",
+          "0",
+          "0",
+          "-",
+          "-"
+        ]
+      ]
+    },
+    {
+      "page": 31,
+      "table_index": 1,
+      "headers": [
+        "Financial\n(Rs. in Crore)",
+        "April 2020",
+        "",
+        "April 2019\nActual",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2020",
+          "Actual\nApril 2019"
+        ],
+        [
+          "Total Expenditure",
+          "0.00",
+          "0.00",
+          "0.00",
+          "-",
+          "-"
+        ],
+        [
+          "Physical",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Improvement of low grade section\n(Kms.)",
+          "0.00",
+          "0.00",
+          "0.00",
+          "-",
+          "-"
+        ],
+        [
+          "Widening to four/six/eight lanes\n(Kms.)",
+          "3.00",
+          "2.46",
+          "41.46",
+          "-18.00",
+          "-94.07"
+        ],
+        [
+          "Widening to two lanes (Kms.)",
+          "75.00",
+          "87.14",
+          "364.75",
+          "16.19",
+          "-76.11"
+        ],
+        [
+          "Strengthening of existing weak\npavement (Kms.)",
+          "48.00",
+          "47.72",
+          "55.29",
+          "-0.58",
+          "-13.69"
+        ],
+        [
+          "Improvement of riding quality\nprog.(IRQP) (Kms.)",
+          "18.00",
+          "17.66",
+          "74.44",
+          "-1.89",
+          "-76.28"
+        ],
+        [
+          "Rehabilitation/ Construction of\nBridges (Nos.)",
+          "0",
+          "0",
+          "2",
+          "-",
+          "-"
+        ],
+        [
+          "Construction of bypasses (Nos.)",
+          "0",
+          "0",
+          "0",
+          "-",
+          "-"
+        ],
+        [
+          "Construction of Missing Links\n(Kms.)",
+          "0.00",
+          "0.00",
+          "0.00",
+          "-",
+          "-"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Financial\n(Rs. in Crore)",
+          "April 2020",
+          "",
+          "April 2019\nActual",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2020",
+          "Actual\nApril 2019"
+        ],
+        [
+          "Total Expenditure",
+          "0.00",
+          "0.00",
+          "0.00",
+          "-",
+          "-"
+        ],
+        [
+          "Physical",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Improvement of low grade section\n(Kms.)",
+          "0.00",
+          "0.00",
+          "0.00",
+          "-",
+          "-"
+        ],
+        [
+          "Widening to four/six/eight lanes\n(Kms.)",
+          "3.00",
+          "2.46",
+          "41.46",
+          "-18.00",
+          "-94.07"
+        ],
+        [
+          "Widening to two lanes (Kms.)",
+          "75.00",
+          "87.14",
+          "364.75",
+          "16.19",
+          "-76.11"
+        ],
+        [
+          "Strengthening of existing weak\npavement (Kms.)",
+          "48.00",
+          "47.72",
+          "55.29",
+          "-0.58",
+          "-13.69"
+        ],
+        [
+          "Improvement of riding quality\nprog.(IRQP) (Kms.)",
+          "18.00",
+          "17.66",
+          "74.44",
+          "-1.89",
+          "-76.28"
+        ],
+        [
+          "Rehabilitation/ Construction of\nBridges (Nos.)",
+          "0",
+          "0",
+          "2",
+          "-",
+          "-"
+        ],
+        [
+          "Construction of bypasses (Nos.)",
+          "0",
+          "0",
+          "0",
+          "-",
+          "-"
+        ],
+        [
+          "Construction of Missing Links\n(Kms.)",
+          "0.00",
+          "0.00",
+          "0.00",
+          "-",
+          "-"
+        ]
+      ]
+    },
+    {
+      "page": 32,
+      "table_index": 0,
+      "headers": [
+        "Commodity",
+        "April 2020",
+        "",
+        "April 2019\nActual",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2020",
+          "Actual\nApril 2019"
+        ],
+        [
+          "Coal\nRaw material for steel\nplants except Iron Ore\nPig iron and finished\nsteel\nIron ore\nCement\nFoodgrains\nFertilizers\nMineral Oil (POL)\nContainer Service\nBalance other goods",
+          "NA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA",
+          "34.56\n1.24\n2.08\n7.88\n0.86\n6.17\n2.80\n2.26\n4.14\n3.41",
+          "52.75\n2.04\n4.19\n11.53\n9.16\n2.62\n3.41\n3.51\n4.83\n7.05",
+          "-\n-\n-\n-\n-\n-\n-\n-\n-\n-",
+          "-34.48\n-39.22\n-50.36\n-31.66\n-90.61\n135.50\n-17.89\n-35.61\n-14.29\n-51.63"
+        ],
+        [
+          "Total",
+          "NA",
+          "65.40",
+          "101.09",
+          "-",
+          "-35.31"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Commodity",
+          "April 2020",
+          "",
+          "April 2019\nActual",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril 2020",
+          "Actual\nApril 2019"
+        ],
+        [
+          "Coal\nRaw material for steel\nplants except Iron Ore\nPig iron and finished\nsteel\nIron ore\nCement\nFoodgrains\nFertilizers\nMineral Oil (POL)\nContainer Service\nBalance other goods",
+          "NA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA",
+          "34.56\n1.24\n2.08\n7.88\n0.86\n6.17\n2.80\n2.26\n4.14\n3.41",
+          "52.75\n2.04\n4.19\n11.53\n9.16\n2.62\n3.41\n3.51\n4.83\n7.05",
+          "-\n-\n-\n-\n-\n-\n-\n-\n-\n-",
+          "-34.48\n-39.22\n-50.36\n-31.66\n-90.61\n135.50\n-17.89\n-35.61\n-14.29\n-51.63"
+        ],
+        [
+          "Total",
+          "NA",
+          "65.40",
+          "101.09",
+          "-",
+          "-35.31"
+        ]
+      ]
+    },
+    {
+      "page": 33,
+      "table_index": 0,
+      "headers": [
+        "Name of the port",
+        "April 2020",
+        "",
+        "April\n2019\nActual",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril\n2020",
+          "Actual\nApril\n2019"
+        ],
+        [
+          "Kolkata\nHaldia\nParadip\nVishakhapatnam\nChennai\nV.O.Chidambaranar\n(Tuticorin)\nCochin\nNew Mangalore\nMormugao\nJN Port Trust (JNPT)\nMumbai\nKandla\nKamarajar (Ennore)",
+          "NA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA",
+          "920\n2732\n8564\n5009\n2441\n2297\n1874\n3225\n1559\n3956\n4088\n8674\n2083",
+          "1572\n3396\n9552\n5690\n3948\n3084\n2828\n3267\n1479\n5991\n5001\n11301\n2977",
+          "-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-",
+          "-41.48\n-19.55\n-10.34\n-11.97\n-38.17\n-25.52\n-33.73\n-1.29\n5.41\n-33.97\n-18.26\n-23.25\n-30.03"
+        ],
+        [
+          "Total",
+          "NA",
+          "47422",
+          "60086",
+          "-",
+          "-21.08"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Name of the port",
+          "April 2020",
+          "",
+          "April\n2019\nActual",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril\n2020",
+          "Actual\nApril\n2019"
+        ],
+        [
+          "Kolkata\nHaldia\nParadip\nVishakhapatnam\nChennai\nV.O.Chidambaranar\n(Tuticorin)\nCochin\nNew Mangalore\nMormugao\nJN Port Trust (JNPT)\nMumbai\nKandla\nKamarajar (Ennore)",
+          "NA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA",
+          "920\n2732\n8564\n5009\n2441\n2297\n1874\n3225\n1559\n3956\n4088\n8674\n2083",
+          "1572\n3396\n9552\n5690\n3948\n3084\n2828\n3267\n1479\n5991\n5001\n11301\n2977",
+          "-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-",
+          "-41.48\n-19.55\n-10.34\n-11.97\n-38.17\n-25.52\n-33.73\n-1.29\n5.41\n-33.97\n-18.26\n-23.25\n-30.03"
+        ],
+        [
+          "Total",
+          "NA",
+          "47422",
+          "60086",
+          "-",
+          "-21.08"
+        ]
+      ]
+    },
+    {
+      "page": 34,
+      "table_index": 0,
+      "headers": [
+        "Name of the port",
+        "April 2020",
+        "",
+        "April\n2019\nActual",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril\n2020",
+          "Actual\nApril\n2019"
+        ],
+        [
+          "Kolkata\nHaldia\nParadip\nVishakhapatnam\nChennai\nV.O.Chidambaranar\n(Tuticorin)\nCochin\nNew Mangalore\nMormugao\nJN Port Trust (JNPT)\nMumbai\nKandla\nKamarajar (Ennore)",
+          "NA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA",
+          "194\n1080\n3707\n880\n0\n1105\n0\n186\n951\n0\n483\n2211\n1321",
+          "268\n1686\n3959\n1672\n0\n1200\n0\n975\n905\n0\n709\n2940\n2120",
+          "-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-",
+          "-27.61\n-35.94\n-6.37\n-47.37\n-\n-7.92\n-\n-80.92\n5.08\n-\n-31.88\n-24.80\n-37.69"
+        ],
+        [
+          "Total",
+          "NA",
+          "12118",
+          "16434",
+          "-",
+          "-26.26"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Name of the port",
+          "April 2020",
+          "",
+          "April\n2019\nActual",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril\n2020",
+          "Actual\nApril\n2019"
+        ],
+        [
+          "Kolkata\nHaldia\nParadip\nVishakhapatnam\nChennai\nV.O.Chidambaranar\n(Tuticorin)\nCochin\nNew Mangalore\nMormugao\nJN Port Trust (JNPT)\nMumbai\nKandla\nKamarajar (Ennore)",
+          "NA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA",
+          "194\n1080\n3707\n880\n0\n1105\n0\n186\n951\n0\n483\n2211\n1321",
+          "268\n1686\n3959\n1672\n0\n1200\n0\n975\n905\n0\n709\n2940\n2120",
+          "-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-",
+          "-27.61\n-35.94\n-6.37\n-47.37\n-\n-7.92\n-\n-80.92\n5.08\n-\n-31.88\n-24.80\n-37.69"
+        ],
+        [
+          "Total",
+          "NA",
+          "12118",
+          "16434",
+          "-",
+          "-26.26"
+        ]
+      ]
+    },
+    {
+      "page": 35,
+      "table_index": 0,
+      "headers": [
+        "Airports/ Type",
+        "",
+        "April 2020",
+        "",
+        "Cargo\nhandled\nduring\nApril 2019",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "",
+          "Target",
+          "Cargo\nhandled",
+          "",
+          "Target\nApril\n2020",
+          "Actual\nApril\n2019"
+        ],
+        [
+          "Mumbai\nKolkata\nDelhi\nChennai\nTrivandrum\nOthers",
+          "Export\nImport\nExport\nImport\nExport\nImport\nExport\nImport\nExport\nImport\nExport\nImport",
+          "9559\n5366\n400\n160\n3233\n4917\n2930\n2670\n574\n10\n11997\n6186",
+          "9477\n5161\n159\n121\n2907\n4899\n1788\n2328\n545\n0\n8668\n4221",
+          "29869\n18843\n3759\n1394\n28424\n23780\n13259\n11495\n2038\n28\n27960\n12796",
+          "-0.86\n-3.82\n-60.25\n-24.38\n-10.08\n-0.37\n-38.98\n-12.81\n-5.05\n-100.00\n-27.75\n-31.77",
+          "-68.27\n-72.61\n-95.77\n-91.32\n-89.77\n-79.40\n-86.51\n-79.75\n-73.26\n-100.00\n-69.00\n-67.01"
+        ],
+        [
+          "Total",
+          "Export\nImport",
+          "28693\n19309",
+          "23544\n16730",
+          "105309\n68336",
+          "-17.95\n-13.36",
+          "-77.64\n-75.52"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Airports/ Type",
+          "",
+          "April 2020",
+          "",
+          "Cargo\nhandled\nduring\nApril 2019",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "",
+          "Target",
+          "Cargo\nhandled",
+          "",
+          "Target\nApril\n2020",
+          "Actual\nApril\n2019"
+        ],
+        [
+          "Mumbai\nKolkata\nDelhi\nChennai\nTrivandrum\nOthers",
+          "Export\nImport\nExport\nImport\nExport\nImport\nExport\nImport\nExport\nImport\nExport\nImport",
+          "9559\n5366\n400\n160\n3233\n4917\n2930\n2670\n574\n10\n11997\n6186",
+          "9477\n5161\n159\n121\n2907\n4899\n1788\n2328\n545\n0\n8668\n4221",
+          "29869\n18843\n3759\n1394\n28424\n23780\n13259\n11495\n2038\n28\n27960\n12796",
+          "-0.86\n-3.82\n-60.25\n-24.38\n-10.08\n-0.37\n-38.98\n-12.81\n-5.05\n-100.00\n-27.75\n-31.77",
+          "-68.27\n-72.61\n-95.77\n-91.32\n-89.77\n-79.40\n-86.51\n-79.75\n-73.26\n-100.00\n-69.00\n-67.01"
+        ],
+        [
+          "Total",
+          "Export\nImport",
+          "28693\n19309",
+          "23544\n16730",
+          "105309\n68336",
+          "-17.95\n-13.36",
+          "-77.64\n-75.52"
+        ]
+      ]
+    },
+    {
+      "page": 36,
+      "table_index": 0,
+      "headers": [
+        "Airports/ Terminal",
+        "",
+        "April 2020",
+        "",
+        "PAX\nTraffic\nduring\nApril 2019",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "",
+          "Target",
+          "PAX\nTraffic",
+          "",
+          "Target\nApril\n2020",
+          "Actual\nApril\n2019"
+        ],
+        [
+          "Mumbai\nKolkata\nDelhi\nChennai\nTrivandrum\nOthers",
+          "International\nDomestic\nInternational\nDomestic\nInternational\nDomestic\nInternational\nDomestic\nInternational\nDomestic\nInternational\nDomestic",
+          "12600\n10000\n2100\n15000\n26250\n37500\n5250\n12500\n1680\n1500\n37620\n346000",
+          "7956\n1095\n472\n190\n19514\n1110\n4765\n694\n320\n0\n18376\n7608",
+          "993144\n2328891\n244600\n1523407\n1387500\n3581007\n478441\n1236864\n202778\n131312\n2240815\n12350786",
+          "-36.86\n-89.05\n-77.52\n-98.73\n-25.66\n-97.04\n-9.24\n-94.45\n-80.95\n-\n-51.15\n-97.80",
+          "-99.20\n-99.95\n-99.81\n-99.99\n-98.59\n-99.97\n-99.00\n-99.94\n-99.84\n-\n-99.18\n-99.94"
+        ],
+        [
+          "Total",
+          "International\nDomestic",
+          "85500\n422500",
+          "51403\n10697",
+          "5547278\n21152267",
+          "-39.88\n-97.47",
+          "-99.07\n-99.95"
+        ],
+        [
+          "Total\n(International+Domestic)",
+          "",
+          "508000",
+          "62100",
+          "26699545",
+          "-87.78",
+          "-99.77"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Airports/ Terminal",
+          "",
+          "April 2020",
+          "",
+          "PAX\nTraffic\nduring\nApril 2019",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "",
+          "Target",
+          "PAX\nTraffic",
+          "",
+          "Target\nApril\n2020",
+          "Actual\nApril\n2019"
+        ],
+        [
+          "Mumbai\nKolkata\nDelhi\nChennai\nTrivandrum\nOthers",
+          "International\nDomestic\nInternational\nDomestic\nInternational\nDomestic\nInternational\nDomestic\nInternational\nDomestic\nInternational\nDomestic",
+          "12600\n10000\n2100\n15000\n26250\n37500\n5250\n12500\n1680\n1500\n37620\n346000",
+          "7956\n1095\n472\n190\n19514\n1110\n4765\n694\n320\n0\n18376\n7608",
+          "993144\n2328891\n244600\n1523407\n1387500\n3581007\n478441\n1236864\n202778\n131312\n2240815\n12350786",
+          "-36.86\n-89.05\n-77.52\n-98.73\n-25.66\n-97.04\n-9.24\n-94.45\n-80.95\n-\n-51.15\n-97.80",
+          "-99.20\n-99.95\n-99.81\n-99.99\n-98.59\n-99.97\n-99.00\n-99.94\n-99.84\n-\n-99.18\n-99.94"
+        ],
+        [
+          "Total",
+          "International\nDomestic",
+          "85500\n422500",
+          "51403\n10697",
+          "5547278\n21152267",
+          "-39.88\n-97.47",
+          "-99.07\n-99.95"
+        ],
+        [
+          "Total\n(International+Domestic)",
+          "",
+          "508000",
+          "62100",
+          "26699545",
+          "-87.78",
+          "-99.77"
+        ]
+      ]
+    },
+    {
+      "page": 37,
+      "table_index": 0,
+      "headers": [
+        "Name of the\nProduct/Sector",
+        "April 2020",
+        "",
+        "April 2019\nActual",
+        "% Variation Over",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril\n2020",
+          "Actual\nApril 2019"
+        ],
+        [
+          "Net addition in switching capacity - wireline & wireless (WLL+GSM) (in Lines)\na) Public Sector * -424287 2366749 - -\nb) Private Sector * $ $ - -",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Total",
+          "*",
+          "-424287",
+          "2366749",
+          "-",
+          "-"
+        ],
+        [
+          "Provision of net new DELs Telephone connections wireline (Fixed) (in Numbers)\na) Public Sector * -239845 -236953 - -\nb) Private Sector * -109358 13022 - -",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Total",
+          "*",
+          "-349203",
+          "-223931",
+          "-",
+          "-"
+        ],
+        [
+          "Provision of net new Wireless (Mobile) connections (WLL+GSM) (in Numbers)\na) Public Sector * -13008 226380 - -\nb) Private Sector * -8211443 258390 - -",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Total",
+          "*",
+          "-8224451",
+          "484770",
+          "-",
+          "-"
+        ]
+      ],
+      "raw_content": [
+        [
+          "Name of the\nProduct/Sector",
+          "April 2020",
+          "",
+          "April 2019\nActual",
+          "% Variation Over",
+          ""
+        ],
+        [
+          "",
+          "Target",
+          "Achievement\n(Provisional)",
+          "",
+          "Target\nApril\n2020",
+          "Actual\nApril 2019"
+        ],
+        [
+          "Net addition in switching capacity - wireline & wireless (WLL+GSM) (in Lines)\na) Public Sector * -424287 2366749 - -\nb) Private Sector * $ $ - -",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Total",
+          "*",
+          "-424287",
+          "2366749",
+          "-",
+          "-"
+        ],
+        [
+          "Provision of net new DELs Telephone connections wireline (Fixed) (in Numbers)\na) Public Sector * -239845 -236953 - -\nb) Private Sector * -109358 13022 - -",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Total",
+          "*",
+          "-349203",
+          "-223931",
+          "-",
+          "-"
+        ],
+        [
+          "Provision of net new Wireless (Mobile) connections (WLL+GSM) (in Numbers)\na) Public Sector * -13008 226380 - -\nb) Private Sector * -8211443 258390 - -",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Total",
+          "*",
+          "-8224451",
+          "484770",
+          "-",
+          "-"
+        ]
+      ]
+    }
+  ]
+}
