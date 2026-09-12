@@ -1,0 +1,6193 @@
+Dashboard HOME / PORTFOLIO OVERVIEW
+HOME / PORTFOLIO OVERVIEW
+│
+├── 1. HEADER / HERO
+│   ├── PAIMANA Intelligence branding
+│   ├── Dashboard title
+│   ├── Short description / tagline
+│   ├── Current Monitoring Period
+│   └── Last Data Updated
+│
+├── 2. PORTFOLIO KPI SUMMARY
+│   │
+│   ├── A. PROJECTS MONITORED
+│   │   ├── 3,842
+│   │   └── Across 11 Sectors / [X] Locations
+│   │
+│   ├── B. APPROVED COST
+│   │   ├── ₹68,80,072 Cr
+│   │   └── Original sanction baseline
+│   │
+│   ├── C. REVISED COST
+│   │   ├── ₹75,79,594 Cr
+│   │   └── Overall Growth: +10.2%
+│   │
+│   ├── D. CUMULATIVE EXPENDITURE
+│   │   ├── ₹41,77,137 Cr
+│   │   └── 55.1% of Revised Cost
+│   │
+│   └── E. REQUIRING ATTENTION
+│       ├── 854
+│       └── 66 Critical · 788 High Risk
+│
+├── 3. INFRASTRUCTURE RISK & DENSITY MAP
+│   ├── Geographic project distribution
+│   ├── Project density
+│   ├── Risk concentration
+│   ├── Risk severity / intensity
+│   └── Interactive map controls
+│
+├── 4. RECENT PORTFOLIO CHANGES
+│   ├── New High/Critical Risk Projects
+│   ├── New Warning Signals
+│   ├── Change in Cost Exposure
+│   ├── Change in Schedule Exposure
+│   └── Projects That Improved
+│
+└── 5. EXPLORE PAIMANA INTELLIGENCE
+    ├── Sector Analytics
+    ├── Ministry Analytics
+    ├── State Analytics
+    ├── Early Warning
+    └── Project Intelligence
+The visual hierarchy I'd use
+┌──────────────────────────────────────────────────────────────┐
+│  PAIMANA INTELLIGENCE                         Period | Updated │
+│  AI-Powered Infrastructure Decision Support                   │
+├──────────────────────────────────────────────────────────────┤
+│                                                              │
+│  PROJECTS     APPROVED       REVISED       EXPENDITURE  RISK  │
+│  3,842        ₹68,80,072    ₹75,79,594    ₹41,77,137   854  │
+│               Cr            Cr             Cr           │
+│                                                              │
+├──────────────────────────────────────────────────────────────┤
+│                                                              │
+│             INFRASTRUCTURE RISK & DENSITY MAP                │
+│                                                              │
+│                  [ Large interactive map ]                    │
+│                                                              │
+├──────────────────────────────────────────────────────────────┤
+│                                                              │
+│  RECENT PORTFOLIO CHANGES                                    │
+│  ─────────────────────────────────────────────────────────── │
+│  New risks | Cost exposure | Schedule exposure | Improved    │
+│                                                              │
+├──────────────────────────────────────────────────────────────┤
+│                                                              │
+│                    EXPLORE                                    │
+│                                                              │
+│  Sector      Ministry       State       Early       Project  │
+│  Analytics   Analytics      Analytics   Warning     Intel.   │
+│                                                              │
+└──────────────────────────────────────────────────────────────┘
+One important implementation decision
+The Recent Portfolio Changes section should be small. It should not become another dashboard.
+Likewise, the Explore section should simply be navigation cards/buttons—not mini versions of the other dashboards.
+So the Home page has only three substantive information layers:
+What exists? → 5 KPIs 
+Where is it? / Where is risk concentrated? → Risk & Density Map 
+What changed? → Recent Changes 
+Everything deeper gets pushed into the specialized modules.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dashboard project intelligence :
+The original 9 were:
+Current Project Status 
+Cost Forecast 
+Schedule Forecast 
+Overall Implementation Risk 
+Risk Trajectory 
+Why the Project Is Risky / Key Drivers 
+Early-Warning Triggers 
+Benchmark Against Similar Projects 
+Areas Requiring Official Review / Intervention 
+I would now restructure them as follows.
+PROJECT INTELLIGENCE — FINAL FACTORS
+1. Current Project Status
+A concise snapshot of the project's present condition.
+Project status 
+Physical progress 
+Financial progress / expenditure 
+Current project phase 
+Latest reporting period 
+Planned vs actual progress 
+Original vs revised cost 
+Original vs revised commissioning date 
+Major milestones completed/pending 
+
+2. Project Health Summary
+An overall executive-level assessment of the project.
+Overall health / risk status 
+Overall risk score 
+Risk band: Low / Medium / High / Critical 
+Current performance summary 
+Key positive developments 
+Key negative developments 
+Whether the project is improving, stable or deteriorating 
+This gives an officer the 30-second understanding before going deeper.
+
+3. Cost Forecast
+Predict where the project's final cost is heading.
+Probability of cost overrun 
+Predicted final cost 
+Expected cost overrun 
+Expected overrun percentage 
+Current expenditure trajectory 
+Original vs revised vs predicted cost 
+Cost escalation trend 
+Forecast confidence 
+
+4. Schedule Forecast
+Predict whether the project will finish on time.
+Probability of schedule overrun 
+Expected completion date 
+Expected delay 
+Delay percentage 
+Planned vs actual progress 
+Milestone slippage 
+Revised commissioning trajectory 
+Forecast confidence 
+
+5. Overall Implementation Risk
+Combine the major project risks into an overall assessment.
+Overall risk score 
+Risk band 
+Cost risk 
+Schedule risk 
+Implementation risk 
+Operational/execution risk 
+Data-supported confidence 
+Current risk severity 
+
+6. Risk & Performance Trajectory
+Show how the project is changing over time, rather than just its current value.
+Risk score over time 
+Physical progress trajectory 
+Financial progress trajectory 
+Cost trajectory 
+Schedule trajectory 
+Improving / Stable / Deteriorating 
+Rate of deterioration 
+Consecutive periods of deterioration 
+This is particularly important because PAIMANA contains monthly project updates.
+
+7. Active Warnings & Early-Warning Triggers
+Show exactly what is currently triggering concern.
+For each warning:
+Warning type 
+Severity 
+Trigger date 
+Current status 
+Warning persistence 
+Trigger condition 
+Number of consecutive periods 
+Predicted impact 
+Examples:
+Schedule delay 
+Cost escalation 
+Milestone delay 
+Progress stagnation 
+Physical-financial mismatch 
+Implementation slowdown 
+Repeated milestone failure 
+
+8. Why Is the Project Being Flagged?
+Turn model output into an understandable explanation.
+For each major warning:
+What changed? 
+What caused the warning? 
+Which variables contributed? 
+How much did each factor contribute? 
+What historical pattern was detected? 
+Is the problem new or persistent? 
+For example:
+Physical progress has remained below the expected trajectory for three consecutive months, while expenditure has continued increasing.
+This is where SHAP/model explainability + temporal analysis becomes useful.
+
+9. Key Risk Drivers
+Go one level deeper than the warning itself.
+Identify the factors most strongly associated with the project's current risk.
+Examples:
+Declining physical progress 
+Rapid expenditure growth 
+Milestone slippage 
+Contractor performance 
+Approval delays 
+Procurement delays 
+Resource constraints 
+Project age 
+Persistent underperformance 
+The system should distinguish between observed data and model-inferred drivers.
+
+10. Warning & Risk History
+Give the officer the project's complete warning history.
+First warning date 
+Previous warnings 
+Warning types over time 
+Severity changes 
+Risk-score changes 
+Resolved warnings 
+Recurring warnings 
+Dismissed/invalidated warnings where applicable 
+Duration of persistent warnings 
+This answers:
+“Has this project been problematic for months, or is this a new problem?”
+
+11. Benchmark Against Similar Projects
+Compare the project with an appropriate peer group.
+Possible comparison dimensions:
+Same sector 
+Similar project cost 
+Similar project duration 
+Similar project phase 
+Same ministry/agency 
+Similar geography 
+Similar project type 
+Compare:
+Cost escalation 
+Schedule delay 
+Physical progress 
+Expenditure 
+Risk level 
+Milestone performance 
+The peer group and methodology should be clearly displayed so the comparison isn't misleading.
+
+12. Areas Requiring Official Attention
+Convert the analysis into a concise list of issues requiring human review.
+For example:
+Priority 1 — Schedule Recovery
+Two major milestones have slipped and physical progress has deteriorated for three consecutive periods.
+Priority 2 — Cost Review
+Expenditure growth is exceeding the project's physical progress trajectory.
+This is still decision support, not an autonomous government decision.
+
+13. Recommended Interventions
+Now we add the intervention layer you proposed.
+For each identified issue:
+Recommended measure 
+Reason for recommendation 
+Evidence supporting it 
+Expected objective/effect 
+Priority 
+Responsible authority/role 
+Whether human review is required 
+Example:
+Recommended measure:
+Review contractor performance and prepare a milestone recovery plan.
+Reason:
+Persistent milestone slippage + declining physical progress.
+The AI should explain why it recommended the measure, rather than just generating generic suggestions.
+
+14. Intervention Tracking & Progress
+This is the major new addition.
+Track whether anything is actually being done about the identified problem.
+Intervention planned? Yes/No 
+Intervention type 
+Responsible authority 
+Planned date 
+Actual start date 
+Current action status 
+Intervention progress 
+Latest action update 
+Pending actions 
+Escalation status 
+Possible status:
+Not Planned → Acknowledged → Under Review → Planned → Action Initiated → Monitoring → Resolved / Escalated
+This makes your platform more than a prediction dashboard.
+
+15. Intervention Outcome & Effectiveness
+Finally, determine whether the intervention actually worked.
+Compare before vs after intervention:
+Risk score 
+Physical progress 
+Financial progress 
+Cost trajectory 
+Schedule trajectory 
+Warning severity 
+Warning status 
+Milestone performance 
+Then classify:
+Effective 
+Partially effective 
+Ineffective 
+Too early to assess 
+For example:
+Intervention effectiveness: Partially effective
+Risk decreased from High → Medium, but schedule warning remains active.
+This creates the full loop:
+Detect → Explain → Recommend → Act → Monitor → Evaluate
+
+So the final 15-factor structure
+PROJECT INTELLIGENCE
+│
+├── 1. Current Project Status
+├── 2. Project Health Summary
+│
+├── 3. Cost Forecast
+├── 4. Schedule Forecast
+├── 5. Overall Implementation Risk
+├── 6. Risk & Performance Trajectory
+│
+├── 7. Active Warnings & Early-Warning Triggers
+├── 8. Why Is the Project Being Flagged?
+├── 9. Key Risk Drivers
+├── 10. Warning & Risk History
+│
+├── 11. Benchmark Against Similar Projects
+│
+├── 12. Areas Requiring Official Attention
+├── 13. Recommended Interventions
+├── 14. Intervention Tracking & Progress
+└── 15. Intervention Outcome & Effectiveness
+The important architectural change
+The first 10 are primarily about:
+What is happening + why is it happening?
+11–12 are:
+How serious is it + what deserves attention?
+13–15 are:
+What can be done + has anything been done + did it work?
+That makes Project Intelligence the complete lifecycle view of one project, while Early Warning remains the filtered/ranked entry point for finding which projects deserve that investigation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dashboard sector analytiocs:
+
+
+Sector Analytics
+1. Sector Overview
+The main national-level view comparing all sectors.
+Purpose: “Which sectors are performing well, and which sectors need attention?”
+Show:
+Number of projects 
+Total investment 
+Physical progress 
+Financial progress 
+Cost escalation 
+Time overrun 
+Milestone performance 
+High-risk projects (%) 
+Deteriorating projects 
+Forecast cost exposure 
+Forecast delay exposure 
+Also show trend over time, so you can see whether a sector is improving or worsening.
+
+2. Sector Comparison
+Compare sectors directly.
+For example:
+The user should be able to sort/rank sectors by any major metric.
+
+3. Sector Health & Risk
+Now go deeper into why a sector is performing poorly.
+Show:
+Risk distribution: Low / Medium / High / Critical 
+Cost-risk distribution 
+Schedule-risk distribution 
+Milestone-risk distribution 
+Number of projects becoming worse 
+Number of projects improving 
+Common risk factors 
+Most problematic project categories 
+Risk trend over time 
+This is where the predictive component becomes visible at the sector level.
+
+4. Sector Cost & Schedule Performance
+A dedicated performance analysis:
+Cost
+Approved vs revised cost 
+Historical cost escalation 
+Average/median escalation 
+Projects with major escalation 
+Predicted future cost exposure 
+Schedule
+Planned vs actual completion 
+Average/median delay 
+Projects with major delays 
+Predicted future delay exposure 
+This lets an official answer:
+“Is this sector mainly suffering from cost problems, schedule problems, or both?”
+
+5. Sector → State Performance
+This is the drill-down you described.
+Click Transport, for example:
+Transport Sector → State Performance
+Compare:
+Tamil Nadu 
+Maharashtra 
+Gujarat 
+Karnataka 
+etc. 
+Using the same important metrics:
+Physical progress 
+Financial progress 
+Cost escalation 
+Time overrun 
+Risk 
+Milestone performance 
+Deteriorating projects 
+Forecast cost/delay 
+Then clicking Tamil Nadu takes you to:
+6. Sector-State Projects
+Transport → Tamil Nadu
+Now show the projects belonging to that combination.
+For example:
+Project A — High Risk
+Project B — Medium Risk
+Project C — Low Risk
+with:
+Current progress 
+Cost status 
+Schedule status 
+Risk 
+Recent deterioration 
+Forecast completion 
+Forecast final cost 
+And clicking a project opens your existing Project Intelligence interface.
+
+So the complete flow is
+Sector Analytics
+→ Sector Overview & Comparison
+→ Sector Health & Risk
+→ Sector Cost & Schedule
+→ Select a Sector
+→ State Performance
+→ Select a State
+→ Projects
+→ Project Intelligence
+One important design decision
+I wouldn't make every one of those a separate dashboard/page.
+Think of it as one Sector Analytics module with different views/tabs.
+The core journey should be:
+Compare sectors → understand a sector → compare its states → inspect projects → open Project Intelligence
+That gives you a very natural macro → micro progression without creating 10 different dashboards.
+just answer in simple brief , points 1,2,3,4 would be one interface , then point 5 another , then 6 another 
+Exactly.
+Sector Analytics = 3 interfaces
+1. Sector Overview
+Sector comparison 
+Physical/financial progress 
+Cost escalation 
+Time overrun 
+Risk 
+Milestone performance 
+Trends & forecasts 
+2. Sector → State Performance
+Select a sector 
+Compare states within that sector 
+Same major performance/risk metrics 
+3. Sector + State → Projects
+List/rank projects in that sector and state 
+Current condition, risk, progress, cost, delay, etc. 
+Click project → Project Intelligence 
+So:
+Sector Overview → State Performance → Projects → Project Intelligence
+
+
+
+dashboard mininstry analytics :
+Ministry Analytics = 3 interfaces
+1. Ministry Overview
+Purpose: How are different ministries/departments performing nationally?
+Show:
+Number of projects 
+Total investment 
+Physical progress 
+Financial progress 
+Cost escalation 
+Time overrun 
+Milestone performance 
+High-risk projects 
+Deteriorating projects 
+Forecast cost exposure 
+Forecast delay exposure 
+Performance trends over time 
+Also allow direct comparison/ranking of ministries across these metrics.
+
+2. Ministry → Agency Performance
+Purpose: How are the implementing agencies within a ministry performing?
+After selecting a ministry, compare its agencies on:
+Number of projects 
+Total investment 
+Physical/financial progress 
+Cost escalation 
+Time overrun 
+Milestone performance 
+Risk distribution 
+Deteriorating projects 
+Forecast cost/delay exposure 
+Historical performance/trends 
+This identifies which agencies are performing well or creating greater implementation problems.
+
+3. Ministry + Agency → Projects
+Purpose: Which specific projects are driving the agency/ministry's performance?
+Show the projects with:
+Current progress 
+Cost status 
+Schedule/delay status 
+Risk level 
+Milestone status 
+Recent deterioration 
+Forecast completion 
+Forecast final cost 
+Projects can be ranked and filtered by risk, cost, delay, etc.
+Clicking a project opens the Project Intelligence interface.
+Overall flow
+Ministry Overview → Agency Performance → Projects → Project Intelligence
+
+
+
+
+
+
+Dashboard state analytics :
+
+
+Yes. For State Analytics, I would make it structurally similar to Sector and Ministry Analytics, but I would not simply copy-paste their hierarchy.
+The natural question here is:
+“How is infrastructure performing across States/UTs, what sectors and ministries are driving that performance, and which projects are responsible?”
+So the strongest structure is:
+STATE ANALYTICS
+STATE ANALYTICS
+│
+├── 1. STATE OVERVIEW
+│   ├── State / UT comparison
+│   ├── Project Count
+│   ├── Total Investment
+│   ├── Cumulative Expenditure
+│   ├── Physical Progress
+│   ├── Financial Progress
+│   ├── Cost Escalation
+│   ├── Schedule / Time Overrun
+│   ├── High / Critical Risk Projects
+│   ├── Projects Requiring Attention
+│   └── Performance / Risk Trends
+│
+├── 2. STATE → SECTOR PERFORMANCE
+│   ├── Select State / UT
+│   ├── Sector-wise Project Count
+│   ├── Investment by Sector
+│   ├── Physical / Financial Progress
+│   ├── Cost Performance
+│   ├── Schedule Performance
+│   ├── Risk Distribution
+│   ├── Sector Comparison
+│   └── Sector Trends
+│
+└── 3. STATE + SECTOR → PROJECTS
+    ├── Select State / UT
+    ├── Select Sector
+    ├── Project List
+    ├── Project ID / Code
+    ├── Ministry / Department
+    ├── Implementing Agency
+    ├── Cost
+    ├── Expenditure
+    ├── Physical Progress
+    ├── Cost Risk
+    ├── Schedule Risk
+    ├── Overall Risk
+    └── → Project Intelligence
+1. STATE OVERVIEW
+This is the main landing interface.
+When nothing is selected, the dashboard should answer:
+Which States/UTs have the largest infrastructure portfolios, and how are they performing?
+Comparison table / ranking
+For example:
+This should be the core component, rather than filling the page with charts.
+Useful visualizations
+You can have a few supporting visuals:
+State-wise project distribution 
+State-wise investment 
+Risk distribution by state 
+Cost/schedule performance comparison 
+Trend over time 
+But don't turn it into 15 charts.
+
+2. STATE → SECTOR PERFORMANCE
+When the user selects a state:
+Tamil Nadu
+the dashboard changes context.
+Now the question becomes:
+“How is infrastructure performing within Tamil Nadu, and which sectors are responsible for the performance?”
+Example:
+STATE: TAMIL NADU
+
+Sector Performance
+
+Transport       42 projects   High risk: 8
+Energy          31 projects   High risk: 5
+Water           24 projects   High risk: 3
+Urban           18 projects   High risk: 7
+...
+Compare sectors on:
+Project count 
+Investment 
+Expenditure 
+Physical progress 
+Financial progress 
+Cost escalation 
+Schedule delay 
+Risk 
+Projects requiring attention 
+This is analogous to:
+Sector → State Performance
+but reversed:
+State → Sector Performance
+That gives users a natural geographic drill-down.
+
+3. STATE + SECTOR → PROJECTS
+Once the user chooses:
+Tamil Nadu → Transport
+the final analytical view becomes:
+Transport Infrastructure Projects in Tamil Nadu
+The project table should contain enough information to identify which projects are driving the sector's performance.
+Recommended columns
+Project Name 
+Project ID / Code 
+Ministry / Department 
+Implementing Agency 
+Original Cost 
+Revised Cost 
+Expenditure 
+Physical Progress 
+Cost Overrun / Forecast 
+Schedule Delay / Forecast 
+Overall Risk 
+Warning Status 
+Then:
+Project → Project Intelligence
+
+4. Why I Would NOT Make Ministry the Primary Drill-Down
+You might wonder whether this should instead be:
+State → Ministry → Projects.
+I wouldn't make that the primary structure.
+The reason is that you've already established:
+Ministry Analytics → Agency Performance
+and:
+Sector Analytics → State Performance
+For State Analytics, Sector is the more useful analytical counterpart because it lets you answer:
+What types of infrastructure are driving this state's portfolio?
+Ministry can still be a filter and project-table column.
+You don't need:
+State
+ ↓
+Ministry
+ ↓
+Agency
+ ↓
+Sector
+ ↓
+Projects
+That becomes an unnecessarily deep hierarchy.
+
+5. But Ministry Should Still Be a Filter
+The State Analytics filter bar should contain:
+┌──────────────────────────────────────────────────────────────┐
+│ State/UT │ Sector │ Ministry │ Agency │ Period │ Status │ Risk │
+└──────────────────────────────────────────────────────────────┘
+Here:
+Primary dimension
+State / UT
+Secondary dimensions
+Sector 
+Ministry / Department 
+Implementing Agency 
+Reporting Period 
+Project Status 
+Risk Band 
+Search
+Project Name 
+Project ID / Code 
+So a user can ask:
+Tamil Nadu + Transport + Ministry of Railways + High Risk
+without needing a dedicated Ministry drill-down page inside State Analytics.
+
+6. The Three Interfaces
+I'd therefore lock State Analytics as:
+Interface 1 — State Overview
+Compare States/UTs
+All States/UTs
+       ↓
+Performance / Risk comparison
+       ↓
+Select State
+Interface 2 — State → Sector Performance
+Understand one State
+Tamil Nadu
+       ↓
+Sector performance
+       ↓
+Select Sector
+Interface 3 — State + Sector → Projects
+Find the projects responsible
+Tamil Nadu
+   +
+Transport
+       ↓
+Project list
+       ↓
+Project Intelligence
+
+7. The Complete Architecture
+So your three analytical dashboards now form a very clean pattern:
+SECTOR ANALYTICS
+│
+├── Sector Overview
+├── Sector → State Performance
+└── Sector + State → Projects
+        ↓
+   Project Intelligence
+
+
+MINISTRY ANALYTICS
+│
+├── Ministry Overview
+├── Ministry → Agency Performance
+└── Ministry + Agency → Projects
+        ↓
+   Project Intelligence
+
+
+STATE ANALYTICS
+│
+├── State Overview
+├── State → Sector Performance
+└── State + Sector → Projects
+        ↓
+   Project Intelligence
+This is actually a good level of symmetry without forcing identical structures.
+Each dashboard has a distinct analytical purpose:
+And all three ultimately converge on:
+Project Intelligence
+That's the structure I would use rather than adding more layers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dashboard data & model operations 
+
+Yes. I’d revise it to one single Data & Model Operations page, with the following internal structure.
+Data & Model Operations
+Purpose: Manage PAIMANA data, validate and integrate updates, manage ML models, and propagate approved changes throughout the platform.
+
+1. Operations Overview
+The first section gives the admin an immediate snapshot of the system.
+Data Status
+Current PAIMANA reporting period 
+Last successful data update 
+Total projects 
+Total project-month records 
+Current dataset version 
+Data status: Healthy / Warning / Error 
+Model Status
+Active Cost Overrun Model 
+Active Schedule Risk Model 
+Active Delay Model 
+Model versions 
+Last training date 
+Production status 
+Pipeline Status
+Show the overall processing pipeline:
+Data Upload → Validation → Integration → Feature Processing → Model Processing → Prediction Refresh → Dashboard Refresh
+Each stage shows:
+Completed 
+Processing 
+Failed 
+Not required 
+Recent Operations
+Small table showing:
+Operation 
+Date/time 
+Dataset/model version 
+Status 
+Duration 
+
+2. Dataset Management
+This is where the admin manages the datasets used by the platform.
+Dataset Sources
+Show registered datasets as cards/table:
+For each dataset:
+View details 
+View schema 
+Upload update 
+View previous versions 
+Upload Dataset
+A prominent Upload New Dataset action.
+Upload workflow:
+Select Dataset Type → Upload File → Preview → Validate → Confirm
+Supported initial types:
+PAIMANA monthly update 
+External dataset 
+New registered dataset 
+Don't automatically retrain models simply because a file was uploaded.
+
+3. Data Validation
+After upload, the system checks the dataset before allowing it into the master database.
+Validation Checks
+Required columns present 
+Correct data types 
+Missing values 
+Duplicate records 
+Duplicate Project ID + Month combinations 
+Invalid dates 
+Invalid numerical values 
+Invalid Project IDs 
+Unexpected columns 
+Schema changes 
+Impossible values 
+Validation Summary
+Show:
+Records received 
+Valid records 
+Invalid records 
+Records rejected 
+Warnings 
+Critical errors 
+Example:
+24,580 records received
+24,431 valid
+149 rejected
+2 schema warnings
+Actions:
+Accept Dataset / Reject Dataset
+
+4. Data Integration
+This section shows what happens after validation.
+Integration Pipeline
+Uploaded Dataset
+↓
+Validated Dataset
+↓
+Master PAIMANA Dataset
+↓
+Project-Month Dataset
+Integration Metrics
+New projects 
+Existing projects updated 
+New project-month records 
+Modified records 
+Duplicate records 
+Unmatched external records 
+Successful joins 
+Failed joins 
+For external datasets such as WPI:
+Project-month records matched: 96.8%
+This is particularly important because an external dataset should not silently enter the model if it cannot be reliably joined.
+
+5. Feature Processing
+This section shows how raw data becomes model-ready information.
+Feature Categories
+Project Features
+Project cost 
+Sector 
+Ministry 
+State 
+Agency 
+Project duration 
+etc. 
+Progress Features
+Physical progress 
+Financial progress 
+Progress velocity 
+Progress trend 
+Progress deviation 
+Cost Features
+Cost escalation 
+Expenditure % 
+Cost trend 
+Cost exposure 
+Schedule Features
+Time elapsed % 
+Remaining duration 
+Schedule slippage 
+Milestone delays 
+Risk/Deterioration Features
+Risk trajectory 
+Recent deterioration 
+Persistent issues 
+Historical trends 
+External Features
+WPI 
+Other approved external variables 
+Processing Status
+Show:
+Features generated 
+Features failed 
+Processing time 
+Feature version 
+
+6. Model Operations
+This is the main ML management section.
+Active Models
+Display the production models:
+Each model can show:
+Training dataset version 
+Feature version 
+Training date 
+Performance 
+Deployment status 
+Train / Retrain
+Admin selects:
+Model 
+Dataset version 
+Feature version 
+Training configuration 
+Then:
+Start Training
+The result becomes a Candidate Model, not automatically the production model.
+
+7. Model Evaluation & Benchmarking
+This section determines whether a candidate model is actually better.
+Classification Metrics
+For cost/schedule classification:
+Precision 
+Recall 
+F1 
+ROC-AUC 
+PR-AUC 
+Calibration 
+False-warning rate 
+Lead time 
+Regression Metrics
+For cost/delay prediction:
+MAE 
+RMSE 
+R² 
+Model Comparison
+Example:
+Also allow comparison across:
+CatBoost 
+XGBoost 
+Random Forest 
+Logistic Regression 
+Simple statistical baselines 
+The purpose is to empirically justify the chosen model, rather than assuming CatBoost is best.
+
+8. Model Deployment
+Once evaluation is complete, the admin decides whether to promote the candidate.
+Deployment Panel
+Show:
+Current Production Model
+vs.
+Candidate Model
+with:
+Performance difference 
+Dataset version 
+Feature version 
+Training date 
+Validation status 
+Actions:
+Deploy Candidate
+Keep Current Model
+Rollback
+If a deployed model causes problems:
+Rollback to Previous Version
+This gives you proper model versioning rather than simply replacing the old model.
+
+9. Prediction & System Refresh
+This is the section that connects the data/model operations to the rest of the platform.
+Refresh Workflow
+Updated Data / New Model
+↓
+Recalculate Project Features
+↓
+Generate Predictions
+↓
+Update Project Risk
+↓
+Update Early Warnings
+↓
+Refresh Analytics
+↓
+Update Dashboards
+Show Progress
+For example:
+Projects processed: 4,218 / 4,218
+Predictions updated: 4,218
+Risk scores updated: 4,218
+Warnings recalculated: 1,284
+Dashboard refresh: Complete
+Result Summary
+After completion:
+New high-risk projects 
+Projects whose risk increased 
+Projects whose risk decreased 
+New warnings 
+Resolved warnings 
+Changed predicted cost exposure 
+Changed predicted delay exposure 
+This is much better than having separate Prediction Refresh and System-Wide Refresh pages.
+
+10. Operations History & Audit
+The final section provides traceability.
+Data History
+Dataset uploaded 
+Version 
+Upload date 
+Reporting period 
+Records added 
+Records modified 
+Records rejected 
+Validation result 
+Model History
+Model trained 
+Model version 
+Dataset used 
+Evaluation result 
+Deployment 
+Rollback 
+System History
+Prediction refresh 
+Risk recalculation 
+Warning refresh 
+Dashboard refresh 
+Traceability
+For any current prediction, the system should be able to answer:
+Which dataset version + feature version + model version produced this prediction, and when?
+
+Final Page Structure
+So the actual single dashboard page becomes:
+DATA & MODEL OPERATIONS
+
+├── 1. Operations Overview
+│
+├── 2. Dataset Management
+│   ├── Dataset Sources
+│   └── Upload Dataset
+│
+├── 3. Data Validation
+│
+├── 4. Data Integration
+│
+├── 5. Feature Processing
+│
+├── 6. Model Operations
+│   ├── Active Models
+│   └── Train / Retrain
+│
+├── 7. Model Evaluation & Benchmarking
+│
+├── 8. Model Deployment
+│
+├── 9. Prediction & System Refresh
+│
+└── 10. Operations History & Audit
+These are 10 functional sections, not 10 separate pages.
+For the actual frontend, I would make Data & Model Operations one page with a sidebar/anchor navigation to these sections, plus modals/drawers for things like uploading a dataset, viewing a schema, training a model, or confirming deployment.
+That gives you a much cleaner architecture: one admin operations center rather than a collection of tiny admin pages.
+
+Dashboard early warning system
+
+EARLY WARNING SYSTEM — COMPLETE DASHBOARD STRUCTURE
+EARLY WARNING SYSTEM
+│
+├── GLOBAL / MODULE HEADER
+│   │
+│   ├── Active Alerts
+│   ├── Intervention Workflow
+│   ├── Current Monitoring Period
+│   ├── Last Data Update
+│   └── Optional: Saved Attention Views
+│
+│
+├── 1. ACTIVE ALERTS
+│   │
+│   ├── A. ALERT FILTER & SEARCH AREA
+│   │   │
+│   │   ├── Organisational Filters
+│   │   │   ├── Sector
+│   │   │   ├── Ministry / Department
+│   │   │   ├── State / UT
+│   │   │   └── Implementing Agency
+│   │   │
+│   │   ├── Warning Filters
+│   │   │   ├── Warning Type
+│   │   │   ├── Severity
+│   │   │   ├── Warning Status
+│   │   │   ├── Risk Band
+│   │   │   ├── Warning Recency
+│   │   │   ├── Warning Persistence
+│   │   │   └── Trend / Deterioration
+│   │   │
+│   │   ├── Impact Filters
+│   │   │   ├── Predicted Cost Impact
+│   │   │   └── Predicted Schedule Impact
+│   │   │
+│   │   ├── Time / Monitoring Filters
+│   │   │   ├── Reporting Period
+│   │   │   ├── Warning Trigger Period
+│   │   │   └── Historical Lookback
+│   │   │
+│   │   └── Direct Search
+│   │       ├── Project Name
+│   │       └── Project ID / Code
+│   │
+│   │
+│   ├── B. FILTERED WARNING SUMMARY
+│   │   │
+│   │   ├── Affected Projects
+│   │   ├── Active Warning Signals
+│   │   ├── Critical Projects
+│   │   ├── High-Risk Projects
+│   │   ├── New Warnings
+│   │   ├── Deteriorating Projects
+│   │   ├── Persistent Warnings
+│   │   ├── High Cost Exposure
+│   │   └── High Schedule Exposure
+│   │
+│   │
+│   ├── C. WARNING / PROJECT DISTRIBUTION
+│   │   │
+│   │   ├── Warning Type Distribution
+│   │   ├── Severity Distribution
+│   │   ├── Risk Distribution
+│   │   ├── Trend / Deterioration Distribution
+│   │   └── Optional Organisational Distribution
+│   │       ├── Sector
+│   │       ├── Ministry
+│   │       └── State
+│   │
+│   │
+│   ├── D. PRIORITISED ALERT QUEUE
+│   │   │
+│   │   ├── Project
+│   │   ├── Project ID
+│   │   ├── Priority
+│   │   ├── Highest Severity
+│   │   ├── Active Warning(s)
+│   │   ├── Key Trigger
+│   │   ├── Trend
+│   │   ├── Predicted Cost Impact
+│   │   ├── Predicted Schedule Impact
+│   │   ├── Last Trigger
+│   │   └── Recommended Measure
+│   │
+│   │
+│   └── E. ALERT ACTIONS
+│       │
+│       ├── View Project Intelligence
+│       ├── Review Warning
+│       └── Move / Link to Intervention Workflow
+│
+│
+│
+├── 2. INTERVENTION WORKFLOW
+│   │
+│   ├── A. INTERVENTION FILTER & SEARCH AREA
+│   │   │
+│   │   ├── Organisational Filters
+│   │   │   ├── Sector
+│   │   │   ├── Ministry / Department
+│   │   │   ├── State / UT
+│   │   │   └── Implementing Agency
+│   │   │
+│   │   ├── Intervention Filters
+│   │   │   ├── Intervention Status
+│   │   │   ├── Intervention Type
+│   │   │   ├── Priority
+│   │   │   └── Responsible Authority
+│   │   │
+│   │   ├── Follow-up Filters
+│   │   │   ├── Intervention Age
+│   │   │   ├── Last Action / Update
+│   │   │   ├── Intervention Progress
+│   │   │   └── Outcome
+│   │   │
+│   │   └── Direct Search
+│   │       ├── Project Name
+│   │       └── Project ID / Code
+│   │
+│   │
+│   ├── B. INTERVENTION WORKFLOW SUMMARY
+│   │   │
+│   │   ├── Total Interventions
+│   │   ├── Awaiting Action
+│   │   ├── Under Review
+│   │   ├── Intervention Planned
+│   │   ├── Action Initiated
+│   │   ├── Monitoring
+│   │   ├── Overdue Follow-ups
+│   │   ├── Resolved
+│   │   └── Escalated
+│   │
+│   │
+│   ├── C. WORKFLOW / STATUS DISTRIBUTION
+│   │   │
+│   │   ├── Intervention Status
+│   │   ├── Intervention Type
+│   │   ├── Priority
+│   │   ├── Responsible Authority
+│   │   └── Outcome
+│   │
+│   │
+│   ├── D. INTERVENTION QUEUE
+│   │   │
+│   │   ├── Project
+│   │   ├── Project ID
+│   │   ├── Original Warning / Issue
+│   │   ├── Priority
+│   │   ├── Recommended Intervention
+│   │   ├── Responsible Authority
+│   │   ├── Intervention Status
+│   │   ├── Intervention Progress
+│   │   ├── Last Update
+│   │   ├── Follow-up Due
+│   │   └── Outcome
+│   │
+│   │
+│   └── E. INTERVENTION ACTIONS
+│       │
+│       ├── View Project Intelligence
+│       ├── Update Intervention
+│       ├── Add Action / Progress Update
+│       ├── Mark for Follow-up
+│       └── Escalate / Resolve
+│
+│
+│
+└── 3. PROJECT INTELLIGENCE CONNECTION
+    │
+    │   Clicking a project from either tab
+    │
+    ▼
+    PROJECT INTELLIGENCE
+        │
+        ├── Project Overview
+        ├── Project Health Summary
+        ├── Current Project Status
+        │
+        ├── Cost Forecast
+        ├── Schedule Forecast
+        ├── Overall Implementation Risk
+        ├── Risk & Performance Trajectory
+        │
+        ├── Active Warnings & Early-Warning Triggers
+        ├── Why Is the Project Being Flagged?
+        ├── Key Risk Drivers
+        ├── Warning & Risk History
+        │
+        ├── Benchmark Against Similar Projects
+        │
+        ├── Areas Requiring Official Attention
+        │
+        ├── Recommended Interventions
+        ├── Intervention Tracking & Progress
+        └── Intervention Outcome & Effectiveness
+1. ACTIVE ALERTS
+This should be the default landing tab of Early Warning.
+Its job is not to deeply analyse projects.
+Its job is:
+Detect → filter → prioritize → direct the officer to the projects requiring attention.
+A. Filter/search area
+We already know this will eventually need a very carefully designed filtering protocol, because things like:
+current warning vs historical warning, 
+warning vs project count, 
+severity vs risk, 
+warning persistence, 
+multiple simultaneous warnings, 
+reporting period vs trigger date, 
+can easily create misleading results.
+We should handle those semantics separately later, exactly as you suggested.
+
+B. Warning summary
+These KPIs should dynamically describe the currently filtered alert population.
+For example:
+Affected Projects: 127
+Active Warning Signals: 214
+Critical Projects: 14
+New Warnings: 23
+Deteriorating Projects: 31
+High Cost Exposure: ₹X crore
+High Schedule Exposure: X months
+Notice the deliberate distinction between:
+Affected Projects = unique projects
+and
+Warning Signals = individual warning instances
+That distinction will be important later.
+
+C. Warning distribution
+This is where the officer gets a quick picture of what kinds of problems exist.
+For example:
+42% schedule-related 
+27% cost-related 
+18% progress-related 
+13% other implementation risks 
+And severity:
+Critical 
+High 
+Medium 
+Low 
+These charts should always reflect the same filtered population as the queue.
+
+2. PRIORITISED ALERT QUEUE
+This is arguably the most important component of the entire Early Warning module.
+The system should rank projects rather than dumping hundreds of alerts into a table.
+For example:
+The important design choice is:
+One project should ideally appear once.
+If Project A has:
+Critical schedule warning 
+High cost warning 
+Medium progress warning 
+you don't want three completely separate rows cluttering the dashboard.
+Instead:
+Project A — 3 Active Warnings
+and the warnings can be expanded.
+That makes the queue a project-prioritization system, rather than a raw alert database.
+
+3. PROJECT INTELLIGENCE CONNECTION
+Clicking the project should take the officer directly into the complete Project Intelligence interface.
+Importantly, the system should carry the context of why the officer came there.
+For example:
+Opened from Early Warning → Critical Schedule Warning
+Then Project Intelligence can highlight the relevant schedule-warning information first, while still providing the complete 15-factor analysis.
+This prevents the user from losing the reason they originally clicked the project.
+
+4. INTERVENTION WORKFLOW
+This is the second major tab.
+Its purpose is completely different:
+Active Alerts = What needs attention?
+Intervention Workflow = What are we doing about it?
+It therefore shouldn't just be another alert table.
+
+Intervention Status
+The workflow should represent the actual lifecycle:
+Warning Detected
+      ↓
+Acknowledged
+      ↓
+Under Review
+      ↓
+Intervention Planned
+      ↓
+Action Initiated
+      ↓
+Monitoring
+      ↓
+Resolved
+      │
+      └──→ Escalated (if intervention is ineffective)
+This gives the system a genuine closed-loop monitoring architecture.
+
+5. INTERVENTION QUEUE
+The queue should answer:
+“Which interventions currently need management or follow-up?”
+For example:
+Project A
+Issue: Schedule deterioration 
+Priority: Critical 
+Intervention: Milestone recovery review 
+Authority: Implementing Agency 
+Status: Action Initiated 
+Progress: 60% 
+Follow-up: 15 September 
+Outcome: Risk improving 
+Another:
+Project B
+Issue: Cost escalation 
+Priority: High 
+Intervention: Contract/cost review 
+Status: Under Review 
+Progress: — 
+Follow-up: Overdue 
+This is much more useful to an officer than simply saying:
+“Project B is high risk.”
+
+6. PROJECT INTELLIGENCE IS THE COMMON DESTINATION
+This is an important architectural decision.
+Both:
+Active Alerts
+and
+Intervention Workflow
+should ultimately point to the same Project Intelligence page.
+ACTIVE ALERTS
+     │
+     └──────────┐
+                ↓
+       PROJECT INTELLIGENCE
+                ↑
+     ┌──────────┘
+     │
+INTERVENTION WORKFLOW
+But the entry context is different.
+From Active Alerts:
+“I'm investigating why this project was flagged.”
+From Intervention Workflow:
+“I'm reviewing what happened with the intervention on this project.”
+Same project. Same underlying data. Different entry context.
+
+7. THE COMPLETE EARLY WARNING CONCEPT
+So your final conceptual model becomes:
+                 EARLY WARNING SYSTEM
+                         │
+             ┌───────────┴───────────┐
+             │                       │
+             ▼                       ▼
+       ACTIVE ALERTS        INTERVENTION WORKFLOW
+             │                       │
+             │                       │
+       Detect & Rank           Manage & Follow-up
+             │                       │
+             └───────────┬───────────┘
+                         ▼
+                 PROJECT INTELLIGENCE
+                         │
+             ┌───────────┴───────────┐
+             │                       │
+       Deep Diagnosis          Intervention Analysis
+             │                       │
+             └───────────┬───────────┘
+                         ▼
+                  Outcome Monitoring
+                         │
+                         ▼
+                Resolved / Escalated
+The overall philosophy
+I would lock in these three roles:
+This gives your SIH solution a very clean story:
+Predict → Detect → Prioritize → Investigate → Recommend → Act → Monitor → Evaluate
+And importantly, we should not finalize the detailed filters yet. The next step should indeed be to separately design the Active Alerts filtering protocol and then the Intervention Workflow filtering protocol, because their temporal semantics, statuses, counts, and search behavior are meaningfully different.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Filter system for early warning system dashboard :
+Yes. This is where we need to be very precise, because the two filtering systems should look related but should not behave identically.
+The fundamental distinction is:
+Active Alerts filters the detected warning population.
+Intervention Workflow filters the response/action population.
+
+1. ACTIVE ALERTS — FILTERING PROTOCOL
+A. What the filter operates on
+The filtering system should operate on current warning/project state, not simply on raw project records.
+The basic unit is:
+Warning signal associated with a project during a particular monitoring period.
+However, the dashboard should also maintain a unique-project view so that one project with multiple warnings does not get counted multiple times where project counts are being shown.
+So internally you can have:
+Project
+   │
+   ├── Warning 1 — Schedule
+   ├── Warning 2 — Cost
+   └── Warning 3 — Progress
+But the dashboard can say:
+1 affected project, 3 active warning signals
+
+B. Organisational filters
+1. Sector
+Select one or multiple sectors.
+If multiple sectors are selected:
+Sector A OR Sector B
+2. Ministry / Department
+Multiple selections:
+Ministry A OR Ministry B
+3. State / UT
+Multiple selections:
+Tamil Nadu OR Karnataka
+4. Implementing Agency
+Multiple agencies:
+Agency A OR Agency B
+Across different dimensions = AND
+For example:
+Sector = Transport
+AND Ministry = Railways
+AND State = Tamil Nadu
+means:
+Transport projects AND Railways projects AND projects in Tamil Nadu.
+This is important: never use the “last selected filter wins” behaviour you observed on PAIMANA.
+
+C. Warning Type
+This should be a multi-select OR filter.
+Possible warning types:
+Cost Overrun 
+Cost Escalation 
+Schedule Delay 
+Milestone Delay 
+Commissioning-Date Slippage 
+Physical Progress Deterioration 
+Financial Progress Anomaly 
+Physical-Financial Mismatch 
+Implementation Slowdown 
+Prolonged Inactivity 
+Repeated Milestone Failure 
+Composite Risk 
+Multi-Factor Deterioration 
+If:
+Warning Type = Cost + Schedule
+the system means:
+Projects having either a cost warning OR schedule warning.
+But you should also support a separate filter:
+Multiple Active Warnings
+Any 
+1 
+2+ 
+3+ 
+Multiple warning categories 
+This lets an officer specifically find:
+Projects simultaneously suffering from cost + schedule + progress problems.
+That is different from selecting multiple warning types.
+
+D. Severity
+Keep severity separate from risk score.
+Use:
+Critical 
+High 
+Medium 
+Low 
+Important:
+Severity ≠ probability.
+A warning with 70% probability isn't automatically more severe than one with 50%.
+Severity can consider:
+Probability 
+Expected impact 
+Project size 
+Persistence 
+Rate of deterioration 
+Number of simultaneous warnings 
+So:
+Probability = likelihood
+while:
+Severity = seriousness of the warning
+
+E. Risk Band
+Separate from warning severity:
+Low Risk 
+Medium Risk 
+High Risk 
+Critical Risk 
+Why?
+Because a project can have:
+Overall Risk = High
+but its individual:
+Schedule Warning = Medium
+That distinction is analytically useful.
+
+F. Warning Status
+This should filter the state of the warning, not the state of the project.
+Recommended:
+New 
+Active 
+Under Review 
+Action Initiated 
+Monitoring 
+Resolved 
+Dismissed / Invalidated 
+For the default Active Alerts page, I'd make:
+Active + New
+the default scope, while allowing the user to expand it.
+Important distinction
+New ≠ Active
+A warning can be:
+New → Active for 4 months
+without being “new” anymore.
+
+G. Warning Recency
+This should refer to the warning event, not the latest project data update.
+Possible:
+Last 7 days 
+Last 30 days 
+Last 3 months 
+Last 6 months 
+Custom period 
+You should also retain:
+First Trigger Date 
+Last Trigger Date 
+Resolution Date 
+These are different concepts.
+
+H. Reporting Period vs Warning Trigger Period
+This is one of the most important nuances.
+Suppose:
+Project's latest PAIMANA update = August 2026
+but the warning was first generated in:
+June 2026
+These shouldn't be treated as the same date.
+So distinguish:
+Reporting Period
+“Show me projects whose latest monitoring data is from August.”
+Warning Trigger Period
+“Show me warnings that were generated in June.”
+Historical Lookback
+“Show me projects that experienced a warning at any point in the last six months.”
+
+I. Warning Persistence
+This answers:
+How long has this warning remained a problem?
+Possible filters:
+New 
+<1 month 
+1–3 months 
+3–6 months 
+6+ months 
+Custom duration 
+This is useful because:
+Critical for 1 week
+and
+High for 8 months
+represent very different intervention situations.
+
+J. Trend / Deterioration
+Use:
+Improving 
+Stable 
+Deteriorating 
+Rapidly Deteriorating 
+Also consider:
+Newly Deteriorating
+For example:
+Medium → High risk
+or:
+Physical progress deteriorated for three consecutive months.
+This is particularly valuable for early warning, because you don't want the system to only identify already-disastrous projects.
+
+K. Predicted Cost Impact
+Don't combine this with cost-warning probability.
+You can filter by:
+Probability
+Probability of cost overrun ≥ 70%
+and separately:
+Expected impact
+Predicted additional cost ≥ ₹100 crore
+Those are fundamentally different.
+A small project might have:
+90% probability × ₹5 crore exposure
+while a huge project might have:
+50% probability × ₹500 crore exposure.
+Both deserve different kinds of attention.
+
+L. Predicted Schedule Impact
+Similarly:
+Probability
+Probability of schedule overrun
+versus:
+Magnitude
+Expected delay in months / percentage.
+This allows:
+High probability of 2-month delay
+to be distinguished from:
+Moderate probability of 18-month delay.
+
+M. Project Name / Project ID Search
+Search should be available, but it is a shortcut, not a replacement for filtering.
+Project Name
+Partial match 
+Keyword match 
+Autocomplete 
+Project ID
+Exact match preferred 
+If the user searches:
+Project ID = 12345
+while filters say:
+State = Karnataka
+but project 12345 is in Tamil Nadu:
+Do NOT silently remove Karnataka.
+Instead:
+Project found, but it does not match the selected State filter.
+Then offer:
+View project anyway 
+Clear conflicting filter 
+
+N. Priority is NOT a normal filter
+I'd calculate Priority after filtering.
+The sequence should be:
+Raw warning data
+      ↓
+Apply filters
+      ↓
+Eligible warning/project population
+      ↓
+Calculate/display priority
+      ↓
+Rank projects
+Don't let the priority score secretly determine which projects enter the dataset.
+Priority might combine:
+Severity 
+Probability 
+Impact 
+Deterioration 
+Persistence 
+Recency 
+Multiple warnings 
+But its formula should be documented.
+
+O. Active Alerts default state
+When the user opens Early Warning:
+Don't show every project.
+Default to something like:
+Current Active + New warnings, latest valid monitoring period
+Then show the highest-priority projects first.
+This makes the page operational rather than becoming another Project Analytics dashboard.
+
+2. INTERVENTION WORKFLOW — FILTERING PROTOCOL
+Now the philosophy changes.
+The question becomes:
+“What is happening with the interventions we've initiated or need to initiate?”
+Therefore, warning-specific filters should be reduced in importance and workflow/action filters become primary.
+
+A. Organisational filters
+Retain:
+Sector 
+Ministry / Department 
+State / UT 
+Implementing Agency 
+Same AND/OR semantics as Active Alerts.
+These allow an officer to say:
+Show me interventions concerning Transport projects in Tamil Nadu under Ministry X.
+
+B. Intervention Status — PRIMARY FILTER
+This is the most important filter in this tab.
+Recommended lifecycle:
+No Intervention
+      ↓
+Acknowledged
+      ↓
+Under Review
+      ↓
+Intervention Planned
+      ↓
+Action Initiated
+      ↓
+Monitoring
+      ↓
+Resolved
+With an exception path:
+Monitoring
+    ↓
+Escalated
+Important:
+Don't treat:
+Acknowledged
+as:
+Resolved
+And don't treat:
+Intervention Planned
+as:
+Action Initiated
+These represent materially different stages.
+
+C. Intervention Type
+Examples:
+Schedule Recovery 
+Milestone Recovery 
+Contractor / Execution Review 
+Procurement Review 
+Approval / Clearance Follow-up 
+Resource Intervention 
+Cost / Contract Review 
+Technical Review 
+Implementation Review 
+Other 
+Multiple intervention types can be selected using OR.
+
+D. Priority
+Use:
+Critical 
+High 
+Medium 
+Low 
+But this priority can be different from the original warning severity.
+For example:
+Warning severity = High
+but after investigation:
+Intervention priority = Critical
+because the project has enormous financial exposure.
+So don't simply copy warning severity into intervention priority.
+
+E. Responsible Authority
+Filter by who is responsible for carrying out/following up the intervention.
+For example:
+Ministry / Department 
+Implementing Agency 
+Project Authority 
+Other designated authority 
+If your actual role model becomes more sophisticated later, you can make this role-specific.
+
+F. Intervention Age
+This answers:
+How long has this intervention been sitting in the workflow?
+For example:
+<7 days 
+7–30 days 
+1–3 months 
+3–6 months 
+6+ months 
+Custom 
+This is different from warning persistence.
+A project may have had a warning for:
+8 months
+but its intervention may have started:
+2 weeks ago.
+You need both pieces of information.
+
+G. Last Action / Update
+Useful categories:
+Updated recently 
+Updated within 7 days 
+Updated within 30 days 
+No update for 30+ days 
+No update for 60+ days 
+Overdue follow-up 
+This is one of the most useful operational filters.
+An intervention that is technically “Action Initiated” but hasn't been updated for 90 days should immediately stand out.
+
+H. Intervention Progress
+Filter by:
+Not Started 
+1–25% 
+26–50% 
+51–75% 
+76–99% 
+Completed 
+But don't assume:
+100% intervention progress = project resolved.
+The intervention can be completed while the project problem remains unresolved.
+
+I. Follow-up Due
+I would actually make this a dedicated filter.
+Possible:
+Due today 
+Due this week 
+Due this month 
+Overdue 
+No follow-up scheduled 
+This makes the dashboard much more useful to actual officers.
+
+J. Outcome
+After sufficient monitoring:
+Improving 
+Stable / No Significant Change 
+Worsening 
+Resolved 
+Escalated 
+Too Early to Assess 
+“Too Early to Assess” is important.
+If an intervention began yesterday, the system shouldn't incorrectly conclude:
+“Intervention ineffective.”
+There simply isn't enough post-intervention data yet.
+
+K. Warning context filters
+You can retain some warning context, but it shouldn't dominate the interface.
+Useful optional filters:
+Original Warning Type 
+Original Warning Severity 
+Current Risk Band 
+Current Warning Status 
+For example:
+Show me interventions that originated from Critical Schedule Warnings.
+This is useful for cross-referencing the intervention with its original problem.
+
+L. Project Name / ID Search
+Same basic rules:
+Project Name = partial/keyword 
+Project ID = exact preferred 
+Search respects active intervention filters 
+No silent filter removal 
+Conflicting search/filter conditions are explicitly reported 
+But search results should show intervention context, not merely project identity:
+Project A — Schedule Delay — Action Initiated — 65% — Follow-up overdue
+
+3. THE BIGGEST DIFFERENCE BETWEEN THE TWO
+This is the rule I'd preserve throughout the system:
+
+4. VERY IMPORTANT: FILTERS SHOULD NOT DESTROY CONTEXT
+Suppose the user is in:
+Intervention Workflow
+and filters:
+State = Tamil Nadu
+Status = Action Initiated
+Intervention Type = Schedule Recovery
+They open Project A.
+Then Project Intelligence should know:
+Opened from Intervention Workflow
+Current scope: Tamil Nadu → Action Initiated → Schedule Recovery
+Similarly, if they came from:
+Active Alerts → Critical Schedule Warning
+Project Intelligence should highlight that warning first.
+But the full Project Intelligence page still contains all project information.
+
+5. FILTER LOGIC ACROSS BOTH SYSTEMS
+I would make one universal rule:
+Within the same filter dimension:
+OR
+Example:
+Tamil Nadu + Karnataka
+means:
+Tamil Nadu OR Karnataka
+Across different dimensions:
+AND
+Example:
+Tamil Nadu
+AND Transport
+AND Schedule Warning
+AND Critical
+means all conditions must be satisfied.
+Conceptually:
+(State A OR State B)
+        AND
+(Sector A OR Sector B)
+        AND
+(Warning A OR Warning B)
+        AND
+Severity = Critical
+
+6. NO SILENT FILTER RESETTING
+This should be a hard system rule across both tabs.
+If filters produce zero results:
+Don't automatically change them.
+Show:
+0 projects match the current filters.
+Then optionally suggest:
+Try removing Severity = Critical.
+But don't silently convert:
+Sector = Education + Ministry = Coal
+into:
+Ministry = Coal
+just because that's what the underlying PAIMANA interface appears to do.
+
+7. FILTERED KPIs MUST USE THE SAME DATASET
+This is another critical rule.
+If the user filters:
+Tamil Nadu + Schedule Warning + High Severity
+then:
+Affected Projects
+Active Warnings
+Critical Projects
+Charts
+Priority Queue
+must all derive from the same filtered population.
+You shouldn't have a table showing 14 projects while the KPI says 27 because different components applied different filters.
+
+8. PROJECT COUNT VS WARNING COUNT
+Always distinguish:
+Project count
+20 unique projects
+Warning count
+37 active warnings
+because:
+20 projects
+   ↓
+some have multiple warnings
+   ↓
+37 warning signals
+Likewise in Intervention Workflow:
+Projects under intervention
+15
+Active interventions
+22
+because one project may have:
+Schedule recovery intervention 
+Cost review intervention 
+simultaneously.
+
+9. FINAL FILTER ARCHITECTURE
+I'd therefore organize them like this:
+ACTIVE ALERTS
+│
+├── ORGANISATIONAL
+│   ├── Sector
+│   ├── Ministry / Department
+│   ├── State / UT
+│   └── Implementing Agency
+│
+├── WARNING
+│   ├── Warning Type
+│   ├── Severity
+│   ├── Warning Status
+│   ├── Risk Band
+│   ├── Multiple Active Warnings
+│   ├── Warning Recency
+│   ├── Warning Persistence
+│   └── Trend / Deterioration
+│
+├── IMPACT
+│   ├── Cost Overrun Probability
+│   ├── Predicted Cost Impact
+│   ├── Schedule Overrun Probability
+│   └── Predicted Schedule Impact
+│
+├── TIME
+│   ├── Reporting Period
+│   ├── Trigger Period
+│   └── Historical Lookback
+│
+└── SEARCH
+    ├── Project Name
+    └── Project ID
+INTERVENTION WORKFLOW
+│
+├── ORGANISATIONAL
+│   ├── Sector
+│   ├── Ministry / Department
+│   ├── State / UT
+│   └── Implementing Agency
+│
+├── INTERVENTION
+│   ├── Intervention Status
+│   ├── Intervention Type
+│   ├── Priority
+│   └── Responsible Authority
+│
+├── FOLLOW-UP
+│   ├── Intervention Age
+│   ├── Last Update
+│   ├── Follow-up Due
+│   ├── Intervention Progress
+│   └── Outcome
+│
+├── WARNING CONTEXT
+│   ├── Original Warning Type
+│   ├── Original Severity
+│   └── Current Risk Band
+│
+└── SEARCH
+    ├── Project Name
+    └── Project ID
+One final architectural principle
+Don't try to make the filters exhaustive just for the sake of having many filters.
+Active Alerts should optimize for finding important problems quickly.
+Intervention Workflow should optimize for finding actions that are pending, stalled, overdue, or ineffective.
+That's why their filter sets overlap on Sector / Ministry / State / Agency / Project Search, but diverge heavily after that. This separation will make the two tabs feel like genuinely different operational tools rather than the same dashboard with different names.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+State analytics filtering system :
+Absolutely. For Sector Analytics, I would make the filtering system fairly sophisticated, but not Early-Warning-level complicated. The key is that Sector Analytics is primarily a comparative analytical interface, not an alert-management interface.
+SECTOR ANALYTICS — FILTERING & INTERACTION PROTOCOL
+1. Core Principle
+The Sector Analytics dashboard should answer:
+“How is infrastructure performance distributed across sectors, and how does a selected sector perform across states and projects?”
+Therefore, filters should help the user define the analytical population, while the dashboard itself determines the appropriate comparison dimension.
+The filter system should never change the meaning of the dashboard silently.
+
+2. Global Filter Architecture
+The global filter bar should contain:
+┌─────────────────────────────────────────────────────────────┐
+│ Sector │ Ministry │ State/UT │ Agency │ Period │ Status │ Risk │
+└─────────────────────────────────────────────────────────────┘
+But these filters do not all have equal importance.
+Primary filter
+Sector
+This is the defining dimension of Sector Analytics.
+Secondary filters
+Ministry / Department 
+State / UT 
+Implementing Agency 
+Reporting Period 
+Project Status 
+Risk Band 
+These narrow the population being analysed.
+
+3. Sector Filter
+Sector should be multi-select.
+Example:
+Sector
+☑ Transport
+☑ Energy
+☐ Education
+☐ Health
+☐ Railways
+...
+Selection logic
+Multiple sectors:
+OR
+For example:
+Transport + Energy
+means:
+Show projects belonging to Transport OR Energy.
+It should not mean projects that simultaneously belong to both sectors.
+Why?
+A project normally has one primary sector classification. Therefore AND logic between sectors would often produce zero results or meaningless results.
+
+4. Ministry / Department Filter
+Ministry should also support multi-select.
+Example:
+Ministry / Department
+☑ Ministry A
+☑ Ministry B
+means:
+Projects belonging to Ministry A OR Ministry B.
+But Ministry operates across the selected sector(s).
+Therefore:
+Transport + Ministry of Railways
+means:
+Transport projects associated with Ministry of Railways.
+The overall logic becomes:
+(Sector = Transport OR Energy)
+AND
+(Ministry = Railway OR Power)
+This distinction is extremely important.
+
+5. State / UT Filter
+State/UT should be multi-select.
+Example:
+Tamil Nadu
+Maharashtra
+Gujarat
+means:
+Projects associated with Tamil Nadu OR Maharashtra OR Gujarat.
+Combined with other dimensions:
+Sector = Transport
+AND
+State = Tamil Nadu OR Maharashtra
+Therefore:
+Transport projects in Tamil Nadu or Maharashtra.
+
+6. Implementing Agency Filter
+Agency should be available because two projects in the same sector and ministry can still behave very differently depending on the implementing agency.
+Example:
+Sector       = Transport
+Ministry     = Ministry X
+Agency       = Agency A / Agency B
+means:
+Transport projects under Ministry X implemented by Agency A or Agency B.
+Important nuance
+Agency should not automatically be treated as a top-level hierarchy under Sector.
+The relationship is better represented as:
+Sector
+   ↕
+Ministry
+   ↕
+Agency
+rather than:
+Sector
+   ↓
+Ministry
+   ↓
+Agency
+because Sector, Ministry and Agency are different analytical dimensions.
+
+7. Reporting Period
+This should be a proper temporal filter.
+Possible options:
+Reporting Period
+├── Latest Available
+├── Current Period
+├── Previous Period
+├── Last 3 Months
+├── Last 6 Months
+├── Last 12 Months
+└── Custom Period
+For the Sector Overview, default should probably be:
+Latest Available / Current Monitoring Period
+because the user normally wants the current state first.
+Important distinction
+Do not confuse:
+Reporting Period
+with:
+Project duration / commissioning date.
+The first describes when the monitoring data was reported.
+The latter describes the project's lifecycle.
+
+8. Project Status Filter
+Possible values:
+Ongoing 
+Completed 
+Delayed 
+On Hold 
+Terminated 
+Other / Unknown 
+But don't automatically make "Delayed" a simple project-status category if delay is actually derived by your system.
+If "Delayed" is an AI/model-derived condition, it belongs more appropriately under risk/performance filters.
+This distinction matters because:
+Administrative project status ≠ analytical project condition.
+For example, a project may officially be "Ongoing" while the model identifies a serious schedule-delay risk.
+
+9. Risk Band Filter
+Possible:
+Risk Band
+☐ Critical
+☐ High
+☐ Medium
+☐ Low
+This should filter the analytical risk classification, not the warning severity.
+Don't mix:
+Risk Band
+with:
+Warning Severity.
+They can be related, but they answer different questions.
+For example:
+A project can have High overall risk 
+but currently have only a Medium-severity warning. 
+Sector Analytics should preserve that distinction.
+
+10. Filter Logic
+This should be a universal rule across the entire dashboard.
+Within the same filter
+OR
+Across different filters
+AND
+Example:
+Sector:
+Transport OR Energy
+
+State:
+Tamil Nadu OR Maharashtra
+
+Risk:
+High OR Critical
+means:
+Projects that are
+(Transport OR Energy)
+AND (Tamil Nadu OR Maharashtra)
+AND (High OR Critical risk)
+This is the cleanest and most predictable logic.
+
+11. No "Last Filter Wins"
+This is particularly important given the behavior you observed in the existing PAIMANA public dashboard.
+The system should never do this:
+User selects:
+Sector = Education
+
+then:
+Ministry = Coal
+
+→ Education silently becomes "All"
+Instead, retain both selections.
+If the combination produces no projects:
+No projects match the selected filters.
+The system should not silently alter the user's choices.
+
+12. Filter Dependency
+There can be legitimate dependency between filters.
+For example:
+Sector = Transport
+The Ministry dropdown can then prioritize/show ministries that actually have Transport projects.
+Similarly:
+Sector = Transport
+State = Tamil Nadu
+can restrict the available Agency options to agencies actually represented in that filtered population.
+But:
+Do not silently remove existing selections.
+If a previously selected agency becomes incompatible after changing the sector, show something like:
+1 selected agency has no matching projects under the current filters.
+Then let the user decide whether to remove it.
+This is much better than silently resetting it.
+
+13. Cascading Filters — Use Carefully
+I would use soft cascading, not aggressive cascading.
+Good
+Sector → narrows available Ministry/Agency options
+Bad
+Sector changed
+→ automatically deletes Ministry
+→ automatically deletes State
+→ resets everything
+The user should maintain control over their analytical query.
+
+14. Filtered Dataset Must Be Consistent
+This is probably the most important technical rule.
+Once filters are applied:
+Every KPI, chart, comparison, ranking and project table must be generated from the same filtered population.
+For example:
+Sector = Transport
+State = Tamil Nadu
+Then:
+Project Count
+must represent only those projects.
+Total Investment
+must represent only those projects.
+Average Cost Escalation
+must represent only those projects.
+Risk distribution
+must represent only those projects.
+State comparison
+must represent only the relevant filtered population.
+There must never be a situation where:
+KPI uses filtered data
+but chart uses national data.
+
+15. Unique Projects vs Records
+Be explicit about what you're counting.
+For example:
+Projects: 182
+should mean 182 unique projects.
+It should not mean:
+182 monthly monitoring records.
+This becomes especially important because PAIMANA is fundamentally a monitoring system where projects can have repeated monthly updates.
+For Sector Analytics:
+Project-level metrics
+Project Count 
+Projects at Risk 
+Projects Delayed 
+should use unique projects.
+Time-series metrics
+can use:
+monthly records 
+reporting periods 
+project-month observations 
+but the methodology should be explicit.
+
+16. "Latest Period" vs Historical Analysis
+This is another important nuance.
+If the user selects:
+Reporting Period = Latest
+then Sector Analytics should describe the current portfolio state.
+If the user selects:
+Last 12 Months
+then the dashboard should allow trend analysis.
+Don't accidentally interpret:
+12 months of observations
+as:
+12 × the number of projects.
+A project appearing in 12 monthly records remains one project.
+
+17. Filtered Sector Overview
+When no sector is selected:
+Show all sectors and compare them.
+Example:
+Transport      428 projects
+Energy         391
+Water          327
+...
+The dashboard is essentially a sector comparison view.
+When the user selects:
+Transport
+the interface changes from:
+Compare sectors
+to:
+Understand Transport
+This is a deliberate context change.
+
+18. Sector → State Performance
+When the user selects a sector:
+Sector = Transport
+the next interface should treat Transport as the fixed analytical context.
+Then State becomes the comparison dimension:
+Tamil Nadu
+Maharashtra
+Gujarat
+Karnataka
+...
+The user shouldn't need to repeatedly select Transport while exploring states.
+The UI should clearly show:
+Sector: Transport
+with an option such as:
+Change sector
+
+19. Sector + State → Projects
+Once the user selects:
+Sector = Transport
+State = Tamil Nadu
+the project view becomes:
+Transport Projects in Tamil Nadu
+At this point, the system can provide:
+project list 
+project risk 
+physical progress 
+financial progress 
+cost escalation 
+schedule delay 
+warning status 
+project search 
+and clicking a project should take the user to:
+Project Intelligence
+
+20. Direct Project Search
+I would include:
+Search Project
+[ Project name / Project ID ]
+Project ID
+Prefer exact matching.
+Project Name
+Allow:
+partial matching 
+keyword matching 
+Example:
+metro
+could return projects containing "Metro".
+Important
+Search should respect the current filters.
+If:
+Sector = Transport
+State = Tamil Nadu
+then searching:
+Metro
+should search within that filtered population.
+
+21. Search + Filter Conflict
+Never silently override filters.
+Example:
+Sector = Transport
+State = Tamil Nadu
+
+Search = "Dam"
+If there are no matches:
+No projects matching "Dam" within Transport → Tamil Nadu.
+Don't suddenly search all sectors/states.
+Give the user the option to:
+Clear filters
+instead.
+
+22. Clear All / Reset
+Have an obvious:
+Clear All
+or
+Reset Filters
+button.
+This is preferable to users having to individually remove five filters.
+Also show active filters as removable chips:
+Transport ×
+Tamil Nadu ×
+High Risk ×
+Last 12 Months ×
+
+23. Show the Active Context
+The dashboard should always make the current analytical population visible.
+For example:
+Showing 428 Transport projects across all states
+or:
+Showing 73 Transport projects in Tamil Nadu · High/Critical Risk
+This is extremely useful because otherwise users can easily forget what their charts represent.
+
+24. Zero-Result State
+There are three different situations and they should not be confused.
+A. No filters
+All available projects.
+B. Filters produce zero projects
+No projects match the selected filters.
+C. Projects exist but a particular metric isn't available
+Example:
+73 projects match, but cost forecast is unavailable for 11.
+That should say:
+Cost forecast unavailable for 11 projects
+rather than treating them as nonexistent.
+This is important for an AI analytics system because missing data is not necessarily the same thing as no data.
+
+25. Missing / Insufficient Data
+Don't let missing values silently distort sector comparisons.
+Suppose:
+Transport: 400 projects
+Cost forecast available: 350
+and another sector has:
+Energy: 300 projects
+Cost forecast available: 295
+If you calculate average predicted cost overrun only on available records, make that denominator clear.
+For example:
+Avg. predicted overrun: 12.4% (350 projects)
+rather than implying that all 400 projects contributed.
+
+26. National Benchmark Context
+This is useful for Sector Analytics.
+When looking at:
+Transport
+you may compare it with:
+Overall portfolio
+For example:
+Transport cost escalation: 14.2%
+Portfolio average: 10.2%
+But the benchmark must be clearly labelled.
+Don't make the national portfolio silently change when the sector filter changes.
+Use:
+Selected Sector
+vs.
+All-Portfolio Benchmark
+That gives the dashboard genuine analytical value.
+
+27. Navigation Should Preserve Context
+This is essential.
+If the user does:
+Sector Analytics
+→ Transport
+→ Tamil Nadu
+→ Project X
+Project Intelligence should know the navigation context.
+Ideally:
+Sector Analytics → Transport → Tamil Nadu → Project X
+Likewise, returning should take the user back to the same filtered view rather than resetting the dashboard.
+
+28. Filtered Analytics ≠ Filtered AI Prediction
+One subtle architectural point:
+Filtering should not retrain or alter the underlying prediction model.
+For example:
+Sector = Transport
+doesn't mean:
+Train a new CatBoost model only on Transport.
+The dashboard is simply slicing the model outputs and project population.
+Model training/retraining is a separate backend process.
+This keeps the analytical results consistent.
+
+29. Recommended Final Filter Set
+I would actually stop here:
+Core
+Sector 
+Ministry / Department 
+State / UT 
+Implementing Agency 
+Reporting Period 
+Analytical
+Project Status 
+Risk Band 
+Search
+Project Name 
+Project ID / Code 
+That's enough.
+I would not add 15–20 filters to Sector Analytics. Things like warning persistence, trigger date, predicted cost impact, warning recency, intervention status, etc. belong primarily in Early Warning, where they have operational meaning.
+
+30. Final Sector Analytics Filtering Model
+The cleanest way to think about the whole thing is:
+                    SECTOR ANALYTICS
+                           │
+                    DEFINE POPULATION
+                           │
+        ┌──────────────────┼──────────────────┐
+        ↓                  ↓                  ↓
+      Sector          Organisation          Time
+        │             ┌────┼────┐             │
+        │             │    │    │             │
+        │         Ministry State Agency       │
+        │                                       
+        └──────────────────┬──────────────────┘
+                           ↓
+                  FILTERED PROJECT SET
+                           │
+             ┌─────────────┼──────────────┐
+             ↓             ↓              ↓
+         KPIs/Stats     Comparisons     Projects
+             │             │              │
+             │             ↓              ↓
+             │       Sector → State   Project List
+             │                          │
+             └──────────────────────────┤
+                                        ↓
+                              PROJECT INTELLIGENCE
+The governing rules I would put at the top of your actual specification
+SECTOR ANALYTICS — FILTERING PROTOCOL
+Sector is the primary analytical dimension. 
+Multiple values within a filter use OR logic. 
+Different filter dimensions use AND logic. 
+Filters must never silently reset or override one another. 
+Filtered KPIs, visualizations, rankings and project tables must use the same filtered project population. 
+Project counts refer to unique projects, not monthly monitoring records. 
+Reporting Period defines the monitoring-data window and must not be confused with project duration. 
+Risk Band is distinct from warning severity. 
+Search operates within the currently selected filter context. 
+Zero-result combinations must be explicitly reported rather than automatically corrected. 
+Filter dependencies may narrow available choices, but must not silently delete existing selections. 
+Sector selection becomes the preserved context when drilling into State Performance and Projects. 
+Navigation to Project Intelligence should preserve the user's analytical context. 
+National/portfolio benchmarks must remain clearly labelled when comparing a selected sector. 
+Missing data must be distinguished from projects that do not exist or do not match the filter. 
+This is about the level of detail I would use. Early Warning deserves a much more granular filtering protocol because it is an operational triage system; Sector Analytics should remain comparatively clean and analytical.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Filtering system for ministry analytics :
+Yes. Ministry Analytics should follow the same underlying filter philosophy as Sector Analytics, but there are a few important differences because Ministry is the primary analytical dimension and Implementing Agency becomes much more important.
+MINISTRY ANALYTICS — FILTERING & INTERACTION PROTOCOL
+1. Core Principle
+Ministry Analytics should answer:
+“How are infrastructure projects performing across ministries/departments, which ministries or agencies require attention, and what is driving their performance?”
+Therefore, the filtering system should allow the user to:
+compare ministries, 
+isolate a particular ministry, 
+examine that ministry across sectors and states, 
+drill down into implementing agencies, 
+and ultimately reach individual projects. 
+It is primarily a comparative and organisational analytics interface, not an alert-management system.
+
+2. Global Filter Architecture
+Recommended filter bar:
+┌──────────────────────────────────────────────────────────────┐
+│ Ministry │ Sector │ State/UT │ Agency │ Period │ Status │ Risk │
+└──────────────────────────────────────────────────────────────┘
+Primary dimension
+Ministry / Department
+Secondary dimensions
+Sector 
+State / UT 
+Implementing Agency 
+Reporting Period 
+Project Status 
+Risk Band 
+Search
+Project Name 
+Project ID / Code 
+The important difference from Sector Analytics is simply that Ministry is now the main analytical context.
+
+3. Ministry / Department Filter
+This is the primary filter.
+It should support multi-select.
+Example:
+Ministry / Department
+
+☑ Ministry of Railways
+☑ Ministry of Road Transport & Highways
+☐ Ministry of Power
+☐ Ministry of Housing & Urban Affairs
+...
+Multiple ministries mean:
+Ministry A OR Ministry B
+For example:
+Ministry:
+Railways OR Power
+
+Sector:
+Transport
+means:
+Projects under Railways or Power that are classified under Transport.
+
+4. Important: Ministry Is NOT a Hierarchy Above Sector
+This is one of the most important conceptual rules.
+Do not model the dashboard as:
+Ministry
+   ↓
+Sector
+   ↓
+State
+   ↓
+Agency
+   ↓
+Project
+That is too rigid.
+Instead:
+                  PROJECT
+                /    |    \
+           Ministry Sector State
+                \
+                Agency
+These are different analytical dimensions associated with projects.
+A ministry can have projects across several sectors.
+A sector can contain projects belonging to several ministries.
+A ministry can also have projects across several states.
+Therefore:
+Ministry selection constrains the population; it does not redefine the taxonomy of sectors or states.
+
+5. Sector Filter
+Sector should be multi-select.
+Example:
+Sector
+
+☑ Transport
+☑ Energy
+means:
+Transport OR Energy projects.
+When combined with Ministry:
+Ministry = Railways
+Sector = Transport OR Energy
+means:
+Projects under Railways that belong to Transport or Energy.
+Again:
+Same filter → OR
+Different filters → AND
+
+6. State / UT Filter
+State/UT should also be multi-select.
+Example:
+State / UT
+
+☑ Tamil Nadu
+☑ Maharashtra
+☑ Gujarat
+means:
+Projects associated with Tamil Nadu OR Maharashtra OR Gujarat.
+Combined:
+Ministry = Railways
+AND
+State = Tamil Nadu OR Maharashtra
+means:
+Railway projects in Tamil Nadu or Maharashtra.
+
+7. Implementing Agency — More Important Here
+This filter deserves more prominence in Ministry Analytics than it does in Sector Analytics.
+Why?
+Because Ministry-level performance can hide large differences between implementing agencies.
+For example:
+Ministry
+   ↓
+Agency A
+   ↓
+Agency B
+   ↓
+Agency C
+The Ministry overview might look acceptable overall while one agency is responsible for a disproportionate amount of:
+delays, 
+cost escalation, 
+stalled projects, 
+risk, 
+poor physical progress. 
+Therefore:
+Agency is the primary drill-down dimension inside Ministry Analytics.
+This is why our agreed structure was:
+Ministry Overview → Agency Performance → Projects
+
+8. Agency Selection
+Agency should support multi-select.
+Example:
+Implementing Agency
+
+☑ Agency A
+☑ Agency B
+means:
+Agency A OR Agency B.
+Combined:
+Ministry = Ministry X
+AND
+Agency = Agency A OR Agency B
+means:
+Projects under Ministry X implemented by Agency A or B.
+
+9. Agency Does Not Have to Be a Simple Child of Ministry
+Another important nuance.
+In the UI, you can present Agency as a drill-down under the selected Ministry, because that is useful operationally.
+But technically/data-model-wise, don't assume:
+Every agency belongs exclusively to exactly one ministry.
+An implementing agency may have relationships with multiple departments or organisational structures.
+Therefore the system should derive agency availability from the actual project/organisational relationships in the data.
+
+10. Reporting Period
+Use the same temporal structure as Sector Analytics:
+Reporting Period
+├── Latest Available
+├── Current Period
+├── Previous Period
+├── Last 3 Months
+├── Last 6 Months
+├── Last 12 Months
+└── Custom Period
+Default:
+Latest Available / Current Monitoring Period
+For historical comparisons:
+Last 12 Months / Custom Period
+
+11. Project Status
+Possible administrative/project-state filters:
+Ongoing 
+Completed 
+On Hold 
+Terminated 
+Other / Unknown 
+But again:
+Don't confuse status with analytical performance.
+A project can be:
+Ongoing
+while simultaneously having:
+High schedule-delay risk
+or:
+High predicted cost-overrun probability
+Those should remain separate dimensions.
+
+12. Risk Band
+Use:
+Critical 
+High 
+Medium 
+Low 
+This represents your overall analytical risk classification.
+Do not combine it with warning severity.
+For example:
+Ministry X → High Risk Projects
+should not automatically mean:
+Projects currently carrying High-Severity warnings.
+Those are different concepts.
+
+13. Filter Logic
+Use exactly the same universal logic as Sector Analytics:
+Within one dimension
+OR
+Across dimensions
+AND
+Example:
+Ministry:
+Railways OR Power
+
+Sector:
+Transport OR Energy
+
+State:
+Tamil Nadu OR Maharashtra
+
+Risk:
+High OR Critical
+The effective query is:
+(Ministry = Railways OR Power)
+AND
+(Sector = Transport OR Energy)
+AND
+(State = Tamil Nadu OR Maharashtra)
+AND
+(Risk = High OR Critical)
+This should be the underlying logic everywhere.
+
+14. No "Last Filter Wins"
+Absolutely no silent reset.
+Bad:
+Ministry = Railways
+Sector = Transport
+
+→ Ministry suddenly becomes All
+Good:
+Ministry = Railways
+Sector = Transport
+If there are no matching projects:
+No projects match the selected filters.
+The system should never decide that the user "must have meant" something else.
+
+15. Soft Cascading
+Filters can intelligently narrow the available options, but shouldn't silently erase choices.
+Example:
+User selects:
+Ministry of Railways
+The Sector dropdown can prioritize/show sectors that actually contain Railway projects.
+Then:
+State = Tamil Nadu
+The Agency dropdown can show agencies represented in the current population.
+But if an existing selection becomes incompatible:
+1 selected agency has no matching projects under the current filters.
+Don't automatically remove it.
+
+16. Ministry Overview — No Ministry Selected
+When no ministry is selected:
+Compare ministries across the portfolio.
+The dashboard should show things such as:
+project count by ministry, 
+investment, 
+expenditure, 
+physical progress, 
+cost escalation, 
+schedule performance, 
+risk, 
+high/critical projects, 
+trends. 
+This is the portfolio-wide Ministry Comparison state.
+
+17. Ministry Overview — Ministry Selected
+When the user selects:
+Ministry of Railways
+the interface changes context.
+Instead of asking:
+"Which ministry is performing better?"
+it now asks:
+"How is the Ministry of Railways portfolio performing?"
+The dashboard can then show:
+total projects, 
+total investment, 
+expenditure, 
+physical progress, 
+risk, 
+cost/schedule performance, 
+trend, 
+sector distribution, 
+state distribution, 
+agency performance. 
+The selected ministry should be clearly displayed:
+Ministry: Railways ×
+
+18. Ministry → Agency Performance
+Once a ministry is selected:
+MINISTRY: RAILWAYS
+
+Agency Performance
+
+Agency A      82 projects    8.4% escalation    Low risk
+Agency B      61 projects    14.7% escalation   High risk
+Agency C      38 projects    19.2% escalation   Critical
+Now:
+Agency becomes the comparison dimension.
+The selected ministry should remain fixed context.
+The user shouldn't have to keep selecting it.
+
+19. Ministry + Agency → Projects
+After selecting:
+Ministry = Railways
+Agency = Agency C
+the next view becomes:
+Projects under Agency C — Ministry of Railways
+The project table can include:
+Project Name 
+Project ID 
+Sector 
+State/UT 
+Original Cost 
+Revised Cost 
+Expenditure 
+Physical Progress 
+Risk Band 
+Cost Overrun 
+Schedule Delay 
+Warning Status 
+Click:
+Project → Project Intelligence
+
+20. Search
+Provide:
+Search Project
+[ Project Name / Project ID ]
+Project ID
+Exact matching preferred.
+Project Name
+Partial/keyword search.
+Example:
+metro
+returns matching projects.
+
+21. Search Must Respect Filters
+Suppose:
+Ministry = Railways
+State = Tamil Nadu
+Then:
+Search = "Metro"
+should search only inside that population.
+If nothing is found:
+No projects matching "Metro" within Railways → Tamil Nadu.
+Do not automatically search the entire PAIMANA portfolio.
+
+22. Active Filter Chips
+Always show the current context.
+Example:
+Ministry of Railways ×
+Transport ×
+Tamil Nadu ×
+High Risk ×
+Latest Period ×
+This is especially important in Ministry Analytics because the user can easily drill several dimensions deep.
+
+23. Clear All
+Provide:
+Clear All
+or:
+Reset Filters
+One click should return to the national Ministry Comparison view.
+
+24. Filtered Dataset Consistency
+This is non-negotiable.
+If:
+Ministry = Railways
+State = Tamil Nadu
+then all of these must use the same filtered population:
+KPI cards 
+charts 
+rankings 
+agency comparison 
+sector distribution 
+state distribution where applicable 
+project tables 
+risk statistics 
+You cannot have:
+KPI = filtered
+while:
+chart = national
+unless the chart explicitly says:
+All-Portfolio Benchmark
+
+25. Unique Project Counting
+Again:
+Project count = unique projects.
+A project appearing in 12 monthly monitoring records remains:
+1 project
+not:
+12 projects.
+Historical trend calculations may use monthly observations, but the dashboard must distinguish those from project counts.
+
+26. National Benchmark
+This is particularly useful in Ministry Analytics.
+Suppose:
+Ministry X cost escalation = 14.2%
+You can show:
+Portfolio benchmark = 10.2%
+This gives the user context.
+But label it clearly:
+Selected Ministry: 14.2%
+All-Portfolio Benchmark: 10.2%
+Don't let the benchmark itself get filtered into oblivion.
+
+27. Missing Data
+Suppose a ministry has:
+120 projects
+but cost forecasts are available for only:
+94 projects.
+Don't silently calculate and display:
+Cost Forecast — 14.3%
+as though all 120 were evaluated.
+Instead:
+14.3% average predicted overrun · 94 projects evaluated
+This makes your AI system much more credible.
+
+28. Zero Results vs Missing Metrics
+Keep these separate.
+Zero projects
+No projects match the selected filters.
+Projects exist but metric unavailable
+120 projects match. Cost forecast unavailable for 26.
+Model cannot confidently predict
+Potentially:
+Prediction unavailable / insufficient historical data.
+These are three different situations.
+
+29. Navigation Context
+This should be preserved.
+Example:
+Ministry Analytics
+    ↓
+Ministry of Railways
+    ↓
+Agency C
+    ↓
+Project X
+    ↓
+Project Intelligence
+Project Intelligence should retain the context:
+Opened from Ministry Analytics → Railways → Agency C
+And returning should ideally restore the previous filtered state.
+
+30. Don't Let Filters Change the ML Model
+Very important technically.
+Selecting:
+Ministry = Railways
+should not mean:
+Retrain CatBoost specifically for Railways.
+The model should have already generated predictions.
+The dashboard is slicing:
+project data + model outputs
+according to the user's filters.
+Model training/retraining remains a backend/admin process.
+
+31. Recommended Final Filter Set
+I would stop at:
+Organisational
+Ministry / Department — primary 
+Sector 
+State / UT 
+Implementing Agency 
+Time
+Reporting Period 
+Analytical
+Project Status 
+Risk Band 
+Search
+Project Name 
+Project ID / Code 
+That's enough.
+I would not import Early Warning filters such as:
+Warning Recency 
+Warning Persistence 
+Trigger Date 
+Predicted Cost Impact 
+Predicted Schedule Impact 
+Intervention Status 
+Follow-up Due 
+Warning Type 
+Those belong in Early Warning, where they have operational meaning.
+
+32. Final Ministry Analytics Filtering Model
+                     MINISTRY ANALYTICS
+                            │
+                     DEFINE POPULATION
+                            │
+              ┌─────────────┼─────────────┐
+              ↓             ↓             ↓
+           Ministry      Organisation     Time
+              │          ┌────┼────┐       │
+              │          │    │    │       │
+              │       Sector State Agency  │
+              │
+              └──────────────┬────────────┘
+                             ↓
+                    FILTERED PROJECT SET
+                             │
+                ┌────────────┼─────────────┐
+                ↓            ↓             ↓
+             KPIs       Comparisons      Projects
+                │            │             │
+                │            ↓             ↓
+                │      Ministry → Agency  Project List
+                │                         │
+                └─────────────────────────┤
+                                          ↓
+                                PROJECT INTELLIGENCE
+The actual protocol I'd put in your master specification
+MINISTRY ANALYTICS — FILTERING PROTOCOL
+Ministry / Department is the primary analytical dimension. 
+Multiple values within a filter use OR logic. 
+Different filter dimensions use AND logic. 
+Ministry, Sector, State and Agency are independent analytical dimensions, not a rigid hierarchy. 
+Implementing Agency is the primary drill-down dimension after selecting a Ministry. 
+Filters must never silently reset, override or remove another filter. 
+Soft cascading may narrow available filter options but must not silently delete existing selections. 
+Filtered KPIs, charts, rankings and project tables must use the same filtered project population. 
+Project counts refer to unique projects, not monthly monitoring records. 
+Reporting Period refers to monitoring data and is distinct from project duration. 
+Risk Band is distinct from warning severity. 
+Search operates within the current filter context. 
+Zero-result combinations must be explicitly reported rather than automatically corrected. 
+Missing data must be distinguished from projects that do not match the filters. 
+Portfolio benchmarks must remain clearly labelled when comparing a selected Ministry. 
+Selecting a Ministry establishes the context for Agency Performance; selecting an Agency establishes the context for Projects. 
+Navigation to Project Intelligence must preserve the Ministry → Agency → Project context. 
+Dashboard filtering must not retrain or alter the underlying prediction models. 
+One difference I'd deliberately preserve
+Sector Analytics:
+Sector → State → Projects
+Ministry Analytics:
+Ministry → Agency → Projects
+That difference is not arbitrary. It reflects the most useful analytical drill-down for each dimension: geographic performance within a sector versus implementing-organisation performance within a ministry.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Filtering system for state analytics :
+Yes. State Analytics should use the same universal filtering rules we established for Sector and Ministry Analytics, but there are a few State-specific nuances—especially around geographic attribution, State vs project location, and the State → Sector drill-down.
+STATE ANALYTICS — FILTERING & INTERACTION PROTOCOL
+1. Core Principle
+State Analytics should answer:
+“How is the infrastructure portfolio performing across States/UTs, what sectors are driving that performance, and which projects are responsible?”
+Therefore, filters should define the geographic/project population while keeping State/UT as the primary analytical dimension.
+This is a comparative analytics interface, not an alert-management interface.
+
+2. Global Filter Architecture
+Recommended filter bar:
+┌──────────────────────────────────────────────────────────────┐
+│ State/UT │ Sector │ Ministry │ Agency │ Period │ Status │ Risk │
+└──────────────────────────────────────────────────────────────┘
+Primary filter
+State / UT
+Secondary filters
+Sector 
+Ministry / Department 
+Implementing Agency 
+Reporting Period 
+Project Status 
+Risk Band 
+Search
+Project Name 
+Project ID / Code 
+
+3. State / UT Filter
+This is the primary analytical dimension.
+It should support multi-select.
+Example:
+State / UT
+
+☑ Tamil Nadu
+☑ Maharashtra
+☑ Gujarat
+☐ Karnataka
+...
+Multiple selections mean:
+Tamil Nadu OR Maharashtra OR Gujarat.
+This allows users to compare a selected group of states.
+For example:
+Southern States: Tamil Nadu + Kerala + Karnataka + Andhra Pradesh.
+
+4. State Is a Comparison Dimension, Not Just a Filter
+This distinction matters.
+When no state is selected, State Analytics should show:
+State/UT comparison across the entire portfolio.
+When one state is selected:
+State-level analysis
+When multiple states are selected:
+Comparison among the selected states
+So:
+No State selected
+       ↓
+Compare all States/UTs
+
+One State selected
+       ↓
+Understand that State
+
+Multiple States selected
+       ↓
+Compare selected States
+The UI should make this context obvious.
+
+5. Sector Filter
+Sector should be multi-select.
+Example:
+Sector
+
+☑ Transport
+☑ Energy
+means:
+Transport OR Energy projects.
+Combined with State:
+State = Tamil Nadu
+AND
+Sector = Transport OR Energy
+means:
+Transport or Energy projects associated with Tamil Nadu.
+This is the main way users narrow a State portfolio by infrastructure type.
+
+6. Ministry / Department Filter
+Ministry is a secondary organisational dimension.
+Example:
+State = Tamil Nadu
+Ministry = Railways
+means:
+Projects associated with Tamil Nadu that are under the selected ministry.
+Multiple ministries:
+Ministry A OR Ministry B.
+Across dimensions:
+AND
+So:
+(State = Tamil Nadu OR Maharashtra)
+AND
+(Sector = Transport)
+AND
+(Ministry = Railways OR Power)
+
+7. Implementing Agency
+Agency remains available as a filter because it can reveal organisational differences inside a State portfolio.
+Example:
+State = Tamil Nadu
+Sector = Transport
+Agency = Agency A / Agency B
+means:
+Transport projects in Tamil Nadu implemented by Agency A or B.
+However, Agency should not become the primary State drill-down.
+Your State Analytics structure remains:
+State → Sector → Projects
+rather than:
+State → Agency → Projects.
+Agency is a useful secondary filter and a project-table attribute.
+
+8. Critical State-Specific Nuance: Geographic Attribution
+This is probably the most important State Analytics issue.
+You need to define exactly what:
+“Project in Tamil Nadu”
+means.
+A project may:
+be physically located entirely in one state, 
+span multiple states, 
+have a national footprint, 
+have a project headquarters in one state but infrastructure elsewhere. 
+Therefore, you should not casually equate project implementing agency location with project location.
+For State Analytics, the geographic dimension should preferably be based on the project's actual geographic coverage/location, using whatever State/UT field or geographic mapping exists in the PAIMANA data.
+
+9. Multi-State Projects
+This needs an explicit rule.
+Suppose:
+Project X operates across Tamil Nadu + Karnataka.
+It should be possible for the project to appear when:
+State = Tamil Nadu
+and
+State = Karnataka
+if the underlying project genuinely covers both.
+But you must avoid accidentally double-counting it as two projects.
+Therefore:
+State-level project counts must always count unique Project IDs.
+A multi-state project can contribute to multiple geographic views while remaining one unique project at the portfolio level.
+
+10. Don't Invent State-Level Cost Allocation
+This is even more important.
+Suppose a ₹10,000 Cr project spans:
+Tamil Nadu + Karnataka.
+Unless the source data explicitly provides a state-wise cost allocation, you cannot legitimately claim:
+Tamil Nadu = ₹5,000 Cr
+Karnataka = ₹5,000 Cr.
+Don't manufacture an allocation.
+Instead, use one of these approaches:
+Option A — Project attribution
+Show the full project value in each relevant State view, while clearly stating:
+Multi-state project; project-level cost shown in full.
+Option B — State-allocated values
+Only use this if the underlying data actually provides state-level allocation.
+For SIH, Option A is safer unless you have reliable state-level cost allocation data.
+
+11. Avoid Double-Counting in Aggregates
+This creates a subtle issue.
+If you sum project costs across States:
+Tamil Nadu     ₹10,000 Cr
+Karnataka      ₹10,000 Cr
+you might incorrectly conclude:
+₹20,000 Cr portfolio.
+If the same ₹10,000 Cr project is present in both states, the true portfolio value is still:
+₹10,000 Cr.
+Therefore:
+State-level views
+Can show projects associated with that State.
+Cross-State aggregate
+Must use unique project IDs and appropriate aggregation rules.
+This should be explicitly documented in your backend/data methodology.
+
+12. AND / OR Logic
+Same universal rule:
+Within the same filter
+OR
+Across different filters
+AND
+Example:
+State:
+Tamil Nadu OR Maharashtra
+
+Sector:
+Transport OR Energy
+
+Risk:
+High OR Critical
+means:
+(Tamil Nadu OR Maharashtra)
+AND (Transport OR Energy)
+AND (High OR Critical Risk)
+This should be consistent across all three analytical dashboards.
+
+13. No "Last Filter Wins"
+Absolutely no silent reset.
+If the user selects:
+Tamil Nadu
+then:
+Energy
+the system must retain both.
+It should not silently reset Tamil Nadu because Energy has different available states.
+If there are zero results:
+No projects match the selected filters.
+
+14. Soft Cascading
+You can make the filters intelligent.
+Example:
+User chooses:
+Tamil Nadu
+The Sector dropdown can prioritize sectors represented in Tamil Nadu.
+Then:
+Tamil Nadu + Transport
+The Ministry dropdown can show ministries represented in that filtered population.
+Then:
+Tamil Nadu + Transport + Ministry X
+The Agency dropdown can narrow to agencies represented there.
+But:
+Never silently delete a previously selected value.
+If a selection becomes incompatible:
+1 selected agency has no projects matching the current filters.
+
+15. Reporting Period
+Use the same temporal system:
+Reporting Period
+├── Latest Available
+├── Current Period
+├── Previous Period
+├── Last 3 Months
+├── Last 6 Months
+├── Last 12 Months
+└── Custom Period
+Default:
+Latest Available / Current Monitoring Period
+Historical periods are useful for State performance trends.
+
+16. Project Status
+Possible values:
+Ongoing 
+Completed 
+On Hold 
+Terminated 
+Other / Unknown 
+Again:
+Administrative status ≠ analytical condition
+A project can be:
+Ongoing
+while simultaneously being:
+High schedule risk.
+
+17. Risk Band
+Use:
+Critical 
+High 
+Medium 
+Low 
+This is the model/system's overall risk classification.
+Keep it separate from:
+Warning severity 
+Warning type 
+Intervention status 
+Those belong primarily to Early Warning.
+
+18. Search
+Provide:
+Search Project
+[ Project Name / Project ID ]
+Project ID
+Exact match preferred.
+Project Name
+Partial/keyword matching.
+
+19. Search Must Respect Geographic Context
+Suppose:
+State = Tamil Nadu
+Sector = Transport
+Then searching:
+Metro
+should search only within:
+Tamil Nadu + Transport.
+If there are no results:
+No projects matching "Metro" within Tamil Nadu → Transport.
+Don't silently expand the search to all India.
+
+20. Active Filter Chips
+Always show the current context.
+Example:
+Tamil Nadu ×
+Transport ×
+High Risk ×
+Latest Period ×
+This becomes particularly important when moving from:
+State Overview
+to:
+State → Sector Performance
+because the selected State becomes the fixed context.
+
+21. State Overview — No State Selected
+Default view:
+Compare all States/UTs
+The table/ranking can show:
+State/UT 
+Project Count 
+Investment 
+Expenditure 
+Physical Progress 
+Financial Progress 
+Cost Escalation 
+Schedule Delay 
+High/Critical Risk 
+Projects Requiring Attention 
+The user can click a State to enter:
+State → Sector Performance
+
+22. State → Sector Performance
+When:
+Tamil Nadu
+is selected, State becomes the fixed context.
+The interface should clearly show:
+State: Tamil Nadu ×
+Now the Sector dimension becomes the comparison dimension.
+For example:
+Tamil Nadu
+
+Transport       42 projects
+Energy          31 projects
+Water           24 projects
+Urban           18 projects
+The user can compare:
+investment, 
+progress, 
+cost escalation, 
+schedule delay, 
+risk, 
+project count. 
+
+23. State + Sector → Projects
+After:
+Tamil Nadu → Transport
+the project interface becomes:
+Transport Projects in Tamil Nadu
+The table should show:
+Project Name 
+Project ID 
+Ministry / Department 
+Implementing Agency 
+Original Cost 
+Revised Cost 
+Expenditure 
+Physical Progress 
+Cost Risk 
+Schedule Risk 
+Overall Risk 
+Warning Status 
+Then:
+Project → Project Intelligence
+
+24. National Benchmark
+A State comparison becomes much more useful when the user can see the portfolio benchmark.
+Example:
+Tamil Nadu
+Cost escalation: 13.8%
+
+All-Portfolio Benchmark
+Cost escalation: 10.2%
+Always clearly label the benchmark.
+Do not let:
+State = Tamil Nadu
+accidentally turn the benchmark into:
+"Other Tamil Nadu projects."
+The benchmark should remain:
+All-Portfolio Benchmark
+unless the user explicitly selects a different comparison baseline.
+
+25. Missing Geographic Data
+Some projects may not have a clean State/UT association.
+Do not silently drop them from the national portfolio.
+Instead, maintain an explicit category such as:
+National / Multi-State / Unspecified
+depending on what the underlying data actually supports.
+This is much better than pretending every project belongs neatly to one State.
+
+26. Missing Metrics
+Suppose:
+Tamil Nadu = 100 projects
+but only:
+82 have usable cost forecasts.
+Then display:
+Predicted Cost Overrun: X% · 82 projects evaluated
+rather than treating all 100 as having predictions.
+This applies to:
+cost prediction, 
+schedule prediction, 
+risk, 
+physical progress, 
+financial progress. 
+
+27. Unique Projects vs Monitoring Records
+Same rule as Sector and Ministry Analytics:
+Project count = unique Project ID.
+Historical monitoring data can contain multiple records for the same project.
+So:
+50 monthly observations ≠ 50 projects.
+This is especially important when generating State trends.
+
+28. Multi-State Comparison
+If the user selects:
+Tamil Nadu + Karnataka + Kerala
+the dashboard should become a comparison view, not simply merge everything into one anonymous "South India" population.
+Show:
+Tamil Nadu     | metrics
+Karnataka      | metrics
+Kerala         | metrics
+The user should still be able to distinguish each State.
+
+29. Returning From Drill-Down
+Context should persist.
+Example:
+State Analytics
+    ↓
+Tamil Nadu
+    ↓
+Transport
+    ↓
+Project X
+    ↓
+Project Intelligence
+When returning:
+State Analytics should restore Tamil Nadu + Transport, rather than returning to the national State Overview.
+This makes the navigation feel like a coherent analytical workflow.
+
+30. Filters Should Not Change the ML Model
+Selecting:
+State = Tamil Nadu
+doesn't mean:
+Train a new model using Tamil Nadu projects.
+The model outputs should already exist.
+Filtering simply selects:
+relevant projects + their model predictions.
+Model training/retraining remains a backend/admin operation.
+
+31. Recommended Final Filter Set
+I would not make State Analytics more complicated than this:
+Geographic
+State / UT — primary 
+Organisational
+Sector 
+Ministry / Department 
+Implementing Agency 
+Time
+Reporting Period 
+Analytical
+Project Status 
+Risk Band 
+Search
+Project Name 
+Project ID / Code 
+That's enough.
+Don't import the Early Warning filter monster here.
+
+32. Final State Analytics Filtering Model
+                      STATE ANALYTICS
+                            │
+                     DEFINE POPULATION
+                            │
+              ┌─────────────┼─────────────┐
+              ↓             ↓             ↓
+           State        Organisation      Time
+              │         ┌────┼────┐        │
+              │         │    │    │        │
+              │      Sector Ministry Agency│
+              │
+              └──────────────┬────────────┘
+                             ↓
+                    FILTERED PROJECT SET
+                             │
+                ┌────────────┼─────────────┐
+                ↓            ↓             ↓
+             KPIs       Comparisons      Projects
+                │            │             │
+                │            ↓             ↓
+                │      State → Sector   Project List
+                │                         │
+                └─────────────────────────┤
+                                          ↓
+                                PROJECT INTELLIGENCE
+Final protocol for your master notes
+STATE ANALYTICS — FILTERING PROTOCOL
+State / UT is the primary analytical dimension. 
+Multiple States/UTs selected within the same filter use OR logic. 
+Different filter dimensions use AND logic. 
+State, Sector, Ministry and Agency are independent analytical dimensions rather than a rigid hierarchy. 
+State selection establishes the context for Sector Performance. 
+Sector selection within a State establishes the context for the Project List. 
+Filters must never silently reset, override or remove other selections. 
+Soft cascading may narrow available choices but must not silently delete selections. 
+Filtered KPIs, charts, rankings and tables must use the same filtered project population. 
+Project counts must use unique Project IDs, not monthly monitoring records. 
+Multi-state projects must be handled explicitly and must not cause double-counting in portfolio-level aggregates. 
+State-level cost/investment must not be artificially allocated among States unless the source data provides a defensible allocation. 
+Reporting Period refers to monitoring data and is distinct from project duration. 
+Risk Band is distinct from warning severity and intervention status. 
+Search operates within the current geographic and analytical filter context. 
+Zero-result combinations must be explicitly reported rather than automatically corrected. 
+Missing geographic or metric data must be distinguished from projects that do not match the filters. 
+Portfolio benchmarks must remain clearly labelled when comparing a selected State. 
+Multi-state selections should remain individually distinguishable rather than being silently merged into a new geographic category. 
+Navigation to Project Intelligence must preserve the State → Sector → Project context. 
+Dashboard filtering must not retrain or alter the underlying prediction models. 
+The biggest thing I'd insist you retain from this entire protocol is #11 and #12. State Analytics has a data-model problem that Sector Analytics doesn't have to the same degree: multi-state projects can easily produce false project counts and inflated financial totals if you don't define geographic attribution properly. That is the nuance worth demonstrating in an SIH project.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Filtering system for data operations & models dashboard :
+Yes. For your specification, I’d make the Data & Model Operations nuances fairly detailed because this dashboard controls the integrity of the entire platform.
+Data & Model Operations — Nuance Notes
+1. General Dashboard Rules
+This is an administrative operations dashboard, not an analytical dashboard. 
+Its purpose is to manage the data → feature → model → prediction → risk → warning → dashboard pipeline. 
+It must not contain unnecessary portfolio-analysis charts that already exist in Home, Sector, Ministry, State, or Early Warning. 
+All operations should clearly show their current status: completed, processing, failed, pending, or not required. 
+Long-running operations such as training and full refresh must show progress rather than appearing frozen. 
+The dashboard must distinguish between an operation being requested and an operation successfully completed. 
+A failed operation must not be represented as successful merely because it was initiated. 
+Administrative actions that can materially change the live system should require explicit confirmation. 
+
+2. Selection & Filtering Rules
+Selection controls here are primarily for administrative operations, not analytical filtering. 
+Dataset selection should allow the admin to choose the relevant dataset/source. 
+Dataset version selection should allow the admin to select a specific version where required. 
+Model selection should allow the admin to choose which model to train, evaluate, deploy, or refresh. 
+Model version selection should distinguish between production, candidate, and previous versions. 
+Operation-history filtering may include: 
+operation type 
+dataset 
+model 
+status 
+date/time 
+reporting period 
+Filters should affect only the displayed operational records unless an operation explicitly uses the selected dataset/model. 
+Selecting a dataset must not silently change the production model. 
+Selecting a candidate model must not deploy it. 
+Clearing a filter must not delete or modify any underlying data. 
+No analytical filters such as Sector/Ministry/State should be assumed to apply to the whole operations dashboard. 
+If a particular operation is intentionally restricted to a subset of data, that scope must be explicitly shown. 
+
+3. Dataset Management Rules
+Every uploaded dataset should receive a dataset version. 
+Previous dataset versions should remain identifiable rather than being silently overwritten. 
+The system should distinguish between: 
+new dataset 
+updated dataset 
+corrected dataset 
+replacement dataset 
+A new monthly PAIMANA upload should normally be treated as an update to the existing PAIMANA source, not as an entirely unrelated dataset. 
+Uploading a dataset does not automatically make it part of the production data. 
+Upload → validation → integration should be treated as separate stages. 
+A dataset with validation errors should not enter the master dataset until the issue is resolved or explicitly accepted under an appropriate warning policy. 
+The system should preserve the original uploaded file/version for traceability. 
+The system should record: 
+uploader 
+upload date/time 
+reporting period 
+dataset type 
+version 
+record count 
+validation status 
+A new external dataset should not automatically become a model feature merely because it has been uploaded. 
+External datasets should first be registered, validated, integrated, and evaluated for usefulness. 
+
+4. Dataset Versioning
+Dataset versions must be distinguishable from reporting periods. 
+Example: 
+Reporting Period: March 2026 
+Dataset Version: PAIMANA v1.8 
+Re-uploading corrected data for the same reporting period should create a distinguishable version/revision. 
+The system should identify which version is currently being used by the production pipeline. 
+Historical versions should remain available for reproducibility where practical. 
+A model should record the dataset version used for training. 
+A prediction refresh should record which dataset version generated the resulting predictions. 
+Replacing a dataset version must not silently invalidate historical model records. 
+
+5. Data Validation Rules
+Validation must happen before integration. 
+Validation should distinguish between: 
+critical errors 
+warnings 
+acceptable missing values 
+Not every missing value should automatically cause dataset rejection. 
+Required fields should be distinguished from optional fields. 
+Duplicate detection should consider the appropriate business key, such as:
+Project ID + Reporting Month, rather than simply duplicate rows. 
+A duplicate Project ID across different months is not necessarily a duplicate. 
+Unexpected columns should be flagged but should not automatically cause rejection if the system supports schema evolution. 
+Schema changes should be clearly reported. 
+Invalid Project IDs should be separated from genuinely new projects. 
+Invalid dates should be rejected or flagged according to severity. 
+Numerical validation should identify impossible or suspicious values rather than blindly deleting them. 
+Validation results should show how many records are affected, not just “validation failed.” 
+The admin should be able to inspect problematic records where appropriate. 
+Rejected records should not silently disappear; the system should record why they were rejected. 
+
+6. Data Integration Rules
+Only validated/accepted data should enter the master dataset. 
+Integration should distinguish: 
+new records 
+updated records 
+unchanged records 
+rejected records 
+Existing project records should be updated using stable identifiers wherever possible. 
+The system must avoid creating duplicate projects because the same project appears in multiple monthly uploads. 
+Project-month records should remain uniquely identifiable. 
+External datasets should be joined using explicitly defined keys or defensible matching logic. 
+Failed joins must be reported. 
+The system must not silently fill unmatched external values with fabricated values. 
+Match rate should be visible for external datasets. 
+A low match rate should trigger a warning before the dataset is used for modelling. 
+External data should retain its source and version information after integration. 
+The system should distinguish between: 
+data successfully integrated 
+data uploaded but not matched 
+data rejected 
+data awaiting integration. 
+
+7. Feature Processing Rules
+Feature generation should occur after the relevant data has been integrated. 
+Deterministic features should be recalculated when their underlying data changes. 
+Time-dependent features must use only information available up to the relevant reporting period when preparing training/evaluation data. 
+Future information must not leak into historical training features. 
+Features derived from later project outcomes must not accidentally become inputs to earlier predictions. 
+Feature versions should be tracked. 
+If an external dataset is added, the system should identify which new features it creates. 
+Feature processing failure should prevent dependent model/prediction operations from being treated as successful. 
+A feature being available in the database does not automatically mean it should be used by every model. 
+Different models may have different feature sets. 
+The system should maintain a mapping of:
+Feature → Source → Processing Method → Model(s) using it. 
+
+8. Model Training / Retraining Rules
+Data update ≠ automatic retraining. 
+Monthly PAIMANA data can update predictions using the existing production model without necessarily retraining it. 
+Retraining should occur according to an explicit policy, such as: 
+sufficient new labelled outcomes 
+scheduled retraining 
+model degradation 
+significant data distribution change 
+meaningful feature/data changes 
+Training should produce a candidate model first. 
+A candidate model must not automatically replace the production model. 
+Training should record: 
+dataset version 
+feature version 
+model type 
+model configuration 
+training date 
+evaluation dataset/version 
+Training failures must not affect the current production model. 
+The existing production model should remain available while a candidate is being trained. 
+Multiple model types can be evaluated rather than assuming CatBoost is permanently optimal. 
+Retraining should be reproducible using the recorded dataset, features, configuration, and model version. 
+
+9. Model Evaluation & Benchmarking Rules
+A candidate model should be evaluated against the current production model. 
+Model performance should not be judged using only one metric. 
+Classification models should consider: 
+Precision 
+Recall 
+F1 
+ROC-AUC 
+PR-AUC 
+Calibration 
+False-warning rate 
+Regression models should consider: 
+MAE 
+RMSE 
+R² 
+For the Early Warning system, lead time is especially important. 
+A model with slightly better accuracy but substantially worse warning lead time may not be preferable. 
+Evaluation should use time-aware validation where appropriate because this is longitudinal project data. 
+Randomly mixing future observations into training can produce misleadingly optimistic performance. 
+Performance should ideally be examined across important project groups, such as sectors or project-size ranges, to identify severe weaknesses. 
+The system should distinguish statistical improvement from practically meaningful improvement. 
+A candidate should not be deployed solely because one metric improved. 
+Model calibration matters because predicted probabilities are used in risk/warning decisions. 
+
+10. Production vs Candidate Model Rules
+The system should always clearly distinguish:
+Production Model
+→ currently used by the live platform.
+Candidate Model
+→ newly trained/evaluated model awaiting approval.
+Archived Model
+→ previous production model retained for rollback/reference.
+Rules:
+Only the production model generates normal live predictions. 
+Candidate models can be tested without affecting live dashboards. 
+Candidate predictions should not overwrite production predictions. 
+Deployment must be an explicit action. 
+The system should show the performance difference before deployment. 
+The previous production model should remain available for rollback. 
+Only one model version should normally be designated as production for a specific modelling task at a time. 
+
+11. Model Deployment Rules
+Deployment requires explicit confirmation. 
+Before deployment, show: 
+candidate version 
+current production version 
+performance comparison 
+training dataset 
+feature version 
+Deployment should not occur if required evaluation has failed. 
+A failed deployment must leave the previous production model active. 
+After successful deployment, the system should record: 
+deployment date/time 
+deployed version 
+previous version 
+deploying administrator 
+Rollback should restore the previous known-good model. 
+Deployment itself should not automatically imply that all historical predictions were generated by the new model. 
+Existing predictions should retain their model-version metadata. 
+
+12. Prediction Refresh Rules
+Prediction refresh is different from model training. 
+A data update may require prediction refresh without model retraining. 
+A model deployment may require predictions to be regenerated using the new production model. 
+The system should clearly indicate the scope of the refresh: 
+affected projects only 
+all projects 
+For a production model change, a full relevant prediction refresh should normally be performed. 
+Prediction refresh should update the project-level intelligence layer. 
+Predictions should then feed into: 
+risk calculation 
+warning generation 
+intervention prioritisation 
+aggregate dashboards 
+A partially completed refresh should not be presented as a fully refreshed system. 
+If the refresh fails halfway, the system should preserve the previous valid production state or otherwise clearly mark the system as partially refreshed. 
+The refresh should record the model and dataset versions used. 
+
+13. Risk & Warning Refresh Rules
+Updated predictions should trigger recalculation of dependent risk outputs where required. 
+Risk calculation should use the approved risk methodology, not arbitrary changes made during an upload. 
+Warning thresholds should not silently change because new data was uploaded. 
+Warning generation should use: 
+prediction outputs 
+deterministic indicators 
+deterioration signals 
+approved warning rules 
+A new prediction should not automatically mean a new warning unless the warning criteria are satisfied. 
+Resolved warnings should remain historically traceable. 
+Changes in risk/warning status should be identifiable after a refresh. 
+
+14. System-Wide Refresh Rules
+After a successful refresh, downstream dashboards should consume the same refreshed intelligence layer.
+The system should update:
+Home / Portfolio Overview 
+Sector Analytics 
+Ministry Analytics 
+State Analytics 
+Early Warning 
+Project Intelligence 
+Rules:
+Dashboards should not independently calculate different versions of the same prediction. 
+Project-level predictions should have one authoritative source. 
+Aggregated dashboards should consume the refreshed project-level outputs. 
+If a dashboard refresh fails, that failure should be visible. 
+Different dashboards should not show different model versions for the same project unless explicitly intended. 
+The system should display the latest successful refresh timestamp. 
+
+15. Atomicity / Failure Rules
+This is particularly important for your system.
+A pipeline such as:
+Upload → Integration → Features → Model → Predictions → Risk → Dashboards
+should not leave the platform in an unclear state.
+For example, if:
+Data integration ✅
+Feature generation ✅
+Model training ❌
+then the system should not replace the production model or claim that the entire pipeline succeeded.
+Similarly:
+Predictions 80% complete
+should not simply be shown as:
+System Updated ✅
+Instead show:
+Refresh incomplete — 80% processed
+
+16. Audit & Traceability Rules
+Every important operation should be traceable.
+For a prediction, the system should ideally be able to identify:
+Project → Data Version → Feature Version → Model Version → Prediction Timestamp
+For a model:
+Model Version → Training Dataset → Feature Version → Evaluation Results → Deployment Date
+For a dataset:
+Dataset Version → Upload → Validation → Integration → Features → Models using it
+This gives the platform reproducibility and makes the AI system defensible.
+
+17. Historical Data Rules
+Historical records should not be unnecessarily overwritten. 
+Corrections should be versioned where practical. 
+Historical predictions should retain the model version that generated them. 
+If a new model produces different predictions for old projects, the system should distinguish: 
+previous prediction 
+newly recalculated prediction 
+Do not imply that the new prediction was what the system predicted historically. 
+Historical model performance should remain available for comparison. 
+
+18. Security / Administrative Rules
+Because this dashboard can change the live intelligence system:
+Uploading data should be an administrative action. 
+Model deployment should require appropriate authorization. 
+Destructive operations should require confirmation. 
+Important operations should be logged. 
+The system should identify who performed major operations. 
+Failed or rejected operations should also be logged. 
+The interface should clearly distinguish preview/testing actions from production actions. 
+
+19. Most Important Overall Rule
+The entire dashboard should follow this principle:
+Never let an administrative action silently change the live intelligence system.
+Every major change should follow an explicit chain:
+Select → Validate → Preview → Confirm → Process → Evaluate → Apply → Record
+And the system should always make clear:
+What changed?
+Why did it change?
+Which data/model version caused it?
+Was the operation successful?
+What part of the platform was affected?
+That is the level of nuance I'd put into your specification for this dashboard. It is detailed enough to guide Antigravity/backend implementation without turning this admin page into the same huge filtering specification needed for Sector, Ministry, and State Analytics.
+
+
+
+Filtering system for project intelligence dashboard :
+Yes. I re-checked the PAIMANA Public Dashboard you gave rather than assuming it has a project search. The page currently exposes filters for Sector, Ministry/Department, States/UTs, Project Cost, and Month & Year, but there is no dedicated Project Name / Project Code search bar in the dashboard filter area. The project-level table itself contains both Project Code and Project Name. 
+So for your Project Intelligence interface, I would explicitly add a direct project search. Here is the full note, with that factor integrated properly.
+Important — Filtering, Search & Data-Selection Logic / Protocol
+The filtering system should be treated as a core data-selection and logic layer, not merely as a UI feature. Every dashboard, KPI, chart, ranking, table, prediction, and project list must operate on the same clearly defined filtered dataset.
+The existing PAIMANA public dashboard provides filters for Sector, Ministry/Department, States/UTs, Project Cost, and Month & Year, and its project-level data includes Sector Name, Line Ministry, Implementing Agency, Project Code, Project Name, costs, expenditure, physical progress, and commissioning dates. 
+Your system can use this as the basic reference, but Project Intelligence should go one step further by adding a dedicated Project Name / Project ID search mechanism, because an officer may already know the project they want to investigate and should not have to reconstruct it through multiple filters.
+
+1. Filters must be cumulative / intersectional
+When multiple filters are selected, they should normally operate using AND logic, not "last selected filter wins."
+For example:
+Sector = Transport
+AND Ministry = Ministry of Railways
+AND State = Tamil Nadu
+means:
+Show projects that satisfy all three conditions simultaneously.
+The system should not interpret this as:
+"The user selected Ministry after Sector, therefore ignore Sector."
+Nor should selecting a new filter automatically reset another previously selected filter to All simply because the combination produces few or zero results.
+Example
+Suppose the user selects:
+Sector → Education 
+Ministry → Ministry of Coal 
+If there are genuinely no projects satisfying both conditions, the correct result is:
+No projects match all selected filters.
+The system should not silently change:
+Sector = Education → All
+just to produce some results.
+This is particularly important for an official decision-support system because silently changing the user's query can produce a misleading interpretation of the data.
+
+2. Filters should generally work across dimensions using AND logic
+For categorical dimensions, the default logic should be:
+Sector AND Ministry AND State AND Agency AND other active constraints
+For example:
+Sector = Transport
+Ministry = Ministry of Road Transport & Highways
+State = Tamil Nadu
+Agency = NHAI
+should return only projects satisfying that combined scope.
+Within the same filter, however, multiple selections can reasonably use OR logic.
+For example:
+State = Tamil Nadu OR Karnataka
+combined with:
+Sector = Transport
+means:
+Transport projects in Tamil Nadu or Karnataka.
+Therefore the overall conceptual logic can be:
+(State = Tamil Nadu OR Karnataka)
+AND Sector = Transport
+AND Ministry = ...
+This distinction should be explicitly defined in the backend.
+
+3. Use dependent / cascading filters where appropriate
+Filters should be able to become context-aware.
+For example, if the user first selects:
+Sector = Transport
+the Ministry dropdown can preferentially show ministries that actually have Transport projects.
+Similarly:
+Sector = Transport
+→ State dropdown can show states with relevant Transport projects
+→ Agency dropdown can show agencies associated with the currently relevant projects.
+This reduces impossible combinations and makes the system easier to use.
+However, cascading filters must not become another form of silent filtering.
+If a user deliberately chooses a combination that produces zero results, the system should still communicate that clearly.
+Important distinction
+There are two different situations:
+A. The option genuinely does not exist within the current scope
+Example:
+Transport → Ministry dropdown → Ministry of Coal
+If there are absolutely no Coal projects classified under the selected Transport scope, the system can disable or omit that option.
+B. The combination is valid but currently has zero matching projects
+The system should show:
+No projects match the selected filters.
+It should not pretend that the user never selected the combination.
+
+4. Add a dedicated Project Name / Project ID search bar
+This is the major addition I would make to your Project Intelligence interface.
+The existing PAIMANA public dashboard exposes Project Code and Project Name in its project-level table, but does not provide a dedicated direct project-search field in the filter section. 
+Your Project Intelligence interface should therefore have a prominent search field such as:
+Search Project Name / Project ID
+This serves a fundamentally different purpose from the analytical filters.
+Why this is important
+An officer may already know:
+"I want to inspect Chennai Metro Phase-II."
+It would be inefficient to make them select:
+Sector → Urban Public Transport
+State → Tamil Nadu
+Ministry → Ministry of Housing & Urban Affairs
+Agency → ...
+etc.
+just to find one known project.
+Likewise, if an officer has a specific:
+Project Code / Project ID
+they should be able to retrieve it directly.
+The system should support both:
+Project Name search
+Use partial / keyword matching.
+For example:
+Chennai Metro
+could return:
+Chennai Metro Phase-II 
+Chennai Metro-related projects 
+other projects whose names contain those terms 
+The system should ideally support typo tolerance and reasonable variations where technically feasible.
+Project ID / Project Code search
+This should behave much more strictly.
+If the user enters:
+12345
+and that is a valid Project Code, the system should identify the exact project associated with that code.
+Project ID should be treated as the strongest identifier.
+
+5. Project search and analytical filters should coexist
+The search bar should not replace the filters.
+Instead, there should be two complementary mechanisms:
+Analytical filtering
+Sector
+Ministry
+State
+Agency
+Risk
+Status
+Time period
+etc.
+Purpose:
+"Show me the projects matching this category/scope."
+Direct project search
+Project Name / Project ID
+Purpose:
+"Take me directly to this particular project."
+This distinction is important because these are two different user tasks.
+
+6. Define exactly how Project Search interacts with filters
+This is one of the most important nuances.
+Suppose the user enters:
+Project Name = Chennai Metro Phase-II
+and simultaneously selects:
+State = Tamil Nadu
+The system should return the project if it satisfies both conditions.
+Conceptually:
+Project Search AND active filters
+So:
+Search = Chennai Metro Phase-II
+AND State = Tamil Nadu
+means:
+Find Chennai Metro Phase-II within Tamil Nadu.
+
+7. Do not let Project ID silently override conflicting filters
+Consider:
+Project ID = 12345
+State = Karnataka
+but Project 12345 is actually in:
+Tamil Nadu
+The system should not simply ignore the State filter.
+It should explicitly tell the user:
+Project 12345 was found, but it does not match the selected State: Karnataka.
+Then offer something like:
+View project anyway
+Clear State filter
+This makes the search behavior transparent.
+
+8. Project ID should take priority over Project Name when both identify the same project
+If the interface permits both:
+Project ID = 12345
+Project Name = Chennai Metro
+then the system should validate that both refer to the same project.
+If they do:
+Return the project.
+If they conflict:
+The Project ID and Project Name do not refer to the same project. Please verify your search.
+Do not arbitrarily choose one.
+This prevents accidental retrieval of the wrong project.
+
+9. Search should preferably support autocomplete / suggestions
+For Project Name searches, an autocomplete mechanism would be useful.
+For example, after typing:
+Chennai
+the system could display:
+Chennai Metro Phase-II 
+Chennai–Bengaluru Industrial Corridor-related project 
+etc. 
+Each result could show a small amount of identifying information:
+Project Name
+Project ID / Code
+State
+Ministry
+Agency
+This helps distinguish projects with similar names.
+
+10. Search results should not immediately hide important identity information
+If several projects have similar names, the result list should not simply say:
+Chennai Metro
+Instead, show something like:
+The user should be able to confidently identify the correct project before entering Project Intelligence.
+
+11. Search should support partial Project Name matching
+Project Name searches should generally be:
+keyword / partial-match based, rather than requiring the exact official project title.
+For example:
+metro chennai
+should ideally be capable of finding:
+Chennai Metro Phase-II
+rather than requiring:
+Chennai Metro Rail Project Phase-II
+exactly.
+This is especially important because official project names can be long, technical, abbreviated, or slightly different from how officers refer to them informally.
+
+12. Project ID search should be exact or highly controlled
+Project IDs are fundamentally different from names.
+If Project ID is:
+PAI-2026-00123
+the system should not randomly return:
+PAI-2026-001230
+PAI-2026-00124
+just because they are numerically similar.
+The system should use:
+Exact identifier matching
+or, if the ID format permits, clearly controlled normalization such as ignoring harmless spaces/case differences.
+
+13. Do not confuse Project Name search with general keyword search
+The search bar should have clearly defined behavior.
+For example:
+Search Project Name or Project ID
+is better than a vague:
+Search
+because officers should understand what the system is searching.
+If you later want broader search across:
+agency 
+ministry 
+sector 
+location 
+project description 
+that should be explicitly designed as a global search feature rather than making the basic Project Intelligence search ambiguous.
+
+14. Project search should be able to return one or multiple results
+There are two cases.
+Exact Project ID
+Usually:
+1 result
+because the identifier should uniquely identify the project.
+Project Name
+Potentially:
+multiple results
+because different projects can have similar or related names.
+Therefore:
+Project ID → direct project
+Project Name → search results → select project → Project Intelligence
+
+15. Empty search should not trigger anything
+If the user enters nothing, the search bar should not alter the dataset.
+The system remains in the normal filter-based mode.
+Likewise, clearing the search should restore the previous filter scope rather than resetting all filters.
+
+16. Search should have a clear "no result" state
+If the user searches:
+XYZ Metro Project
+and nothing matches, show:
+No projects found matching "XYZ Metro Project".
+Potentially offer:
+Try a shorter project name or search using Project ID.
+Do not display an empty dashboard with no explanation.
+
+17. Distinguish "no search result" from "search result excluded by filters"
+These are actually different situations.
+Case A — Project does not exist
+Search:
+ABC123
+No project exists.
+Display:
+No project found for Project ID ABC123.
+Case B — Project exists but is excluded by filters
+Search:
+Chennai Metro Phase-II
+but active filter:
+State = Karnataka
+The project exists, but does not satisfy the current filter scope.
+Display:
+Project found, but it does not match the current filters.
+This distinction is extremely valuable.
+
+18. Show active filters visibly
+The system should always make the current scope obvious.
+For example:
+Active filters:
+Sector: Transport ×
+Ministry: Ministry of Railways ×
+State: Tamil Nadu ×
+Agency: All
+Risk: High ×
+And separately:
+Project Search: Chennai Metro
+This prevents users from forgetting that the results are restricted.
+
+19. "All" must mean unrestricted only for that dimension
+If:
+Sector = Transport
+Ministry = All
+State = Tamil Nadu
+then:
+All ministries with Transport projects in Tamil Nadu
+It must not mean:
+All ministries nationally.
+Similarly:
+State = All
+means unrestricted geography, while the other filters remain active.
+This should be consistently implemented throughout the system.
+
+20. Never silently reset an existing filter
+This is particularly important given the behavior you observed while using the existing PAIMANA dashboard.
+Your system should not do:
+Sector = Education
+Ministry = Coal
+→ automatically turn Sector into All.
+Instead:
+Education + Coal → 0 matching projects
+and clearly communicate that result.
+This is a fundamental difference between:
+correct filtering
+and
+filter manipulation to force a result.
+For an official monitoring/decision-support platform, the former is much safer.
+
+21. Use a "Clear All" function
+There should be an obvious:
+Clear All Filters
+option.
+It should reset:
+Sector 
+Ministry 
+State 
+Agency 
+Risk 
+Status 
+Time period 
+Project search 
+any other active filters 
+to their default unrestricted state.
+Individual filters should also be removable independently.
+
+22. Preserve filters when navigating into Project Intelligence
+Suppose an officer starts with:
+Sector = Transport
+State = Tamil Nadu
+Risk = High
+and then opens:
+Chennai Metro Phase-II
+After returning to the previous screen, the original filter state should still exist.
+The user should not have to reconstruct the query.
+
+23. Preserve search state too
+The same principle applies to direct project search.
+If an officer searches:
+Chennai Metro
+and opens one project, returning should preserve:
+Search = Chennai Metro
+and any other active filters.
+
+24. Search should ideally be shareable / reproducible
+Eventually, the system should be capable of representing the current query as a reproducible state.
+For example:
+Sector = Transport
+State = Tamil Nadu
+Risk = High
+Search = Chennai Metro
+An officer should ideally be able to share or save that view.
+This is particularly useful in government workflows because one officer might say:
+"Look at the high-risk Transport projects in Tamil Nadu."
+Another officer should be able to open the same filtered scope rather than manually reconstructing it.
+
+25. Every component must use the same filtered dataset
+This is one of the most important backend rules.
+If the current scope is:
+Sector = Transport
+State = Tamil Nadu
+Risk = High
+then the following must all use that exact same project population:
+Project count 
+Total original cost 
+Total revised cost 
+Expenditure 
+Average cost overrun 
+Average delay 
+Risk percentage 
+Deteriorating projects 
+Charts 
+Rankings 
+Tables 
+Project search results 
+Forecast exposure 
+Trend analysis 
+You should conceptually have one object such as:
+Current Filter Scope
+For example:
+Sector = Transport
+Ministry = All
+State = Tamil Nadu
+Agency = All
+Risk = High
+Period = August 2026
+Project Search = None
+Every dashboard component reads from that same scope.
+This prevents one chart from accidentally showing national data while another shows filtered data.
+
+26. Search should also feed the same data scope
+Suppose:
+Search = Chennai Metro
+The resulting project should become the active scope for Project Intelligence.
+If the user additionally selects:
+Risk = High
+then the system should apply:
+Project Search AND Risk = High
+rather than treating the search as a completely separate database lookup.
+
+27. Rankings must recalculate after filtering
+Suppose nationally the highest-risk project is:
+Project A
+But after selecting:
+Sector = Transport
+State = Tamil Nadu
+Project A may disappear from the dataset.
+The ranking should therefore be recalculated within the filtered scope.
+The system should not continue showing:
+National #1 Risk Project
+unless it is explicitly labelled as a national benchmark.
+
+28. Percentages and averages must also recalculate
+For example:
+High-risk projects = 15%
+If the user filters to:
+Tamil Nadu + Transport
+the percentage must be:
+High-risk Transport projects in Tamil Nadu / all Transport projects in Tamil Nadu
+not:
+15% national figure.
+This applies to:
+risk percentage 
+cost overrun percentage 
+time overrun percentage 
+delayed-project percentage 
+milestone failure rate 
+average delay 
+average cost escalation 
+etc. 
+
+29. Charts must adapt to the current filter scope
+This is especially important for your earlier observation about the State-wise pie chart.
+Suppose the user selects:
+State = Tamil Nadu
+and the system displays:
+State-wise Distribution
+The chart will naturally become:
+Tamil Nadu = 100%
+That technically may be mathematically correct, but it is analytically useless.
+Your system should therefore recognize when a visualization's dimension has been completely constrained by the active filter.
+Examples
+If:
+State = Tamil Nadu
+then:
+State Distribution
+should probably be hidden or replaced.
+If:
+Sector = Transport
+then:
+Sector Distribution
+may no longer be useful.
+If:
+Ministry = Ministry of Railways
+then:
+Ministry Distribution
+becomes meaningless.
+Instead, the system could dynamically replace the visualization with something useful, such as:
+Risk distribution 
+Cost-overrun distribution 
+Schedule status 
+Physical vs financial progress 
+project status 
+agency performance 
+forecast exposure 
+The key principle is:
+Never show a technically correct but analytically misleading visualization simply because the chart component exists.
+
+30. Distinguish filtered analysis from benchmark analysis
+Sometimes you may still want to show national context.
+For example:
+Current filtered scope: Tamil Nadu Transport projects
+and beside it:
+National Transport benchmark
+That is perfectly valid if explicitly labelled.
+The system should never make users guess whether a number is:
+filtered
+or
+national benchmark.
+
+31. Handle zero-result combinations explicitly
+If:
+Sector = Education
+Ministry = Coal
+State = Tamil Nadu
+produces no projects, the dashboard should say:
+No projects match all selected filters.
+It should not:
+silently reset filters 
+show national data 
+show stale previous results 
+display zeros without explanation 
+pretend the filter was never selected. 
+Useful options could include:
+Clear Ministry
+Clear Sector
+Clear All
+but the user's selections should remain visible until they change them.
+
+32. Distinguish three different failure states
+The interface should distinguish:
+No matching projects
+No projects match the selected filters.
+Data unavailable
+Data is unavailable for this combination/time period.
+System/data retrieval error
+Unable to retrieve project data. Please try again.
+These should not all appear as:
+0 projects
+because zero data and unavailable data are fundamentally different.
+
+33. Define rules for projects spanning multiple states
+This becomes important for infrastructure projects.
+A project may span:
+Tamil Nadu + Karnataka
+or:
+multiple states.
+You need a formal counting rule.
+Otherwise:
+State-wise project counts
+could double-count the same project.
+You should decide whether:
+project count is based on unique project IDs 
+a multi-state project can appear under multiple states 
+investment is allocated geographically or attributed to the project as a whole 
+state-level analytics uses project-location counts rather than unique-project counts 
+The important point is that the rule must be explicit and consistent.
+
+34. Define rules for projects associated with multiple ministries
+Similarly, some projects can involve:
+multiple ministries 
+departments 
+implementing bodies 
+coordinating agencies. 
+Your system needs a clear distinction between:
+Primary Ministry
+and
+Associated / Participating Ministry
+if the underlying data supports this.
+Otherwise, ministry-level aggregation can accidentally double-count projects.
+
+35. Define rules for agencies as well
+A project may have:
+Ministry → Implementing Agency
+but the agency relationship can sometimes be more complicated.
+Your system should define whether:
+one project has one primary agency 
+multiple agencies can be associated 
+one agency is designated as lead agency 
+agency-level project counts are unique or association-based. 
+Again, this is not merely a frontend problem.
+It is a data-modeling problem.
+
+36. Do not treat Sector → Ministry → State as a strict hierarchy
+This is particularly important for your architecture.
+A project can simultaneously belong to:
+Sector = Transport
+Ministry = Ministry of Railways
+State = Tamil Nadu
+but this does not mean:
+Sector owns Ministry
+Ministry owns State.
+These are different analytical dimensions.
+Therefore, filters should generally be cross-dimensional, not interpreted as a rigid tree.
+This is why:
+Sector → Ministry → State
+should not be hardcoded as one mandatory hierarchy.
+
+37. Project Search is the exception to the macro-to-micro flow
+Your broader analytics architecture is:
+Sector Analytics
+→ State Performance
+→ Projects
+→ Project Intelligence
+or:
+Ministry Analytics
+→ Agency Performance
+→ Projects
+→ Project Intelligence
+But Project Intelligence should also have a shortcut path:
+Project Name / Project ID Search → Project Intelligence
+This is extremely useful for officers who already know what they are looking for.
+Therefore the Project Intelligence page effectively supports two entry modes:
+Mode A — Analytical discovery
+Filters → matching projects → select project → Project Intelligence
+Mode B — Direct retrieval
+Project Name / Project ID → Project → Project Intelligence
+Both eventually converge on the same Project Intelligence interface.
+
+38. Project Intelligence should not initially show an enormous unfiltered project list
+Instead, the user can first:
+Option 1
+Use filters:
+Sector / Ministry / State / Agency / etc.
+Option 2
+Use:
+Search Project Name / Project ID
+Then the relevant project/project list is presented.
+This makes the interface much more purposeful than simply displaying thousands of projects.
+
+39. The search bar should be especially prominent in Project Intelligence
+I would structure the top of the page roughly as:
+Project Intelligence
+Search Project Name or Project ID
+[ 🔍 Search project... ]
+Filters
+Sector | Ministry | State | Agency | Status | Risk | Time Period
+Active Filters: ...
+Matching Projects: XX
+Then:
+Project list / search results
+and clicking a project opens:
+Project Intelligence — [Project Name]
+This creates a very clear user journey.
+
+40. Do not create two separate project databases
+The direct search and filter-based project discovery should query the same canonical project dataset.
+You should not have:
+Search database
+and separately:
+Filter database.
+Both should operate on the same underlying project records.
+This ensures:
+Search result = Filter result
+when the same conditions are applied.
+
+41. Search should respect project data version / time period
+This is particularly important because PAIMANA is a monitoring system with periodic updates.
+A project may have:
+different physical progress
+different expenditure
+different risk
+different forecast
+at different months.
+Therefore, if the user selects:
+Month & Year = August 2026
+the Project Intelligence data should correspond to the correct temporal snapshot / latest available information according to your defined data model.
+The identity of the project remains constant, but its monitoring state changes over time.
+
+42. Project ID should be immutable as the primary identity
+Project names can potentially change or be represented differently over time.
+The Project ID / Project Code should therefore be treated as the stable identifier wherever possible.
+Internally, your system should preferably use something like:
+project_id
+as the primary key rather than:
+project_name.
+Project Name is a human-readable attribute.
+
+43. Search should handle naming variations carefully
+Real-world project names may contain:
+abbreviations 
+punctuation 
+hyphens 
+different capitalization 
+Roman numerals 
+Phase I / Phase 1 
+spelling variations 
+For example:
+Phase-II
+Phase II
+Phase 2
+could potentially refer to the same concept.
+The search layer can normalize these where appropriate, but normalization should not change the underlying official project identity.
+
+44. Search ranking should be sensible
+If the user enters:
+Chennai Metro
+the system should preferably rank:
+exact project-name match 
+strong phrase match 
+partial name match 
+other relevant matches 
+rather than simply returning arbitrary database order.
+For Project ID, exact matching should dominate.
+
+45. Do not let fuzzy search create false project identity
+Fuzzy matching is useful for finding projects, but it should never mean:
+"This looks similar, so we'll assume it is the project."
+For example, if two projects have similar names, the system must show both and let the user distinguish them using:
+Project ID 
+State 
+Ministry 
+Agency 
+Sector 
+The system should be helpful in discovery but conservative in identification.
+
+46. All downstream Project Intelligence analysis must use the selected project
+Once the officer selects a project, the Project Intelligence page should operate on that project's complete record and history.
+It should then provide the previously defined nine areas:
+Current Project Status 
+Cost Forecast 
+Schedule Forecast 
+Overall Implementation Risk 
+Risk Trajectory 
+Why the Project Is Risky / Key Drivers 
+Early-Warning Triggers 
+Benchmark Against Similar Projects 
+Areas Requiring Official Review / Intervention 
+Thus the search/filter system is only the project discovery layer.
+The actual intelligence begins after the project has been identified.
+
+47. The system should make the current query auditable
+For an official decision-support system, it should be possible to answer:
+"Why am I seeing these 17 projects?"
+The system should be able to reconstruct:
+Sector = Transport
+Ministry = Railways
+State = Tamil Nadu
+Risk = High
+Period = August 2026
+and show:
+17 matching projects
+This is much better than having opaque filtering behavior.
+
+48. The system should never alter the query merely to improve the number of results
+This deserves special emphasis.
+A common dashboard mistake is:
+User selects restrictive filters → few/no results → system automatically broadens the query.
+That may make the dashboard look more populated, but it destroys analytical correctness.
+Your system should prioritize:
+Truthful filtering over always having results.
+If there are zero projects, zero projects should be displayed.
+
+49. Recommended conceptual filtering architecture
+You can think of the Project Intelligence discovery system as:
+Layer 1 — Direct identification
+Project Name / Project ID Search
+↓
+Layer 2 — Scope restrictions
+Sector | Ministry | State | Agency | Status | Risk | Time
+↓
+Layer 3 — Matching dataset
+Projects satisfying all active conditions
+↓
+Layer 4 — Project selection
+Select Project
+↓
+Layer 5 — Project Intelligence
+Status → Forecasts → Risk → Drivers → Warnings → Benchmarks → Intervention
+This is cleaner than treating search as just another ordinary dropdown.
+
+50. Final recommended rule set for your documentation
+If you want a concise end-note to put directly into your project documentation, I would use this:
+Important — Filtering, Search & Data-Selection Protocol
+Filters must be cumulative/intersectional by default (AND logic) across dimensions; selecting a new filter must never silently reset, ignore, or override an existing filter. 
+Multiple values within the same categorical dimension may use OR logic, while different dimensions should normally use AND logic. 
+Use dependent/cascading filter options where appropriate to reduce impossible combinations, while still clearly handling genuine zero-result combinations. 
+The Project Intelligence interface should provide a dedicated Project Name / Project ID search bar, since direct project retrieval is different from analytical filtering. 
+Project Name search should support partial/keyword matching, while Project ID / Project Code search should use exact or strictly controlled identifier matching. 
+Project Name search may return multiple candidates; results should display sufficient identifying information such as Project Name, Project ID, State, Ministry and Agency to distinguish similarly named projects. 
+Project ID should be treated as the strongest project identifier wherever available. 
+Project Search and analytical filters should operate together on the same underlying project dataset. Search must not bypass active filters. 
+If a searched project exists but conflicts with an active filter, the system should explicitly state the conflict rather than silently removing or overriding the filter. 
+If no project exists for a search query, show “No project found”; if a project exists but is excluded by active filters, show “Project found, but it does not match the current filters.” 
+Never silently broaden or reset a user's query simply to produce results. 
+Always display active filters/search state and allow individual removal as well as Clear All. 
+“All” means unrestricted only for that particular dimension; all other active filters remain applied. 
+Every KPI, chart, percentage, ranking, table, prediction, and statistic must use the exact same current filter scope. 
+All aggregates, rankings, averages, percentages and risk statistics must be recalculated after filtering. 
+Visualizations must recognize when their dimension has been completely filtered out. For example, a State-wise distribution becomes analytically uninformative when a single State is selected; such visualizations should be hidden, replaced, or explicitly contextualized rather than presenting misleading 100% distributions. 
+National or global benchmark values may remain visible after filtering, but must be clearly labelled as benchmarks and must not be confused with the filtered dataset. 
+Clearly distinguish zero matching projects, unavailable data, and system/data-retrieval errors. 
+Define explicit counting rules for multi-state, multi-ministry and multi-agency projects to prevent unintended double counting. 
+Sector, Ministry, State and Agency should be treated as different analytical dimensions, not assumed to form a rigid ownership hierarchy. 
+Project Name/ID search provides a direct shortcut to Project Intelligence, while Sector/Ministry/State/Agency filtering provides an analytical discovery path. Both paths must converge on the same Project Intelligence record. 
+Search and filter state should be preserved when navigating into a project and returning to the results. 
+The underlying system should maintain a single Current Filter/Search Scope so that every component reads from the same dataset. 
+The project identity should be based on a stable Project ID/Code, while Project Name should be treated as a searchable human-readable attribute. 
+Search should tolerate reasonable naming variations and support useful autocomplete/ranking, but fuzzy matching must never falsely identify one project as another. 
+The complete query should ideally be shareable/reproducible, allowing an officer to communicate the exact analytical scope used. 
+Filtering and search must be treated as a data and decision-logic layer, not merely as frontend UI functionality. 
+Above all, the system should prioritize analytical correctness, transparency and reproducibility over always returning a result. 
+One important design distinction for your SIH prototype
+I would not copy the PAIMANA dashboard's filtering interface 1:1.
+Use PAIMANA as the data/domain reference, but make your Project Intelligence discovery more capable:
+PAIMANA-style filters
+→ Sector | Ministry | State | Project Cost | Month/Year
+Your Project Intelligence
+→ Sector | Ministry | State | Agency | Status | Risk | Time Period
++ prominent Project Name / Project ID search
+That makes sense because PAIMANA's public dashboard is primarily an aggregate monitoring dashboard, whereas your Project Intelligence module is intended to be a project-level decision-support interface. The official page itself exposes project identity fields in the project table but does not provide that direct project search control in its filter area. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The whole computational stack of ml :
+Yes. For your specification, I would make this the master computational specification: every quantity that the system calculates anywhere in the platform, including tiny intermediate features that feed another calculation.
+The key principle is:
+Use deterministic formulas/statistics whenever the quantity is directly derivable from observed data. Use ML only when the system must learn a relationship and predict an unknown future outcome.
+So you should not use ML for things like cost escalation, expenditure %, elapsed time, rankings, averages, etc. That would make the system less transparent and harder to defend.
+
+Master Computational Specification
+0. Overall computational architecture
+Your system should work approximately as:
+Raw PAIMANA Data
+       ↓
+Data Cleaning / Validation
+       ↓
+Project-Level Derived Features
+       ↓
+Historical / Temporal Features
+       ↓
+Statistical Indicators
+       ↓
+ML Predictions
+       ↓
+Risk Engine
+       ↓
+Warning Engine
+       ↓
+Intervention Priority
+       ↓
+Dashboard Aggregations / Rankings
+There are therefore five major types of computation:
+
+PART A — BASIC PROJECT CALCULATIONS
+These are the smallest building blocks. Almost everything else depends on them.
+
+1. Project duration
+Calculation:
+
+Method
+Formula
+Why
+It is directly observable from dates. There is nothing to learn.
+
+2. Elapsed project duration
+
+Method
+Formula
+Why
+Exact deterministic calculation.
+
+3. Remaining planned duration
+
+Method
+Formula
+Why
+Directly calculated.
+
+4. Time elapsed %
+
+Method
+Formula
+Why
+Shows how much of the planned project timeline has passed.
+
+5. Time remaining %
+
+Method
+Formula
+
+PART B — COST CALCULATIONS
+
+6. Absolute cost escalation
+
+Method
+Formula
+Why
+This is an exact accounting difference.
+
+7. Cost escalation %
+
+Method
+Formula
+Why
+Standard normalized measure allowing projects of different sizes to be compared.
+
+8. Cost growth factor
+
+Method
+Formula
+Useful internally for modelling.
+
+9. Expenditure %
+
+Method
+Formula
+The denominator should be explicitly defined—typically the latest approved/revised cost depending on the PAIMANA field semantics.
+
+10. Remaining financial exposure
+
+Method
+Formula
+Why
+Shows how much approved project expenditure remains.
+
+11. Cost overrun amount
+For a project whose final/revised cost is known:
+
+Method
+Formula
+This becomes an outcome/target variable for ML training.
+
+12. Cost overrun %
+
+Method
+Formula
+Again, this is the actual historical outcome.
+
+PART C — PHYSICAL & FINANCIAL PROGRESS
+
+13. Physical progress %
+If directly reported:
+
+Method
+Source value
+Do not build an ML model to estimate this if PAIMANA already reports it.
+
+14. Financial progress %
+If the system needs to derive it:
+
+Method
+Formula
+Use the source's official definition if PAIMANA already provides financial progress.
+
+15. Physical–financial progress gap
+
+Method
+Formula
+Interpretation
+Large positive value:
+Physical work is ahead relative to expenditure.
+Large negative value:
+Expenditure is ahead relative to physical completion.
+This is an important diagnostic feature.
+
+16. Absolute progress divergence
+
+Method
+Formula
+Useful when you care about the magnitude of divergence rather than direction.
+
+PART D — PLANNED VS ACTUAL PROGRESS
+This requires a baseline for what progress should have been by the current date.
+
+17. Expected progress
+A simple baseline can be:
+
+bounded between 0–100%.
+Method
+Formula
+Important nuance
+This is only a time-based baseline, not necessarily the project's actual milestone schedule.
+If PAIMANA provides milestone-level or planned-progress information, use that instead.
+
+18. Progress deviation
+
+Method
+Formula
+Interpretation
+Positive → ahead of baseline 
+Negative → behind baseline 
+
+19. Progress delay %
+
+Method
+Formula
+Useful for normalization.
+
+20. Progress completion ratio
+
+Method
+Formula
+A ratio below 1 indicates underperformance relative to the simple baseline.
+
+PART E — VELOCITY / RATE CALCULATIONS
+These become especially useful with monthly PAIMANA data.
+
+21. Physical progress velocity
+For two reporting periods:
+
+Usually expressed as percentage points/month.
+Method
+Formula
+
+22. Financial expenditure velocity
+
+Method
+Formula
+
+23. Progress acceleration
+
+Method
+Formula
+Why
+Velocity tells you whether progress is happening.
+Acceleration tells you whether the rate itself is improving or deteriorating.
+
+24. Expenditure acceleration
+
+Method
+Formula
+
+PART F — TREND & DETERIORATION
+These should generally be statistical, not ML.
+
+25. Recent physical-progress trend
+Fit a simple linear trend over recent observations:
+
+where is the trend/slope.
+Method
+Linear regression / statistical trend
+Why
+You're not trying to predict final project success here.
+You're asking:
+Is this project's progress trajectory improving or deteriorating?
+A simple slope is transparent and robust.
+
+26. Recent expenditure trend
+Same concept:
+
+Method
+Statistical trend
+
+27. Moving average of progress
+For example, 3-month:
+
+Method
+Rolling statistical calculation
+
+28. Moving average of expenditure
+Same approach.
+Method
+Rolling statistical calculation
+
+29. Change in moving average
+
+Method
+Formula + rolling statistics
+Useful for detecting deterioration.
+
+30. Progress volatility
+For recent monthly progress changes:
+
+Method
+Standard deviation
+Why
+A project with highly unstable progress may deserve more attention even if its average progress looks acceptable.
+
+31. Expenditure volatility
+Same methodology.
+Method
+Standard deviation
+
+32. Deterioration score
+Rather than inventing another ML model, combine standardized indicators such as:
+declining progress trend 
+declining velocity 
+worsening progress deviation 
+increasing volatility 
+worsening milestone performance 
+Method
+Transparent statistical/rule-based score
+For example:
+
+Weights should later be empirically tested.
+
+PART G — SCHEDULE CALCULATIONS
+
+33. Schedule slippage
+For completed/updated projects:
+
+Method
+Formula
+
+34. Schedule slippage %
+
+Method
+Formula
+
+35. Schedule overrun in months
+
+Method
+Formula for observed outcomes; ML for future prediction.
+This distinction is extremely important.
+
+36. Historical schedule-overrun label
+For training:
+1 = significant schedule overrun
+0 = no significant schedule overrun
+Method
+Rule-based label creation
+The threshold must be explicitly defined and justified.
+For example, a threshold could be based on a specified number of months or a percentage of planned duration.
+
+PART H — MILESTONE CALCULATIONS
+Only use these if milestone-level data exists.
+
+37. Milestone delay
+
+Method
+Formula
+
+38. Number of delayed milestones
+
+Method
+Counting/rule
+
+39. Milestone delay %
+
+Method
+Formula
+
+40. Average milestone delay
+
+Method
+Formula
+
+41. Milestone completion rate
+
+Method
+Formula
+
+PART I — ISSUE / PROBLEM CALCULATIONS
+
+42. Active issue count
+
+Method
+Counting
+
+43. Persistent issue duration
+
+Method
+Formula
+
+44. Maximum issue duration
+
+Method
+Aggregation
+
+45. Issue persistence rate
+For example:
+
+Method
+Formula
+
+46. Issue recurrence
+Count repeated issues associated with the same project/category.
+Method
+Counting/grouping
+Why
+Repeated unresolved issues are more informative than a simple raw issue count.
+
+PART J — HISTORICAL PROJECT TRAJECTORY FEATURES
+These are particularly important because your modern PAIMANA data can potentially be structured as project × month.
+
+47. Previous-month progress
+
+Method
+Data lookup
+
+48. Previous-month expenditure
+
+Method
+Data lookup
+
+49. 3-month progress change
+
+Method
+Formula
+
+50. 6-month progress change
+
+Method
+Formula
+
+51. 3-month expenditure change
+
+Method
+Formula
+
+52. Rolling average progress
+3/6/12-month windows where enough data exists.
+Method
+Rolling statistics
+
+53. Rolling average expenditure
+Same.
+Method
+Rolling statistics
+
+54. Rolling volatility
+Calculate standard deviation over a recent window.
+Method
+Rolling statistics
+
+55. Trend change
+Compare recent slope with earlier slope:
+
+Method
+Statistical calculation
+This is a useful deterioration signal.
+
+PART K — COST PREDICTION
+Now we reach the point where ML becomes appropriate.
+
+56. Probability of cost overrun
+Question:
+Given everything known about the project up to now, what is the probability that it will eventually experience significant cost overrun?
+Method
+Supervised ML classification
+Recommended model
+CatBoost Classifier
+Why
+Your data is primarily:
+tabular 
+categorical 
+numerical 
+potentially nonlinear 
+mixed project characteristics 
+likely moderate in size 
+CatBoost handles categorical variables and nonlinear relationships particularly well.
+Output:
+
+Example:
+0.78 = 78% predicted probability.
+
+PART L — EXPECTED COST OVERRUN
+
+57. Predicted final cost
+Question:
+What is the expected final/revised project cost?
+Method
+Supervised ML regression
+Recommended model
+CatBoost Regressor
+
+58. Predicted cost overrun amount
+
+Method
+ML + formula
+The ML model predicts final cost; the overrun itself is then deterministically calculated.
+
+59. Predicted cost overrun %
+
+Method
+ML + formula
+This is an important example of where both methods work together.
+
+60. Predicted cost exposure
+At portfolio level:
+
+Method
+Aggregation of ML outputs
+Not a new ML model.
+
+PART M — SCHEDULE PREDICTION
+
+61. Probability of schedule overrun
+Question:
+What is the probability that this project will exceed its planned schedule?
+Method
+Supervised ML classification
+Recommended model
+CatBoost Classifier
+
+62. Predicted delay duration
+Question:
+If/when delayed, how much delay is expected?
+Method
+Supervised ML regression
+Recommended model
+CatBoost Regressor
+
+63. Predicted completion date
+Conceptually:
+
+Method
+ML + formula
+The ML model predicts delay; the date calculation itself is deterministic.
+
+64. Predicted schedule exposure
+At portfolio level:
+
+or, more usefully, aggregate expected delay weighted by project importance where justified.
+Method
+Aggregation
+
+PART N — POSSIBLE TIME-TO-EVENT MODEL
+There is one additional model worth evaluating later.
+65. Probability of completing within a future period
+Instead of predicting a fixed delay directly, you can model:
+probability of project completion within the next X months.
+Method
+Survival/time-to-event model
+Potential approaches:
+survival analysis 
+gradient-boosted survival model 
+Recommendation
+Optional, not V1.
+CatBoost classification/regression is simpler for your SIH prototype.
+Only introduce survival modelling if your project-month data and censoring structure justify it.
+
+PART O — ANOMALY DETECTION
+
+66. Unusually high cost escalation
+Calculate project cost escalation percentile or robust z-score relative to peers.
+Method
+Statistics
+
+67. Unusually high expenditure
+Compare expenditure against peer/project trajectory distribution.
+Method
+Robust statistics
+
+68. Unusual progress/expenditure relationship
+For example:
+expenditure is extremely high relative to physical progress.
+Method
+Statistical anomaly detection
+
+69. Multivariate project anomaly
+Detect projects that are unusual across multiple dimensions simultaneously.
+Method
+Isolation Forest
+Why
+Unlike a simple threshold, Isolation Forest can identify unusual combinations of features.
+Important
+This is anomaly detection, not prediction.
+
+70. Robust z-score
+For a variable:
+
+Method
+Robust statistics
+Better than ordinary z-score when project data contains extreme outliers.
+
+71. Percentile-based anomaly
+Example:
+Project is in the 99th percentile of cost escalation within its peer group.
+Method
+Percentile calculation
+This is often easier to explain to government users than a black-box anomaly score.
+
+PART P — PROJECT RISK
+This should not be another ML model initially.
+
+72. Cost risk
+Derived from:
+predicted probability of cost overrun 
+predicted overrun magnitude 
+current cost escalation 
+exposure 
+Method
+Risk transformation + formula
+
+73. Schedule risk
+Derived from:
+predicted schedule-overrun probability 
+predicted delay 
+current schedule slippage 
+progress deviation 
+Method
+Risk transformation + formula
+
+74. Progress risk
+Derived from:
+progress deviation 
+progress trend 
+progress velocity 
+deterioration 
+Method
+Statistical/rule-based score
+
+75. Milestone risk
+Derived from:
+delayed milestone count 
+milestone delay 
+milestone completion rate 
+Method
+Formula/rule
+
+76. Issue risk
+Derived from:
+active issue count 
+persistent issue duration 
+recurring issues 
+Method
+Formula/rule
+
+77. Overall project risk score
+Conceptually:
+
+where:
+= cost risk 
+= schedule risk 
+= progress risk 
+= milestone risk 
+= issue risk 
+Method
+Transparent weighted risk engine
+Why not ML?
+Because the risk score is a decision framework, not necessarily an unknown outcome.
+You want administrators to understand:
+“This project is High Risk because schedule and cost risk are elevated.”
+rather than:
+“Another neural network says it is 82% risky.”
+Important
+The weights should eventually be:
+benchmarked 
+sensitivity-tested 
+calibrated against historical outcomes where possible 
+Do not simply invent weights and treat them as scientifically established.
+
+PART Q — RISK BAND
+
+78. Risk band
+Convert continuous risk into:
+Low 
+Moderate 
+High 
+Critical 
+Method
+Threshold/rule
+Example:
+0–25       Low
+25–50      Moderate
+50–75      High
+75–100     Critical
+But these exact thresholds should not be assumed. They should be calibrated/tested.
+
+PART R — RISK DETERIORATION
+
+79. Risk change
+
+Method
+Formula
+
+80. Risk deterioration %
+
+Method
+Formula
+
+81. Risk trajectory
+Use recent risk-score slope.
+Method
+Statistical trend
+
+82. Risk acceleration
+
+Method
+Formula
+This helps distinguish:
+risk increasing slowly
+from:
+risk increasing rapidly.
+
+PART S — RISK DRIVERS
+
+83. Model-based risk/prediction drivers
+For ML predictions:
+Method
+SHAP
+For example:
+Schedule risk increased primarily because of low recent progress, prolonged issue duration, and historical schedule performance.
+Why
+SHAP provides local feature attribution for tree-based models.
+
+84. Statistical risk drivers
+For deterministic risk:
+Use:
+trend 
+deviation 
+threshold breaches 
+persistent issues 
+milestone delays 
+Method
+Rule-based evidence extraction
+Do not call these “causes” unless causal analysis has actually been performed.
+Use:
+Contributing factors
+or
+Associated drivers
+
+PART T — EARLY WARNING
+
+85. Warning trigger
+Example:
+IF schedule probability > threshold
+AND predicted delay > threshold
+THEN Schedule Warning
+Method
+Rule engine
+Why
+Warnings are policy/decision logic. They need to be understandable and auditable.
+
+86. Warning severity
+Possible:
+Informational 
+Low 
+Moderate 
+High 
+Critical 
+Method
+Rule-based classification
+
+87. Warning urgency
+Can consider:
+risk 
+predicted delay 
+remaining time 
+persistence 
+deterioration rate 
+Method
+Decision formula/rules
+
+88. Warning persistence
+
+Method
+Formula
+
+89. Warning status
+Examples:
+New 
+Active 
+Escalated 
+Resolved 
+Dismissed 
+Method
+State machine / business rules
+Not ML.
+
+PART U — INTERVENTION PRIORITY
+
+90. Intervention priority score
+Conceptually:
+
+with appropriately normalized components.
+Method
+Transparent decision score
+Why
+The ML model should tell you:
+“This project is likely to have a problem.”
+The intervention engine decides:
+“Which problematic project deserves attention first?”
+Those are different tasks.
+
+91. Intervention ranking
+Sort projects by intervention priority.
+Method
+Ranking
+No new ML model.
+
+92. Intervention recommendation
+Example:
+Persistent land-acquisition issue → escalation/review by relevant authority.
+Method
+Rule/knowledge mapping
+Not an ML prediction.
+Since your current architecture has LLM out of scope, keep this deterministic.
+
+PART V — COST DRIVER ANALYSIS
+
+93. Cost-driver association
+Identify variables associated with higher cost overrun.
+Method
+Combination of:
+statistical analysis 
+correlation 
+regression 
+group comparisons 
+SHAP 
+Important
+Do not write:
+“Land acquisition causes cost escalation.”
+unless causal analysis establishes that.
+Instead:
+“Land acquisition delay is associated with higher observed cost escalation.”
+
+94. Global feature importance
+Method
+SHAP / model feature importance
+Shows which variables are generally influential in the cost model.
+
+95. Project-specific feature contribution
+Method
+SHAP
+Answers:
+Why did the model give this project a high cost-overrun prediction?
+
+PART W — SECTOR / MINISTRY / STATE AGGREGATION
+These dashboards should not train separate models merely because they display different dimensions.
+They consume project-level outputs.
+
+96. Project count
+
+Method
+Aggregation
+Critical nuance
+Do not count monthly project records.
+
+97. Total approved/original cost
+
+Method
+SUM
+
+98. Total revised cost
+
+Method
+SUM
+
+99. Portfolio cost escalation
+
+Method
+Weighted aggregate formula
+This is preferable to averaging project-level escalation percentages.
+
+100. Total expenditure
+
+Method
+SUM
+
+101. Portfolio expenditure %
+
+Method
+Weighted ratio
+Again, don't simply average individual project expenditure percentages.
+
+102. Average physical progress
+
+Method
+Arithmetic mean
+But if appropriate, also provide weighted measures.
+
+103. Median physical progress
+Method
+Median
+Why
+Infrastructure data can contain extreme projects. Median provides a more robust central measure.
+
+104. Average cost escalation %
+Method
+Mean
+Useful for the typical project, but should be distinguished from portfolio-level escalation calculated from aggregate costs.
+
+105. Median cost escalation %
+Method
+Median
+Useful for reducing the influence of extreme projects.
+
+106. High-risk project count
+
+Method
+Counting
+
+107. Critical project count
+
+Method
+Counting
+
+108. Warning count
+
+Method
+Counting
+
+109. Deteriorating project count
+
+Method
+Rule-based counting
+
+PART X — PORTFOLIO PREDICTIVE AGGREGATIONS
+
+110. Predicted cost exposure
+
+Method
+Aggregation of ML predictions
+
+111. Average predicted cost overrun
+
+Method
+Statistical aggregation
+
+112. Expected cost exposure
+A more probabilistically sound measure can be:
+
+Method
+Probability × predicted magnitude + aggregation
+Why
+This can be more informative than simply summing predicted overrun amounts.
+It incorporates uncertainty.
+
+113. Average predicted delay
+
+Method
+Aggregation
+
+114. Total predicted delay exposure
+
+Method
+Aggregation
+
+115. Expected schedule exposure
+Potentially:
+
+Method
+Probability-weighted aggregation
+This is preferable if your two schedule models are well calibrated.
+
+PART Y — RANKINGS
+
+116. Sector ranking
+Rank sectors based on selected metric.
+Method
+Aggregation + sorting/ranking
+Possible ranking metrics:
+highest cost escalation 
+highest predicted exposure 
+highest risk count 
+highest delay exposure 
+most deteriorating projects 
+
+117. Ministry ranking
+Same.
+Method
+Aggregation + ranking
+
+118. Agency ranking
+Same.
+Method
+Aggregation + ranking
+
+119. State ranking
+Same.
+Method
+Aggregation + ranking
+
+120. Project ranking
+Rank projects by:
+overall risk 
+predicted cost exposure 
+predicted delay 
+intervention priority 
+deterioration 
+Method
+Score + sorting
+No new ML model.
+
+PART Z — TRENDS ON ANALYTICAL DASHBOARDS
+
+121. Monthly project count
+
+Method
+Aggregation
+
+122. Monthly investment
+
+Method
+Aggregation
+
+123. Monthly expenditure
+
+Method
+Aggregation
+
+124. Monthly average progress
+Method
+Aggregation
+
+125. Monthly risk trend
+
+Method
+Aggregation
+
+126. High-risk trend
+
+Method
+Counting + time aggregation
+
+127. Warning trend
+
+Method
+Counting + time aggregation
+
+PART AA — BENCHMARKING
+
+128. Sector benchmark
+Compare project/sector performance against portfolio.
+Example:
+
+Method
+Aggregation + comparison
+
+129. Ministry benchmark
+Same.
+Method
+Aggregation + comparison
+
+130. State benchmark
+Same.
+Method
+Aggregation + comparison
+
+131. Peer-project benchmark
+Compare a project against projects with similar:
+sector 
+size 
+stage 
+geography 
+project type 
+Method
+Statistical peer-group comparison
+Why
+Comparing a ₹10,000 crore project against a ₹150 crore project without context can be misleading.
+
+PART AB — MODEL PERFORMANCE CALCULATIONS
+These don't calculate project figures directly, but they are required to determine whether your intelligence engine is reliable.
+
+132. Precision
+
+Method
+Statistical evaluation
+Important for avoiding excessive false warnings.
+
+133. Recall
+
+Important because missing a genuinely deteriorating project can be costly.
+
+134. F1
+
+
+135. ROC-AUC
+Method
+Classification evaluation
+
+136. PR-AUC
+Method
+Classification evaluation
+Particularly useful if actual overruns are relatively uncommon.
+
+137. Calibration
+Compare predicted probabilities with observed frequencies.
+Method
+Calibration analysis
+This is very important because you're using probabilities to generate risk/warning thresholds.
+
+138. MAE
+
+Method
+Regression evaluation
+
+139. RMSE
+
+Method
+Regression evaluation
+
+140. False-warning rate
+
+Method
+Formula
+Extremely relevant to your Early Warning system.
+
+141. Lead time
+
+Method
+Formula
+Why
+A warning system isn't useful merely because it is accurate.
+It needs to warn early enough to act.
+
+PART AC — DATA QUALITY CALCULATIONS
+These belong in Data & Model Operations.
+
+142. Missing-value rate
+
+Method
+Formula
+
+143. Duplicate rate
+
+Method
+Formula
+
+144. Validation pass rate
+
+Method
+Formula
+
+145. External dataset match rate
+
+Method
+Formula
+This is particularly important for WPI or future external datasets.
+
+PART AD — DATA/MODEL MONITORING
+These are useful later.
+
+146. Feature distribution shift
+Compare feature distributions between training and new data.
+Method
+Statistical drift detection
+Possible methods:
+PSI 
+KS statistic 
+distribution distance measures 
+
+147. Prediction distribution shift
+Compare current predictions with previous production predictions.
+Method
+Statistical distribution comparison
+
+148. Model performance drift
+Compare recent labelled outcomes with historical model performance.
+Method
+Statistical evaluation
+
+149. Data coverage
+
+Method
+Formula
+
+PART AE — GEOGRAPHIC / PORTFOLIO SPECIAL CASES
+These are important for your State Analytics.
+
+150. State project count
+
+Method
+Aggregation
+But multi-state projects need special handling.
+
+151. Multi-state project handling
+A project genuinely spanning multiple states can appear in each relevant State view.
+Method
+Data attribution rule
+Critical nuance
+Do not sum the same project's full cost across states and then call that India's/state portfolio investment without accounting for duplication.
+If the source does not provide defensible state-level cost allocation:
+show project association in each relevant state, but do not fabricate a cost split.
+
+PART AF — HOME DASHBOARD CALCULATIONS
+The Home dashboard should be comparatively simple.
+
+152. Projects monitored
+
+
+153. Approved cost
+
+
+154. Revised cost
+
+
+155. Overall portfolio cost growth
+
+
+156. Cumulative expenditure
+
+
+157. Expenditure as % of revised cost
+
+
+158. Projects requiring attention
+Count projects satisfying your approved attention criteria.
+Method
+Rule-based counting
+Not another model.
+
+159. Risk concentration map
+For each geographic unit:
+project count 
+high-risk count 
+critical-risk count 
+risk density 
+Method
+Aggregation
+
+The most important distinction in the whole architecture
+You effectively have three layers of numbers.
+Layer 1 — What has actually happened
+Examples:
+Original cost 
+Revised cost 
+Expenditure 
+Physical progress 
+Time elapsed 
+Cost escalation 
+Schedule slippage 
+Milestone delay 
+Method: formulas/source data.
+
+Layer 2 — What the system thinks will happen
+Examples:
+Probability of cost overrun 
+Expected final cost 
+Predicted cost overrun 
+Probability of schedule overrun 
+Predicted delay 
+Predicted completion date 
+Method: ML.
+Your initial model family should be:
+CatBoost classification + CatBoost regression
+with simpler statistical baselines used for benchmarking.
+
+Layer 3 — What the system recommends prioritizing
+Examples:
+Overall risk 
+Risk band 
+Warning 
+Warning severity 
+Deterioration 
+Intervention priority 
+Method: transparent statistical/rule-based decision engine.
+
+Final master map
+If I compress the entire architecture into one table:
+The architecture I would ultimately put in your technical specification
+                    PAIMANA DATA
+                         │
+                         ▼
+              ┌─────────────────────┐
+              │ Deterministic Layer │
+              │ formulas / counts   │
+              │ ratios / dates      │
+              └──────────┬──────────┘
+                         │
+                         ▼
+              ┌─────────────────────┐
+              │ Temporal Statistics │
+              │ trends / velocity   │
+              │ rolling stats       │
+              │ deterioration       │
+              └──────────┬──────────┘
+                         │
+                         ▼
+              ┌─────────────────────┐
+              │    ML Prediction    │
+              │                     │
+              │ Cost classifier     │
+              │ Cost regression     │
+              │ Schedule classifier │
+              │ Delay regression    │
+              └──────────┬──────────┘
+                         │
+                         ▼
+              ┌─────────────────────┐
+              │    Risk Engine      │
+              │ cost + schedule +   │
+              │ progress + issues   │
+              └──────────┬──────────┘
+                         │
+                         ▼
+              ┌─────────────────────┐
+              │   Warning Engine    │
+              │ rules + prediction  │
+              │ + deterioration     │
+              └──────────┬──────────┘
+                         │
+                         ▼
+              ┌─────────────────────┐
+              │ Intervention Engine │
+              │ priority + evidence │
+              └──────────┬──────────┘
+                         │
+                         ▼
+       ┌─────────────────┼─────────────────┐
+       ▼                 ▼                 ▼
+    Project           Early Warning    Aggregation
+  Intelligence                         dashboards
+                                           │
+                              ┌────────────┼────────────┐
+                              ▼            ▼            ▼
+                           Sector       Ministry      State
+One major recommendation
+Do not try to make every one of these calculations a separate “feature” visible on the UI. Many are intermediate computational features used by other calculations or models.
+For example:
+Progress velocity → progress trend → deterioration → risk → warning → intervention priority
+The user may only see “Deteriorating” and the evidence behind it. The underlying velocity, slope, moving average, etc. can remain computational features.
+Likewise:
+Cost classifier + cost regression → predicted probability + predicted magnitude → expected cost exposure
+This keeps your actual dashboards relatively clean while the backend intelligence layer can be extremely comprehensive.
+And crucially, I would not commit all the proposed formulas/thresholds/weights as final yet. Your March 2025+ PAIMANA data should be used to test which features actually exist, which are reliable, which have enough longitudinal coverage, and which thresholds/weights/models perform best. The computational architecture above can be your V1 specification, while the exact parameters become part of your later benchmarking/validation phase.

@@ -1,0 +1,1286 @@
+The whole computational stack of ml :
+Yes. For your specification, I would make this the master computational specification: every quantity that the system calculates anywhere in the platform, including tiny intermediate features that feed another calculation.
+The key principle is:
+Use deterministic formulas/statistics whenever the quantity is directly derivable from observed data. Use ML only when the system must learn a relationship and predict an unknown future outcome.
+So you should not use ML for things like cost escalation, expenditure %, elapsed time, rankings, averages, etc. That would make the system less transparent and harder to defend.
+
+Master Computational Specification
+0. Overall computational architecture
+Your system should work approximately as:
+Raw PAIMANA Data
+       ↓
+Data Cleaning / Validation
+       ↓
+Project-Level Derived Features
+       ↓
+Historical / Temporal Features
+       ↓
+Statistical Indicators
+       ↓
+ML Predictions
+       ↓
+Risk Engine
+       ↓
+Warning Engine
+       ↓
+Intervention Priority
+       ↓
+Dashboard Aggregations / Rankings
+There are therefore five major types of computation:
+
+PART A — BASIC PROJECT CALCULATIONS
+These are the smallest building blocks. Almost everything else depends on them.
+
+1. Project duration
+Calculation:
+
+Method
+Formula
+Why
+It is directly observable from dates. There is nothing to learn.
+
+2. Elapsed project duration
+
+Method
+Formula
+Why
+Exact deterministic calculation.
+
+3. Remaining planned duration
+
+Method
+Formula
+Why
+Directly calculated.
+
+4. Time elapsed %
+
+Method
+Formula
+Why
+Shows how much of the planned project timeline has passed.
+
+5. Time remaining %
+
+Method
+Formula
+
+PART B — COST CALCULATIONS
+
+6. Absolute cost escalation
+
+Method
+Formula
+Why
+This is an exact accounting difference.
+
+7. Cost escalation %
+
+Method
+Formula
+Why
+Standard normalized measure allowing projects of different sizes to be compared.
+
+8. Cost growth factor
+
+Method
+Formula
+Useful internally for modelling.
+
+9. Expenditure %
+
+Method
+Formula
+The denominator should be explicitly defined—typically the latest approved/revised cost depending on the PAIMANA field semantics.
+
+10. Remaining financial exposure
+
+Method
+Formula
+Why
+Shows how much approved project expenditure remains.
+
+11. Cost overrun amount
+For a project whose final/revised cost is known:
+
+Method
+Formula
+This becomes an outcome/target variable for ML training.
+
+12. Cost overrun %
+
+Method
+Formula
+Again, this is the actual historical outcome.
+
+PART C — PHYSICAL & FINANCIAL PROGRESS
+
+13. Physical progress %
+If directly reported:
+
+Method
+Source value
+Do not build an ML model to estimate this if PAIMANA already reports it.
+
+14. Financial progress %
+If the system needs to derive it:
+
+Method
+Formula
+Use the source's official definition if PAIMANA already provides financial progress.
+
+15. Physical–financial progress gap
+
+Method
+Formula
+Interpretation
+Large positive value:
+Physical work is ahead relative to expenditure.
+Large negative value:
+Expenditure is ahead relative to physical completion.
+This is an important diagnostic feature.
+
+16. Absolute progress divergence
+
+Method
+Formula
+Useful when you care about the magnitude of divergence rather than direction.
+
+PART D — PLANNED VS ACTUAL PROGRESS
+This requires a baseline for what progress should have been by the current date.
+
+17. Expected progress
+A simple baseline can be:
+
+bounded between 0–100%.
+Method
+Formula
+Important nuance
+This is only a time-based baseline, not necessarily the project's actual milestone schedule.
+If PAIMANA provides milestone-level or planned-progress information, use that instead.
+
+18. Progress deviation
+
+Method
+Formula
+Interpretation
+Positive → ahead of baseline 
+Negative → behind baseline 
+
+19. Progress delay %
+
+Method
+Formula
+Useful for normalization.
+
+20. Progress completion ratio
+
+Method
+Formula
+A ratio below 1 indicates underperformance relative to the simple baseline.
+
+PART E — VELOCITY / RATE CALCULATIONS
+These become especially useful with monthly PAIMANA data.
+
+21. Physical progress velocity
+For two reporting periods:
+
+Usually expressed as percentage points/month.
+Method
+Formula
+
+22. Financial expenditure velocity
+
+Method
+Formula
+
+23. Progress acceleration
+
+Method
+Formula
+Why
+Velocity tells you whether progress is happening.
+Acceleration tells you whether the rate itself is improving or deteriorating.
+
+24. Expenditure acceleration
+
+Method
+Formula
+
+PART F — TREND & DETERIORATION
+These should generally be statistical, not ML.
+
+25. Recent physical-progress trend
+Fit a simple linear trend over recent observations:
+
+where is the trend/slope.
+Method
+Linear regression / statistical trend
+Why
+You're not trying to predict final project success here.
+You're asking:
+Is this project's progress trajectory improving or deteriorating?
+A simple slope is transparent and robust.
+
+26. Recent expenditure trend
+Same concept:
+
+Method
+Statistical trend
+
+27. Moving average of progress
+For example, 3-month:
+
+Method
+Rolling statistical calculation
+
+28. Moving average of expenditure
+Same approach.
+Method
+Rolling statistical calculation
+
+29. Change in moving average
+
+Method
+Formula + rolling statistics
+Useful for detecting deterioration.
+
+30. Progress volatility
+For recent monthly progress changes:
+
+Method
+Standard deviation
+Why
+A project with highly unstable progress may deserve more attention even if its average progress looks acceptable.
+
+31. Expenditure volatility
+Same methodology.
+Method
+Standard deviation
+
+32. Deterioration score
+Rather than inventing another ML model, combine standardized indicators such as:
+declining progress trend 
+declining velocity 
+worsening progress deviation 
+increasing volatility 
+worsening milestone performance 
+Method
+Transparent statistical/rule-based score
+For example:
+
+Weights should later be empirically tested.
+
+PART G — SCHEDULE CALCULATIONS
+
+33. Schedule slippage
+For completed/updated projects:
+
+Method
+Formula
+
+34. Schedule slippage %
+
+Method
+Formula
+
+35. Schedule overrun in months
+
+Method
+Formula for observed outcomes; ML for future prediction.
+This distinction is extremely important.
+
+36. Historical schedule-overrun label
+For training:
+1 = significant schedule overrun
+0 = no significant schedule overrun
+Method
+Rule-based label creation
+The threshold must be explicitly defined and justified.
+For example, a threshold could be based on a specified number of months or a percentage of planned duration.
+
+PART H — MILESTONE CALCULATIONS
+Only use these if milestone-level data exists.
+
+37. Milestone delay
+
+Method
+Formula
+
+38. Number of delayed milestones
+
+Method
+Counting/rule
+
+39. Milestone delay %
+
+Method
+Formula
+
+40. Average milestone delay
+
+Method
+Formula
+
+41. Milestone completion rate
+
+Method
+Formula
+
+PART I — ISSUE / PROBLEM CALCULATIONS
+
+42. Active issue count
+
+Method
+Counting
+
+43. Persistent issue duration
+
+Method
+Formula
+
+44. Maximum issue duration
+
+Method
+Aggregation
+
+45. Issue persistence rate
+For example:
+
+Method
+Formula
+
+46. Issue recurrence
+Count repeated issues associated with the same project/category.
+Method
+Counting/grouping
+Why
+Repeated unresolved issues are more informative than a simple raw issue count.
+
+PART J — HISTORICAL PROJECT TRAJECTORY FEATURES
+These are particularly important because your modern PAIMANA data can potentially be structured as project × month.
+
+47. Previous-month progress
+
+Method
+Data lookup
+
+48. Previous-month expenditure
+
+Method
+Data lookup
+
+49. 3-month progress change
+
+Method
+Formula
+
+50. 6-month progress change
+
+Method
+Formula
+
+51. 3-month expenditure change
+
+Method
+Formula
+
+52. Rolling average progress
+3/6/12-month windows where enough data exists.
+Method
+Rolling statistics
+
+53. Rolling average expenditure
+Same.
+Method
+Rolling statistics
+
+54. Rolling volatility
+Calculate standard deviation over a recent window.
+Method
+Rolling statistics
+
+55. Trend change
+Compare recent slope with earlier slope:
+
+Method
+Statistical calculation
+This is a useful deterioration signal.
+
+PART K — COST PREDICTION
+Now we reach the point where ML becomes appropriate.
+
+56. Probability of cost overrun
+Question:
+Given everything known about the project up to now, what is the probability that it will eventually experience significant cost overrun?
+Method
+Supervised ML classification
+Recommended model
+CatBoost Classifier
+Why
+Your data is primarily:
+tabular 
+categorical 
+numerical 
+potentially nonlinear 
+mixed project characteristics 
+likely moderate in size 
+CatBoost handles categorical variables and nonlinear relationships particularly well.
+Output:
+
+Example:
+0.78 = 78% predicted probability.
+
+PART L — EXPECTED COST OVERRUN
+
+57. Predicted final cost
+Question:
+What is the expected final/revised project cost?
+Method
+Supervised ML regression
+Recommended model
+CatBoost Regressor
+
+58. Predicted cost overrun amount
+
+Method
+ML + formula
+The ML model predicts final cost; the overrun itself is then deterministically calculated.
+
+59. Predicted cost overrun %
+
+Method
+ML + formula
+This is an important example of where both methods work together.
+
+60. Predicted cost exposure
+At portfolio level:
+
+Method
+Aggregation of ML outputs
+Not a new ML model.
+
+PART M — SCHEDULE PREDICTION
+
+61. Probability of schedule overrun
+Question:
+What is the probability that this project will exceed its planned schedule?
+Method
+Supervised ML classification
+Recommended model
+CatBoost Classifier
+
+62. Predicted delay duration
+Question:
+If/when delayed, how much delay is expected?
+Method
+Supervised ML regression
+Recommended model
+CatBoost Regressor
+
+63. Predicted completion date
+Conceptually:
+
+Method
+ML + formula
+The ML model predicts delay; the date calculation itself is deterministic.
+
+64. Predicted schedule exposure
+At portfolio level:
+
+or, more usefully, aggregate expected delay weighted by project importance where justified.
+Method
+Aggregation
+
+PART N — POSSIBLE TIME-TO-EVENT MODEL
+There is one additional model worth evaluating later.
+65. Probability of completing within a future period
+Instead of predicting a fixed delay directly, you can model:
+probability of project completion within the next X months.
+Method
+Survival/time-to-event model
+Potential approaches:
+survival analysis 
+gradient-boosted survival model 
+Recommendation
+Optional, not V1.
+CatBoost classification/regression is simpler for your SIH prototype.
+Only introduce survival modelling if your project-month data and censoring structure justify it.
+
+PART O — ANOMALY DETECTION
+
+66. Unusually high cost escalation
+Calculate project cost escalation percentile or robust z-score relative to peers.
+Method
+Statistics
+
+67. Unusually high expenditure
+Compare expenditure against peer/project trajectory distribution.
+Method
+Robust statistics
+
+68. Unusual progress/expenditure relationship
+For example:
+expenditure is extremely high relative to physical progress.
+Method
+Statistical anomaly detection
+
+69. Multivariate project anomaly
+Detect projects that are unusual across multiple dimensions simultaneously.
+Method
+Isolation Forest
+Why
+Unlike a simple threshold, Isolation Forest can identify unusual combinations of features.
+Important
+This is anomaly detection, not prediction.
+
+70. Robust z-score
+For a variable:
+
+Method
+Robust statistics
+Better than ordinary z-score when project data contains extreme outliers.
+
+71. Percentile-based anomaly
+Example:
+Project is in the 99th percentile of cost escalation within its peer group.
+Method
+Percentile calculation
+This is often easier to explain to government users than a black-box anomaly score.
+
+PART P — PROJECT RISK
+This should not be another ML model initially.
+
+72. Cost risk
+Derived from:
+predicted probability of cost overrun 
+predicted overrun magnitude 
+current cost escalation 
+exposure 
+Method
+Risk transformation + formula
+
+73. Schedule risk
+Derived from:
+predicted schedule-overrun probability 
+predicted delay 
+current schedule slippage 
+progress deviation 
+Method
+Risk transformation + formula
+
+74. Progress risk
+Derived from:
+progress deviation 
+progress trend 
+progress velocity 
+deterioration 
+Method
+Statistical/rule-based score
+
+75. Milestone risk
+Derived from:
+delayed milestone count 
+milestone delay 
+milestone completion rate 
+Method
+Formula/rule
+
+76. Issue risk
+Derived from:
+active issue count 
+persistent issue duration 
+recurring issues 
+Method
+Formula/rule
+
+77. Overall project risk score
+Conceptually:
+
+where:
+= cost risk 
+= schedule risk 
+= progress risk 
+= milestone risk 
+= issue risk 
+Method
+Transparent weighted risk engine
+Why not ML?
+Because the risk score is a decision framework, not necessarily an unknown outcome.
+You want administrators to understand:
+“This project is High Risk because schedule and cost risk are elevated.”
+rather than:
+“Another neural network says it is 82% risky.”
+Important
+The weights should eventually be:
+benchmarked 
+sensitivity-tested 
+calibrated against historical outcomes where possible 
+Do not simply invent weights and treat them as scientifically established.
+
+PART Q — RISK BAND
+
+78. Risk band
+Convert continuous risk into:
+Low 
+Moderate 
+High 
+Critical 
+Method
+Threshold/rule
+Example:
+0–25       Low
+25–50      Moderate
+50–75      High
+75–100     Critical
+But these exact thresholds should not be assumed. They should be calibrated/tested.
+
+PART R — RISK DETERIORATION
+
+79. Risk change
+
+Method
+Formula
+
+80. Risk deterioration %
+
+Method
+Formula
+
+81. Risk trajectory
+Use recent risk-score slope.
+Method
+Statistical trend
+
+82. Risk acceleration
+
+Method
+Formula
+This helps distinguish:
+risk increasing slowly
+from:
+risk increasing rapidly.
+
+PART S — RISK DRIVERS
+
+83. Model-based risk/prediction drivers
+For ML predictions:
+Method
+SHAP
+For example:
+Schedule risk increased primarily because of low recent progress, prolonged issue duration, and historical schedule performance.
+Why
+SHAP provides local feature attribution for tree-based models.
+
+84. Statistical risk drivers
+For deterministic risk:
+Use:
+trend 
+deviation 
+threshold breaches 
+persistent issues 
+milestone delays 
+Method
+Rule-based evidence extraction
+Do not call these “causes” unless causal analysis has actually been performed.
+Use:
+Contributing factors
+or
+Associated drivers
+
+PART T — EARLY WARNING
+
+85. Warning trigger
+Example:
+IF schedule probability > threshold
+AND predicted delay > threshold
+THEN Schedule Warning
+Method
+Rule engine
+Why
+Warnings are policy/decision logic. They need to be understandable and auditable.
+
+86. Warning severity
+Possible:
+Informational 
+Low 
+Moderate 
+High 
+Critical 
+Method
+Rule-based classification
+
+87. Warning urgency
+Can consider:
+risk 
+predicted delay 
+remaining time 
+persistence 
+deterioration rate 
+Method
+Decision formula/rules
+
+88. Warning persistence
+
+Method
+Formula
+
+89. Warning status
+Examples:
+New 
+Active 
+Escalated 
+Resolved 
+Dismissed 
+Method
+State machine / business rules
+Not ML.
+
+PART U — INTERVENTION PRIORITY
+
+90. Intervention priority score
+Conceptually:
+
+with appropriately normalized components.
+Method
+Transparent decision score
+Why
+The ML model should tell you:
+“This project is likely to have a problem.”
+The intervention engine decides:
+“Which problematic project deserves attention first?”
+Those are different tasks.
+
+91. Intervention ranking
+Sort projects by intervention priority.
+Method
+Ranking
+No new ML model.
+
+92. Intervention recommendation
+Example:
+Persistent land-acquisition issue → escalation/review by relevant authority.
+Method
+Rule/knowledge mapping
+Not an ML prediction.
+Since your current architecture has LLM out of scope, keep this deterministic.
+
+PART V — COST DRIVER ANALYSIS
+
+93. Cost-driver association
+Identify variables associated with higher cost overrun.
+Method
+Combination of:
+statistical analysis 
+correlation 
+regression 
+group comparisons 
+SHAP 
+Important
+Do not write:
+“Land acquisition causes cost escalation.”
+unless causal analysis establishes that.
+Instead:
+“Land acquisition delay is associated with higher observed cost escalation.”
+
+94. Global feature importance
+Method
+SHAP / model feature importance
+Shows which variables are generally influential in the cost model.
+
+95. Project-specific feature contribution
+Method
+SHAP
+Answers:
+Why did the model give this project a high cost-overrun prediction?
+
+PART W — SECTOR / MINISTRY / STATE AGGREGATION
+These dashboards should not train separate models merely because they display different dimensions.
+They consume project-level outputs.
+
+96. Project count
+
+Method
+Aggregation
+Critical nuance
+Do not count monthly project records.
+
+97. Total approved/original cost
+
+Method
+SUM
+
+98. Total revised cost
+
+Method
+SUM
+
+99. Portfolio cost escalation
+
+Method
+Weighted aggregate formula
+This is preferable to averaging project-level escalation percentages.
+
+100. Total expenditure
+
+Method
+SUM
+
+101. Portfolio expenditure %
+
+Method
+Weighted ratio
+Again, don't simply average individual project expenditure percentages.
+
+102. Average physical progress
+
+Method
+Arithmetic mean
+But if appropriate, also provide weighted measures.
+
+103. Median physical progress
+Method
+Median
+Why
+Infrastructure data can contain extreme projects. Median provides a more robust central measure.
+
+104. Average cost escalation %
+Method
+Mean
+Useful for the typical project, but should be distinguished from portfolio-level escalation calculated from aggregate costs.
+
+105. Median cost escalation %
+Method
+Median
+Useful for reducing the influence of extreme projects.
+
+106. High-risk project count
+
+Method
+Counting
+
+107. Critical project count
+
+Method
+Counting
+
+108. Warning count
+
+Method
+Counting
+
+109. Deteriorating project count
+
+Method
+Rule-based counting
+
+PART X — PORTFOLIO PREDICTIVE AGGREGATIONS
+
+110. Predicted cost exposure
+
+Method
+Aggregation of ML predictions
+
+111. Average predicted cost overrun
+
+Method
+Statistical aggregation
+
+112. Expected cost exposure
+A more probabilistically sound measure can be:
+
+Method
+Probability × predicted magnitude + aggregation
+Why
+This can be more informative than simply summing predicted overrun amounts.
+It incorporates uncertainty.
+
+113. Average predicted delay
+
+Method
+Aggregation
+
+114. Total predicted delay exposure
+
+Method
+Aggregation
+
+115. Expected schedule exposure
+Potentially:
+
+Method
+Probability-weighted aggregation
+This is preferable if your two schedule models are well calibrated.
+
+PART Y — RANKINGS
+
+116. Sector ranking
+Rank sectors based on selected metric.
+Method
+Aggregation + sorting/ranking
+Possible ranking metrics:
+highest cost escalation 
+highest predicted exposure 
+highest risk count 
+highest delay exposure 
+most deteriorating projects 
+
+117. Ministry ranking
+Same.
+Method
+Aggregation + ranking
+
+118. Agency ranking
+Same.
+Method
+Aggregation + ranking
+
+119. State ranking
+Same.
+Method
+Aggregation + ranking
+
+120. Project ranking
+Rank projects by:
+overall risk 
+predicted cost exposure 
+predicted delay 
+intervention priority 
+deterioration 
+Method
+Score + sorting
+No new ML model.
+
+PART Z — TRENDS ON ANALYTICAL DASHBOARDS
+
+121. Monthly project count
+
+Method
+Aggregation
+
+122. Monthly investment
+
+Method
+Aggregation
+
+123. Monthly expenditure
+
+Method
+Aggregation
+
+124. Monthly average progress
+Method
+Aggregation
+
+125. Monthly risk trend
+
+Method
+Aggregation
+
+126. High-risk trend
+
+Method
+Counting + time aggregation
+
+127. Warning trend
+
+Method
+Counting + time aggregation
+
+PART AA — BENCHMARKING
+
+128. Sector benchmark
+Compare project/sector performance against portfolio.
+Example:
+
+Method
+Aggregation + comparison
+
+129. Ministry benchmark
+Same.
+Method
+Aggregation + comparison
+
+130. State benchmark
+Same.
+Method
+Aggregation + comparison
+
+131. Peer-project benchmark
+Compare a project against projects with similar:
+sector 
+size 
+stage 
+geography 
+project type 
+Method
+Statistical peer-group comparison
+Why
+Comparing a ₹10,000 crore project against a ₹150 crore project without context can be misleading.
+
+PART AB — MODEL PERFORMANCE CALCULATIONS
+These don't calculate project figures directly, but they are required to determine whether your intelligence engine is reliable.
+
+132. Precision
+
+Method
+Statistical evaluation
+Important for avoiding excessive false warnings.
+
+133. Recall
+
+Important because missing a genuinely deteriorating project can be costly.
+
+134. F1
+
+
+135. ROC-AUC
+Method
+Classification evaluation
+
+136. PR-AUC
+Method
+Classification evaluation
+Particularly useful if actual overruns are relatively uncommon.
+
+137. Calibration
+Compare predicted probabilities with observed frequencies.
+Method
+Calibration analysis
+This is very important because you're using probabilities to generate risk/warning thresholds.
+
+138. MAE
+
+Method
+Regression evaluation
+
+139. RMSE
+
+Method
+Regression evaluation
+
+140. False-warning rate
+
+Method
+Formula
+Extremely relevant to your Early Warning system.
+
+141. Lead time
+
+Method
+Formula
+Why
+A warning system isn't useful merely because it is accurate.
+It needs to warn early enough to act.
+
+PART AC — DATA QUALITY CALCULATIONS
+These belong in Data & Model Operations.
+
+142. Missing-value rate
+
+Method
+Formula
+
+143. Duplicate rate
+
+Method
+Formula
+
+144. Validation pass rate
+
+Method
+Formula
+
+145. External dataset match rate
+
+Method
+Formula
+This is particularly important for WPI or future external datasets.
+
+PART AD — DATA/MODEL MONITORING
+These are useful later.
+
+146. Feature distribution shift
+Compare feature distributions between training and new data.
+Method
+Statistical drift detection
+Possible methods:
+PSI 
+KS statistic 
+distribution distance measures 
+
+147. Prediction distribution shift
+Compare current predictions with previous production predictions.
+Method
+Statistical distribution comparison
+
+148. Model performance drift
+Compare recent labelled outcomes with historical model performance.
+Method
+Statistical evaluation
+
+149. Data coverage
+
+Method
+Formula
+
+PART AE — GEOGRAPHIC / PORTFOLIO SPECIAL CASES
+These are important for your State Analytics.
+
+150. State project count
+
+Method
+Aggregation
+But multi-state projects need special handling.
+
+151. Multi-state project handling
+A project genuinely spanning multiple states can appear in each relevant State view.
+Method
+Data attribution rule
+Critical nuance
+Do not sum the same project's full cost across states and then call that India's/state portfolio investment without accounting for duplication.
+If the source does not provide defensible state-level cost allocation:
+show project association in each relevant state, but do not fabricate a cost split.
+
+PART AF — HOME DASHBOARD CALCULATIONS
+The Home dashboard should be comparatively simple.
+
+152. Projects monitored
+
+
+153. Approved cost
+
+
+154. Revised cost
+
+
+155. Overall portfolio cost growth
+
+
+156. Cumulative expenditure
+
+
+157. Expenditure as % of revised cost
+
+
+158. Projects requiring attention
+Count projects satisfying your approved attention criteria.
+Method
+Rule-based counting
+Not another model.
+
+159. Risk concentration map
+For each geographic unit:
+project count 
+high-risk count 
+critical-risk count 
+risk density 
+Method
+Aggregation
+
+The most important distinction in the whole architecture
+You effectively have three layers of numbers.
+Layer 1 — What has actually happened
+Examples:
+Original cost 
+Revised cost 
+Expenditure 
+Physical progress 
+Time elapsed 
+Cost escalation 
+Schedule slippage 
+Milestone delay 
+Method: formulas/source data.
+
+Layer 2 — What the system thinks will happen
+Examples:
+Probability of cost overrun 
+Expected final cost 
+Predicted cost overrun 
+Probability of schedule overrun 
+Predicted delay 
+Predicted completion date 
+Method: ML.
+Your initial model family should be:
+CatBoost classification + CatBoost regression
+with simpler statistical baselines used for benchmarking.
+
+Layer 3 — What the system recommends prioritizing
+Examples:
+Overall risk 
+Risk band 
+Warning 
+Warning severity 
+Deterioration 
+Intervention priority 
+Method: transparent statistical/rule-based decision engine.
+
+Final master map
+If I compress the entire architecture into one table:
+The architecture I would ultimately put in your technical specification
+                    PAIMANA DATA
+                         │
+                         ▼
+              ┌─────────────────────┐
+              │ Deterministic Layer │
+              │ formulas / counts   │
+              │ ratios / dates      │
+              └──────────┬──────────┘
+                         │
+                         ▼
+              ┌─────────────────────┐
+              │ Temporal Statistics │
+              │ trends / velocity   │
+              │ rolling stats       │
+              │ deterioration       │
+              └──────────┬──────────┘
+                         │
+                         ▼
+              ┌─────────────────────┐
+              │    ML Prediction    │
+              │                     │
+              │ Cost classifier     │
+              │ Cost regression     │
+              │ Schedule classifier │
+              │ Delay regression    │
+              └──────────┬──────────┘
+                         │
+                         ▼
+              ┌─────────────────────┐
+              │    Risk Engine      │
+              │ cost + schedule +   │
+              │ progress + issues   │
+              └──────────┬──────────┘
+                         │
+                         ▼
+              ┌─────────────────────┐
+              │   Warning Engine    │
+              │ rules + prediction  │
+              │ + deterioration     │
+              └──────────┬──────────┘
+                         │
+                         ▼
+              ┌─────────────────────┐
+              │ Intervention Engine │
+              │ priority + evidence │
+              └──────────┬──────────┘
+                         │
+                         ▼
+       ┌─────────────────┼─────────────────┐
+       ▼                 ▼                 ▼
+    Project           Early Warning    Aggregation
+  Intelligence                         dashboards
+                                           │
+                              ┌────────────┼────────────┐
+                              ▼            ▼            ▼
+                           Sector       Ministry      State
+One major recommendation
+Do not try to make every one of these calculations a separate “feature” visible on the UI. Many are intermediate computational features used by other calculations or models.
+For example:
+Progress velocity → progress trend → deterioration → risk → warning → intervention priority
+The user may only see “Deteriorating” and the evidence behind it. The underlying velocity, slope, moving average, etc. can remain computational features.
+Likewise:
+Cost classifier + cost regression → predicted probability + predicted magnitude → expected cost exposure
+This keeps your actual dashboards relatively clean while the backend intelligence layer can be extremely comprehensive.
+And crucially, I would not commit all the proposed formulas/thresholds/weights as final yet. Your March 2025+ PAIMANA data should be used to test which features actually exist, which are reliable, which have enough longitudinal coverage, and which thresholds/weights/models perform best. The computational architecture above can be your V1 specification, while the exact parameters become part of your later benchmarking/validation phase.
+
